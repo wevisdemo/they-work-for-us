@@ -2572,11 +2572,11 @@
       link: ''
   reference: >-
     http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?id=1#detail
-  approve: 205
-  disprove: 264
-  abstained: 3
-  absent: 7
-  total_voter: 479
+  approve: 0
+  disprove: 0
+  abstained: 0
+  absent: 0
+  total_voter: 0
 - id: '60'
   title: อภิปรายไม่ไว้วางใจอนุทิน  ชาญวีรกูล 2564
   is_active: true
@@ -2610,11 +2610,11 @@
       link: ''
   reference: >-
     http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?id=1#detail
-  approve: 195
-  disprove: 260
-  abstained: 11
-  absent: 6
-  total_voter: 472
+  approve: 205
+  disprove: 264
+  abstained: 3
+  absent: 7
+  total_voter: 479
 - id: '61'
   title: อภิปรายไม่ไว้วางใจสุชาติ  ชมกลิ่น  2564
   is_active: true
@@ -2648,11 +2648,11 @@
       link: ''
   reference: >-
     http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?id=1#detail
-  approve: 198
-  disprove: 255
-  abstained: 10
-  absent: 8
-  total_voter: 471
+  approve: 195
+  disprove: 260
+  abstained: 11
+  absent: 6
+  total_voter: 472
 - id: '62'
   title: อภิปรายไม่ไว้วางใจศักดิ์สยาม ชิดชอบ 2564
   is_active: true
@@ -2687,11 +2687,11 @@
       link: ''
   reference: >-
     http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?id=1#detail
-  approve: 196
-  disprove: 258
+  approve: 198
+  disprove: 255
   abstained: 10
   absent: 8
-  total_voter: 472
+  total_voter: 471
 - id: '63'
   title: อภิปรายไม่ไว้วางใจเฉลิมชัย  ศรีอ่อน 2564
   is_active: true
@@ -2725,11 +2725,11 @@
       link: ''
   reference: >-
     http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?id=1#detail
-  approve: 200
-  disprove: 259
-  abstained: 7
-  absent: 5
-  total_voter: 471
+  approve: 196
+  disprove: 258
+  abstained: 10
+  absent: 8
+  total_voter: 472
 - id: '64'
   title: อภิปรายไม่ไว้วางใจชัยวุฒิ  ธนาคมมานุสรณ์  2564
   is_active: true
@@ -2763,7 +2763,7 @@
   reference: >-
     http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?id=1#detail
   approve: 200
-  disprove: 258
-  abstained: 9
-  absent: 4
+  disprove: 259
+  abstained: 7
+  absent: 5
   total_voter: 471
