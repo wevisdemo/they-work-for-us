@@ -22613,7 +22613,7 @@
   is_mp: true
   is_senator: false
   is_cabinet: false
-  is_active: true
+  is_active: false
   party: พลังประชารัฐ
   party_group: ร่วมรัฐบาล
   mp_type: แบ่งเขต
@@ -22659,7 +22659,9 @@
   facebook: >-
     https://www.facebook.com/pages/category/Cause/%E0%B8%AA%E0%B8%B4%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%88%E0%B8%99%E0%B8%88%E0%B8%B2%E0%B8%84%E0%B8%B0568449340279516/
   twitter: ''
-  bio: ''
+  bio: >-
+    มีลักษณะต้องห้ามมิให้ใช้สิทธิสมัครรับเลือกตั้งตามรัฐธรรมนูญ มาตรา 98 (10)
+    เป็นเหตุให้สมาชิกภาพ ส.ส
   en:
     bio: ''
 - id: '439'

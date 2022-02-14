@@ -2572,11 +2572,11 @@
       link: ''
   reference: >-
     http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?id=1#detail
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
+  approve: 205
+  disprove: 264
+  abstained: 3
+  absent: 7
+  total_voter: 479
 - id: '60'
   title: อภิปรายไม่ไว้วางใจอนุทิน  ชาญวีรกูล 2564
   is_active: true
@@ -2610,11 +2610,11 @@
       link: ''
   reference: >-
     http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?id=1#detail
-  approve: 205
-  disprove: 264
-  abstained: 3
-  absent: 7
-  total_voter: 479
+  approve: 195
+  disprove: 260
+  abstained: 11
+  absent: 6
+  total_voter: 472
 - id: '61'
   title: อภิปรายไม่ไว้วางใจสุชาติ  ชมกลิ่น  2564
   is_active: true
@@ -2648,11 +2648,11 @@
       link: ''
   reference: >-
     http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?id=1#detail
-  approve: 195
-  disprove: 260
-  abstained: 11
-  absent: 6
-  total_voter: 472
+  approve: 198
+  disprove: 255
+  abstained: 10
+  absent: 8
+  total_voter: 471
 - id: '62'
   title: อภิปรายไม่ไว้วางใจศักดิ์สยาม ชิดชอบ 2564
   is_active: true
@@ -2687,11 +2687,11 @@
       link: ''
   reference: >-
     http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?id=1#detail
-  approve: 198
-  disprove: 255
+  approve: 196
+  disprove: 258
   abstained: 10
   absent: 8
-  total_voter: 471
+  total_voter: 472
 - id: '63'
   title: อภิปรายไม่ไว้วางใจเฉลิมชัย  ศรีอ่อน 2564
   is_active: true
@@ -2725,11 +2725,11 @@
       link: ''
   reference: >-
     http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?id=1#detail
-  approve: 196
-  disprove: 258
-  abstained: 10
-  absent: 8
-  total_voter: 472
+  approve: 200
+  disprove: 259
+  abstained: 7
+  absent: 5
+  total_voter: 471
 - id: '64'
   title: อภิปรายไม่ไว้วางใจชัยวุฒิ  ธนาคมมานุสรณ์  2564
   is_active: true
@@ -2763,7 +2763,593 @@
   reference: >-
     http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?id=1#detail
   approve: 200
-  disprove: 259
-  abstained: 7
-  absent: 5
+  disprove: 258
+  abstained: 9
+  absent: 4
   total_voter: 471
+- id: '65'
+  title: ''
+  is_active: false
+  en:
+    title: ''
+    legal_title: ''
+  legal_title: ''
+  meeting: ''
+  type: ''
+  vote_date: null
+  prayuth: ''
+  thanathorn: ''
+  passed: false
+  is_no_vote: false
+  no_vote_description: ''
+  description_th: ''
+  description_en: ''
+  document:
+    - title: ''
+      link: ''
+    - title: ''
+      link: ''
+  reference: ''
+  approve: 38
+  disprove: 0
+  abstained: 0
+  absent: 25
+  total_voter: 63
+- id: '66'
+  title: ''
+  is_active: false
+  en:
+    title: ''
+    legal_title: ''
+  legal_title: ''
+  meeting: ''
+  type: ''
+  vote_date: null
+  prayuth: ''
+  thanathorn: ''
+  passed: false
+  is_no_vote: false
+  no_vote_description: ''
+  description_th: ''
+  description_en: ''
+  document:
+    - title: ''
+      link: ''
+    - title: ''
+      link: ''
+  reference: ''
+  approve: 0
+  disprove: 0
+  abstained: 0
+  absent: 0
+  total_voter: 0
+- id: '67'
+  title: ''
+  is_active: false
+  en:
+    title: ''
+    legal_title: ''
+  legal_title: ''
+  meeting: ''
+  type: ''
+  vote_date: null
+  prayuth: ''
+  thanathorn: ''
+  passed: false
+  is_no_vote: false
+  no_vote_description: ''
+  description_th: ''
+  description_en: ''
+  document:
+    - title: ''
+      link: ''
+    - title: ''
+      link: ''
+  reference: ''
+  approve: 0
+  disprove: 0
+  abstained: 0
+  absent: 0
+  total_voter: 0
+- id: '68'
+  title: ร่าง พ.ร.บ. การศึกษาแห่งชาติ
+  is_active: false
+  en:
+    title: ''
+    legal_title: ''
+  legal_title: ร่างพระราชบัญญัติการศึกษาแห่งชาติ
+  meeting: ประชุมร่วมสองสภา
+  type: ''
+  vote_date: '2021-11-09'
+  prayuth: ''
+  thanathorn: ''
+  passed: true
+  is_no_vote: false
+  no_vote_description: ''
+  description_th: >-
+    เป็นการปรับปรุงกฎหมายว่าด้วยการศึกษาแห่งชาติ
+    เพื่อเป็นกฎหมายแม่บทในการบริหารและการจัดการศึกษาให้สอดคล้องกับบทบัญญัติของรัฐธรรมนูญและการปฏิรูปประเทศ
+    อย่างไรก็ตาม ร่าง พ.ร.บ. ฉบับนี้เกิดขึ้นจากในสมัย คสช.
+    จึงมีข้อวิจารณ์ว่าร่าง พ.ร.บ. ฉบับดังกล่าว เป็นไปเพื่อรัฐชาตินิยม
+    เป็นไปเพื่อการปกครองให้เชื่อ ให้เชื่อง มากกว่าที่จะให้ริเริ่มสร้างสรรค์
+  description_en: ''
+  document:
+    - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.-ส.ว.
+      link: >-
+        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211109161620A2.pdf
+    - title: ''
+      link: ''
+  reference: >-
+    https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4348
+  approve: 0
+  disprove: 0
+  abstained: 0
+  absent: 0
+  total_voter: 0
+- id: '69'
+  title: ร่าง พ.ร.บ. ส่งเสริมการเรียนรู้
+  is_active: false
+  en:
+    title: ''
+    legal_title: ''
+  legal_title: ร่างพระราชบัญญัติส่งเสริมการเรียนรู้
+  meeting: ประชุมร่วมสองสภา
+  type: ''
+  vote_date: '2021-11-09'
+  prayuth: ''
+  thanathorn: ''
+  passed: true
+  is_no_vote: false
+  no_vote_description: ''
+  description_th: >-
+    เป็นการปรับปรุงกฎหมายว่าด้วยการศึกษาแห่งชาติ
+    เพื่อเป็นกฎหมายแม่บทในการบริหารและการจัดการศึกษาให้สอดคล้องกับบทบัญญัติของรัฐธรรมนูญและการปฏิรูปประเทศ
+    อย่างไรก็ตาม ร่าง พ.ร.บ. ฉบับนี้เกิดขึ้นจากในสมัย คสช.
+    จึงมีข้อวิจารณ์ว่าร่าง พ.ร.บ. ฉบับดังกล่าว เป็นไปเพื่อรัฐชาตินิยม
+    เป็นไปเพื่อการปกครองให้เชื่อ ให้เชื่อง มากกว่าที่จะให้ริเริ่มสร้างสรรค์
+  description_en: ''
+  document:
+    - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.-ส.ว.
+      link: >-
+        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211109161316A5.pdf
+    - title: ''
+      link: ''
+  reference: >-
+    https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4348
+  approve: 0
+  disprove: 0
+  abstained: 0
+  absent: 0
+  total_voter: 0
+- id: '70'
+  title: ร่างแก้ไขรัฐธรรมนูญ (ฉบับประชาชน - Resolution)
+  is_active: false
+  en:
+    title: ''
+    legal_title: ''
+  legal_title: >-
+    ร่างรัฐธรรมนูญแห่งราชอาณาจักรไทย แก้ไขเพิ่มเติม (ฉบับที่ ..) พุทธศักราช ....
+    (ยกเลิกมาตรา ๖๕ แก้ไขเพิ่มเติมหมวด ๗ มาตรา ๑๕๙ วรรคแรก เพิ่มมาตรา ๑๙๓/๑
+    มาตรา ๑๙๓/๒ แก้ไขเพิ่มเติมหมวด ๑๑ หมวด ๑๒ มาตรา ๒๕๖ หมวด ๑๖ ยกเลิกมาตรา ๒๖๙
+    มาตรา ๒๗๐ มาตรา ๒๗๑ มาตรา ๒๗๒ และมาตรา ๒๗๙)
+  meeting: ประชุมร่วมสองสภา
+  type: ''
+  vote_date: '2021-11-17'
+  prayuth: ''
+  thanathorn: ''
+  passed: false
+  is_no_vote: false
+  no_vote_description: ''
+  description_th: ''
+  description_en: ''
+  document:
+    - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.-ส.ว.
+      link: >-
+        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211117132303A2.pdf
+    - title: ''
+      link: ''
+  reference: >-
+    https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4352
+  approve: 0
+  disprove: 0
+  abstained: 0
+  absent: 0
+  total_voter: 0
+- id: '71'
+  title: ร่าง พ.ร.บ. ฟอกเงิน
+  is_active: false
+  en:
+    title: ''
+    legal_title: ''
+  legal_title: ร่างพระราชบัญญัติป้องกันและปราบปรามการฟอกเงิน
+  meeting: ประชุมส.ส.
+  type: ''
+  vote_date: '2021-11-17'
+  prayuth: ''
+  thanathorn: ''
+  passed: true
+  is_no_vote: false
+  no_vote_description: ''
+  description_th: ''
+  description_en: ''
+  document:
+    - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.
+      link: >-
+        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211117151614A2.pdf
+    - title: ''
+      link: ''
+  reference: >-
+    https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4353
+  approve: 0
+  disprove: 0
+  abstained: 0
+  absent: 0
+  total_voter: 0
+- id: '72'
+  title: ร่าง พ.ร.บ. ปลดอาวุธ คสช. (ฉบับประชาชน)
+  is_active: false
+  en:
+    title: ''
+    legal_title: ''
+  legal_title: >-
+    ร่างพระราชบัญญัติยกเลิกประกาศและคำสั่งคณะรักษาความสงบแห่งชาติและคำสั่งหัวหน้าคณะรักษาความสงบแห่งชาติ
+    ที่ขัดต่อหลักสิทธิมนุษยชนและประชาธิปไตย
+  meeting: ประชุมส.ส.
+  type: ''
+  vote_date: '2021-12-15'
+  prayuth: ''
+  thanathorn: ''
+  passed: false
+  is_no_vote: false
+  no_vote_description: ''
+  description_th: ''
+  description_en: ''
+  document:
+    - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.
+      link: >-
+        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211215151011A2.pdf
+    - title: ''
+      link: ''
+  reference: >-
+    https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4363
+  approve: 0
+  disprove: 0
+  abstained: 0
+  absent: 0
+  total_voter: 0
+- id: '73'
+  title: ร่าง พ.ร.บ. ปลดอาวุธ คสช.
+  is_active: false
+  en:
+    title: ''
+    legal_title: ''
+  legal_title: >-
+    ร่างพระราชบัญญัติยกเลิกประกาศคณะรักษาความสงบแห่งชาติและคำสั่งหัวหน้าคณะรักษาความสงบแห่งชาติ
+  meeting: ประชุมส.ส.
+  type: ''
+  vote_date: '2021-12-15'
+  prayuth: ''
+  thanathorn: ''
+  passed: false
+  is_no_vote: false
+  no_vote_description: ''
+  description_th: ''
+  description_en: ''
+  document:
+    - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.
+      link: >-
+        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211215151011A5.pdf
+    - title: ''
+      link: ''
+  reference: >-
+    https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4363
+  approve: 0
+  disprove: 0
+  abstained: 0
+  absent: 0
+  total_voter: 0
+- id: '74'
+  title: ร่าง พ.ร.บ. กยศ. (วาระที่ 1)
+  is_active: false
+  en:
+    title: ''
+    legal_title: ''
+  legal_title: ร่างพระราชบัญญัติกองทุนเงินให้กู้ยืมเพื่อการศึกษา
+  meeting: ประชุมส.ส.
+  type: ''
+  vote_date: '2022-01-26'
+  prayuth: ''
+  thanathorn: ''
+  passed: true
+  is_no_vote: false
+  no_vote_description: ''
+  description_th: ''
+  description_en: ''
+  document:
+    - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.
+      link: >-
+        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220126173848A46.pdf
+    - title: ''
+      link: ''
+  reference: >-
+    http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4374
+  approve: 0
+  disprove: 0
+  abstained: 0
+  absent: 0
+  total_voter: 0
+- id: '75'
+  title: ร่าง พ.ร.บ. จราจรทางบก
+  is_active: false
+  en:
+    title: ''
+    legal_title: ''
+  legal_title: |-
+    ร่างพระราชบัญญัติจราจรทางบก (ฉบับที่ ..) พ.ศ. ....
+    ซึ่งคณะกรรมาธิการร่วมกันพิจารณาเสร็จแล้ว
+  meeting: ประชุมส.ส.
+  type: ''
+  vote_date: '2022-02-02'
+  prayuth: ''
+  thanathorn: ''
+  passed: true
+  is_no_vote: false
+  no_vote_description: ''
+  description_th: ''
+  description_en: ''
+  document:
+    - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.
+      link: >-
+        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220202123433A2.pdf
+    - title: ''
+      link: ''
+  reference: >-
+    http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4376
+  approve: 0
+  disprove: 0
+  abstained: 0
+  absent: 0
+  total_voter: 0
+- id: '76'
+  title: ร่าง พ.ร.บ. ป้องกันการกระทำความผิดซ้ำฯ (วาระที่ 1)
+  is_active: false
+  en:
+    title: ''
+    legal_title: ''
+  legal_title: |-
+    ร่างพระราชบัญญัติมาตรการป้องกันการกระทำความผิดซ้ำ
+    ในความผิดเกี่ยวกับเพศหรือที่ใช้ความรุนแรง
+  meeting: ประชุมส.ส.
+  type: ''
+  vote_date: '2022-02-02'
+  prayuth: ''
+  thanathorn: ''
+  passed: true
+  is_no_vote: false
+  no_vote_description: ''
+  description_th: ''
+  description_en: ''
+  document:
+    - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.
+      link: >-
+        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220202123433A7.pdf
+    - title: ''
+      link: ''
+  reference: >-
+    http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4376
+  approve: 0
+  disprove: 0
+  abstained: 0
+  absent: 0
+  total_voter: 0
+- id: '77'
+  title: ร่าง พ.ร.บ. คุ้มครองแรงงาน (วาระที่ 1)
+  is_active: false
+  en:
+    title: ''
+    legal_title: ''
+  legal_title: ร่างพระราชบัญญัติคุ้มครองแรงงาน
+  meeting: ประชุมส.ส.
+  type: ''
+  vote_date: '2022-02-02'
+  prayuth: ''
+  thanathorn: ''
+  passed: true
+  is_no_vote: false
+  no_vote_description: ''
+  description_th: ''
+  description_en: ''
+  document:
+    - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.
+      link: >-
+        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220202144456A19.pdf
+    - title: ''
+      link: ''
+  reference: >-
+    http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4376
+  approve: 0
+  disprove: 0
+  abstained: 0
+  absent: 0
+  total_voter: 0
+- id: '78'
+  title: รายงานศึกษาขุดคลองไทย
+  is_active: false
+  en:
+    title: ''
+    legal_title: ''
+  legal_title: >-
+    พิจารณารายงานผลการพิจารณาศึกษาการขุดคลองไทยและการพัฒนาพื้นที่ระเบียงเศรษฐกิจภาคใต้
+  meeting: ประชุมส.ส.
+  type: ''
+  vote_date: '2022-02-04'
+  prayuth: ''
+  thanathorn: ''
+  passed: false
+  is_no_vote: false
+  no_vote_description: ''
+  description_th: >-
+    โครงการขุดคลองขนาดใหญ่ ตัดแบ่งแผ่นดินภาคใต้ เชื่อมทะเลฝั่งอันดามันกับอ่าวไทย
+    เพื่อเป็นช่องทางสัญจรทางทะเลระหว่างมหาสมุทรอินเดียกับมหาสมุทรแปซิฟิก
+    เบื้องต้นคาดว่าจะผ่าน 5 จังหวัด คือกระบี่ ตรัง นครศรีธรรมราช พัทลุง และสงขลา
+    ยาว 135 กม. โดยถูกโหวตคว่ำ เนื่องจากเป็นการลงทุนถึง 2 ล้านล้านบาท
+    ควรศึกษาอย่างจริงจัง รายงาน มีการชี้นำมากเกินไปและไม่เป็นกลาง
+    ยังไม่มีรายละเอียดมากเพียงพอ
+  description_en: ''
+  document:
+    - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.
+      link: >-
+        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220204114657A2.pdf
+    - title: ''
+      link: ''
+  reference: >-
+    http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4378
+  approve: 0
+  disprove: 0
+  abstained: 0
+  absent: 0
+  total_voter: 0
+- id: '79'
+  title: ร่าง พ.ร.บ.สุราก้าวหน้า (โหวตให้ ครม. รับไปพิจารณาก่อนรับหลักการ)
+  is_active: false
+  en:
+    title: ''
+    legal_title: ''
+  legal_title: ร่างพระราชบัญญัติภาษีสรรพสามิต
+  meeting: ประชุมส.ส.
+  type: ''
+  vote_date: '2022-02-09'
+  prayuth: ''
+  thanathorn: ''
+  passed: false
+  is_no_vote: false
+  no_vote_description: ''
+  description_th: >-
+    ร่างที่เสนอโดยพรรคก้าวไกล เพื่อปลดล็อคให้ผู้ประกอบการรายย่อย
+    หรือประชาชนมีโอกาสในการนำผลผลิตท้องที่มาผลิตเป็นสุราหรือเครื่องดื่มแอลกอฮอล์อื่นๆ
+    เพื่อดื่มเองหรือจำหน่ายได้ เนื่องจากในปัจจุบันมีกฎหมายจำกัดในเรื่องการผลิต
+    ไม่ว่าจะเป็นเรื่องจำนวนแรงงาน การใช้เครื่องมือและเครื่องจักร
+    ซึ่งต้องใช้ทุนมหาศาล
+  description_en: ''
+  document:
+    - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.
+      link: >-
+        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220209135647A8.pdf
+    - title: ''
+      link: ''
+  reference: >-
+    http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4379
+  approve: 0
+  disprove: 0
+  abstained: 0
+  absent: 0
+  total_voter: 0
+- id: '80'
+  title: ร่าง พ.ร.บ. ฉุกเฉิน  (โหวตให้ ครม. รับไปพิจารณาก่อนรับหลักการ)
+  is_active: false
+  en:
+    title: ''
+    legal_title: ''
+  legal_title: ร่างพระราชบัญญัติการบริหารราชการในสถานการณ์ฉุกเฉิน
+  meeting: ประชุมส.ส.
+  type: ''
+  vote_date: '2022-02-09'
+  prayuth: ''
+  thanathorn: ''
+  passed: false
+  is_no_vote: false
+  no_vote_description: ''
+  description_th: >-
+    ร่างที่เสนอโดยพรรคก้าวไกล
+    เพื่อแก้ไขกฎหมายว่าด้วยยการบริหารราชการในสถานการณ์ฉุกเฉิน
+    ให้อำนาจนายกรัฐมนตรีประกาศสถานการณ์ฉุกเฉินและออกข้อกำหนดต่างๆ
+    ที่มีผลต่อการจำกัดเสรีภาพของประชาชนเกินสมควรแก่เหตุ 
+    และไม่ถูกตรวจสอบถ่วงดุลโดยสภาผู้แทนราษฎรและองค์กรตุลาการ
+    โดยร่างที่เสนอมีสาระสำคัญเพื่อให้การออกข้อกำหนด หรือกติกาที่บังคับใช้
+    ต้องถูกตรวจสอบและมีการจำกัดระยะเวลาในการควบคุมตัวบุคคลที่เหมาะสม
+    เพื่อพิทักษ์สิทธิของประชาชน
+  description_en: ''
+  document:
+    - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.
+      link: >-
+        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220209165600A11.pdf
+    - title: ''
+      link: ''
+  reference: >-
+    http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4379
+  approve: 0
+  disprove: 0
+  abstained: 0
+  absent: 0
+  total_voter: 0
+- id: '81'
+  title: แก้ พ.ร.บ.ธนาคารแห่งประเทศไทย  (โหวตให้ ครม. รับไปพิจารณาก่อนรับหลักการ)
+  is_active: false
+  en:
+    title: ''
+    legal_title: ''
+  legal_title: ร่างพระราชบัญญัติธนาคารแห่งประเทศไทย
+  meeting: ประชุมส.ส.
+  type: ''
+  vote_date: '2022-02-09'
+  prayuth: ''
+  thanathorn: ''
+  passed: false
+  is_no_vote: false
+  no_vote_description: ''
+  description_th: >-
+    ร่างที่เสนอโดยพรรคประชาธิปัตย์ เพื่อให้ ธนาคารแห่งประเทศไทย (ธปท.)
+    ต้องจัดทำรายงานเปิดเผยสภาพเศรษฐกิจ การเงิน การคลัง
+    วิเคราะห์สภาวะเศรษฐกิจของประเทส และเศรษฐกิจโลก
+    รวมทั้งจัดทำแนวทางการดำเนินงานในอำนาจหน้าที่ของ ธปท. เสนอต่อรัฐสภา
+    เพื่อให้สภาซึ่งเป็นตัวแทนภาคประชาชนได้มีโอกาสรับรู้รับทราบ และเสนอแนะ
+    ซึ่งเป็นการรับฟังความคิดเห็นจากประชาชน
+  description_en: ''
+  document:
+    - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.
+      link: >-
+        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220209165301A2.pdf
+    - title: ''
+      link: ''
+  reference: >-
+    http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4379
+  approve: 0
+  disprove: 0
+  abstained: 0
+  absent: 0
+  total_voter: 0
+- id: '82'
+  title: ร่าง พ.ร.บ. สมรสเท่าเทียม  (โหวตให้ ครม. รับไปพิจารณาก่อนรับหลักการ)
+  is_active: true
+  en:
+    title: ''
+    legal_title: ''
+  legal_title: ร่างพระราชบัญญัติแก้ไขเพิ่มเติมประมวลกฎหมายแพ่งและพาณิชย์
+  meeting: ประชุมส.ส.
+  type: ''
+  vote_date: '2022-02-09'
+  prayuth: ''
+  thanathorn: ''
+  passed: false
+  is_no_vote: false
+  no_vote_description: ''
+  description_th: >-
+    ร่างที่เสนอโดยพรรคก้าวไกลเพื่อแก้ไขประมวลกฎหมายแพ่งและพาณิชย์ (ป.พ.พ.)
+    โดยมุ่งเน้นแก้กฎหมายเฉพาะเรื่องเกี่ยวกับการสมรส
+    เพื่อรับรองสิทธิในการก่อตั้งครอบครัวแก่บุคคลทุกเพศ
+    โดยไม่นำเหตุแห่งเพศสภาพหรือเพศวิถีมาเป็นข้อจำกัดในการจดทะเบียนสมรสเหมือนกฎหมายปัจจุบันที่ยังจำกัดว่า
+    การสมรสจะทำได้เฉพาะกรณีทั้งสองฝ่ายเป็น ‘ชายและหญิง’
+  description_en: ''
+  document:
+    - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.
+      link: >-
+        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220209190321A17.pdf
+    - title: ''
+      link: ''
+  reference: >-
+    http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4379
+  approve: 1
+  disprove: 15
+  abstained: 0
+  absent: 0
+  total_voter: 16
