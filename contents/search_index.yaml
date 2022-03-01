@@ -91,6 +91,12 @@
 - q: ก้าวไกล
   type: party
   url: /party/ก้าวไกล
+- q: เศรษฐกิจไทย
+  type: party
+  url: /party/เศรษฐกิจไทย
+- q: เพื่อชาติไทย
+  type: party
+  url: /party/เพื่อชาติไทย
 - q: พลเอก ประยุทธ์ จันทร์โอชา
   type: people
   url: /people/ประยุทธ์-จันทร์โอชา
@@ -3244,6 +3250,27 @@
 - q: กองตรี อาญาสิทธิ์ ศรีสุวรรณ
   type: people
   url: /people/อาญาสิทธิ์-ศรีสุวรรณ
+- q: นาย ต่อศักดิ์ อัศวเหม
+  type: people
+  url: /people/ต่อศักดิ์-อัศวเหม
+- q: นาย สุรพร ดนัยตั้งตระกูล
+  type: people
+  url: /people/สุรพร-ดนัยตั้งตระกูล
+- q: นาย ชวน ชูจันทร์
+  type: people
+  url: /people/ชวน-ชูจันทร์
+- q: นาย จักพันธ์ ปิยพรไพบูลย์
+  type: people
+  url: /people/จักพันธ์-ปิยพรไพบูลย์
+- q: นางสาว สุภาพร กำเนิดผล
+  type: people
+  url: /people/สุภาพร-กำเนิดผล
+- q: นางสาว สุเนตตา แซ่โก๊ะ
+  type: people
+  url: /people/สุเนตตา-แซ่โก๊ะ
+- q: นาง บุญญาพร นาตะธนภัทร
+  type: people
+  url: /people/บุญญาพร-นาตะธนภัทร
 - q: ลงมติเลือกนายกรัฐมนตรี
   type: votelog
   url: /votelog/1
@@ -3477,13 +3504,13 @@
 - q: อภิปรายไม่ไว้วางใจชัยวุฒิ  ธนาคมมานุสรณ์  2564
   type: votelog
   url: /votelog/64
-- q: ''
+- q: ร่างพ.ร.บ.พืชกระท่อม
   type: votelog
   url: /votelog/65
-- q: ''
+- q: ร่างพ.ร.บ.ลิขสิทธิ์
   type: votelog
   url: /votelog/66
-- q: ''
+- q: ร่างพ.ร.บ. คุ้มครองพยานในคดีอาญา
   type: votelog
   url: /votelog/67
 - q: ร่าง พ.ร.บ. การศึกษาแห่งชาติ

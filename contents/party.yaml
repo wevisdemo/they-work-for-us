@@ -810,3 +810,49 @@
   facebook: 'https://www.facebook.com/MoveForwardPartyThailand/'
   twitter: 'https://twitter.com/MFPThailand'
   is_active: true
+- id: '32'
+  name: เศรษฐกิจไทย
+  en:
+    name: ''
+    short_name: ''
+  short_name: ''
+  color: ''
+  party_type: ''
+  party_ordinal: null
+  party_group: ''
+  description: ''
+  established_date: null
+  dissolved_date: ''
+  speaker: ''
+  first_deputy_speaker: ''
+  second_deputy_speaker: ''
+  opposition_leader: ''
+  party_leader: ''
+  party_secretary: ''
+  website: ''
+  facebook: ''
+  twitter: ''
+  is_active: false
+- id: '33'
+  name: เพื่อชาติไทย
+  en:
+    name: ''
+    short_name: ''
+  short_name: ''
+  color: ''
+  party_type: ''
+  party_ordinal: null
+  party_group: ''
+  description: ''
+  established_date: null
+  dissolved_date: ''
+  speaker: ''
+  first_deputy_speaker: ''
+  second_deputy_speaker: ''
+  opposition_leader: ''
+  party_leader: ''
+  party_secretary: ''
+  website: ''
+  facebook: ''
+  twitter: ''
+  is_active: false

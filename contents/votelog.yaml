@@ -2768,7 +2768,7 @@
   absent: 4
   total_voter: 471
 - id: '65'
-  title: ''
+  title: ร่างพ.ร.บ.พืชกระท่อม
   is_active: false
   en:
     title: ''
@@ -2796,7 +2796,7 @@
   absent: 25
   total_voter: 63
 - id: '66'
-  title: ''
+  title: ร่างพ.ร.บ.ลิขสิทธิ์
   is_active: false
   en:
     title: ''
@@ -2824,7 +2824,7 @@
   absent: 0
   total_voter: 0
 - id: '67'
-  title: ''
+  title: ร่างพ.ร.บ. คุ้มครองพยานในคดีอาญา
   is_active: false
   en:
     title: ''
@@ -3204,14 +3204,14 @@
       link: ''
   reference: >-
     http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4378
-  approve: 0
+  approve: 30
   disprove: 0
   abstained: 0
   absent: 0
-  total_voter: 0
+  total_voter: 30
 - id: '79'
   title: ร่าง พ.ร.บ.สุราก้าวหน้า (โหวตให้ ครม. รับไปพิจารณาก่อนรับหลักการ)
-  is_active: false
+  is_active: true
   en:
     title: ''
     legal_title: ''
@@ -3221,7 +3221,7 @@
   vote_date: '2022-02-09'
   prayuth: ''
   thanathorn: ''
-  passed: false
+  passed: true
   is_no_vote: false
   no_vote_description: ''
   description_th: >-
@@ -3239,14 +3239,14 @@
       link: ''
   reference: >-
     http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4379
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
+  approve: 207
+  disprove: 196
+  abstained: 2
+  absent: 3
+  total_voter: 408
 - id: '80'
   title: ร่าง พ.ร.บ. ฉุกเฉิน  (โหวตให้ ครม. รับไปพิจารณาก่อนรับหลักการ)
-  is_active: false
+  is_active: true
   en:
     title: ''
     legal_title: ''
@@ -3256,7 +3256,7 @@
   vote_date: '2022-02-09'
   prayuth: ''
   thanathorn: ''
-  passed: false
+  passed: true
   is_no_vote: false
   no_vote_description: ''
   description_th: >-
@@ -3277,14 +3277,14 @@
       link: ''
   reference: >-
     http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4379
-  approve: 0
-  disprove: 0
-  abstained: 0
+  approve: 227
+  disprove: 158
+  abstained: 10
   absent: 0
-  total_voter: 0
+  total_voter: 395
 - id: '81'
   title: แก้ พ.ร.บ.ธนาคารแห่งประเทศไทย  (โหวตให้ ครม. รับไปพิจารณาก่อนรับหลักการ)
-  is_active: false
+  is_active: true
   en:
     title: ''
     legal_title: ''
@@ -3294,7 +3294,7 @@
   vote_date: '2022-02-09'
   prayuth: ''
   thanathorn: ''
-  passed: false
+  passed: true
   is_no_vote: false
   no_vote_description: ''
   description_th: >-
@@ -3313,11 +3313,11 @@
       link: ''
   reference: >-
     http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4379
-  approve: 0
-  disprove: 0
-  abstained: 0
+  approve: 238
+  disprove: 140
+  abstained: 1
   absent: 0
-  total_voter: 0
+  total_voter: 379
 - id: '82'
   title: ร่าง พ.ร.บ. สมรสเท่าเทียม  (โหวตให้ ครม. รับไปพิจารณาก่อนรับหลักการ)
   is_active: true
@@ -3330,7 +3330,7 @@
   vote_date: '2022-02-09'
   prayuth: ''
   thanathorn: ''
-  passed: false
+  passed: true
   is_no_vote: false
   no_vote_description: ''
   description_th: >-
@@ -3348,8 +3348,8 @@
       link: ''
   reference: >-
     http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4379
-  approve: 1
-  disprove: 15
-  abstained: 0
-  absent: 0
-  total_voter: 16
+  approve: 219
+  disprove: 118
+  abstained: 12
+  absent: 1
+  total_voter: 350
