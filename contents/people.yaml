@@ -17620,7 +17620,7 @@
   is_senator: false
   is_cabinet: false
   is_active: true
-  party: ''
+  party: ภูมิใจไทย
   party_group: ร่วมรัฐบาล
   mp_type: แบ่งเขต
   mp_province: ขอนแก่น
@@ -17658,7 +17658,7 @@
   debt: 1571496.92
   facebook: 'https://www.facebook.com/Changlao.Watthana'
   twitter: ''
-  bio: ''
+  bio: ถูกขับออกจากพรรคพลังประชารัฐไปยังพรรคภูมิใจไทย
   en:
     bio: ''
 - id: '341'
@@ -21267,7 +21267,7 @@
   is_senator: false
   is_cabinet: false
   is_active: true
-  party: ''
+  party: ภูมิใจไทย
   party_group: ร่วมรัฐบาล
   mp_type: แบ่งเขต
   mp_province: นครราชสีมา
@@ -21305,7 +21305,7 @@
   facebook: >-
     https://www.facebook.com/pages/category/PoliticalParty/%E0%B8%AA%E0%B8%A1%E0%B8%A8%E0%B8%B1%E0%B8%81%E0%B8%94%E0%B8%B4%E0%B9%8C%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%A9%E0%B8%A1227587094838195/
   twitter: ''
-  bio: ''
+  bio: ถูกขับออกจากพรรคพลังประชารัฐ และย้ายไปพรรคภูมิใจไทย
   en:
     bio: ''
 - id: '412'
@@ -22387,9 +22387,9 @@
       set: ''
   gender: ชาย
   birthdate: '1978-10-06'
-  education: ปริญญาตรี
-  graduation: มหาวิทยาลัยเอเชียอาคเนย์
-  degree: อุตสาหกรรมศาสตรบัณฑิต (วิศวกรรมโยธา)
+  education: ปริญญาโท
+  graduation: มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา
+  degree: รัฐประศาสนศาสตรมหาบัณฑิต วิชารัฐประศาสนศาสตร์
   ex_occupation:
     - สมาชิกองค์การบริหารส่วนจังหวัดเพชรบุรี
   occupation_group: การเมือง
@@ -26858,7 +26858,7 @@
   is_senator: false
   is_cabinet: false
   is_active: true
-  party: ''
+  party: ภูมิใจไทย
   party_group: ร่วมรัฐบาล
   mp_type: บัญชีรายชื่อ
   mp_province: ''
@@ -26897,7 +26897,7 @@
   facebook: >-
     https://www.facebook.com/people/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%8A%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B8%B2/100009701956000
   twitter: ''
-  bio: ''
+  bio: ถูกขับออกจากพรรคพลังประชารัฐ ย้ายมาภูมิใจไทย
   en:
     bio: ''
 - id: '520'
@@ -53783,13 +53783,14 @@
       set: ''
     - position: ''
       set: ''
-  gender: ''
-  birthdate: null
-  education: ''
-  graduation: ''
-  degree: ''
-  ex_occupation: []
-  occupation_group: ''
+  gender: ชาย
+  birthdate: '1981-07-05'
+  education: ปริญญาตรี
+  graduation: มหาวิทยาลัยราชภัฏสวนดุสิต
+  degree: ศิลปศาสตรบัณฑิต (ศิลปศาสตร์)
+  ex_occupation:
+    - นักการเมืองท้องถิ่น
+  occupation_group: การเมือง
   quotes: ''
   quotes_url: ''
   asset: null
@@ -53831,13 +53832,14 @@
       set: ''
     - position: ''
       set: ''
-  gender: ''
-  birthdate: null
-  education: ''
-  graduation: ''
-  degree: ''
-  ex_occupation: []
-  occupation_group: ''
+  gender: หญิง
+  birthdate: '1982-01-17'
+  education: ปริญญาตรี
+  graduation: มหาวิทยาลัยราชภัฏสงขลา
+  degree: บริหารธุรกิจบัณฑิต
+  ex_occupation:
+    - นักการเมืองท้องถิ่น
+  occupation_group: การเมือง
   quotes: ''
   quotes_url: ''
   asset: null
@@ -53879,13 +53881,14 @@
       set: ''
     - position: ''
       set: ''
-  gender: ''
-  birthdate: null
-  education: ''
-  graduation: ''
-  degree: ''
-  ex_occupation: []
-  occupation_group: ''
+  gender: หญิง
+  birthdate: '1967-07-22'
+  education: ปริญญาโท
+  graduation: สถาบันบัณฑิตพัฒนบริหารศาสตร์
+  degree: การจัดการภาครัฐและภาคเอกชนมหาบัณฑิต
+  ex_occupation:
+    - ที่ปรึกษาธุรกิจอิสระ
+  occupation_group: เอกชน
   quotes: ''
   quotes_url: ''
   asset: null
@@ -53927,13 +53930,14 @@
       set: ''
     - position: ''
       set: ''
-  gender: ''
-  birthdate: null
-  education: ''
-  graduation: ''
-  degree: ''
-  ex_occupation: []
-  occupation_group: ''
+  gender: หญิง
+  birthdate: '1961-07-22'
+  education: ต่ำกว่าปริญญาตรี
+  graduation: วิทยาลัยพณิชยการบางนา
+  degree: ประกาศนียบัตรมัธยมศึกษาตอนปลาย
+  ex_occupation:
+    - นักธุรกิจ
+  occupation_group: เอกชน
   quotes: ''
   quotes_url: ''
   asset: null

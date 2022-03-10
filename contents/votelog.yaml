@@ -2769,88 +2769,114 @@
   total_voter: 471
 - id: '65'
   title: ร่างพ.ร.บ.พืชกระท่อม
-  is_active: false
+  is_active: true
   en:
     title: ''
     legal_title: ''
-  legal_title: ''
-  meeting: ''
+  legal_title: >-
+    ร่างพระราชบัญญัติพืชกระท่อม พ.ศ. ...
+    ซึ่งคณะกรรมาธิการวิสามัญพิจารณาเสร็จแล้ว วาระที่ 3
+  meeting: ประชุมส.ส.
   type: ''
-  vote_date: null
+  vote_date: '2021-09-08'
   prayuth: ''
   thanathorn: ''
-  passed: false
+  passed: true
   is_no_vote: false
   no_vote_description: ''
-  description_th: ''
+  description_th: >-
+    หลัง พ.ร.บ.ยาเสพติดให้โทษ (ฉบับที่ 8) ปี 2564 มีผลบังคับใช้ เมื่อวันที่ 24
+    สิงหาคม 2564 ทำให้พืชกระท่อมถูกถอดออกจากยาเสพติดให้โทษในประเภท 5 
+    โดยให้การเพาะปลูก การบริโภค การจำหน่าย สามารถกระทำได้ไม่ผิดกฎหมาย
+    แต่เพื่อการกำกับดูแลสร้างประโยชน์ทางเศรษฐกิจ
+    และเพื่อไม่ให้มีการบริโภคมากเกินไปอาจจึงจำเป็นต้องมีกฎหมายเฉพาะอย่างร่างพระราชบัญญัติพืชกระท่อม
+    (ร่างพ.ร.บ.พืชกระท่อม) ขึ้นมา
   description_en: ''
   document:
+    - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.
+      link: >-
+        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211214142846A3.pdf
     - title: ''
       link: ''
-    - title: ''
-      link: ''
-  reference: ''
-  approve: 38
+  reference: >-
+    https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?id=1#detail
+  approve: 262
   disprove: 0
-  abstained: 0
-  absent: 25
-  total_voter: 63
+  abstained: 1
+  absent: 2
+  total_voter: 265
 - id: '66'
   title: ร่างพ.ร.บ.ลิขสิทธิ์
-  is_active: false
+  is_active: true
   en:
     title: ''
     legal_title: ''
-  legal_title: ''
-  meeting: ''
+  legal_title: >-
+    ร่างพระราชบัญญัติลิขสิทธิ์ (ฉบับที่ ..) พ.ศ. ...
+    ซึ่งคณะกรรมาธิการวิสามัญพิจารณาเสร็จแล้ว วาระที่ 3
+  meeting: ประชุมส.ส.
   type: ''
-  vote_date: null
+  vote_date: '2021-11-03'
   prayuth: ''
   thanathorn: ''
-  passed: false
+  passed: true
   is_no_vote: false
   no_vote_description: ''
-  description_th: ''
+  description_th: >-
+    เพราะประเทศไทยจะเข้าเป็นภาคีสนธิสัญญาว่าด้วยลิขสิทธิ์ขององค์การทรัพย์สินทางปัญญาโลก
+    เพื่อเพิ่มประสิทธิภาพในการคุ้มครองงานที่มีลิขสิทธิ์ให้ทันต่อการเปลี่ยนแปลงทางเทคโนโลยีและปรับปรุงบทบัญญัติเกี่ยวกับการคุ้มครองมาตรการทางเทคโนโลยี
+    เพื่อให้เป็นตามสนธิสัญญา
   description_en: ''
   document:
+    - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.
+      link: >-
+        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211103180822A75.pdf
     - title: ''
       link: ''
-    - title: ''
-      link: ''
-  reference: ''
-  approve: 0
+  reference: >-
+    https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?id=1#detail
+  approve: 270
   disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
+  abstained: 5
+  absent: 2
+  total_voter: 277
 - id: '67'
   title: ร่างพ.ร.บ. คุ้มครองพยานในคดีอาญา
-  is_active: false
+  is_active: true
   en:
     title: ''
     legal_title: ''
-  legal_title: ''
-  meeting: ''
+  legal_title: >-
+    ร่างพระราชบัญญัติคุ้มครองพยานในคดีอาญา (ฉบับที่ ..) พ.ศ. ...
+    ซึ่งคณะกรรมการธิการวิสามัญพิจารณาเสร็จแล้ว
+  meeting: ประชุมส.ส.
   type: ''
-  vote_date: null
+  vote_date: '2021-11-10'
   prayuth: ''
   thanathorn: ''
-  passed: false
+  passed: true
   is_no_vote: false
   no_vote_description: ''
-  description_th: ''
+  description_th: >-
+    เพราะการคุ้มครองพยานในคดีอาญา เป็นกระบวนการที่สนับสนุนงานยุติธรรม
+    โดนพยานบุคคลมีความสำคัญต่อการหาคนผิดมาลงโทษ
+    เพื่อให้ศาลได้ใช้ดุลยพินิจในการพิจารณาคดีได้อย่างถูกต้องและเป็นธรรม
+    โดยรัฐธรรมนูญแห่งราชอาณาจักรไทยได้บัญญัติรับรองสิทธิบุคคลซึ่งเป็นพยานในคดีอาญาให้มีสิทธิได้รับความคุ้มครองความปลอดภัย
+    การปฏิบัติที่เหมาะสม และค่าตอบแทนที่จำเป็นตามสมควรจากรัฐ
   description_en: ''
   document:
+    - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.
+      link: >-
+        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211110122437A6.pdf
     - title: ''
       link: ''
-    - title: ''
-      link: ''
-  reference: ''
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
+  reference: >-
+    https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?id=1#detail
+  approve: 269
+  disprove: 6
+  abstained: 1
+  absent: 1
+  total_voter: 277
 - id: '68'
   title: ร่าง พ.ร.บ. การศึกษาแห่งชาติ
   is_active: false
@@ -2940,7 +2966,12 @@
   passed: false
   is_no_vote: false
   no_vote_description: ''
-  description_th: ''
+  description_th: >-
+    เป็นการรวมตัวกันของ 4 องค์กร  โครงการอินเทอร์เน็ตเพื่อกฎหมายประชาชน
+    (ไอลอว์), กลุ่มรัฐธรรมนูญก้าวหน้า, คณะก้าวหน้าและพรรคก้าวไกล
+    เพื่อเสนอร่างแก้ไขรัฐธรรมนูญรายมาตราและล่ารายชื่อประชาชนให้ได้อย่างน้อย
+    50,000 รายชื่อ เพื่อเสนอร่าง โดยมุ่งเน้นล้ม ส.ว. โละ ศาลรัฐธรรมนูญ
+    องค์กรอิสระ พร้อมปฏิรูปที่มา และเลิกยุทธศาสตร์ชาติ  สุดท้ายล้างมรดกรัฐประหาร
   description_en: ''
   document:
     - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.-ส.ว.
@@ -2950,14 +2981,14 @@
       link: ''
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4352
-  approve: 0
-  disprove: 0
+  approve: 35
+  disprove: 34
   abstained: 0
   absent: 0
-  total_voter: 0
+  total_voter: 69
 - id: '71'
   title: ร่าง พ.ร.บ. ฟอกเงิน
-  is_active: false
+  is_active: true
   en:
     title: ''
     legal_title: ''
@@ -2970,7 +3001,14 @@
   passed: true
   is_no_vote: false
   no_vote_description: ''
-  description_th: ''
+  description_th: >-
+    โดยที่มาตรการซึ่งใช้เพื่อประโยชน์ในการดำเนินการกับทรัพย์สินที่เกี่ยวกับการกระทำความผิดมูลฐานให้ตกเป็นของแผ่นดินตามกฎหมายว่าด้วยการป้องกันและปราบปรามการฟอกเงินนั้น
+    เป็นมาตรการที่เกี่ยวกับการตรวจสอบธุรกรรมและการตรวจสอบทรัพย์สินของผู้เกี่ยวข้องหรือเคยเกี่ยวข้อง  
+    กับผู้กระทำความผิดมูลฐานที่มีผลกระทบต่อสิทธิและเสรีภาพของบุคคลกว้างขวางกว่ามาตรการทางอาญาโดยทั่วไป
+    การที่สำนักงานป้องกันและปราบปรามการฟอกเงินยังมีฐานะเป็นส่วนราชการขึ้นตรงและอยู่
+    ในบังคับบัญชาของรัฐมนตรีว่าการกระทรวงยุติธรรม
+    จึงทำให้ประชาชนบางส่วนยังขาดความเชื่อมั่นใน
+    ความเป็นอิสระและเป็นกลางในการบังคับใช้กฎหมาย
   description_en: ''
   document:
     - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.
@@ -2980,14 +3018,14 @@
       link: ''
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4353
-  approve: 0
+  approve: 280
   disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
+  abstained: 1
+  absent: 1
+  total_voter: 282
 - id: '72'
   title: ร่าง พ.ร.บ. ปลดอาวุธ คสช. (ฉบับประชาชน)
-  is_active: false
+  is_active: true
   en:
     title: ''
     legal_title: ''
@@ -3002,7 +3040,13 @@
   passed: false
   is_no_vote: false
   no_vote_description: ''
-  description_th: ''
+  description_th: >-
+    หลังจากการรัฐประหาร 22 พฤษภาคม พ.ศ. 2557 คสช. โดยพลเอกประยุทธ์
+    ได้อ้างใช้อำนาจพิเศษจากมาตรา 44 แม้จะหมดสถานะคำสั่ง
+    ประกาศต่างๆยังได้รับรองโดยมาตรา 279 ของรัฐธรรมนูญปี พ.ศ. 2560
+    ให้มีผลบังคับใช้ต่อไป จนกว่าจะมีการยกเลิกหรือแก้ไข
+    และหลายฉบับมีเนื้อหาจำกัดสิทธิประชาชน กระทบสิทธิในกระบวนการยุติธรรม
+    จำกัดเสรีภาพสื่อมวลชน ละเมิดสิทธิชุมชนและสิ่งแวดล้อม
   description_en: ''
   document:
     - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.
@@ -3012,14 +3056,14 @@
       link: ''
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4363
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
+  approve: 161
+  disprove: 222
+  abstained: 3
+  absent: 1
+  total_voter: 387
 - id: '73'
   title: ร่าง พ.ร.บ. ปลดอาวุธ คสช.
-  is_active: false
+  is_active: true
   en:
     title: ''
     legal_title: ''
@@ -3033,7 +3077,13 @@
   passed: false
   is_no_vote: false
   no_vote_description: ''
-  description_th: ''
+  description_th: >-
+    คล้ายกับร่างของประชาชน โดยส.ส. พรรคอนาคตใหม่เสนอ
+    โดยมองว่าหลังจากการรัฐประหาร 22 พฤษภาคม พ.ศ. 2557 คสช. โดยพลเอกประยุทธ์
+    ได้อ้างใช้อำนาจพิเศษจากมาตรา 44 แม้จะหมดสถานะคำสั่ง
+    ประกาศต่างๆยังได้รับรองโดยมาตรา 279 ของรัฐธรรมนูญปี พ.ศ. 2560
+    ให้มีผลบังคับใช้ต่อไป จนกว่าจะมีการยกเลิกหรือแก้ไข
+    และหลายฉบับมีเนื้อหาจำกัดสิทธิประชาชน
   description_en: ''
   document:
     - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.
@@ -3043,14 +3093,14 @@
       link: ''
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4363
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
+  approve: 160
+  disprove: 205
+  abstained: 3
+  absent: 2
+  total_voter: 370
 - id: '74'
   title: ร่าง พ.ร.บ. กยศ. (วาระที่ 1)
-  is_active: false
+  is_active: true
   en:
     title: ''
     legal_title: ''
@@ -3063,7 +3113,10 @@
   passed: true
   is_no_vote: false
   no_vote_description: ''
-  description_th: ''
+  description_th: >-
+    มองว่าการกู้ยืมเงินเพื่อการศึกษาเป็นมาตรการหนึ่งที่จะช่วยลดความเหลื่อมล้ำในการศึกษาอันเป็นรากฐานสำคัญในการลดความเหลื่อมล้ำทางเศรษฐกิจและสังคมในภาพรวม
+    แต่บทบัญญัติแห่งกฎหมายว่าด้วยกองทุนเงินให้กู้ยืมเพื่อการศึกษาที่ใช้บังคับอยู่ในปัจจุบันยังไม่อำนวยในปัญหานี้
+    จึงจำเป็นต้องตราพระราชบัญญัตินี้
   description_en: ''
   document:
     - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.
@@ -3073,14 +3126,14 @@
       link: ''
   reference: >-
     http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4374
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
+  approve: 274
+  disprove: 1
+  abstained: 1
+  absent: 7
+  total_voter: 283
 - id: '75'
   title: ร่าง พ.ร.บ. จราจรทางบก
-  is_active: false
+  is_active: true
   en:
     title: ''
     legal_title: ''
@@ -3095,7 +3148,10 @@
   passed: true
   is_no_vote: false
   no_vote_description: ''
-  description_th: ''
+  description_th: >-
+    ปัจจุบันการเกิดอุบัติเหตุทางถนนของประเทศมีสาเหตุมาจากการที่ผู้ขับขี่ฝ่ายฝืนและไม่ปฏิบัติตามกฎความปลอดภัยในการจราจรทางบก
+    และพระราชบัญญัติจราจรทางบก พ.ศ. 2522 บังคับใช้มานาน
+    จึงเห็นสมควรปรับปรุงกฎหมายเพื่อให้สอดคล้องกับสภาพข้อเท็จจริงในการใช้รถใช้ถนน
   description_en: ''
   document:
     - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.
@@ -3105,14 +3161,14 @@
       link: ''
   reference: >-
     http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4376
-  approve: 0
+  approve: 252
   disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
+  abstained: 2
+  absent: 1
+  total_voter: 255
 - id: '76'
   title: ร่าง พ.ร.บ. ป้องกันการกระทำความผิดซ้ำฯ (วาระที่ 1)
-  is_active: false
+  is_active: true
   en:
     title: ''
     legal_title: ''
@@ -3127,7 +3183,12 @@
   passed: true
   is_no_vote: false
   no_vote_description: ''
-  description_th: ''
+  description_th: >-
+    เนื่องจากผู้กระทำความผิดอุกฉกรรจ์บางประเภทที่เกี่ยวข้องกับการใช้ความรุนแรง
+    เช่น ฆาตกรรม เมื่อได้รับโทษจำคุกและพ้นโทษแล้ว
+    แม้จะมีการติดตามจากพนักงานตำรวจหรือฝ่ายปกครอง
+    แต่ก็ไม่มีสภาพบังคับเป็นกฎหมายและไม่มีประสิทธิผลในการป้องกันการกระทำผิดซ้ำ
+    จึงเห็นสมควรมีกฎหมายเฉพาะขึ้นมา
   description_en: ''
   document:
     - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.
@@ -3137,14 +3198,14 @@
       link: ''
   reference: >-
     http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4376
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
+  approve: 283
+  disprove: 1
+  abstained: 2
+  absent: 6
+  total_voter: 292
 - id: '77'
   title: ร่าง พ.ร.บ. คุ้มครองแรงงาน (วาระที่ 1)
-  is_active: false
+  is_active: true
   en:
     title: ''
     legal_title: ''
@@ -3157,7 +3218,10 @@
   passed: true
   is_no_vote: false
   no_vote_description: ''
-  description_th: ''
+  description_th: >-
+    พระราชบัญญัติคุ้มครองแรงงาน พ.ศ. 2541 ใช้บังคับมายาวนาน
+    และมีบัญญัติบางประการที่อาจไม่เหมาะสมต่อสภาพการณ์ที่เปลี่ยนแปลงไป
+    สมควรเพ่ิมบทบัญญัติเกี่ยวกับการกำหนดอัตราค่าจ้างขั้นต่ำของลูกจ้างบางกลุ่มหรือบางประเภท
   description_en: ''
   document:
     - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.
@@ -3167,14 +3231,14 @@
       link: ''
   reference: >-
     http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4376
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
+  approve: 258
+  disprove: 30
+  abstained: 1
+  absent: 2
+  total_voter: 291
 - id: '78'
   title: รายงานศึกษาขุดคลองไทย
-  is_active: false
+  is_active: true
   en:
     title: ''
     legal_title: ''
@@ -3204,11 +3268,11 @@
       link: ''
   reference: >-
     http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4378
-  approve: 30
-  disprove: 0
-  abstained: 0
+  approve: 111
+  disprove: 127
+  abstained: 48
   absent: 0
-  total_voter: 30
+  total_voter: 286
 - id: '79'
   title: ร่าง พ.ร.บ.สุราก้าวหน้า (โหวตให้ ครม. รับไปพิจารณาก่อนรับหลักการ)
   is_active: true
