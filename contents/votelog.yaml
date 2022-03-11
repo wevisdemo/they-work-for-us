@@ -1951,9 +1951,7 @@
   absent: 27
   total_voter: 733
 - id: '46'
-  title: >-
-    ร่างพรรคเพื่อไทย ฉบับที่ 1 เพิ่มสิทธิเสรีภาพของประชาชน
-    สิทธิในกระบวนการยุติธรรม สิทธิพิทักษ์รัฐธรรมนูญ เสรีภาพในการแสดงความเห็น
+  title: ร่างพรรคเพื่อไทย ฉบับที่ 1 เพิ่มสิทธิเสรีภาพของประชาชน
   is_active: true
   en:
     title: ''
@@ -2800,11 +2798,11 @@
       link: ''
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?id=1#detail
-  approve: 262
+  approve: 267
   disprove: 0
   abstained: 1
   absent: 2
-  total_voter: 265
+  total_voter: 270
 - id: '66'
   title: ร่างพ.ร.บ.ลิขสิทธิ์
   is_active: true
@@ -2830,16 +2828,16 @@
   document:
     - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.
       link: >-
-        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211103180822A75.pdf
+        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211103140646A12.pdf
     - title: ''
       link: ''
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?id=1#detail
-  approve: 270
+  approve: 274
   disprove: 0
   abstained: 5
   absent: 2
-  total_voter: 277
+  total_voter: 281
 - id: '67'
   title: ร่างพ.ร.บ. คุ้มครองพยานในคดีอาญา
   is_active: true
@@ -2872,11 +2870,11 @@
       link: ''
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?id=1#detail
-  approve: 269
+  approve: 272
   disprove: 6
   abstained: 1
   absent: 1
-  total_voter: 277
+  total_voter: 280
 - id: '68'
   title: ร่าง พ.ร.บ. การศึกษาแห่งชาติ
   is_active: false
@@ -2907,11 +2905,11 @@
       link: ''
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4348
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
+  approve: 421
+  disprove: 29
+  abstained: 2
+  absent: 1
+  total_voter: 453
 - id: '69'
   title: ร่าง พ.ร.บ. ส่งเสริมการเรียนรู้
   is_active: false
@@ -2942,11 +2940,11 @@
       link: ''
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4348
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
+  approve: 526
+  disprove: 30
+  abstained: 2
+  absent: 6
+  total_voter: 564
 - id: '70'
   title: ร่างแก้ไขรัฐธรรมนูญ (ฉบับประชาชน - Resolution)
   is_active: false
@@ -2981,11 +2979,11 @@
       link: ''
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4352
-  approve: 35
-  disprove: 34
-  abstained: 0
+  approve: 212
+  disprove: 403
+  abstained: 5
   absent: 0
-  total_voter: 69
+  total_voter: 620
 - id: '71'
   title: ร่าง พ.ร.บ. ฟอกเงิน
   is_active: true
@@ -3018,11 +3016,11 @@
       link: ''
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4353
-  approve: 280
+  approve: 282
   disprove: 0
   abstained: 1
   absent: 1
-  total_voter: 282
+  total_voter: 284
 - id: '72'
   title: ร่าง พ.ร.บ. ปลดอาวุธ คสช. (ฉบับประชาชน)
   is_active: true
@@ -3056,11 +3054,11 @@
       link: ''
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4363
-  approve: 161
-  disprove: 222
+  approve: 162
+  disprove: 224
   abstained: 3
   absent: 1
-  total_voter: 387
+  total_voter: 390
 - id: '73'
   title: ร่าง พ.ร.บ. ปลดอาวุธ คสช.
   is_active: true
@@ -3093,11 +3091,11 @@
       link: ''
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4363
-  approve: 160
-  disprove: 205
+  approve: 161
+  disprove: 207
   abstained: 3
   absent: 2
-  total_voter: 370
+  total_voter: 373
 - id: '74'
   title: ร่าง พ.ร.บ. กยศ. (วาระที่ 1)
   is_active: true
