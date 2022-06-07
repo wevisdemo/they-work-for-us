@@ -2877,7 +2877,7 @@
   total_voter: 280
 - id: '68'
   title: ร่าง พ.ร.บ. การศึกษาแห่งชาติ
-  is_active: false
+  is_active: true
   en:
     title: ''
     legal_title: ''
@@ -2912,7 +2912,7 @@
   total_voter: 453
 - id: '69'
   title: ร่าง พ.ร.บ. ส่งเสริมการเรียนรู้
-  is_active: false
+  is_active: true
   en:
     title: ''
     legal_title: ''
@@ -2947,7 +2947,7 @@
   total_voter: 564
 - id: '70'
   title: ร่างแก้ไขรัฐธรรมนูญ (ฉบับประชาชน - Resolution)
-  is_active: false
+  is_active: true
   en:
     title: ''
     legal_title: ''
@@ -3415,3 +3415,39 @@
   abstained: 12
   absent: 1
   total_voter: 350
+- id: '83'
+  title: ร่าง พ.ร.บ. งบประมาณปี 66 (วาระ 1)
+  is_active: true
+  en:
+    title: ''
+    legal_title: ''
+  legal_title: ร่างพ.ร.บ.งบประมาณรายจ่ายประจำปีงบประมาณ พ.ศ. 2566 (วาระ 1)
+  meeting: ประชุมส.ส.
+  type: ''
+  vote_date: '2022-06-02'
+  prayuth: ''
+  thanathorn: ''
+  passed: true
+  is_no_vote: false
+  no_vote_description: ''
+  description_th: >-
+    การประชุมสภาผู้แทนราษฎรเพื่อพิจารณาร่าง พ.ร.บ.งบประมาณรายจ่ายประจำปีงบประมาณ
+    พ.ศ. 2566 วงเงิน 3.185 ล้านล้านบาท ในวาระแรกว่า จะรับหลักการหรือไม่
+    ได้มีการอภิปรายแสดงความคิดเห็นกันอย่างกว้างขวาง ก่อนลงมติรับหลักการร่าง
+    โดยตั้งคณะกรรมาธิการวิสามัญเพื่อพิจารณา
+    ร่างพระราชบัญญัติงบประมาณรายจ่ายประจำปีงบประมาณ พ.ศ. 2566 เพื่อพิจารณาต่อไป
+    ดูรายละเอียดงบปี 66 ได้ใน https://wevis.info/thbudget66#
+  description_en: ''
+  document:
+    - title: บันทึกผลการออกเสียงลงคะแนนของ ส.ส.
+      link: >-
+        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220606084604A2.pdf
+    - title: ''
+      link: ''
+  reference: >-
+    https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4389
+  approve: 278
+  disprove: 194
+  abstained: 2
+  absent: 0
+  total_voter: 474

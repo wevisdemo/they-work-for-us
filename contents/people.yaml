@@ -6174,7 +6174,7 @@
   title: นาย
   name: ชุมพล
   lastname: จุลใส
-  is_mp: true
+  is_mp: false
   is_senator: false
   is_cabinet: false
   is_active: false
@@ -12479,10 +12479,10 @@
   title: นางสาว
   name: ปารีณา
   lastname: ไกรคุปต์
-  is_mp: true
+  is_mp: false
   is_senator: false
   is_cabinet: false
-  is_active: true
+  is_active: false
   party: พลังประชารัฐ
   party_group: ร่วมรัฐบาล
   mp_type: แบ่งเขต
@@ -15920,10 +15920,10 @@
   title: นาย
   name: มิ่งขวัญ
   lastname: แสงสุวรรณ์
-  is_mp: true
+  is_mp: false
   is_senator: false
   is_cabinet: false
-  is_active: true
+  is_active: false
   party: เศรษฐกิจใหม่
   party_group: ฝ่ายค้าน
   mp_type: บัญชีรายชื่อ
@@ -15963,7 +15963,7 @@
   debt: null
   facebook: 'https://www.facebook.com/MINGKWANSANGSUWAN9/'
   twitter: ''
-  bio: ''
+  bio: ลาออกจากการเป็น ส.ส. เมื่อ 18 กุมภาพันธ์ 2565
   en:
     bio: ''
 - id: '308'
@@ -18028,10 +18028,10 @@
   title: นาย
   name: วิเชียร
   lastname: ชวลิต
-  is_mp: true
+  is_mp: false
   is_senator: false
   is_cabinet: false
-  is_active: true
+  is_active: false
   party: พลังประชารัฐ
   party_group: ร่วมรัฐบาล
   mp_type: บัญชีรายชื่อ
@@ -18073,7 +18073,9 @@
   debt: 267518.74
   facebook: ''
   twitter: ''
-  bio: ''
+  bio: >-
+    ลาออกจากสมาชิกสภาผู้แทนราษฎร และสมาชิกพรรคพลังประชารัฐ ในเดือนเมษายน พ.ศ.
+    2565 และได้เข้าร่วมงานกับพรรคสร้างอนาคตไทย
   en:
     bio: ''
 - id: '349'
@@ -22658,7 +22660,7 @@
   title: นาย
   name: สิระ
   lastname: เจนจาคะ
-  is_mp: true
+  is_mp: false
   is_senator: false
   is_cabinet: false
   is_active: false
@@ -22708,8 +22710,8 @@
     https://www.facebook.com/pages/category/Cause/%E0%B8%AA%E0%B8%B4%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%88%E0%B8%99%E0%B8%88%E0%B8%B2%E0%B8%84%E0%B8%B0568449340279516/
   twitter: ''
   bio: >-
-    มีลักษณะต้องห้ามมิให้ใช้สิทธิสมัครรับเลือกตั้งตามรัฐธรรมนูญ มาตรา 98 (10)
-    เป็นเหตุให้สมาชิกภาพ ส.ส
+    ศาลรัฐธรรมนูญวินิจฉัยให้พ้นจากตำแหน่งเนื่องจากเคยถูกศาลพิพากษาจำคุกในคดีทีเกี่ยวกับการทุจริต
+    เมื่อวันที่ 22 ธันวาคม 2564
   en:
     bio: ''
 - id: '439'
@@ -25414,10 +25416,10 @@
   title: ดร.
   name: อภิชัย
   lastname: เตชะอุบล
-  is_mp: true
+  is_mp: false
   is_senator: false
   is_cabinet: false
-  is_active: true
+  is_active: false
   party: ประชาธิปัตย์
   party_group: ร่วมรัฐบาล
   mp_type: บัญชีรายชื่อ
@@ -25456,7 +25458,9 @@
   debt: 1544368296.86
   facebook: ''
   twitter: ''
-  bio: ''
+  bio: >-
+    ลาออกจากส.ส. และสมาชิกพรรคประชาธิปัตย์ในวันพฤหัสบดีที่ 17 มีนาคม 2565
+    ย้ายไปสังกัดพรรคพลังประชารัฐ
   en:
     bio: ''
 - id: '492'
@@ -53945,5 +53949,300 @@
   facebook: ''
   twitter: ''
   bio: ''
+  en:
+    bio: ''
+- id: '1059'
+  title: นาย
+  name: สุรชาติ
+  lastname: เทียนทอง
+  is_mp: true
+  is_senator: false
+  is_cabinet: false
+  is_active: true
+  party: เพื่อไทย
+  party_group: ฝ่ายค้าน
+  mp_type: แบ่งเขต
+  mp_province: กรุงเทพมหานคร
+  mp_zone: '9'
+  mp_list: ''
+  vote: 29416
+  senator_method: ''
+  cabinet_position: []
+  committee:
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+  gender: ชาย
+  birthdate: '1979-03-29'
+  education: ปริญญาโท
+  graduation: มหาวิทยาลัยจอห์นสัน แอนด์ เวลส์
+  degree: สาขาผู้นำองค์กร
+  ex_occupation:
+    - สมาชิกสภาผู้แทนราษฎร
+    - นักธุรกิจ
+  occupation_group: การเมือง
+  quotes: ''
+  quotes_url: ''
+  asset: null
+  debt: null
+  facebook: ''
+  twitter: ''
+  bio: ดำรงตำแหน่งส.ส. แทนนายสิระ เจนจาคะ เมื่อ 30 มกราคม 2565
+  en:
+    bio: ''
+- id: '1060'
+  title: นาย
+  name: ภาคิน
+  lastname: สมมิตรธนกุล
+  is_mp: true
+  is_senator: false
+  is_cabinet: false
+  is_active: true
+  party: พลังประชารัฐ
+  party_group: ร่วมรัฐบาล
+  mp_type: บัญชีรายชื่อ
+  mp_province: ''
+  mp_zone: ''
+  mp_list: '26'
+  vote: null
+  senator_method: ''
+  cabinet_position: []
+  committee:
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+  gender: ชาย
+  birthdate: '1962-04-06'
+  education: ปริญญาเอก
+  graduation: มหาวิทยาลัยบูรพา
+  degree: ปรัชญาดุษฎีบัณฑิต (รัฐประศาสนศาสตร์)
+  ex_occupation:
+    - สมาชิกสภาผู้แทนราษฎร
+    - นักธุรกิจ
+  occupation_group: การเมือง
+  quotes: ''
+  quotes_url: ''
+  asset: null
+  debt: null
+  facebook: ''
+  twitter: ''
+  bio: ดำรงตำแหน่งส.ส. แทนนายวิเชียร ชวลิต เมื่อ เมษายน 2565
+  en:
+    bio: ''
+- id: '1061'
+  title: นาย
+  name: อิสรพงษ์
+  lastname: มากอำไพ
+  is_mp: true
+  is_senator: false
+  is_cabinet: false
+  is_active: true
+  party: ประชาธิปัตย์
+  party_group: ร่วมรัฐบาล
+  mp_type: แบ่งเขต
+  mp_province: ชุมพร
+  mp_zone: '1'
+  mp_list: ''
+  vote: 49014
+  senator_method: ''
+  cabinet_position: []
+  committee:
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+  gender: ชาย
+  birthdate: '1988-08-13'
+  education: ปริญญาโท
+  graduation: COVENTRY UNIVERSITY
+  degree: Master of Business Administration
+  ex_occupation:
+    - นักการเมืองท้องถิ่น
+  occupation_group: การเมือง
+  quotes: ''
+  quotes_url: ''
+  asset: null
+  debt: null
+  facebook: ''
+  twitter: ''
+  bio: ดำรงตำแหน่งส.ส. แทนนายชุมพล จุลใส เมื่อ 16 มกราคม 2565
+  en:
+    bio: ''
+- id: '1062'
+  title: นาย
+  name: ชัยทิพย์
+  lastname: กมลพันธ์ทิพย์
+  is_mp: true
+  is_senator: false
+  is_cabinet: false
+  is_active: true
+  party: ประชาธิปัตย์
+  party_group: ร่วมรัฐบาล
+  mp_type: แบ่งเขต
+  mp_province: ราชบุรี
+  mp_zone: '3'
+  mp_list: ''
+  vote: 51743
+  senator_method: ''
+  cabinet_position: []
+  committee:
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+  gender: ชาย
+  birthdate: '1964-04-09'
+  education: ปริญญาโท
+  graduation: วิทยาลัยเทคโนโลยีสยาม
+  degree: รัฐประศาสนศาสตรมหาบัณฑิต (การบริหารการจัดการภาครัฐ
+  ex_occupation: []
+  occupation_group: ไม่พบข้อมูล
+  quotes: ''
+  quotes_url: ''
+  asset: null
+  debt: null
+  facebook: ''
+  twitter: ''
+  bio: ดำรงตำแหน่งส.ส. แทนนางสาวปารีณา ไกรคุปต์ เมื่อ 30 พฤษภาคม 2565
+  en:
+    bio: ''
+- id: '1063'
+  title: นาย
+  name: นราพัฒน์
+  lastname: แก้วทอง
+  is_mp: true
+  is_senator: false
+  is_cabinet: false
+  is_active: true
+  party: ประชาธิปัตย์
+  party_group: ร่วมรัฐบาล
+  mp_type: บัญชีรายชื่อ
+  mp_province: ''
+  mp_zone: ''
+  mp_list: '27'
+  vote: null
+  senator_method: ''
+  cabinet_position: []
+  committee:
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+  gender: ชาย
+  birthdate: '1969-08-02'
+  education: ปริญญาโท
+  graduation: US National University
+  degree: บริหารธุรกิจ
+  ex_occupation:
+    - นักธุรกิจ
+  occupation_group: เอกชน
+  quotes: ''
+  quotes_url: ''
+  asset: null
+  debt: null
+  facebook: ''
+  twitter: ''
+  bio: ดำรงตำแหน่งส.ส. แทนนายอภิชัย เตชะอุบล เมื่อ 17 มีนาคม 2565
+  en:
+    bio: ''
+- id: '1064'
+  title: นางสาว
+  name: จิราพร
+  lastname: นาคดิลก
+  is_mp: true
+  is_senator: false
+  is_cabinet: false
+  is_active: true
+  party: เศรษฐกิจใหม่
+  party_group: ฝ่ายค้าน
+  mp_type: บัญชีรายชื่อ
+  mp_province: ''
+  mp_zone: ''
+  mp_list: '2'
+  vote: null
+  senator_method: ''
+  cabinet_position: []
+  committee:
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+    - position: ''
+      set: ''
+  gender: หญิง
+  birthdate: '1981-05-28'
+  education: ปริญญาตรี
+  graduation: มหาวิทยาลัยหอการค้าไทย
+  degree: บริหารธุรกิจ
+  ex_occupation:
+    - พนักงานบริษัท
+  occupation_group: เอกชน
+  quotes: ''
+  quotes_url: ''
+  asset: null
+  debt: null
+  facebook: ''
+  twitter: ''
+  bio: ดำรงตำแหน่งส.ส. แทนนายมิ่งขวัญ แสงสุวรรณ์ เมื่อ 21 กุมภาพันธ์ 2565
   en:
     bio: ''
