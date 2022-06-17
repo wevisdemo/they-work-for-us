@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-motion-category-template-js","path":"/motions/category/กีฬา","result":{"data":{"allMotionYaml":{"totalCount":0,"edges":[]}},"pageContext":{"sub_cat":"กีฬา"}},"staticQueryHashes":["2247649102","3649515864","4176149245"]}
+{
+    "componentChunkName": "component---src-templates-motion-category-template-js",
+    "path": "/motions/category/กีฬา",
+    "result": {"data":{"allMotionYaml":{"totalCount":0,"edges":[]}},"pageContext":{"sub_cat":"กีฬา"}},
+    "staticQueryHashes": ["2247649102","3649515864","4176149245"]}
