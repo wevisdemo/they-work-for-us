@@ -370,7 +370,7 @@ const AutoComplete = ({
           missing: _.get(voteGroup, "5.length", 0),
         }
         for (const item in vote) {
-          vote[item] = ((vote[item] / all_motion) * 100).toFixed(2)
+          vote[item] = (vote[item] / all_motion) * 100
           if (vote[item] === 0) {
             vote[item] = 0
           }
@@ -466,10 +466,8 @@ const AutoComplete = ({
       totalVotelogType.missing
 
     for (const item in select_by_government) {
-      select_by_government[item] = (
-        (select_by_government[item] / sumVoteGovernment) *
-        100
-      ).toFixed(2)
+      select_by_government[item] =
+        (select_by_government[item] / sumVoteGovernment) * 100
       if (select_by_government[item] === 0) {
         select_by_government[item] = 0
       }
@@ -477,10 +475,8 @@ const AutoComplete = ({
     setSelectByGovernment(select_by_government)
 
     for (const item in select_by_position) {
-      select_by_position[item] = (
-        (select_by_position[item] / sumVotePosition) *
-        100
-      ).toFixed(2)
+      select_by_position[item] =
+        (select_by_position[item] / sumVotePosition) * 100
       if (select_by_position[item] === 0) {
         select_by_position[item] = 0
       }
@@ -489,10 +485,7 @@ const AutoComplete = ({
     setSenatorType(select_by_position)
 
     for (const item in select_by_career) {
-      select_by_career[item] = (
-        (select_by_career[item] / sumVoteCareer) *
-        100
-      ).toFixed(2)
+      select_by_career[item] = (select_by_career[item] / sumVoteCareer) * 100
       if (select_by_career[item] === 0) {
         select_by_career[item] = 0
       }
@@ -500,10 +493,7 @@ const AutoComplete = ({
     setSelectByCareer(select_by_career)
 
     for (const item in totalVotelogType) {
-      totalVotelogType[item] = (
-        (totalVotelogType[item] / sumTotal) *
-        100
-      ).toFixed(2)
+      totalVotelogType[item] = (totalVotelogType[item] / sumTotal) * 100
       if (totalVotelogType[item] === 0) {
         totalVotelogType[item] = 0
       }
