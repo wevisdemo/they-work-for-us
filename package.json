@@ -107,6 +107,6 @@
     "src/**/*.{json}": [
       "prettier --write",
       "git add"
-    ],
+    ]
   }
 }
