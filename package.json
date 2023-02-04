@@ -93,7 +93,7 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{js,json,css}": [
+    "src/**/*.{js,css}": [
       "prettier --write",
       "eslint --fix",
       "git add"
@@ -103,6 +103,10 @@
       "prettier --write",
       "eslint --fix",
       "git add"
-    ]
+    ],
+    "src/**/*.{json}": [
+      "prettier --write",
+      "git add"
+    ],
   }
 }
