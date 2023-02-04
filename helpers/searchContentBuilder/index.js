@@ -12,7 +12,7 @@ function buildSearchContent(path) {
   try {
     const searchContent = {
       zones: zones.map(zone => ({
-        ...pick(zone, ["province", "zone"]),
+        ...zone,
         areas: zone.areas.map(area => area.area),
       })),
       people: yaml
