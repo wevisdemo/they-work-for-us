@@ -6,10 +6,12 @@
 const path = require(`path`)
 const axios = require(`axios`)
 const { buildContentIndex } = require("./helpers/contentIndexBuilder")
+const { buildSearchContent } = require("./helpers/searchContentBuilder")
 
 exports.onPreInit = () => {
   console.log("Building content index...")
   buildContentIndex("./src/contents/search_index.yaml")
+  buildSearchContent("./static/content/search.json")
 }
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
