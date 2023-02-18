@@ -6,12 +6,19 @@
 const path = require(`path`)
 const axios = require(`axios`)
 const { buildContentIndex } = require("./helpers/contentIndexBuilder")
-const { buildSearchContent } = require("./helpers/searchContentBuilder")
+
+const {
+  buildLocationOptions,
+  buildSearchableZones,
+} = require("./helpers/searchDataBuilder")
 
 exports.onPreInit = () => {
   console.log("Building content index...")
   buildContentIndex("./src/contents/search_index.yaml")
-  buildSearchContent("./static/content/search.json")
+
+  console.log("Building location and searchable zones...")
+  buildLocationOptions("./static/content/locations.json")
+  buildSearchableZones("./static/content/zones.json")
 }
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
