@@ -16,7 +16,7 @@ const SearchPage = () => {
     Promise.all([getLocationOptions(), getZones()]).then(results => {
       if (!ignore) {
         setLocationOptions(results[0].data)
-        setZones(results[1].data.zones)
+        setZones(results[1].data)
       }
     })
 
