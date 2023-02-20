@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useRef, useEffect } from "react"
 import { graphql } from "gatsby"
 import _ from "lodash"
 
@@ -10,6 +10,7 @@ import { OfficialWebsite, InOfficeDate } from "../components/profile"
 import PeopleCardMini from "../components/peopleCardMini"
 import PeopleCard from "../components/peopleCard"
 import VoteLogCard from "../components/voteLogCard"
+import ArrowDownOutlined from "@ant-design/icons/ArrowDownOutlined"
 
 import "../styles/profile-book.css"
 
@@ -192,12 +193,92 @@ const cssBarChart = {
   margin: "1rem 0",
 }
 
+const cssStickyContainer = {
+  position: "sticky",
+  top: 0,
+  zIndex: 10,
+  padding: "unset",
+}
+
+const cssStickyMenu = {
+  width: "50%",
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  padding: "1.5rem 0",
+  cursor: "pointer",
+  "span.anticon": {
+    "&.rotate-180": {
+      transform: "rotate(180deg)",
+      transition: "0.15s ease",
+    },
+  },
+}
+
+const cssStickyMenuTitle = {
+  fontWeight: "bold",
+  fontSize: "2rem",
+  marginLeft: "1rem",
+}
+
 const PartyPage = props => {
   const { party, ...data } = props.data
 
   const [memberFilter, setMemberFilter] = useState({})
   const [members] = useState(data.allPeopleYaml.edges.map(e => e.node))
   const selectMemberFilter = filter => () => setMemberFilter(filter)
+
+  const [voteLogsArrow, setVoteLogsArrow] = useState({})
+  const [membersArrow, setMembersArrow] = useState({})
+  const [voteLogsRotate, setVoteLogsRotate] = useState({})
+  const [membersRotate, setMembersRotate] = useState({})
+  const navRef = useRef(null)
+  const voteLogsRef = useRef(null)
+  const membersRef = useRef(null)
+  const voteLogsMenuRef = useRef(null)
+  const membersMenuRef = useRef(null)
+
+  useEffect(() => {
+    const navHeight = navRef.current?.offsetHeight || 0
+    const topOfVoteLogs = (voteLogsRef.current?.offsetTop || 0) - navHeight
+    const bottomOfVoteLogs =
+      topOfVoteLogs + (voteLogsRef.current?.offsetHeight || 0)
+    const topOfMembers = (membersRef.current?.offsetTop || 0) - navHeight
+    const bottomOfMembers =
+      topOfMembers + (membersRef.current?.offsetHeight || 0)
+
+    document.addEventListener("scroll", e => {
+      const scrollTop = document.documentElement.scrollTop
+      if (scrollTop >= topOfVoteLogs && scrollTop < bottomOfVoteLogs) {
+        setVoteLogsArrow(false)
+      } else {
+        setVoteLogsArrow(true)
+      }
+      if (scrollTop >= bottomOfVoteLogs) {
+        setVoteLogsRotate(true)
+      } else {
+        setVoteLogsRotate(false)
+      }
+      if (scrollTop >= topOfMembers && scrollTop < bottomOfMembers) {
+        setMembersArrow(false)
+      } else {
+        setMembersArrow(true)
+      }
+      if (scrollTop >= bottomOfMembers) {
+        setMembersRotate(true)
+      } else {
+        setMembersRotate(false)
+      }
+    })
+
+    voteLogsMenuRef.current?.addEventListener("click", () =>
+      jumpToVoteLogsSection()
+    )
+
+    membersMenuRef.current?.addEventListener("click", () =>
+      jumpToMembersSection()
+    )
+  })
 
   const countMembers = filter => {
     // filter member by mp_type
@@ -257,6 +338,24 @@ const PartyPage = props => {
         memberFilter.mp_type === "แบ่งเขต" ? "active" : "",
     },
   ]
+
+  const jumpToVoteLogsSection = () => {
+    window.scrollTo({
+      top:
+        (voteLogsRef.current?.offsetTop || 0) -
+        (navRef.current?.offsetHeight || 0),
+      behavior: "smooth",
+    })
+  }
+
+  const jumpToMembersSection = () => {
+    window.scrollTo({
+      top:
+        (membersRef.current?.offsetTop || 0) -
+        (navRef.current?.offsetHeight || 0),
+      behavior: "smooth",
+    })
+  }
 
   const {
     mp_type,
@@ -362,10 +461,67 @@ const PartyPage = props => {
         </div>
       </section>
 
+      <section
+        css={{
+          ...cssSection,
+          ...cssStickyContainer,
+          background: "var(--cl-white)",
+        }}
+      >
+        <div
+          ref={navRef}
+          css={{
+            display: "flex",
+            justifyContent: "space-between",
+          }}
+        >
+          <div ref={voteLogsMenuRef} css={{ ...cssStickyMenu }}>
+            {voteLogsArrow ? (
+              <ArrowDownOutlined
+                className={voteLogsRotate ? "rotate-180" : ""}
+                css={{ fontSize: "2rem" }}
+              />
+            ) : (
+              <div
+                css={{
+                  width: "2rem",
+                  height: "2rem",
+                }}
+              />
+            )}
+            <span css={{ ...cssStickyMenuTitle }}>การลงมติล่าสุดของพรรค</span>
+          </div>
+          <div
+            ref={membersMenuRef}
+            css={{ ...cssStickyMenu, background: "#EEEEEE" }}
+          >
+            {membersArrow ? (
+              <ArrowDownOutlined
+                className={membersRotate ? "rotate-180" : ""}
+                css={{ fontSize: "2rem" }}
+              />
+            ) : (
+              <div
+                css={{
+                  width: "2rem",
+                  height: "2rem",
+                }}
+              />
+            )}
+            <span css={{ ...cssStickyMenuTitle }}>สมาชิกพรรคในสภา</span>
+          </div>
+        </div>
+      </section>
+
       {votelogs.length > 0 ? (
-        <section css={{ ...cssSection, background: "var(--cl-white)" }}>
+        <section
+          ref={voteLogsRef}
+          css={{ ...cssSection, background: "var(--cl-white)" }}
+        >
           <div className="container">
-            <h2 css={{ ...cssH1 }}>การลงมติล่าสุดของพรรค</h2>
+            <h2 css={{ ...cssH1, paddingTop: "6rem" }}>
+              การลงมติล่าสุดของพรรค
+            </h2>
             <div
               css={{
                 display: "flex",
@@ -391,7 +547,7 @@ const PartyPage = props => {
           </div>
         </section>
       ) : null}
-      <section css={{ ...cssSection, background: "#eeeeee" }}>
+      <section ref={membersRef} css={{ ...cssSection, background: "#eeeeee" }}>
         <div className="container">
           <h2
             css={{
