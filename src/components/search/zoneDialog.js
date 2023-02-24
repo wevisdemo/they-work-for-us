@@ -75,8 +75,11 @@ const ZoneDialog = ({ selected, zones, setIsZoneDialog, allPeople }) => {
   }
 
   React.useEffect(() => {
-    if (selected) document.body.style.position = "fixed"
-  })
+    if (selected) {
+      document.body.style.position = "fixed"
+      document.body.style.width = "100%"
+    }
+  }, [])
 
   const handleOnClose = () => {
     setIsZoneDialog(false)
@@ -159,7 +162,7 @@ const ZoneDialog = ({ selected, zones, setIsZoneDialog, allPeople }) => {
                         }}
                       >{`${title} ${name} ${lastname}`}</div>
                       <div
-                        style={{
+                        css={{
                           fontSize: "1.6rem",
                           [media(821)]: {
                             fontSize: "1.8rem",
