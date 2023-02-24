@@ -44,6 +44,7 @@ const Layout = ({ children, pageStyles, className }) => {
 
       <main
         style={{
+          position: "relative",
           width: "100%",
           flex: 1,
         }}

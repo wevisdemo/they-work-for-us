@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
-
+import { media } from "../styles"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Button from "../components/button"
@@ -9,6 +9,7 @@ import Hero from "../components/hero"
 import VoteLogCard from "../components/voteLogCard"
 import WaffleFilter from "../components/waffleFilter"
 import PartyGroupList from "../components/partyGroupList"
+import { Autocomplete, ZoneDialog } from "../components/search"
 
 export const query = graphql`
   {
@@ -101,11 +102,18 @@ export const query = graphql`
 const cssH1 = { fontSize: "4.8rem", marginTop: "4rem" }
 
 const cssSection = {
+  display: "flex",
   paddingTop: "3rem",
   paddingBottom: "8rem",
   h2: {
     fontSize: "4.8rem",
-    textAlign: "center",
+  },
+  h3: {
+    fontSize: "2.1rem",
+  },
+  flexDirection: "column",
+  [media(821)]: {
+    flexDirection: "row",
   },
 }
 const cssSectionWhite = {
@@ -152,6 +160,9 @@ const cssPartyTypeCard = {
 }
 
 const IndexPage = ({ data }) => {
+  const [isZoneDialog, setIsZoneDialog] = React.useState(false)
+  const [selected, setSelected] = React.useState()
+  const [zones, setZones] = React.useState([])
   return (
     <Layout
       pageStyles={{
@@ -159,13 +170,37 @@ const IndexPage = ({ data }) => {
       }}
     >
       <Seo title="Home" />
-      <section css={{ ...cssSection }}>
-        <div className="container">
+      {isZoneDialog && selected && (
+        <ZoneDialog
+          selected={selected}
+          zones={zones}
+          setIsZoneDialog={setIsZoneDialog}
+          allPeople={data.allPeopleYaml.edges}
+        />
+      )}
+      <section
+        css={{
+          ...cssSection,
+        }}
+        className="container"
+      >
+        <div
+          css={{
+            width: "100%",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            marginBottom: "3rem",
+            textAlign: "center",
+            [media(821)]: {
+              alignItems: "start",
+            },
+          }}
+        >
           <h1
             css={{
               fontSize: "6rem",
               fontWeight: "bold",
-              textAlign: "center",
               marginTop: 0,
               marginBottom: "1rem",
               paddingTop: "6rem",
@@ -175,38 +210,26 @@ const IndexPage = ({ data }) => {
           </h1>
           <h2
             css={{
-              fontSize: "4.8rem",
-              textAlign: "center",
               marginBottom: "8rem",
             }}
           >
             ค้นหา ตรวจสอบ โปร่งใส
           </h2>
-
-          <div css={{ margin: `0 auto 1.45rem` }}>
-            <Hero />
-
-            <div css={{ textAlign: "center" }}>
-              <Link
-                to="/about"
-                css={{
-                  padding: "1rem 4rem",
-                  fontFamily: "var(--ff-title)",
-                  fontSize: "2.4rem",
-                  color: "var(--cc-white)",
-                  textDecoration: "underline",
-                  border: "none",
-                  background: "none",
-                  "&:hover": {
-                    color: "gray",
-                  },
-                }}
-              >
-                เกี่ยวกับเรา
-              </Link>
-            </div>
-          </div>
+          <h3
+            css={{
+              marginTop: "4rem",
+            }}
+          >
+            ค้นหา ส.ส. เขตบ้านเรา
+          </h3>
+          <Autocomplete
+            setIsZoneDialog={setIsZoneDialog}
+            setSelected={setSelected}
+            selected={selected}
+            setZones={setZones}
+          />
         </div>
+        <Hero />
       </section>
 
       <section
