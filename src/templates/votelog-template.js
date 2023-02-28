@@ -9,7 +9,10 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import VoterList from "../components/voterList"
 import Waffle from "../components/waffle"
-import VoteLogLegend from "../components/voteLogLegend"
+import QuantityLegend from "../components/quantityLegend"
+
+import cross from "../images/icons/votelog/cross.png"
+
 import { media } from "../styles"
 
 export const query = graphql`
@@ -274,8 +277,38 @@ const VotelogPage = ({
             ...cssSection,
           }}
         >
-          <div css={{ marginBottom: "4rem" }}>
-            <VoteLogLegend {...votelogYaml} />
+          <div
+            css={{ display: "flex", flexWrap: "wrap", marginBottom: "4rem" }}
+          >
+            <QuantityLegend
+              text="เห็นด้วย"
+              boxSize={10}
+              quantity={votelogYaml.approve}
+              background={"var(--cl-vote-yes)"}
+            />
+            <QuantityLegend
+              text="ไม่เห็นด้วย"
+              boxSize={10}
+              quantity={votelogYaml.disprove}
+              background={"var(--cl-vote-no)"}
+            />
+            <QuantityLegend
+              text="งดออกเสียง"
+              boxSize={10}
+              quantity={votelogYaml.abstained}
+              background={"var(--cl-vote-abstained)"}
+            />
+            <QuantityLegend
+              text="ไม่ลงคะแนน"
+              boxSize={10}
+              quantity={votelogYaml.absent}
+            />
+            <QuantityLegend
+              text="ไม่เข้าประชุม"
+              boxSize={8}
+              quantity={votelogYaml.special}
+              imgSrc={cross}
+            />
           </div>
           <Waffle
             data={[
