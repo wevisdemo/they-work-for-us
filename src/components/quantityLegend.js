@@ -1,18 +1,11 @@
 import styled from "@emotion/styled"
 import React from "react"
 
-// Item for vote log.
-// Should accept props for
-// - Legend box
-// - Text
-// - Count.
-// + Refactor to emotion
 const LegendWrap = styled.span`
   margin-right: 1rem;
   display: flex;
   align-items: baseline;
   font-size: unset;
-  margin-top: 0.6rem;
   white-space: nowrap;
 `
 
