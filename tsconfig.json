@@ -1,0 +1,9 @@
+{
+  "include": ["tools/data-fetcher/*.ts"],
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  }
+}
