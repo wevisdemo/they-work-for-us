@@ -1,14 +1,14 @@
 import React from "react"
 import axios from "axios"
-import Select, { components } from "react-select"
-import Highlighter from "react-highlight-words"
+import Select from "react-select"
+import { customOption } from "./customOption"
 
 const getLocationOptions = () => axios.get("/content/locations.json")
 const getZones = () => axios.get("/content/zones.json")
 
 const Autocomplete = ({ setIsZoneDialog, setSelected, selected, setZones }) => {
   const [locationOptions, setLocationOptions] = React.useState([])
-  const [inputChange, setinputChange] = React.useState()
+  const [inputChange, setInputChange] = React.useState()
 
   React.useEffect(() => {
     let ignore = false
@@ -23,26 +23,6 @@ const Autocomplete = ({ setIsZoneDialog, setSelected, selected, setZones }) => {
       ignore = true
     }
   }, [])
-
-  const customOption = React.useCallback(
-    props => {
-      const { children } = props
-
-      return (
-        <components.Option {...props}>
-          <Highlighter
-            searchWords={[inputChange]}
-            textToHighlight={children}
-            highlightStyle={{
-              fontWeight: "bold",
-              background: "transparent",
-            }}
-          />
-        </components.Option>
-      )
-    },
-    [inputChange]
-  )
 
   const handleOnSearch = value => {
     setIsZoneDialog(true)
@@ -71,11 +51,11 @@ const Autocomplete = ({ setIsZoneDialog, setSelected, selected, setZones }) => {
           placeholder="พิมพ์ชื่อเขต/อำเภอ"
           noOptionsMessage={() => "ไม่มีชื่อเขต/อำเภอนี้"}
           onChange={({ value }) => handleOnSearch(value)}
-          onInputChange={value => setinputChange(value)}
+          onInputChange={value => setInputChange(value)}
           components={{
             DropdownIndicator: () => null,
             IndicatorSeparator: () => null,
-            Option: customOption,
+            Option: e => customOption(e, inputChange),
           }}
         />
         <div
