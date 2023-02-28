@@ -29,18 +29,29 @@ const LegendBox = styled.div`
 const QuantityLegend = ({
   text,
   boxSize,
+  imgSrc,
   background,
   quantity,
   isPercent,
   invertedBoldText,
 }) => {
-  const quantityDisplayText = () => {
-    return isPercent ? `${quantity}%` : `${quantity}`
-  }
+  const quantityDisplayText = () => (isPercent ? `${quantity}%` : `${quantity}`)
 
   return (
     <LegendWrap>
-      <LegendBox size={boxSize} background={background} />{" "}
+      {imgSrc ? (
+        <img
+          src={imgSrc}
+          width={boxSize}
+          height={boxSize}
+          style={{
+            marginRight: "4px",
+          }}
+          alt={text}
+        />
+      ) : (
+        <LegendBox size={boxSize} background={background} />
+      )}{" "}
       {invertedBoldText ? (
         <span>
           <b>{text}</b>
