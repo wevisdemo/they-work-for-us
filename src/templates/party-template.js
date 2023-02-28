@@ -201,6 +201,7 @@ const cssStickyContainer = {
 }
 
 const cssStickyMenu = {
+  color: "var(--cl-black)",
   width: "50%",
   display: "flex",
   justifyContent: "center",
@@ -235,8 +236,6 @@ const PartyPage = props => {
   const navRef = useRef(null)
   const voteLogsRef = useRef(null)
   const membersRef = useRef(null)
-  const voteLogsMenuRef = useRef(null)
-  const membersMenuRef = useRef(null)
 
   useEffect(() => {
     const navHeight = navRef.current?.offsetHeight || 0
@@ -249,35 +248,17 @@ const PartyPage = props => {
 
     document.addEventListener("scroll", e => {
       const scrollTop = document.documentElement.scrollTop
-      if (scrollTop >= topOfVoteLogs && scrollTop < bottomOfVoteLogs) {
-        setVoteLogsArrow(false)
-      } else {
-        setVoteLogsArrow(true)
-      }
-      if (scrollTop >= bottomOfVoteLogs) {
-        setVoteLogsRotate(true)
-      } else {
-        setVoteLogsRotate(false)
-      }
-      if (scrollTop >= topOfMembers && scrollTop < bottomOfMembers) {
-        setMembersArrow(false)
-      } else {
-        setMembersArrow(true)
-      }
-      if (scrollTop >= bottomOfMembers) {
-        setMembersRotate(true)
-      } else {
-        setMembersRotate(false)
-      }
+
+      const isFocusOnVoteLogs =
+        scrollTop >= topOfVoteLogs && scrollTop < bottomOfVoteLogs
+      setVoteLogsArrow(!isFocusOnVoteLogs)
+      setVoteLogsRotate(scrollTop >= bottomOfVoteLogs)
+
+      const isFocusOnMembers =
+        scrollTop >= topOfMembers && scrollTop < bottomOfMembers
+      setMembersArrow(!isFocusOnMembers)
+      setMembersRotate(scrollTop >= bottomOfMembers)
     })
-
-    voteLogsMenuRef.current?.addEventListener("click", () =>
-      jumpToVoteLogsSection()
-    )
-
-    membersMenuRef.current?.addEventListener("click", () =>
-      jumpToMembersSection()
-    )
   })
 
   const countMembers = filter => {
@@ -338,24 +319,6 @@ const PartyPage = props => {
         memberFilter.mp_type === "แบ่งเขต" ? "active" : "",
     },
   ]
-
-  const jumpToVoteLogsSection = () => {
-    window.scrollTo({
-      top:
-        (voteLogsRef.current?.offsetTop || 0) -
-        (navRef.current?.offsetHeight || 0),
-      behavior: "smooth",
-    })
-  }
-
-  const jumpToMembersSection = () => {
-    window.scrollTo({
-      top:
-        (membersRef.current?.offsetTop || 0) -
-        (navRef.current?.offsetHeight || 0),
-      behavior: "smooth",
-    })
-  }
 
   const {
     mp_type,
@@ -475,7 +438,7 @@ const PartyPage = props => {
             justifyContent: "space-between",
           }}
         >
-          <div ref={voteLogsMenuRef} css={{ ...cssStickyMenu }}>
+          <a href="#voteLogs" css={{ ...cssStickyMenu }}>
             {voteLogsArrow ? (
               <ArrowDownOutlined
                 className={voteLogsRotate ? "rotate-180" : ""}
@@ -490,11 +453,8 @@ const PartyPage = props => {
               />
             )}
             <span css={{ ...cssStickyMenuTitle }}>การลงมติล่าสุดของพรรค</span>
-          </div>
-          <div
-            ref={membersMenuRef}
-            css={{ ...cssStickyMenu, background: "#EEEEEE" }}
-          >
+          </a>
+          <a href="#members" css={{ ...cssStickyMenu, background: "#EEEEEE" }}>
             {membersArrow ? (
               <ArrowDownOutlined
                 className={membersRotate ? "rotate-180" : ""}
@@ -509,12 +469,13 @@ const PartyPage = props => {
               />
             )}
             <span css={{ ...cssStickyMenuTitle }}>สมาชิกพรรคในสภา</span>
-          </div>
+          </a>
         </div>
       </section>
 
       {votelogs.length > 0 ? (
         <section
+          id="voteLogs"
           ref={voteLogsRef}
           css={{ ...cssSection, background: "var(--cl-white)" }}
         >
@@ -547,7 +508,12 @@ const PartyPage = props => {
           </div>
         </section>
       ) : null}
-      <section ref={membersRef} css={{ ...cssSection, background: "#eeeeee" }}>
+
+      <section
+        id="members"
+        ref={membersRef}
+        css={{ ...cssSection, background: "#eeeeee" }}
+      >
         <div className="container">
           <h2
             css={{

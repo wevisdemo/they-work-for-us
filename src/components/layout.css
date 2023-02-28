@@ -5,6 +5,7 @@
 @import "@wevisdemo/ui/styles/components.css";
 
 html {
+  scroll-behavior: smooth;
   overflow-x: hidden;
 }
 
