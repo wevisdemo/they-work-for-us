@@ -93,9 +93,13 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{js,json,css}": [
+    "src/**/*.{js}": [
       "prettier --write",
       "eslint --fix",
+      "git add"
+    ],
+    "src/**/*.{json,css}": [
+      "prettier --write",
       "git add"
     ],
     "**/README.md": [
