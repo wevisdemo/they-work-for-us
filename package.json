@@ -46,6 +46,7 @@
     "gatsby-transformer-sharp": "^5.6.0",
     "gatsby-transformer-yaml": "^5.6.0",
     "googleapis": "^52.1.0",
+    "js-convert-case": "^4.2.0",
     "js-yaml": "^3.13.1",
     "lodash": "^4.17.20",
     "nocodb-sdk": "^0.105.3",
@@ -67,6 +68,7 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.19.1",
+    "@types/js-yaml": "^4.0.5",
     "babel-preset-gatsby": "^2.24.0",
     "csvtojson": "^2.0.10",
     "dayjs": "^1.10.4",

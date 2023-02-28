@@ -1,5 +1,9 @@
+import fs from "fs"
+import yaml from "js-yaml"
 import { Api } from "nocodb-sdk"
+import jsConvert from "js-convert-case"
 
+const OUT_DIR = "src/contents"
 const NOCODB_BASE_URL = "https://sheets.wevis.info"
 const NOCODB_TABLE_PARTIES = "40065196-c978-4d7a-b3fb-fb84694383a7"
 
@@ -23,7 +27,18 @@ const api = new Api({
 })
 
 async function main() {
-  console.log(await getAllRow(NOCODB_TABLE_PARTIES))
+  if (!fs.existsSync(OUT_DIR)) {
+    fs.mkdirSync(OUT_DIR)
+  }
+
+  console.log("Fetching parties...")
+  fs.writeFileSync(`${OUT_DIR}/party.yaml`, yaml.dump(await parseParties()))
+}
+
+async function parseParties() {
+  const parties = await getAllRow(NOCODB_TABLE_PARTIES)
+
+  return parties.map(party => jsConvert.snakeKeys(party))
 }
 
 async function getAllRow(viewId: string): Promise<unknown[]> {
