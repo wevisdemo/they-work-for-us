@@ -13,6 +13,7 @@ const ZoneDialog = ({ selected, zones, setIsZoneDialog, allPeople }) => {
     left: "50%",
     transform: "translate(-50%, -50%)",
     zIndex: "999",
+    backgroundColor: "rgba(0, 0, 0, 0.6)",
   }
   const cssDialog = {
     position: "relative",
@@ -74,16 +75,8 @@ const ZoneDialog = ({ selected, zones, setIsZoneDialog, allPeople }) => {
     return `ส.ส. ใน ‘อ. ${word[1]} จ. ${word[0]}’`
   }
 
-  React.useEffect(() => {
-    if (selected) {
-      document.body.style.position = "fixed"
-      document.body.style.width = "100%"
-    }
-  }, [])
-
   const handleOnClose = () => {
     setIsZoneDialog(false)
-    document.body.style.position = "unset"
   }
 
   return (
