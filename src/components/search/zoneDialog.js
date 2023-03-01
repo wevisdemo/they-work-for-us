@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import PeopleAvatar from "../peopleAvatar"
 import { media } from "../../styles"
 
@@ -32,10 +33,16 @@ const ZoneDialog = ({ selected, zones, setIsZoneDialog, allPeople }) => {
     },
   }
   const cssCard = {
+    display: "flex",
+    color: "black",
     marginTop: "1rem",
     border: "1px solid #9F9F9F",
     borderRadius: "10px",
     padding: "2rem",
+    "&:hover": {
+      backgroundColor: "var(--cl-gray-4)",
+      textDecoration: "none",
+    },
   }
   const imagePeople = {
     border: "2px solid #222222",
@@ -129,57 +136,51 @@ const ZoneDialog = ({ selected, zones, setIsZoneDialog, allPeople }) => {
           {title()}
         </div>
         <div>
-          {filteredPeoples.map((item, key) => (
-            <div key={key} css={{ ...cssCard }}>
-              {(() => {
-                const {
-                  title,
-                  name,
-                  lastname,
-                  mp_province,
-                  mp_zone,
-                  party,
-                } = item.node
-                return (
-                  <div style={{ display: "flex" }}>
-                    <div css={{ ...imagePeople }}>
-                      <PeopleAvatar {...item.node} />
-                    </div>
+          {filteredPeoples.map(({ node }, key) => {
+            const { title, name, lastname, mp_province, mp_zone, party } = node
+
+            return (
+              <Link
+                key={key}
+                css={{ ...cssCard }}
+                to={`/people/${name}-${lastname}`}
+              >
+                <div css={{ ...imagePeople }}>
+                  <PeopleAvatar {...node} />
+                </div>
+                <div>
+                  <div
+                    css={{
+                      fontSize: "1.8rem",
+                      [media(821)]: {
+                        fontSize: "2.4rem",
+                      },
+                    }}
+                  >{`${title} ${name} ${lastname}`}</div>
+                  <div
+                    css={{
+                      fontSize: "1.6rem",
+                      [media(821)]: {
+                        fontSize: "1.8rem",
+                      },
+                    }}
+                  >
                     <div>
-                      <div
-                        css={{
-                          fontSize: "1.8rem",
-                          [media(821)]: {
-                            fontSize: "2.4rem",
-                          },
-                        }}
-                      >{`${title} ${name} ${lastname}`}</div>
-                      <div
-                        css={{
-                          fontSize: "1.6rem",
-                          [media(821)]: {
-                            fontSize: "1.8rem",
-                          },
-                        }}
-                      >
-                        <div>
-                          {`ส.ส. แบ่งเขต จังหวัด${mp_province}, เขต ${mp_zone}`}
-                        </div>
-                        <div style={{ color: "var(--cl-gray-1)" }}>
-                          (
-                          {filterdArea(mp_zone)[0]
-                            .areas.map(area => `อำเภอ${area}`)
-                            .join(" + ")}
-                          )
-                        </div>
-                        <div>พรรค{party}</div>
-                      </div>
+                      {`ส.ส. แบ่งเขต จังหวัด${mp_province}, เขต ${mp_zone}`}
                     </div>
+                    <div style={{ color: "var(--cl-gray-1)" }}>
+                      (
+                      {filterdArea(mp_zone)[0]
+                        .areas.map(area => `อำเภอ${area}`)
+                        .join(" + ")}
+                      )
+                    </div>
+                    <div>พรรค{party}</div>
                   </div>
-                )
-              })()}
-            </div>
-          ))}
+                </div>
+              </Link>
+            )
+          })}
         </div>
       </div>
     </div>
