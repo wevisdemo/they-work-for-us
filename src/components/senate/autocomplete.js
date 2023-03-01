@@ -10,6 +10,7 @@ import search from "../../images/icons/search/search-grey.png"
 import { media } from "../../styles"
 import _ from "lodash"
 import PeopleAvatar from "../peopleAvatar"
+import VoteLegendGroup from "../voteLegend/voteSenateGroup"
 
 const cssContainer = ({ isShowAll }) => ({
   display: "flex",
@@ -116,6 +117,14 @@ const cssClearIcon = {
   },
   "&:after": {
     transform: "rotate(-45deg)",
+  },
+}
+const cssAvgVoteLegend = {
+  display: "flex",
+  flexWrap: "wrap",
+  justifyContent: "center",
+  [media(767)]: {
+    justifyContent: "unset",
   },
 }
 const cssSearchIcon = {
@@ -455,9 +464,9 @@ const AutoComplete = ({
 
   const calLegend = () => {
     const numberType = _.groupBy(getAllPeopleVotes(), "senator_method")
-    const sumVoteGovernment = numberType["เลือกโดย คสช."].length
-    const sumVotePosition = numberType["โดยตำแหน่ง"].length
-    const sumVoteCareer = numberType["เลือกกันเอง"].length
+    const sumVoteGovernment = numberType["เลือกโดย คสช."]?.length ?? 0
+    const sumVotePosition = numberType["โดยตำแหน่ง"]?.length ?? 0
+    const sumVoteCareer = numberType["เลือกกันเอง"]?.length ?? 0
     const sumTotal =
       totalVotelogType.approve +
       totalVotelogType.disprove +
@@ -530,6 +539,7 @@ const AutoComplete = ({
 
   const colors = ["#76C8B8", "#F0324B", "#2D3480", "#7B90D1", "#E3E3E3"]
 
+  console.log(avgVotelog)
   return (
     <div css={cssContainer({ isShowAll })}>
       {isShowAll ? (
@@ -552,7 +562,9 @@ const AutoComplete = ({
           <span css={cssAvg} style={{ margin: "0 1.5rem" }}>
             โดยเฉลี่ย
           </span>
-          <VoteLogLegend {...avgVotelog} />
+          <div css={cssAvgVoteLegend}>
+            <VoteLegendGroup voteLog={avgVotelog} />
+          </div>
         </div>
       ) : (
         <div css={cssWrapper({ isShowAll })}>

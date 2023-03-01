@@ -1,23 +1,4 @@
-import styled from "@emotion/styled"
 import React from "react"
-
-const LegendWrap = styled.span`
-  margin-right: 1rem;
-  display: flex;
-  align-items: baseline;
-  font-size: unset;
-  white-space: nowrap;
-`
-
-const LegendBox = styled.div`
-  display: inline-box;
-  box-sizing: border-box;
-  border: 1px solid ${props => props.background ?? "var(--cl-black)"};
-  background-color: ${props => props.background ?? "var(--cl-white)"};
-  width: ${props => props.size}px;
-  height: ${props => props.size}px;
-  margin-right: 4px;
-`
 
 const QuantityLegend = ({
   text,
@@ -27,11 +8,23 @@ const QuantityLegend = ({
   quantity,
   isPercent,
   invertedBoldText,
+  wrapStyle,
+  boxStyle,
+  descTextStyle,
 }) => {
   const quantityDisplayText = () => (isPercent ? `${quantity}%` : `${quantity}`)
 
   return (
-    <LegendWrap>
+    <div
+      css={{
+        marginRight: "1rem",
+        display: "flex",
+        alignItems: "baseline",
+        fontSize: "unset",
+        whiteSpace: "nowrap",
+        ...wrapStyle,
+      }}
+    >
       {imgSrc ? (
         <img
           src={imgSrc}
@@ -43,19 +36,30 @@ const QuantityLegend = ({
           alt={text}
         />
       ) : (
-        <LegendBox size={boxSize} background={background} />
+        <div
+          css={{
+            display: "inline-box",
+            boxSizing: "border-box",
+            border: `1px solid ${background ?? "var(--cl-black)"}`,
+            backgroundColor: `${background ?? "var(--cl-white)"}`,
+            marginRight: "4px",
+            width: boxSize,
+            height: boxSize,
+            ...boxStyle,
+          }}
+        />
       )}{" "}
       {invertedBoldText ? (
         <span>
-          <b>{text}</b>
+          <b style={{ ...descTextStyle }}>{`${text} `}</b>
           {quantityDisplayText()}
         </span>
       ) : (
         <span>
-          {text} <b>{quantityDisplayText()}</b>
+          {`${text} `} <b>{quantityDisplayText()}</b>
         </span>
       )}
-    </LegendWrap>
+    </div>
   )
 }
 
