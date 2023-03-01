@@ -6,23 +6,28 @@ import FeatureIcon from "./featureIcon"
 const HeroFeature = ({ title, subtitle, image }) => (
   <div
     style={{
-      margin: "1.6rem",
+      marginBottom: "1.6rem",
+      marginLeft: "2rem",
+      marginRight: "2rem",
       display: "flex",
-      flexDirection: "column",
-      alignItems: "center",
-      width: "calc((var(--container-width) / 3) - 3.2rem)",
-      minWidth: "200px",
       flex: "1",
       padding: "0 .5rem",
     }}
   >
     <FeatureIcon image={image} />
-    <h2
-      style={{ textAlign: "center", fontSize: "2.4rem", marginBottom: "2rem" }}
+
+    <div
+      style={{ flexDirection: "column", display: "flex", marginLeft: "1.6rem" }}
     >
-      {title}
-    </h2>
-    <p style={{ textAlign: "center", fontSize: "1.8rem" }}>{subtitle}</p>
+      <h2
+        style={{
+          fontSize: "2.4rem",
+        }}
+      >
+        {title}
+      </h2>
+      <div style={{ fontSize: "1.8rem", marginBottom: "1rem" }}>{subtitle}</div>
+    </div>
   </div>
 )
 

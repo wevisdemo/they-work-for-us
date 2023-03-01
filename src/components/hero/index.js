@@ -1,10 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-
 import "../../styles/global.css"
-
 import HeroFeature from "./feature"
-import { media } from "../../styles"
 
 const Hero = () => {
   const data = useStaticQuery(graphql`
@@ -41,9 +38,6 @@ const Hero = () => {
         alignContent: "center",
         marginTop: "2rem",
         marginBottom: "5rem",
-        [media(767)]: {
-          flexDirection: "row",
-        },
       }}
     >
       <HeroFeature
