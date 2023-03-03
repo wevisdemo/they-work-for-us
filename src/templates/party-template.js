@@ -25,6 +25,7 @@ export const query = graphql`
       en {
         name
       }
+      description
       established_date
       dissolved_date
       color
