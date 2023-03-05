@@ -543,7 +543,6 @@ const AutoComplete = ({
 
   const colors = ["#76C8B8", "#F0324B", "#2D3480", "#7B90D1", "#E3E3E3"]
 
-  console.log(avgVotelog)
   return (
     <div css={cssContainer({ isShowAll })}>
       {isShowAll ? (
