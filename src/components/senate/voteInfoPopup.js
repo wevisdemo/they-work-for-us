@@ -249,17 +249,6 @@ const VoteInfoPopup = ({
                 marginTop: "4rem",
               }}
             >
-              {/* <VoteLogLegend type="popup" {...countVotelog} /> */}
-              {/* <VoteLegendGroup
-                voteLog={countVotelog}
-                overrideBoxStyle={{
-                  [media(767)]: {
-                    width: "8px",
-                    height: "8px",
-                  },
-                }}
-                // isAverageCount={false}
-              /> */}
               <VoteLegendPopupGroup voteLog={countVotelog} />
             </div>
           </section>

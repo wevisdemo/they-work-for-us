@@ -162,6 +162,10 @@ const cssMobile = {
     display: "none",
   },
 }
+const cssVotelog = {
+  display: "flex",
+  alignItems: "end",
+}
 
 const AutoComplete = ({
   senatorTypeId,
@@ -563,7 +567,7 @@ const AutoComplete = ({
             โดยเฉลี่ย
           </span>
           <div css={cssAvgVoteLegend}>
-            <VoteLegendGroup voteLog={avgVotelog} />
+            <VoteLegendGroup voteLog={avgVotelog} hasAverageText />
           </div>
         </div>
       ) : (
@@ -573,18 +577,24 @@ const AutoComplete = ({
             style={{ width: barchartGroupWidth[0] + 230 }}
           >
             <span css={cssGroup}>โดยตำแหน่ง</span>
-            <VoteLogLegend type="group" {...select_by_position} />
+            <div css={cssVotelog}>
+              <VoteLegendGroup voteLog={select_by_position} isSmallText />
+            </div>
           </div>
           <div
             css={cssTypeDetails}
             style={{ width: barchartGroupWidth[1] + 105 }}
           >
             <span css={cssGroup}>คสช. สรรหา</span>
-            <VoteLogLegend type="group" {...select_by_government} />
+            <div css={cssVotelog}>
+              <VoteLegendGroup voteLog={select_by_government} isSmallText />
+            </div>
           </div>
           <div css={cssTypeDetails} style={{ width: barchartGroupWidth[2] }}>
             <span css={cssGroup}>ตามกลุ่มอาชีพ</span>
-            <VoteLogLegend type="group" {...select_by_career} />
+            <div css={cssVotelog}>
+              <VoteLegendGroup voteLog={select_by_career} isSmallText />
+            </div>
           </div>
           <div css={cssDropdown}>
             <DropDown

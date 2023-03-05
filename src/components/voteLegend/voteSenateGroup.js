@@ -21,6 +21,12 @@ const wrapStyle = {
   },
 }
 
+const smallWrapStyle = {
+  display: "flex",
+  justifyContent: "flex-start",
+  fontSize: "1rem",
+}
+
 const boxStyle = {
   width: "8px",
   height: "8px",
@@ -30,6 +36,12 @@ const boxStyle = {
   },
 }
 
+const smallBoxStyle = {
+  width: "3px",
+  height: "10px",
+  marginRight: "0",
+}
+
 const descTextStyle = {
   margin: "0 0.5rem",
   [media(767)]: {
@@ -37,55 +49,60 @@ const descTextStyle = {
   },
 }
 
-const VoteLegendGroup = ({ voteLog }) => {
+const smallDescTextStyle = {
+  margin: "0",
+  marginRight: "0.7rem",
+}
+
+const VoteLegendGroup = ({ voteLog, hasAverageText, isSmallText }) => {
   return (
     <>
-      <div css={styleAvgText}>โดยเฉลี่ย</div>
+      {hasAverageText && <div css={styleAvgText}>โดยเฉลี่ย</div>}
       <QuantityLegend
-        text="เห็นด้วย"
-        wrapStyle={wrapStyle}
-        boxStyle={boxStyle}
-        descTextStyle={descTextStyle}
+        text={!isSmallText ? "เห็นด้วย" : ""}
+        wrapStyle={isSmallText ? smallWrapStyle : wrapStyle}
+        boxStyle={isSmallText ? smallBoxStyle : boxStyle}
+        descTextStyle={isSmallText ? smallDescTextStyle : descTextStyle}
         quantity={voteLog.approve}
         background={"var(--cl-vote-yes)"}
         invertedBoldText
         isPercent
       />
       <QuantityLegend
-        text="ไม่เห็นด้วย"
-        wrapStyle={wrapStyle}
-        boxStyle={boxStyle}
-        descTextStyle={descTextStyle}
+        text={!isSmallText ? "ไม่เห็นด้วย" : ""}
+        wrapStyle={isSmallText ? smallWrapStyle : wrapStyle}
+        boxStyle={isSmallText ? smallBoxStyle : boxStyle}
+        descTextStyle={isSmallText ? smallDescTextStyle : descTextStyle}
         quantity={voteLog.disprove}
         background={"var(--cl-vote-no)"}
         invertedBoldText
         isPercent
       />
       <QuantityLegend
-        text="งดออกเสียง"
-        wrapStyle={wrapStyle}
-        boxStyle={boxStyle}
-        descTextStyle={descTextStyle}
+        text={!isSmallText ? "งดออกเสียง" : ""}
+        wrapStyle={isSmallText ? smallWrapStyle : wrapStyle}
+        boxStyle={isSmallText ? smallBoxStyle : boxStyle}
+        descTextStyle={isSmallText ? smallDescTextStyle : descTextStyle}
         quantity={voteLog.abstained}
         background={"var(--cl-senate-vote-abstained)"}
         invertedBoldText
         isPercent
       />
       <QuantityLegend
-        text="ไม่ลงมติ"
-        wrapStyle={wrapStyle}
-        boxStyle={boxStyle}
-        descTextStyle={descTextStyle}
+        text={!isSmallText ? "ไม่ลงมติ" : ""}
+        wrapStyle={isSmallText ? smallWrapStyle : wrapStyle}
+        boxStyle={isSmallText ? smallBoxStyle : boxStyle}
+        descTextStyle={isSmallText ? smallDescTextStyle : descTextStyle}
         quantity={voteLog.absent}
         background={"var(--cl-senate-vote-absent)"}
         invertedBoldText
         isPercent
       />
       <QuantityLegend
-        text="ไม่ลงคะแนน"
-        wrapStyle={wrapStyle}
-        boxStyle={boxStyle}
-        descTextStyle={descTextStyle}
+        text={!isSmallText ? "ไม่ลงคะแนน" : ""}
+        wrapStyle={isSmallText ? smallWrapStyle : wrapStyle}
+        boxStyle={isSmallText ? smallBoxStyle : boxStyle}
+        descTextStyle={isSmallText ? smallDescTextStyle : descTextStyle}
         quantity={voteLog.missing}
         background={"var(--cl-senate-vote-missing)"}
         invertedBoldText

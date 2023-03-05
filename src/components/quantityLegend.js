@@ -51,12 +51,12 @@ const QuantityLegend = ({
       )}{" "}
       {invertedBoldText ? (
         <span>
-          <b style={{ ...descTextStyle }}>{`${text} `}</b>
+          <b style={{ ...descTextStyle }}>{text ? `${text} ` : ""}</b>
           {quantityDisplayText()}
         </span>
       ) : (
         <span>
-          {`${text} `} <b>{quantityDisplayText()}</b>
+          {text ? `${text} ` : ""} <b>{quantityDisplayText()}</b>
         </span>
       )}
     </div>
