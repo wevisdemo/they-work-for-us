@@ -3,9 +3,8 @@ import dayjs from "dayjs"
 import { Link } from "gatsby"
 import { css } from "@emotion/react"
 
-import VoteLogLegend from "./voteLogLegend"
-
 import "../styles/global.css"
+import QuantityLegend from "./quantityLegend"
 
 const VoteLogCard = votelog => {
   const {
@@ -165,11 +164,31 @@ const VoteLogCard = votelog => {
         </div>
         <div
           style={{
+            display: "flex",
+            flexWrap: "wrap",
             padding: "1rem 0",
             fontSize: "14px",
           }}
         >
-          <VoteLogLegend {...votelog} />
+          <QuantityLegend
+            text="เห็นด้วย"
+            boxSize={8}
+            quantity={approve}
+            background={"var(--cl-vote-yes)"}
+          />
+          <QuantityLegend
+            text="ไม่เห็นด้วย"
+            boxSize={8}
+            quantity={disprove}
+            background={"var(--cl-vote-no)"}
+          />
+          <QuantityLegend
+            text="งดออกเสียง"
+            boxSize={8}
+            quantity={abstained}
+            background={"var(--cl-vote-abstained)"}
+          />
+          <QuantityLegend text="ไม่ลงคะแนน" boxSize={8} quantity={absent} />
         </div>
         <h6 style={{ fontSize: "2rem" }}>
           {dayjs(vote_date).format("D.M.YYYY")}
