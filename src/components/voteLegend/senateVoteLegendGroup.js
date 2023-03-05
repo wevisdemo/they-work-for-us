@@ -54,7 +54,7 @@ const smallDescTextStyle = {
   marginRight: "0.7rem",
 }
 
-const VoteLegendGroup = ({ voteLog, hasAverageText, isSmallText }) => {
+const SenateVoteLegendGroup = ({ voteLog, hasAverageText, isSmallText }) => {
   return (
     <>
       {hasAverageText && <div css={styleAvgText}>โดยเฉลี่ย</div>}
@@ -112,4 +112,4 @@ const VoteLegendGroup = ({ voteLog, hasAverageText, isSmallText }) => {
   )
 }
 
-export default VoteLegendGroup
+export default SenateVoteLegendGroup

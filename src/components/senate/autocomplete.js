@@ -10,7 +10,7 @@ import search from "../../images/icons/search/search-grey.png"
 import { media } from "../../styles"
 import _ from "lodash"
 import PeopleAvatar from "../peopleAvatar"
-import VoteLegendGroup from "../voteLegend/voteSenateGroup"
+import SenateVoteLegendGroup from "../voteLegend/senateVoteLegendGroup"
 
 const cssContainer = ({ isShowAll }) => ({
   display: "flex",
@@ -566,7 +566,7 @@ const AutoComplete = ({
             โดยเฉลี่ย
           </span>
           <div css={cssAvgVoteLegend}>
-            <VoteLegendGroup voteLog={avgVotelog} hasAverageText />
+            <SenateVoteLegendGroup voteLog={avgVotelog} hasAverageText />
           </div>
         </div>
       ) : (
@@ -577,7 +577,7 @@ const AutoComplete = ({
           >
             <span css={cssGroup}>โดยตำแหน่ง</span>
             <div css={cssVotelog}>
-              <VoteLegendGroup voteLog={select_by_position} isSmallText />
+              <SenateVoteLegendGroup voteLog={select_by_position} isSmallText />
             </div>
           </div>
           <div
@@ -586,13 +586,16 @@ const AutoComplete = ({
           >
             <span css={cssGroup}>คสช. สรรหา</span>
             <div css={cssVotelog}>
-              <VoteLegendGroup voteLog={select_by_government} isSmallText />
+              <SenateVoteLegendGroup
+                voteLog={select_by_government}
+                isSmallText
+              />
             </div>
           </div>
           <div css={cssTypeDetails} style={{ width: barchartGroupWidth[2] }}>
             <span css={cssGroup}>ตามกลุ่มอาชีพ</span>
             <div css={cssVotelog}>
-              <VoteLegendGroup voteLog={select_by_career} isSmallText />
+              <SenateVoteLegendGroup voteLog={select_by_career} isSmallText />
             </div>
           </div>
           <div css={cssDropdown}>
