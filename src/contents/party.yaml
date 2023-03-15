@@ -1,171 +1,139 @@
-- id: '1'
-  name: สภาผู้แทนราษฎรไทย
-  en:
-    name: House of Representatives
-    short_name: ''
-  short_name: ส.ส.
-  color: ''
+- name: สภาผู้แทนราษฎร
+  color: null
   party_type: สส
-  party_ordinal: 25
-  party_group: ''
+  party_ordinal: '25'
+  party_group: null
   description: >-
-    เป็นส่วนหนึ่งของฝ่ายนิติบัญญัติ ที่ได้มาจากการเลือกตั้งทั่วไป พ.ศ. 2562
+    ส่วนหนึ่งของฝ่ายนิติบัญญัติ ที่มาจากการเลือกตั้งทั่วไป พ.ศ. 2562
     ประกอบด้วยสมาชิก (ส.ส.) 500 คนตามระบบจัดสรรปันส่วนผสม โดย 350
     คนเป็นผู้แทนเขต และอีก 150 คนมาจากระบบบัญชีรายชื่อ
     ฝ่ายรัฐบาลเป็นรัฐบาลผสมพรรคพลังประชารัฐ
-    ส่วนฝ่ายค้านคือพรรคเพื่อไทยและพรรคร่วมฝ่ายค้านอีก 6 พรรค
   established_date: '2019-03-24'
-  dissolved_date: ''
+  dissolved_date: null
   speaker: นาย ชวน หลีกภัย
   first_deputy_speaker: นาย สุชาติ ตันเจริญ
   second_deputy_speaker: นาย ศุภชัย โพธิ์สุ
-  opposition_leader: นาย สมพงษ์ อมรวิวัฒน์
-  party_leader: ''
-  party_secretary: ''
+  whip: นาย นิโรธ สุนทรเลขา
+  opposition_leader: นาย ชลน่าน ศรีแก้ว
+  party_leader: null
+  party_secretary: null
   website: 'https://www.parliament.go.th'
   facebook: 'https://www.facebook.com/thaiparliament'
-  twitter: ''
+  twitter: null
   is_active: true
-- id: '2'
-  name: วุฒิสภาไทย
-  en:
-    name: Senate
-    short_name: ''
-  short_name: ส.ว
-  color: ''
+  id: 1
+  en_name: House of Representatives
+  images: null
+- name: วุฒิสภา
+  color: null
   party_type: สว
-  party_ordinal: 12
-  party_group: ''
+  party_ordinal: '12'
+  party_group: null
   description: >-
-    เป็นส่วนหนึ่งของฝ่ายนิติบัญญัติ มีสมาชิก (ส.ว.) 250
-    คนที่ไม่ได้มาจากการเลือกตั้ง โดย 244 คนมาจากการสรรหา และอีก 6
-    คนเป็นสมาชิกโดยตำแหน่ง
-    วุฒิสภาชุดดังกล่าวมีอำนาจเพิ่มเติมตามบทเฉพาะกาลของรัฐธรรมนูญให้ร่วมเลือกนายกรัฐมนตรีและเร่งรัดการปฏิรูปประเทศของคณะรัฐมนตรีตลอดจนพิจารณากฎหมายที่เห็นว่าเกี่ยวข้อง
+    ส่วนหนึ่งของฝ่ายนิติบัญญัติ มีสมาชิก (ส.ว.) 250 คนที่ไม่ได้มาจากการเลือกตั้ง
+    โดย 244 คนมาจากการสรรหา และอีก 6 คนเป็นสมาชิกโดยตำแหน่ง
+    มีอำนาจเพิ่มเติมตามบทเฉพาะกาลของรัฐธรรมนูญให้ร่วมเลือกนายกรัฐมนตรีและเร่งรัดการปฏิรูปประเทศของคณะรัฐมนตรีตลอดจนพิจารณากฎหมายที่เห็นว่าเกี่ยวข้อง
   established_date: '2019-05-28'
-  dissolved_date: ''
-  speaker: นาย พรเพชร วิชิตชลชัย
-  first_deputy_speaker: นาย สิงห์ศึก สิงห์ไพร
+  dissolved_date: null
+  speaker: ศาสตราจารย์พิเศษ พรเพชร วิชิตชลชัย
+  first_deputy_speaker: พลเอก สิงห์ศึก สิงห์ไพร
   second_deputy_speaker: นาย ศุภชัย สมเจริญ
-  opposition_leader: ''
-  party_leader: ''
-  party_secretary: ''
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
   website: 'https://www.senate.go.th'
   facebook: 'https://www.facebook.com/SenateThailand'
-  twitter: ''
+  twitter: null
   is_active: true
-- id: '3'
-  name: คณะรัฐมนตรีไทย
-  en:
-    name: Cabinet
-    short_name: ''
-  short_name: ครม.
-  color: ''
+  id: 2
+  en_name: Senate
+  images: null
+- name: คณะรัฐมนตรี
+  color: null
   party_type: ครม
-  party_ordinal: 62
-  party_group: ''
+  party_ordinal: '62'
+  party_group: null
   description: >-
-    เป็นคณะบุคคลที่ทำหน้าที่บริหารราชการแผ่นดิน โดย ครม. ชุดนี้
+    คณะบุคคลที่ทำหน้าที่บริหารราชการแผ่นดิน โดย ครม. ชุดนี้
     เกิดจากการนำของพรรคพลังประชารัฐ ร่วมกับพรรคการเมืองอีก 19 พรรคเสนอชื่อพลเอก
     ประยุทธ์ จันทร์โอชา ซึ่งเคยดำรงตำแหน่งนายกฯ และหัวหน้าคสช. มาเป็นเวลา 5 ปี
     เป็นนายกรัฐมนตรีต่ออีกสมัย ทำให้ ครม.
     ชุดนี้มีอีกชื่อเรียกว่าคณะรัฐมนตรีประยุทธ์ 2
   established_date: '2019-07-10'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
-  party_leader: ''
-  party_secretary: ''
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
   website: 'https://www.thaigov.go.th'
   facebook: 'https://www.facebook.com/ThaigovSpokesman'
-  twitter: ''
+  twitter: null
   is_active: true
-- id: '4'
-  name: ครูไทยเพื่อประชาชน
-  en:
-    name: Thai Teachers For People
-    short_name: T.T.P.P.
-  short_name: ค.พ.ช.
-  color: '#175a38'
+  id: 3
+  en_name: Cabinet
+  images: null
+- name: ครูไทยเพื่อประชาชน
+  color: '#025032'
   party_type: พรรค
   party_ordinal: null
   party_group: ร่วมรัฐบาล
   description: >-
-    จัดตั้งขึ้นโดยเครือข่ายองค์กรครู
-    เพื่อนำเสนอนโยบายแนวทางการแก้ปัญหาวิกฤติของชาติโดยเน้นเรื่องการศึกษาและบุคลากรทางการศึกษา
+    จัดตั้งขึ้นเพื่อนำเสนอแนวนโยบายหลักในการปลดหนี้สินครู
+    และกองทุนเงินให้กู้ยืมเพื่อการศึกษา
   established_date: '2011-06-28'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
   party_leader: นาย ปรีดา บุญเพลิง
-  party_secretary: นาย สุวิชญ์ โยทองยศ
-  website: ''
+  party_secretary: นาย ชัยพร ธนถาวรกิจ
+  website: null
   facebook: 'https://www.facebook.com/thaiteachersforpeopleparty/'
-  twitter: ''
+  twitter: null
   is_active: true
-- id: '5'
-  name: ชาติไทยพัฒนา
-  en:
-    name: Chartthaipattana
-    short_name: CP
-  short_name: ชทพ.
-  color: '#ff72a8'
+  id: 4
+  en_name: Thai Teacher for People Party
+  images:
+    - title: ครูไทยเพื่อประชาชน.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ครูไทยเพื่อประชาชน.jpg
+      mimetype: image/jpg
+- name: ชาติไทยพัฒนา
+  color: '#FF5BD1'
   party_type: พรรค
   party_ordinal: null
   party_group: ร่วมรัฐบาล
   description: >-
     จัดตั้งขึ้นเพื่อรองรับ ส.ส. จากพรรคชาติไทย ซึ่งถูกยุบพรรคในปี 2551
     มีฐานเสียงหลักอยู่ที่จังหวัดสุพรรณบุรี
-    และมีจุดยืนที่ปรับตัวได้กับทุกฝ่ายจึงมักได้ร่วมรัฐบาลอยู่เสมอ
   established_date: '2008-04-18'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
-  party_leader: นางสาว กัญจนา ศิลปอาชา
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: นาย วราวุธ ศิลปอาชา
   party_secretary: นาย ประภัตร โพธสุธน
   website: 'http://www.chartthaipattana.or.th'
   facebook: 'https://www.facebook.com/pg/ChartthaipattanaParty'
   twitter: 'https://twitter.com/ChartthaiPT'
   is_active: true
-- id: '6'
-  name: ชาติพัฒนา
-  en:
-    name: Chartpattana
-    short_name: CPN.
-  short_name: ชพน.
-  color: '#ffaf41'
-  party_type: พรรค
-  party_ordinal: null
-  party_group: ร่วมรัฐบาล
-  description: >-
-    เป็นการรวมกันของกลุ่มรวมใจไทยกับกลุ่มชาติพัฒนาเก่า
-    ที่เคยประกาศยุบไปรวมกับไทยรักไทยแล้วแยกออกมาใหม่
-    ฐานเสียงหลักอยู่ที่จังหวัดนครราชสีมา
-    มีจุดยืนที่ปรับตัวได้กับทุกฝ่ายจึงมักได้ร่วมรัฐบาลอยู่เสมอ
-  established_date: '2007-10-03'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
-  party_leader: นาย เทวัญ ลิปตพัลลภ
-  party_secretary: นาย ดล เหตระกูล
-  website: 'http://www.chartpattana.com/'
-  facebook: 'https://www.facebook.com/ChartpattanaParty/'
-  twitter: 'https://twitter.com/chartpattana'
-  is_active: true
-- id: '7'
-  name: ไทยศรีวิไลย์
-  en:
-    name: Thai Civilized
-    short_name: TCL.
-  short_name: ทศล.
-  color: '#0c5197'
+  id: 5
+  en_name: Chartthaipattana Party
+  images:
+    - title: ชาติไทยพัฒนา.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ชาติไทยพัฒนา.jpg
+      mimetype: image/jpg
+- name: ไทยศรีวิไลย์
+  color: '#3680C2'
   party_type: พรรค
   party_ordinal: null
   party_group: ฝ่ายค้าน
@@ -174,78 +142,87 @@
     เลขาธิการภาคีเครือข่ายต่อต้านการทุจริตคอร์รัปชั่นแห่งชาติ หลังการเลือกตั้งปี
     62 ได้เข้าเป็นพรรคร่วมรัฐบาลระยะหนึ่ง ก่อนประกาศถอนตัวและขอเป็นฝ่ายค้านอิสระ
   established_date: '2018-10-24'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
   party_leader: นาย มงคลกิตติ์ สุขสินธารานนท์
-  party_secretary: นาย วิวัฒน์ เจริญพาณิชย์ศิริ
-  website: ''
+  party_secretary: นาย ศยุน ชัยปัญญา
+  website: null
   facebook: 'https://www.facebook.com/THAICIVILIZEDPARTY/'
-  twitter: ''
+  twitter: null
   is_active: true
-- id: '8'
-  name: ไทรักธรรม
-  en:
-    name: Thairaktham
-    short_name: T.T.
-  short_name: ท.ธ.
+  id: 7
+  en_name: Thai Civilized Party
+  images:
+    - title: ไทยศรีวิไลย์.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ไทยศรีวิไลย์.jpg
+      mimetype: image/jpg
+- name: ไทรักธรรม
   color: '#e43ba2'
   party_type: พรรค
   party_ordinal: null
-  party_group: ''
+  party_group: ร่วมรัฐบาล
   description: >-
     มีชื่อเดิมว่า 'พรรคไทยรักธรรม' ในการเลือกตั้งปี 62 ได้รับเลือกตั้ง
     ส.ส.แบบบัญชีรายชื่อ 1 คน แต่ต่อมา กกต. ประกาศให้พ้นจากสภาพ ส.ส.
     เนื่องจากมีการเลือกตั้งซ่อมในจังหวัดเชียงใหม่ เขต 8
     ส่งผลให้มีการคำนวณคะแนนใหม่
   established_date: '2013-08-16'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
+  dissolved_date: '2022-10-19'
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
   party_leader: นาย พีระวิทย์ เรื่องลือดลภาค
   party_secretary: นาย จตุรวิทย์ กาละมิตร์
-  website: ''
+  website: null
   facebook: 'https://www.facebook.com/Thairaktham/'
-  twitter: ''
-  is_active: true
-- id: '9'
-  name: ประชาชาติ
-  en:
-    name: Prachachat
-    short_name: PCC.
-  short_name: ปช.
-  color: '#a35f26'
+  twitter: null
+  is_active: false
+  id: 8
+  en_name: Tairaktham Party
+  images:
+    - title: ไทรักธรรม.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ไทรักธรรม.jpg
+      mimetype: image/jpg
+- name: ประชาชาติ
+  color: '#A56F05'
   party_type: พรรค
   party_ordinal: null
   party_group: ฝ่ายค้าน
   description: >-
-    เป็นจากการรวมตัวกันของกลุ่มบุคคลที่มีความหลากหลายในเชิงถิ่นกำเนิด ชาติพันธุ์
-    และวัฒนธรรม โดยเน้นการทำงานทางการเมืองเพื่อสร้างชาติที่เป็นสังคมพหุวัฒนธรรม
-    โดย 6 ที่นั่งของ ส.ส. เขตที่ได้รับเลือกในการเลือกตั้งปี 62
+    เป็นจากการรวมตัวกันของกลุ่มบุคคลที่มีความหลากหลาย
+    โดยเน้นการทำงานทางการเมืองเพื่อสร้างชาติที่เป็นสังคมพหุวัฒนธรรม โดย 6
+    ที่นั่งของ ส.ส. เขตที่ได้รับเลือกในการเลือกตั้งปี 62
     เป็นเขตเลือกตั้งในพื้นที่สามจังหวัดชายแดนภาคใต้ทั้งหมด
   established_date: '2018-10-31'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
   party_leader: นาย วันมูหะมัดนอร์ มะทา
   party_secretary: พ.ต.อ. ทวี สอดส่อง
   website: 'https://prachachat.org'
   facebook: 'https://www.facebook.com/PrachachatPeopleNation'
-  twitter: ''
+  twitter: null
   is_active: true
-- id: '10'
-  name: ประชาธรรมไทย
-  en:
-    name: Thai People Justice
-    short_name: T.P.J.
-  short_name: ปธท.
-  color: '#c32429'
+  id: 9
+  en_name: Prachachart Party
+  images:
+    - title: ประชาชาติ.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาชาติ.jpg
+      mimetype: image/jpg
+- name: ประชาธรรมไทย
+  color: '#D30009'
   party_type: พรรค
   party_ordinal: null
   party_group: ร่วมรัฐบาล
@@ -254,49 +231,55 @@
     และผอ. ขสมก. หลังการเลือกตั้งปี 62 ได้เข้าเป็นพรรคร่วมรัฐบาลระยะหนึ่ง
     ก่อนประกาศถอนตัวและขอเป็นฝ่ายค้านอิสระ
   established_date: '2018-11-02'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
+  dissolved_date: '2021-11-18'
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
   party_leader: นาย พิเชษฐ สถิรชวาล
-  party_secretary: นาย ชัยวุฑ ตรึกตรอง
+  party_secretary: ''
   website: 'http://www.prachatumthai.com'
   facebook: 'https://www.facebook.com/THPJ.Party/'
-  twitter: ''
-  is_active: true
-- id: '11'
-  name: ประชาธิปไตยใหม่
-  en:
-    name: New Democrat
-    short_name: NDP.
-  short_name: ปธม.
-  color: '#eb4138'
+  twitter: null
+  is_active: false
+  id: 10
+  en_name: Thai People Justice Party
+  images:
+    - title: ประชาธรรมไทย.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาธรรมไทย.jpg
+      mimetype: image/jpg
+- name: ประชาธิปไตยใหม่
+  color: '#F33937'
   party_type: พรรค
   party_ordinal: null
   party_group: ร่วมรัฐบาล
   description: >-
-    เคยส่งผู้สมัครรับเลือกตั้งในปี 54 และมี ส.ส. เขต ได้รับเลือกตั้ง 1 คน
-    ทำงานเป็นพรรคร่วมรัฐบาลยิ่งลักษณ์
+    เคยทำงานเป็นพรรคร่วมรัฐบาลยิ่งลักษณ์ในปี 54
+    ประกาศจุดยืนว่าเป็นเป็นพรรคสวัสดิการสังคมที่มีกษัตริย์เป็นประมุข
   established_date: '2011-04-21'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
   party_leader: นาย สุรทิน พิจารณ์
-  party_secretary: นาย ชุณห์ ศิริชัยคีรีโกศล
-  website: ''
-  facebook: 'https://www.facebook.com/NDCP2554/'
-  twitter: ''
+  party_secretary: ''
+  website: null
+  facebook: 'https://www.facebook.com/profile.php?id=100087374330256'
+  twitter: null
   is_active: true
-- id: '12'
-  name: ประชาธิปัตย์
-  en:
-    name: Democrat
-    short_name: ''
-  short_name: ปชป.
-  color: '#06aff3'
+  id: 11
+  en_name: New Democracy Party
+  images:
+    - title: ประชาธิปไตยใหม่.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาธิปไตยใหม่.jpg
+      mimetype: image/jpg
+- name: ประชาธิปัตย์
+  color: '#6DD3FF'
   party_type: พรรค
   party_ordinal: null
   party_group: ร่วมรัฐบาล
@@ -306,24 +289,27 @@
     เคยมีฐานเสียงสำคัญอยู่ในภาคใต้ ปัจจุบันมีอุดมการณ์แบบประชาธิปไตยเสรีนิยม
     และมีจุดยืนต่อต้านระบอบทักษิณ
   established_date: '1946-04-06'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
   party_leader: นาย จุรินทร์ ลักษณวิศิษฏ์
   party_secretary: นาย เฉลิมชัย ศรีอ่อน
   website: 'https://www.democrat.or.th/home'
   facebook: 'https://www.facebook.com/DemocratPartyTH/'
   twitter: 'http://twitter.com/democratTH'
   is_active: true
-- id: '13'
-  name: ประชานิยม
-  en:
-    name: Prachaniyom
-    short_name: PYP.
-  short_name: ปย.
-  color: '#ea1f25'
+  id: 12
+  en_name: Democrat Party
+  images:
+    - title: ประชาธิปัตย์.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาธิปัตย์.jpg
+      mimetype: image/jpg
+- name: ประชานิยม
+  color: '#F21E29'
   party_type: พรรค
   party_ordinal: null
   party_group: ร่วมรัฐบาล
@@ -332,24 +318,27 @@
     ถูกมองว่าเป็นพรรคการเมืองที่เป็นนอมินีของพรรคเพื่อไทย
     แต่หัวหน้าพรรคได้ออกมาปฏิเสธพร้อมกับกล่าวว่านโยบายของพรรคตรงกับนโยบายของรัฐบาล
   established_date: '2018-11-07'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
+  dissolved_date: '2020-07-14'
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
   party_leader: พล.ต.อ. ยงยุทธ เทพจำนงค์
   party_secretary: พล.ต.ต. วรยุทธ อินทรสุวรรณ
-  website: ''
+  website: null
   facebook: 'https://www.facebook.com/prashaniyomparty/'
-  twitter: ''
-  is_active: true
-- id: '14'
-  name: ประชาภิวัฒน์
-  en:
-    name: People Progressive
-    short_name: PRA
-  short_name: ปชภ.
-  color: '#076350'
+  twitter: null
+  is_active: false
+  id: 13
+  en_name: Prachaniyom Party
+  images:
+    - title: ประชานิยม.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชานิยม.jpg
+      mimetype: image/jpg
+- name: ประชาภิวัฒน์
+  color: '#005847'
   party_type: พรรค
   party_ordinal: null
   party_group: ร่วมรัฐบาล
@@ -358,74 +347,79 @@
     มีฐานเสียงจากพื้นที่อำเภอหันคา จังหวัดชัยนาท และมวลชนธรรมกาย
     ชูนโยบายขับเคลื่อนประเทศด้วยศาสนา
   established_date: '2018-08-10'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
   party_leader: นาย สมเกียรติ ศรลัมพ์
   party_secretary: นาง นันทนา สงฆ์ประชา
   website: 'https://www.prachapiwat.com/'
   facebook: 'https://www.facebook.com/love.at.first.sight.prachapiwat/'
-  twitter: ''
+  twitter: null
   is_active: true
-- id: '15'
-  name: พลเมืองไทย
-  en:
-    name: Ponlamuang Thai
-    short_name: PONT.
-  short_name: พล.
-  color: '#2d3180'
+  id: 14
+  en_name: People Progressive Party
+  images:
+    - title: ประชาภิวัฒน์.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาภิวัฒน์.jpg
+      mimetype: image/jpg
+- name: เราทำได้
+  color: '#181D54'
   party_type: พรรค
   party_ordinal: null
   party_group: ร่วมรัฐบาล
   description: >-
-    เดิมชื่อพรรคพลังพลเมือง เกิดจากการรวมตัวกันของอดีตรัฐมนตรีและอดีต ส.ส.
-    จากทั่วทุกภาค
+    เดิมชื่อพรรคพลเมืองไทย และพลังพลเมืองไทย ตามลำดับ
+    เกิดจากการรวมตัวกันของอดีตรัฐมนตรีและอดีต ส.ส. จากทั่วทุกภาค หลังเลือกตั้ง
+    62 หัวหน้าพรรคและ ส.ส. คนเดียวของพรรค ย้ายไปสังกัดพรรครวมไทยสร้างชาติ
+    จึงมีการประกาศหัวหน้าพรรคคนใหม่พร้อมกับเปลี่ยนแปลงชื่อพรรคใหม่
   established_date: '2018-08-10'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
-  party_leader: นางสาว ศิลัมพา เลิศนุวัฒน์
-  party_secretary: นาย สมเกียรติ วัฒนศิริชัยกุล
-  website: ''
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: นาย คริส โปตระนันทน์
+  party_secretary: ''
+  website: null
   facebook: 'https://www.facebook.com/ptpthaiparty/'
-  twitter: ''
-  is_active: true
-- id: '16'
-  name: พลังชาติไทย
-  en:
-    name: Thai Nation Power
-    short_name: TNPP
-  short_name: พพชท
-  color: '#08663b'
+  twitter: null
+  is_active: false
+  id: 15
+  en_name: null
+  images: null
+- name: รวมแผ่นดิน
+  color: '#005B35'
   party_type: พรรค
   party_ordinal: null
   party_group: ร่วมรัฐบาล
   description: >-
-    พรรคภายใต้การนำของพล.ต.ทรงกลด ทิพย์รัตน์ อดีตคณะทำงานของ คสช.
-    มุ่งสนับสนุนให้ พลเอก ประยุทธ์ จันทร์โอชา เป็นนายกรัฐมนตรี
+    เดิมชื่อพลังชาติไทย เป็นพรรคภายใต้การนำของพล.ต.ทรงกลด ทิพย์รัตน์
+    อดีตคณะทำงานของ คสช. มุ่งสนับสนุนให้ พลเอก ประยุทธ์ จันทร์โอชา
+    เป็นนายกรัฐมนตรี ในปี 2565
+    ได้มีการเปลี่ยนแปลงชื่อพรรคและเลือกตั้งคณะกรรมการบริหารพรรคชุดใหม่
   established_date: '2018-10-31'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
-  party_leader: พล.ต. ทรงกลด ทิพย์รัตน์
-  party_secretary: ''
-  website: 'https://www.tnpparty.com/'
-  facebook: 'https://www.facebook.com/TNPP.Thai/'
-  twitter: ''
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: พล.อ. ชัชชัย ภัทรนาวิก
+  party_secretary: นาย รณฤทธิชัย คานเขต
+  website: 'http://thailandtogetherparty.org/'
+  facebook: 'https://www.facebook.com/Thaitogetherparty/'
+  twitter: null
   is_active: true
-- id: '17'
-  name: พลังท้องถิ่นไท
-  en:
-    name: Thai Local Power
-    short_name: TLP
-  short_name: พทท.
-  color: '#259747'
+  id: 16
+  en_name: Thailand Together Party
+  images: null
+- name: พลังท้องถิ่นไท
+  color: '#008D43'
   party_type: พรรค
   party_ordinal: null
   party_group: ร่วมรัฐบาล
@@ -434,75 +428,58 @@
     ผู้มีอิทธิพลในพื้นที่ กทม.
     มีจุดยืนที่จะทำงานร่วมกับพรรครัฐบาลไม่ว่าจะเป็นขั้วไหน
   established_date: '2012-03-30'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
-  party_leader: นาย ชัชวาลล์ คงอุดม
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: นาย โกวิทย์ พวงงาม
   party_secretary: นาย ธีรศักดิ์ พานิชวิทย์
-  website: 'http://www.tlpparty.com'
-  facebook: 'https://www.facebook.com/ThaiLocalPowerParty'
-  twitter: 'https://twitter.com/thailocalpower'
-  is_active: true
-- id: '18'
-  name: พลังไทยรักไทย
-  en:
-    name: Phalang Thai Rak Thai
-    short_name: P.T.R.T.
-  short_name: พ.ท.ร.ท.
-  color: '#245896'
-  party_type: พรรค
-  party_ordinal: null
-  party_group: ร่วมรัฐบาล
-  description: >-
-    เกิดจากกลุ่มลูกหลานชาวนาเพื่อเป็นปากเป็นเสียงให้กับชาวนา
-    ชูนโยบายการแก้ปัญหาขาดแคลนแหล่งน้ำทำการเกษตร
-  established_date: '2018-10-30'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
-  party_leader: นาย คฑาเทพ เตชะเดชเรืองกุล
-  party_secretary: นาย วินัย ไชยบุตร
   website: ''
-  facebook: 'https://www.facebook.com/PTRTparty/'
+  facebook: 'https://www.facebook.com/ThaiLocalPowerParty'
   twitter: ''
   is_active: true
-- id: '19'
-  name: พลังธรรมใหม่
-  en:
-    name: New Palangdharma
-    short_name: NPD
-  short_name: พธม.
-  color: '#e9b54a'
+  id: 17
+  en_name: Thai Local Power Party
+  images:
+    - title: พลังท้องถิ่นไท.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/พลังท้องถิ่นไท.jpg
+      mimetype: image/jpg
+- name: พลังธรรมใหม่
+  color: '#FFC164'
   party_type: พรรค
   party_ordinal: null
   party_group: ร่วมรัฐบาล
   description: >-
     เป็นการรื้อฟื้นพรรคพลังธรรม ที่ก่อตั้งโดย พล.ต.จำลอง ศรีเมือง
     อดีตหัวหน้าพรรคและแกนนำพันธมิตรประชาชนเพื่อประชาธิปไตย (พธม.)
-    โดยมีอดีตสมาชิกพรรคพลังธรรมและภาคประชาชนบางส่วนร่วมจัดตั้ง
+    โดยมีอดีตสมาชิกพรรคพลังธรรมและภาคประชาชนบางส่วนร่วมจัดตั้ง ภายใต้แนวคิด
+    United Malays National Organization (UMNO) ที่ปรับให้สอดคล้องกับไทย
+    โดยพรรคพลังธรรมใหม่จะผนึกกำลังกับพรรคต่างๆ มาทำงานร่วมกัน
   established_date: '2018-09-14'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
   party_leader: นาย ระวี มาศฉมาดล
-  party_secretary: นาย นิทัศน์ รายยวา
-  website: 'http://www.npdthai.org'
+  party_secretary: นาย วรินทร อุทุมพร
+  website: ''
   facebook: 'https://www.facebook.com/npdthai/'
-  twitter: ''
+  twitter: null
   is_active: true
-- id: '20'
-  name: พลังประชารัฐ
-  en:
-    name: Palang Pracharath
-    short_name: PPRP
-  short_name: พปชร.
-  color: '#1f68dd'
+  id: 19
+  en_name: New Palangdharma Party
+  images:
+    - title: พลังธรรมใหม่.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/พลังธรรมใหม่.jpg
+      mimetype: image/jpg
+- name: พลังประชารัฐ
+  color: '#2276EF'
   party_type: พรรค
   party_ordinal: null
   party_group: ร่วมรัฐบาล
@@ -511,24 +488,27 @@
     และอดีตไทยรักไทยที่แยกตัวออกมาโดยเฉพาะกลุ่มสามมิตร มุ่งสนับสนุนให้ พลเอก
     ประยุทธ์ จันทร์โอชา เป็นนายกรัฐมนตรี
   established_date: '2018-11-07'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
-  party_leader: นาย อุตตม สาวนายน
-  party_secretary: นาย สนธิรัตน์ สนธิจิรวงศ์
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: พลเอก ประวิตร วงษ์สุวรรณ
+  party_secretary: "นาย \tสันติ พร้อมพัฒน์"
   website: 'https://pprp.or.th/'
   facebook: 'https://www.facebook.com/PPRPThailand/'
   twitter: 'https://twitter.com/pprpthailand'
   is_active: true
-- id: '21'
-  name: พลังปวงชนไทย
-  en:
-    name: Thai People Power
-    short_name: PLPT
-  short_name: พลท.
-  color: '#181f97'
+  id: 20
+  en_name: Palang Pracharath Party
+  images:
+    - title: พลังประชารัฐ.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/พลังประชารัฐ.jpg
+      mimetype: image/jpg
+- name: พลังปวงชนไทย
+  color: '#5061DE'
   party_type: พรรค
   party_ordinal: null
   party_group: ฝ่ายค้าน
@@ -537,24 +517,27 @@
     มีการเชื่อมโยงว่าเป็นพรรคสาขาของพรรคเพื่อไทย เนื่องจากคณะผู้ก่อตั้ง
     หัวหน้าพรรค และที่ปรึกษา มีความสนิทสนมกับ ทักษิณ ชินวัตร และพรรคเพื่อไทย
   established_date: '2018-10-29'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
   party_leader: นาย นิคม บุญวิเศษ
   party_secretary: นาย จรินทร์ เฮียงกุล
-  website: 'https://www.พรรคพลังปวงชนไทย.com'
+  website: 'https://plptdb.com/'
   facebook: 'https://www.facebook.com/thaipeoplepowerpartypage/'
   twitter: 'https://twitter.com/0xREjn0OHxcFkQg'
   is_active: true
-- id: '22'
-  name: เพื่อชาติ
-  en:
-    name: Puea Chat
-    short_name: PCH.P.
-  short_name: พ.พ.ช.
-  color: '#c0bcc3'
+  id: 21
+  en_name: Thai People Power Party
+  images:
+    - title: พลังปวงชนไทย.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/พลังปวงชนไทย.jpg
+      mimetype: image/jpg
+- name: เพื่อชาติ
+  color: '#B1A6BF'
   party_type: พรรค
   party_ordinal: null
   party_group: ฝ่ายค้าน
@@ -564,24 +547,27 @@
     แนวร่วมประชาธิปไตยต่อต้านเผด็จการแห่งชาติ (นปช.) เพราะมีกระแสข่าวว่าแกนนำ
     นปช. เป็นผู้สนับสนุน
   established_date: '2013-09-18'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
-  party_leader: นาย สงคราม กิจเลิศไพโรจน์
-  party_secretary: นาง ลินดา เชิดชัย
-  website: ''
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: นางสาว ปวิศรัฐฐ์ ติยะไพรัช
+  party_secretary: รอ.ดร.จารุพล เรืองสุวรรณ
+  website: null
   facebook: 'https://www.facebook.com/PueaChatOfficial/'
-  twitter: ''
+  twitter: null
   is_active: true
-- id: '23'
-  name: เพื่อไทย
-  en:
-    name: Pheu Thai
-    short_name: PT.
-  short_name: พท.
-  color: '#da3731'
+  id: 22
+  en_name: For the Nation Party
+  images:
+    - title: เพื่อชาติ.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/เพื่อชาติ.jpg
+      mimetype: image/jpg
+- name: เพื่อไทย
+  color: '#F41724'
   party_type: พรรค
   party_ordinal: null
   party_group: ฝ่ายค้าน
@@ -591,24 +577,27 @@
     จนมาเป็นพรรคเพื่อไทยในปัจจุบัน เป็นพรรคที่ถูกรัฐประหารถึง 2 ครั้งซ้อน
     คือในปี 2549 ยุคไทยรักไทย และในปี 2557 ยุคเพื่อไทย
   established_date: '2007-09-20'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
-  party_leader: นาย สมพงษ์ อมรวิวัฒน์
-  party_secretary: น.อ. อนุดิษฐ์ นาครทรรพ
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: นาย ชลน่าน ศรีแก้ว
+  party_secretary: นาย ประเสริฐ จันทรรวงทอง
   website: 'https://www.ptp.or.th/'
   facebook: 'https://www.facebook.com/pheuthaiparty/'
   twitter: 'https://twitter.com/pheuthaiparty'
   is_active: true
-- id: '24'
-  name: ภูมิใจไทย
-  en:
-    name: Bhumjaithai
-    short_name: BJT
-  short_name: ภท
-  color: '#209fa0'
+  id: 23
+  en_name: Pheu Thai Party
+  images:
+    - title: เพื่อไทย.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/เพื่อไทย.jpg
+      mimetype: image/jpg
+- name: ภูมิใจไทย
+  color: '#2C3487'
   party_type: พรรค
   party_ordinal: null
   party_group: ร่วมรัฐบาล
@@ -617,101 +606,56 @@
     และกลุ่มเพื่อนเนวิน มีฐานเสียงหนาแน่นในพื้นที่อีสานใต้
     มีจุดยืนที่พร้อมจะร่วมรัฐบาลกับทุกขั้ว
   established_date: '2008-11-05'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
   party_leader: นาย อนุทิน ชาญวีรกูล
   party_secretary: นาย ศักดิ์สยาม ชิดชอบ
   website: 'https://www.bhumjaithai.com/'
-  facebook: 'https://www.facebook.com/khonbhumjaithai/'
+  facebook: 'https://www.facebook.com/bhumjaithaiparty'
   twitter: 'https://twitter.com/khonbhumjaithai'
   is_active: true
-- id: '25'
-  name: รวมพลังประชาชาติไทย
-  en:
-    name: Action Coalition for Thailand
-    short_name: ACT
-  short_name: รปช.
-  color: '#303d8e'
-  party_type: พรรค
-  party_ordinal: null
-  party_group: ร่วมรัฐบาล
-  description: >-
-    เป็นพรรคที่ต่อยอดการเคลื่อนไหวของกลุ่ม กปปส. มุ่งสนับสนุนให้ พลเอก ประยุทธ์
-    จันทร์โอชา เป็นนายกรัฐมนตรี และต่อต้านระบอบทักษิณ
-  established_date: '2118-10-26'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
-  party_leader: หม่อมราชวงศ์ จัตุมงคล โสณกุล
-  party_secretary: นาย ทวีศักดิ์ ณ ตะกั่วทุ่ง
-  website: 'https://act-party.org/'
-  facebook: 'https://www.facebook.com/actpartyorg'
-  twitter: 'https://twitter.com/actpartyorg'
-  is_active: true
-- id: '26'
-  name: รักษ์ผืนป่าประเทศไทย
-  en:
-    name: Thai Forest Conservation
-    short_name: FCP
-  short_name: รป.
-  color: '#8dbf44'
-  party_type: พรรค
-  party_ordinal: null
-  party_group: ร่วมรัฐบาล
-  description: >-
-    เดิมชื่อพรรคทวงคืน เป็นพรรคในกำกับของนาย ดำรงค์ พิเดช
-    อดีตอธิบดีกรมอุทยานแห่งชาติ สัตว์ป่า และพันธุ์พืช 
-    ชูนโยบายอนุรักษ์ทรัพยากรและสิ่งแวดล้อม
-  established_date: '2013-01-09'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
-  party_leader: นาย ดำรงค์ พิเดช
-  party_secretary: นาย สันติภาพ อินทรพัฒน์
-  website: ''
-  facebook: 'https://www.facebook.com/ThaiForestConservationParty/'
-  twitter: ''
-  is_active: true
-- id: '27'
-  name: เศรษฐกิจใหม่
-  en:
-    name: New Economics
-    short_name: NEP
-  short_name: ศม
-  color: '#6e2fff'
+  id: 24
+  en_name: Bhumjaithai Party
+  images:
+    - title: ภูมิใจไทย.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ภูมิใจไทย.jpg
+      mimetype: image/jpg
+- name: เศรษฐกิจใหม่
+  color: '#B096F9'
   party_type: พรรค
   party_ordinal: null
   party_group: ร่วมรัฐบาล
   description: >-
     พรรคที่เกิดขึ้นจากความต้องการแก้ปัญหาปากท้องของประชาชน
-    เพราะเป็ช่วงเศรษฐกิจของชนชั้นกลางลงมาย่ำแย่ ระบุจุดยืนประชาธิปไตย
+    เพราะเป็นช่วงเศรษฐกิจของชนชั้นกลางลงมาย่ำแย่ ระบุจุดยืนประชาธิปไตย
     เน้นเศรษฐกิจ ไม่เน้นขัดแย้ง
   established_date: '2018-11-08'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
   party_leader: นาย มนูญ สิวาภิรมย์รัตน์
-  party_secretary: นาย ภาสกร เงินเจริญกุล
-  website: 'http://www.nep.or.th/'
+  party_secretary: "นาย \tมนตรี สันติไชยกุล"
+  website: ''
   facebook: 'https://www.facebook.com/NEPThailand/'
   twitter: 'https://www.twitter.com/NewEconomicsTH'
   is_active: true
-- id: '28'
-  name: เสรีรวมไทย
-  en:
-    name: Thai Liberal
-    short_name: TLP
-  short_name: สร.
-  color: '#b49e31'
+  id: 27
+  en_name: New Economics Party
+  images:
+    - title: เศรษฐกิจใหม่.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/เศรษฐกิจใหม่.jpg
+      mimetype: image/jpg
+- name: เสรีรวมไทย
+  color: '#FFEA2E'
   party_type: พรรค
   party_ordinal: null
   party_group: ฝ่ายค้าน
@@ -720,24 +664,27 @@
     อดีตผู้บัญชาการตำรวจแห่งชาติ ประกาศจุดยืนไม่เห็นด้วยกับรัฐประหาร
     สนับสนุนการปฏิรูปกองทัพ และต่อต้านเผด็จการอย่างชัดเจน
   established_date: '2013-08-29'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
   party_leader: พล.ต.อ. เสรีพิศุทธ์ เตมียเวส
   party_secretary: นาย วัชรา ณ วังขนาย
   website: 'https://sereeruamthai.or.th'
   facebook: 'https://www.facebook.com/sereeruamthai/'
-  twitter: ''
+  twitter: 'https://twitter.com/sereeruamthai'
   is_active: true
-- id: '29'
-  name: อนาคตใหม่
-  en:
-    name: Future Forward
-    short_name: FWP
-  short_name: อนค.
-  color: '#ef7824'
+  id: 28
+  en_name: Thai Liberal Party
+  images:
+    - title: เสรีรวมไทย.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/เสรีรวมไทย.jpg
+      mimetype: image/jpg
+- name: อนาคตใหม่
+  color: '#FF711E'
   party_type: พรรค
   party_ordinal: null
   party_group: ฝ่ายค้าน
@@ -746,24 +693,27 @@
     และต้องการยุติวงจรอุบาทว์ของรัฐประหาร
     พร้อมประกาศชัดเจนว่าจะคัดค้านอิทธิพลของกองทัพในการเมือง
   established_date: '2018-10-03'
-  dissolved_date: '2563-02-21'
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
+  dissolved_date: '2020-02-21'
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
   party_leader: นาย ธนาธร จึงรุ่งเรืองกิจ
   party_secretary: นาย ปิยบุตร แสงกนกกุล
   website: 'https://futureforwardparty.org'
   facebook: 'https://www.facebook.com/FWPthailand/'
   twitter: 'https://twitter.com/FWPthailand'
   is_active: false
-- id: '30'
-  name: ประชาชนปฏิรูป
-  en:
-    name: People Reform Party
-    short_name: PPR
-  short_name: ปชช.
-  color: '#f1ee56'
+  id: 29
+  en_name: Future Forward Party
+  images:
+    - title: อนาคตใหม่.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/อนาคตใหม่.jpg
+      mimetype: image/jpg
+- name: ประชาชนปฏิรูป
+  color: '#019595'
   party_type: พรรค
   party_ordinal: null
   party_group: ร่วมรัฐบาล
@@ -772,94 +722,1725 @@
     ต่อมานายไพบูลย์ ได้ยื่นเรื่องขอเลิกกิจการพรรค
     และย้ายไปสังกัดพรรคพลังประชารัฐ
   established_date: '2018-10-03'
-  dissolved_date: '2562-09-06'
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
+  dissolved_date: '2019-09-06'
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
   party_leader: นาย ไพบูลย์ นิติตะวัน
-  party_secretary: ''
+  party_secretary: null
   website: 'https://www.pprparty.com/'
-  facebook: ''
-  twitter: ''
+  facebook: null
+  twitter: null
   is_active: false
-- id: '31'
-  name: ก้าวไกล
-  en:
-    name: Move Forward Party
-    short_name: MFP
-  short_name: กก.
-  color: '#ef7824'
+  id: 30
+  en_name: People Reform Party
+  images:
+    - title: ประชาชนปฏิรูป.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาชนปฏิรูป.jpg
+      mimetype: image/jpg
+- name: ก้าวไกล
+  color: '#FF711E'
   party_type: พรรค
   party_ordinal: null
   party_group: ฝ่ายค้าน
   description: >-
     เดิมคือพรรคร่วมพัฒนาชาติไทย ต่อมาปี 2562 ได้เปลี่ยนชื่อเป็น พรรคผึ้งหลวง
-    และเปลี่ยนมาใช้ชื่อปัจจุบันในเดือนมกราคม 2563 พรรคฯ รับอดีต ส.ส.
-    สมาชิกพรรคอนาคตใหม่ที่ถูกศาลรัฐธรรมนูญสั่งยุบพรรคเมื่อกุมภาพันธ์ ปี 2563
-    ทำให้มีที่นั่งในสภาผู้แทนราษฎร
+    และเปลี่ยนมาใช้ชื่อปัจจุบันในเดือนมกราคม 2563 รับอดีต ส.ส.
+    สมาชิกพรรคอนาคตใหม่ที่ถูกศาลรัฐธรรมนูญสั่งยุบพรรค
+    ประกาศจุดยืนยึดมั่นประชาธิปไตย ต่อต้านการรัฐประหาร
+    และผลักดันนโยบายที่ก้าวหน้า
   established_date: '2020-01-19'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
   party_leader: นาย พิธา ลิ้มเจริญรัตน์
   party_secretary: นาย ชัยธวัช ตุลาธน
   website: 'https://moveforwardparty.org/'
   facebook: 'https://www.facebook.com/MoveForwardPartyThailand/'
   twitter: 'https://twitter.com/MFPThailand'
   is_active: true
-- id: '32'
-  name: เศรษฐกิจไทย
-  en:
-    name: Thai Economic Party
-    short_name: THEP
-  short_name: ศท.
-  color: ''
+  id: 31
+  en_name: Move Forward Party
+  images:
+    - title: ก้าวไกล.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ก้าวไกล.jpg
+      mimetype: image/jpg
+- name: เศรษฐกิจไทย
+  color: '#CA4F4F'
   party_type: พรรค
   party_ordinal: null
-  party_group: ''
+  party_group: ร่วมรัฐบาล
   description: >-
-    พรรคใหม่ที่ ร.อ.ธรรมนัส พรหมเผ่า จะนำ 20 ส.ส. ย้ายไปสังกัด
+    พรรคใหม่ที่ ร.อ.ธรรมนัส พรหมเผ่า นำ ส.ส. ย้ายไปสังกัด
     หลังถูกมติพรรคพลังประชารัฐขับออก
   established_date: '2020-04-07'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
-  party_leader: นางรัชนี ศิวะเวชช
-  party_secretary: นายเมธาวี เนตรไสว
-  website: ''
-  facebook: ''
-  twitter: ''
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: นาย เชวงศักดิ์ ใจคำ
+  party_secretary: "นาย \tสัจจวิทย์ ลีลาวณิชย์"
+  website: null
+  facebook: 'https://www.facebook.com/wealthofthai'
+  twitter: null
   is_active: true
-- id: '33'
-  name: เพื่อชาติไทย
-  en:
-    name: Pheu Chart Thai Party
-    short_name: P.C.T.P
-  short_name: พ.ช.ต.ท.
-  color: ''
+  id: 32
+  en_name: Thai Economic Party
+  images:
+    - title: เศรษฐกิจไทย.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/เศรษฐกิจไทย.jpg
+      mimetype: image/jpg
+- name: เพื่อชาติไทย
+  color: '#0D8080'
   party_type: พรรค
   party_ordinal: null
-  party_group: ''
+  party_group: ร่วมรัฐบาล
   description: >-
-    พรรคโดยการนำของนายคฑาเทพ เตชะเดชเรืองกุล และนายวินัย ไชยบุตร
-    เป็นหัวหน้าพรรคและเลขาธิการ จดทะเบียนในชื่อพรรคพลังไทยรักไทย
-    และเปลี่ยนชื่อพรรคเป็นพรรคเพื่อชาติไทย โดยเมื่อเลือกตั้ง 24 มีนาคม 2562
-    ในนามพรรคพลังไทยรักไทย ได้เข้าร่วมรัฐบาลภายใต้การนำของพรรคพลังประชารัฐ
-    และสนับสนุนพลเอก ประยุทธ์ จันทร์โอชา เป็นนายกรัฐมนตรี
+    เคยจดทะเบียนในชื่อพรรคพลังไทยรักไทย หลังการเลือกตั้ง 62
+    ได้เข้าร่วมรัฐบาลภายใต้การนำของพรรคพลังประชารัฐ และสนับสนุนพลเอก ประยุทธ์
+    จันทร์โอชา เป็นนายกรัฐมนตรี
   established_date: '2018-10-30'
-  dissolved_date: ''
-  speaker: ''
-  first_deputy_speaker: ''
-  second_deputy_speaker: ''
-  opposition_leader: ''
-  party_leader: คฑาเทพ เตชะเดชเรืองกุล
-  party_secretary: วินัย ไชยบุตร
-  website: ''
-  facebook: ''
-  twitter: ''
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: นาย คฑาเทพ เตชะเดชเรืองกุล
+  party_secretary: นาย ทองจันทร์ จันทร์เต
+  website: null
+  facebook: 'https://www.facebook.com/pheuchartthai'
+  twitter: null
   is_active: true
+  id: 33
+  en_name: Pheu Chart Thai Party
+  images:
+    - title: เพื่อชาติไทย.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/เพื่อชาติไทย.jpg
+      mimetype: image/jpg
+- name: ชาติพัฒนากล้า
+  color: '#FBB514'
+  party_type: พรรค
+  party_ordinal: null
+  party_group: ร่วมรัฐบาล
+  description: >-
+    พรรคชาติพัฒนากล้า หรือในชื่อเดิมว่า รวมชาติพัฒนา และ รวมใจไทยชาติพัฒนา
+    ชาติพัฒนาเพื่อแผ่นดิน และ ชาติพัฒนา เป็นพรรคการเมืองที่ก่อตั้งขึ้นในปี พ.ศ.
+    2550 โดยสมาชิกส่วนใหญ่เป็นสมาชิกจากพรรคการเมืองที่เคยมีอยู่แล้ว
+    จัดตั้งเป็นพรรคการเมืองโดยรวม กลุ่มรวมใจไทย เข้ากับ พรรคชาติพัฒนา
+    และมารวมกับพรรคกล้า ของนายกรณ์ จาติกวณิช เมื่อวันที่ 26 กันยายน พ.ศ. 2565
+  established_date: '2007-10-03'
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: นาย กรณ์ จาติกวณิช
+  party_secretary: นาย เทวัญ ลิปตพัลลภ
+  website: null
+  facebook: 'https://www.facebook.com/ChartpattanaParty/'
+  twitter: 'https://twitter.com/ChartpattanaKLA'
+  is_active: true
+  id: 34
+  en_name: Chart Pattana Kla Party
+  images: null
+- name: รักษ์ผืนป่าประเทศไทย
+  color: '#789947'
+  party_type: พรรค
+  party_ordinal: null
+  party_group: ร่วมรัฐบาล
+  description: >-
+    เดิมชื่อว่า พรรครักษ์ผืนป่าประเทศไทย และ พรรคทวงคืนผืนป่าประเทศไทย
+    พรรคการเมืองที่ก่อตั้งตามรัฐธรรมนูญแห่งราชอาณาจักรไทย พุทธศักราช 2550
+    เมื่อวันที่ 12 ธันวาคม 2555 มีนาย ดำรงค์ พิเดช อดีตอธิบดี กรมอุทยานแห่งชาติ
+    สัตว์ป่า และพันธุ์พืช เป็นหัวหน้าพรรคและนายธิติ กนกทวีฐากร
+    เป็นรองหัวหน้าพรรค
+  established_date: '2013-01-09'
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: ปอยหลวง โคนทรงแสน
+  website: null
+  facebook: null
+  twitter: null
+  is_active: true
+  id: 35
+  en_name: Thai Forest Conservation Party
+  images:
+    - title: รักษ์ผืนป่าประเทศไทย.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/รักษ์ผืนป่าประเทศไทย.jpg
+      mimetype: image/jpg
+- name: รวมพลัง
+  color: '#581981'
+  party_type: พรรค
+  party_ordinal: null
+  party_group: ร่วมรัฐบาล
+  description: >-
+    เดิมชื่อพรรครวมพลังประชาชาติไทย เป็นพรรคการเมืองในประเทศไทย
+    ที่จดทะเบียนก่อตั้งในปี พ.ศ. 2561 ก่อตั้งขึ้นโดยแนวร่วม กปปส. สุเทพ
+    เทือกสุบรรณ และ เอนก เหล่าธรรมทัศน์
+    โดยได้เปลี่ยนชื่อเป็นพรรครวมพลังเมื่อวันที่ 24 เมษายน พ.ศ. 2565
+    รวมถึงตราโลโก้พรรครูปพญานาค
+  established_date: '2019-05-25'
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: ดร.ดนุช ตันเทอดทิตย์
+  party_secretary: ดร.สุเนตตา แซ่โก๊ะ
+  website: 'https://act-party.org/'
+  facebook: 'https://www.facebook.com/actpartyorg'
+  twitter: 'https://twitter.com/actpartyorg'
+  is_active: true
+  id: 36
+  en_name: Action Coalition for Thailand
+  images: null
+- name: รวมไทยสร้างชาติ
+  color: '#1445C3'
+  party_type: พรรค
+  party_ordinal: null
+  party_group: ร่วมรัฐบาล
+  description: >-
+    เป็นพรรคการเมืองไทยที่จดทะเบียนในปี พ.ศ. 2564 โดยมีพีระพันธุ์ สาลีรัฐวิภาค
+    เป็นหัวหน้าพรรคคนปัจจุบัน ต่อมาในช่วงปลายปี พ.ศ. 2565 พลเอกประยุทธ์
+    จันทร์โอชา ได้ตัดสินใจเข้าร่วมกิจกรรมทางการเมืองกับพรรค
+    และสมัครเป็นสมาชิกพรรคเมื่อวันที่ 9 มกราคม พ.ศ. 2566
+  established_date: '2021-03-31'
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: พีระพันธุ์ สาลีรัฐวิภาค
+  party_secretary: นายเอกนัฐ พร้อมพันธุ์
+  website: 'https://unitedthaination.or.th/'
+  facebook: 'https://www.facebook.com/unitedthaination/'
+  twitter: 'https://twitter.com/utn_official'
+  is_active: true
+  id: 37
+  en_name: United Thai Nation Party
+  images: null
+- name: ไทยสร้างไทย
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 39
+  en_name: null
+  images: null
+- name: ไทยภักดี
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: '2021-08-24'
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 41
+  en_name: null
+  images: null
+- name: ความหวังใหม่
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 42
+  en_name: null
+  images:
+    - title: ความหวังใหม่.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ความหวังใหม่.jpg
+      mimetype: image/jpg
+- name: ประชากรไทย
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 43
+  en_name: null
+  images:
+    - title: ประชากรไทย.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชากรไทย.jpg
+      mimetype: image/jpg
+- name: เครือข่ายชาวนาแห่งประเทศไทย
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 44
+  en_name: null
+  images:
+    - title: เครือข่ายชาวนาแห่งประเทศไทย.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/เครือข่ายชาวนาแห่งประเทศไทย.jpg
+      mimetype: image/jpg
+- name: เพื่อแผ่นดิน
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 45
+  en_name: null
+  images:
+    - title: เพื่อแผ่นดิน.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/เพื่อแผ่นดิน.jpg
+      mimetype: image/jpg
+- name: อนาคตไทย
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 46
+  en_name: null
+  images:
+    - title: อนาคตไทย.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/อนาคตไทย.jpg
+      mimetype: image/jpg
+- name: สังคมประชาธิปไตยไทย
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 47
+  en_name: null
+  images:
+    - title: สังคมประชาธิปไตยไทย.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/สังคมประชาธิปไตยไทย.jpg
+      mimetype: image/jpg
+- name: ประชาสามัคคี
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 48
+  en_name: null
+  images: null
+- name: พลังบูรพา
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: เดิมชื่อพรรคพลังชน
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 49
+  en_name: null
+  images: null
+- name: พลังสหกรณ์
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 50
+  en_name: null
+  images:
+    - title: พลังสหกรณ์.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/พลังสหกรณ์.jpg
+      mimetype: image/jpg
+- name: ถิ่นกาขาวชาววิไล
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 51
+  en_name: null
+  images:
+    - title: ถิ่นกาขาวชาววิไล.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ถิ่นกาขาวชาววิไล.jpg
+      mimetype: image/jpg
+- name: รักษ์ธรรม
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 52
+  en_name: null
+  images:
+    - title: รักษ์ธรรม.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/รักษ์ธรรม.jpg
+      mimetype: image/jpg
+- name: พลังประชาธิปไตย
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 53
+  en_name: null
+  images:
+    - title: พลังประชาธิปไตย.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/พลังประชาธิปไตย.jpg
+      mimetype: image/jpg
+- name: ภราดรภาพ
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 54
+  en_name: null
+  images:
+    - title: ภราดรภาพ.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ภราดรภาพ.jpg
+      mimetype: image/jpg
+- name: พลังไทยรักชาติ
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 55
+  en_name: null
+  images:
+    - title: พลังไทยรักชาติ.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/พลังไทยรักชาติ.jpg
+      mimetype: image/jpg
+- name: ช่วยชาติ
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: เดิมชื่อพรรคเพื่อชีวิตใหม่
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 56
+  en_name: null
+  images: null
+- name: ทางเลือกใหม่
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 57
+  en_name: null
+  images:
+    - title: ทางเลือกใหม่.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ทางเลือกใหม่.jpg
+      mimetype: image/jpg
+- name: พลเมืองไทย
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 58
+  en_name: null
+  images:
+    - title: พลเมืองไทย.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/พลเมืองไทย.jpg
+      mimetype: image/jpg
+- name: สร้างอนาคตไทย
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 59
+  en_name: null
+  images: null
+- name: ไทยธรรม
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 64
+  en_name: null
+  images:
+    - title: ไทยธรรม.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ไทยธรรม.jpg
+      mimetype: image/jpg
+- name: พลังไทรุ่งเรือง
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: เดิมชื่อสยามพัฒนา
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 65
+  en_name: null
+  images: null
+- name: ไทยพร้อม
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: เดิมชื่อไทยพัฒนา
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 66
+  en_name: null
+  images: null
+- name: เพื่อราษฎร
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: เดิมชื่อพรรคสุจริตชน
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 67
+  en_name: null
+  images: null
+- name: แผ่นดินธรรรม
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 68
+  en_name: null
+  images: null
+- name: คลองไทย
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 69
+  en_name: null
+  images:
+    - title: คลองไทย.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/คลองไทย.jpg
+      mimetype: image/jpg
+- name: พลังสังคม
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 70
+  en_name: null
+  images:
+    - title: พลังสังคม.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/พลังสังคม.jpg
+      mimetype: image/jpg
+- name: พลังศรัทธา
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 71
+  en_name: null
+  images:
+    - title: พลังศรัทธา.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/พลังศรัทธา.jpg
+      mimetype: image/jpg
+- name: เป็นธรรม
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: เดิมชื่อพรรคกลาง
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 72
+  en_name: null
+  images: null
+- name: พลังเพื่อไทย
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: ''
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 73
+  en_name: null
+  images: null
+- name: ประชาไทย
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 74
+  en_name: null
+  images:
+    - title: ประชาไทย.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาไทย.jpg
+      mimetype: image/jpg
+- name: กรีน
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 75
+  en_name: null
+  images:
+    - title: กรีน.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/กรีน.jpg
+      mimetype: image/jpg
+- name: สามัญชน
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 76
+  en_name: null
+  images:
+    - title: สามัญชน.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/สามัญชน.jpg
+      mimetype: image/jpg
+- name: ภาคีเครือข่ายไทย
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 77
+  en_name: null
+  images:
+    - title: ภาคีเครือข่ายไทย.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ภาคีเครือข่ายไทย.jpg
+      mimetype: image/jpg
+- name: รวมไทยยูไนเต็ด
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: เดิมชื่อพรรคเพื่อไทยพัฒนา
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 78
+  en_name: null
+  images: null
+- name: คนงานไทย
+  color: '#E43B6E'
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 79
+  en_name: null
+  images:
+    - title: คนงานไทย.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/คนงานไทย.jpg
+      mimetype: image/jpg
+- name: สร้างชาติ
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 80
+  en_name: null
+  images: null
+- name: เพื่ออนาคตไทย
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 81
+  en_name: null
+  images: null
+- name: เส้นทางใหม่
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 82
+  en_name: null
+  images: null
+- name: ไทยรวมไทย
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: เดิมชื่อพรรคไทยชอบธรรม
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 83
+  en_name: null
+  images: null
+- name: กล้า
+  color: '#FBB514'
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 84
+  en_name: null
+  images: null
+- name: ยุทธศาสตร์ชาติ
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 85
+  en_name: null
+  images: null
+- name: พลังสังคมใหม่
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 86
+  en_name: null
+  images: null
+- name: มิติใหม่
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 87
+  en_name: null
+  images: null
+- name: ไทยสมาร์ท
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: เดิมชื่อมวลชนสยาม
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 88
+  en_name: null
+  images: null
+- name: เพื่อประชาชน
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 89
+  en_name: null
+  images: null
+- name: พลังสยาม
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 90
+  en_name: null
+  images: null
+- name: แนวทางใหม่
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 91
+  en_name: null
+  images: null
+- name: เสมอภาค
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 92
+  en_name: null
+  images: null
+- name: ไทยชนะ
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 93
+  en_name: null
+  images: null
+- name: เพื่อไทรวมพลัง
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 94
+  en_name: null
+  images: null
+- name: ไทยสร้างสรรค์
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 95
+  en_name: null
+  images: null
+- name: ราษฎร์วิถี
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: เดิมชื่อเทิดไท
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 96
+  en_name: null
+  images: null
+- name: ไทยเป็นหนึ่ง
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 97
+  en_name: null
+  images: null
+- name: ท้องที่ไทย
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 98
+  en_name: null
+  images: null
+- name: เปลี่ยนอนาคต
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 99
+  en_name: null
+  images: null
+- name: ใหม่
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 100
+  en_name: null
+  images: null
+- name: แรงงานสร้างชาติ
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 101
+  en_name: null
+  images: null
+- name: ไทยก้าวหน้า
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 102
+  en_name: null
+  images: null
+- name: พลัง
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 103
+  en_name: null
+  images: null
+- name: สยามพล
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 104
+  en_name: null
+  images: null
+- name: ชาติรุ่งเรือง
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 105
+  en_name: null
+  images: null
+- name: รวมใจไทย
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 106
+  en_name: null
+  images:
+    - title: รวมใจไทย.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/รวมใจไทย.jpg
+      mimetype: image/jpg
+- name: สัมมาธิปไตย
+  color: null
+  party_type: พรรค
+  party_ordinal: null
+  party_group: null
+  description: null
+  established_date: null
+  dissolved_date: null
+  speaker: null
+  first_deputy_speaker: null
+  second_deputy_speaker: null
+  whip: null
+  opposition_leader: null
+  party_leader: null
+  party_secretary: null
+  website: null
+  facebook: null
+  twitter: null
+  is_active: false
+  id: 107
+  en_name: null
+  images: null
