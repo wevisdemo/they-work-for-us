@@ -8,7 +8,7 @@
     "build-windows": "gatsby clean && echo 🧼 Cleaned, setting env... && set GATSBY_ENV=production && echo 🏞 Env set, start building... && gatsby build",
     "develop": "gatsby clean && gatsby develop",
     "format": "prettier --write \"**/*.{js,json,md}\"",
-    "sync": "node -r ts-node/register --loader ts-node/esm tools/data-fetcher",
+    "sync": "node --loader ts-node/esm tools/data-fetcher",
     "start": "yarn develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",

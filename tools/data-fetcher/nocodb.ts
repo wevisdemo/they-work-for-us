@@ -1,4 +1,4 @@
-import { Api } from "nocodb-sdk"
+import { Api, RequestParams } from "nocodb-sdk"
 
 interface PageInfo {
   totalRows: number
@@ -15,6 +15,18 @@ interface PublicViewResponse<T> {
   }
 }
 
+// Reference: https://docs.nocodb.com/developer-resources/rest-apis#query-params
+export type QueryParams = {
+	limit?: number;
+	offset?: number;
+	where?: string;
+	sort?: string;
+	fields?: string;
+	shuffle?: 1 | 0;
+} & {
+	[key: string]: string | number;
+};
+
 export class NocoDB {
   api: Api<unknown>
 
@@ -24,7 +36,7 @@ export class NocoDB {
     })
   }
 
-  async getAllRow<T>(viewId: string): Promise<T[]> {
+  async getAllRow<T>(viewId: string, query?: QueryParams): Promise<T[]> {
     let rows: T[] = []
     let currentPageInfo: PageInfo | undefined
   
@@ -33,6 +45,7 @@ export class NocoDB {
         const {
           data: { list, pageInfo },
         }: PublicViewResponse<T> = await this.api.public.dataList(viewId, {
+          ...query,
           limit: "500",
           offset: `${
             currentPageInfo ? currentPageInfo.page * currentPageInfo.pageSize : 0
