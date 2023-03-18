@@ -1,21 +1,18 @@
-- q: สภาผู้แทนราษฎรไทย
+- q: สภาผู้แทนราษฎร
   type: party
-  url: /party/สภาผู้แทนราษฎรไทย
-- q: วุฒิสภาไทย
+  url: /party/สภาผู้แทนราษฎร
+- q: วุฒิสภา
   type: party
-  url: /party/วุฒิสภาไทย
-- q: คณะรัฐมนตรีไทย
+  url: /party/วุฒิสภา
+- q: คณะรัฐมนตรี
   type: party
-  url: /party/คณะรัฐมนตรีไทย
+  url: /party/คณะรัฐมนตรี
 - q: ครูไทยเพื่อประชาชน
   type: party
   url: /party/ครูไทยเพื่อประชาชน
 - q: ชาติไทยพัฒนา
   type: party
   url: /party/ชาติไทยพัฒนา
-- q: ชาติพัฒนา
-  type: party
-  url: /party/ชาติพัฒนา
 - q: ไทยศรีวิไลย์
   type: party
   url: /party/ไทยศรีวิไลย์
@@ -40,18 +37,15 @@
 - q: ประชาภิวัฒน์
   type: party
   url: /party/ประชาภิวัฒน์
-- q: พลเมืองไทย
+- q: เราทำได้
   type: party
-  url: /party/พลเมืองไทย
-- q: พลังชาติไทย
+  url: /party/เราทำได้
+- q: รวมแผ่นดิน
   type: party
-  url: /party/พลังชาติไทย
+  url: /party/รวมแผ่นดิน
 - q: พลังท้องถิ่นไท
   type: party
   url: /party/พลังท้องถิ่นไท
-- q: พลังไทยรักไทย
-  type: party
-  url: /party/พลังไทยรักไทย
 - q: พลังธรรมใหม่
   type: party
   url: /party/พลังธรรมใหม่
@@ -70,12 +64,6 @@
 - q: ภูมิใจไทย
   type: party
   url: /party/ภูมิใจไทย
-- q: รวมพลังประชาชาติไทย
-  type: party
-  url: /party/รวมพลังประชาชาติไทย
-- q: รักษ์ผืนป่าประเทศไทย
-  type: party
-  url: /party/รักษ์ผืนป่าประเทศไทย
 - q: เศรษฐกิจใหม่
   type: party
   url: /party/เศรษฐกิจใหม่
@@ -97,6 +85,210 @@
 - q: เพื่อชาติไทย
   type: party
   url: /party/เพื่อชาติไทย
+- q: ชาติพัฒนากล้า
+  type: party
+  url: /party/ชาติพัฒนากล้า
+- q: รักษ์ผืนป่าประเทศไทย
+  type: party
+  url: /party/รักษ์ผืนป่าประเทศไทย
+- q: รวมพลัง
+  type: party
+  url: /party/รวมพลัง
+- q: รวมไทยสร้างชาติ
+  type: party
+  url: /party/รวมไทยสร้างชาติ
+- q: ไทยสร้างไทย
+  type: party
+  url: /party/ไทยสร้างไทย
+- q: ไทยภักดี
+  type: party
+  url: /party/ไทยภักดี
+- q: ความหวังใหม่
+  type: party
+  url: /party/ความหวังใหม่
+- q: ประชากรไทย
+  type: party
+  url: /party/ประชากรไทย
+- q: เครือข่ายชาวนาแห่งประเทศไทย
+  type: party
+  url: /party/เครือข่ายชาวนาแห่งประเทศไทย
+- q: เพื่อแผ่นดิน
+  type: party
+  url: /party/เพื่อแผ่นดิน
+- q: อนาคตไทย
+  type: party
+  url: /party/อนาคตไทย
+- q: สังคมประชาธิปไตยไทย
+  type: party
+  url: /party/สังคมประชาธิปไตยไทย
+- q: ประชาสามัคคี
+  type: party
+  url: /party/ประชาสามัคคี
+- q: พลังบูรพา
+  type: party
+  url: /party/พลังบูรพา
+- q: พลังสหกรณ์
+  type: party
+  url: /party/พลังสหกรณ์
+- q: ถิ่นกาขาวชาววิไล
+  type: party
+  url: /party/ถิ่นกาขาวชาววิไล
+- q: รักษ์ธรรม
+  type: party
+  url: /party/รักษ์ธรรม
+- q: พลังประชาธิปไตย
+  type: party
+  url: /party/พลังประชาธิปไตย
+- q: ภราดรภาพ
+  type: party
+  url: /party/ภราดรภาพ
+- q: พลังไทยรักชาติ
+  type: party
+  url: /party/พลังไทยรักชาติ
+- q: ช่วยชาติ
+  type: party
+  url: /party/ช่วยชาติ
+- q: ทางเลือกใหม่
+  type: party
+  url: /party/ทางเลือกใหม่
+- q: พลเมืองไทย
+  type: party
+  url: /party/พลเมืองไทย
+- q: สร้างอนาคตไทย
+  type: party
+  url: /party/สร้างอนาคตไทย
+- q: ไทยธรรม
+  type: party
+  url: /party/ไทยธรรม
+- q: พลังไทรุ่งเรือง
+  type: party
+  url: /party/พลังไทรุ่งเรือง
+- q: ไทยพร้อม
+  type: party
+  url: /party/ไทยพร้อม
+- q: เพื่อราษฎร
+  type: party
+  url: /party/เพื่อราษฎร
+- q: แผ่นดินธรรรม
+  type: party
+  url: /party/แผ่นดินธรรรม
+- q: คลองไทย
+  type: party
+  url: /party/คลองไทย
+- q: พลังสังคม
+  type: party
+  url: /party/พลังสังคม
+- q: พลังศรัทธา
+  type: party
+  url: /party/พลังศรัทธา
+- q: เป็นธรรม
+  type: party
+  url: /party/เป็นธรรม
+- q: พลังเพื่อไทย
+  type: party
+  url: /party/พลังเพื่อไทย
+- q: ประชาไทย
+  type: party
+  url: /party/ประชาไทย
+- q: กรีน
+  type: party
+  url: /party/กรีน
+- q: สามัญชน
+  type: party
+  url: /party/สามัญชน
+- q: ภาคีเครือข่ายไทย
+  type: party
+  url: /party/ภาคีเครือข่ายไทย
+- q: รวมไทยยูไนเต็ด
+  type: party
+  url: /party/รวมไทยยูไนเต็ด
+- q: คนงานไทย
+  type: party
+  url: /party/คนงานไทย
+- q: สร้างชาติ
+  type: party
+  url: /party/สร้างชาติ
+- q: เพื่ออนาคตไทย
+  type: party
+  url: /party/เพื่ออนาคตไทย
+- q: เส้นทางใหม่
+  type: party
+  url: /party/เส้นทางใหม่
+- q: ไทยรวมไทย
+  type: party
+  url: /party/ไทยรวมไทย
+- q: กล้า
+  type: party
+  url: /party/กล้า
+- q: ยุทธศาสตร์ชาติ
+  type: party
+  url: /party/ยุทธศาสตร์ชาติ
+- q: พลังสังคมใหม่
+  type: party
+  url: /party/พลังสังคมใหม่
+- q: มิติใหม่
+  type: party
+  url: /party/มิติใหม่
+- q: ไทยสมาร์ท
+  type: party
+  url: /party/ไทยสมาร์ท
+- q: เพื่อประชาชน
+  type: party
+  url: /party/เพื่อประชาชน
+- q: พลังสยาม
+  type: party
+  url: /party/พลังสยาม
+- q: แนวทางใหม่
+  type: party
+  url: /party/แนวทางใหม่
+- q: เสมอภาค
+  type: party
+  url: /party/เสมอภาค
+- q: ไทยชนะ
+  type: party
+  url: /party/ไทยชนะ
+- q: เพื่อไทรวมพลัง
+  type: party
+  url: /party/เพื่อไทรวมพลัง
+- q: ไทยสร้างสรรค์
+  type: party
+  url: /party/ไทยสร้างสรรค์
+- q: ราษฎร์วิถี
+  type: party
+  url: /party/ราษฎร์วิถี
+- q: ไทยเป็นหนึ่ง
+  type: party
+  url: /party/ไทยเป็นหนึ่ง
+- q: ท้องที่ไทย
+  type: party
+  url: /party/ท้องที่ไทย
+- q: เปลี่ยนอนาคต
+  type: party
+  url: /party/เปลี่ยนอนาคต
+- q: ใหม่
+  type: party
+  url: /party/ใหม่
+- q: แรงงานสร้างชาติ
+  type: party
+  url: /party/แรงงานสร้างชาติ
+- q: ไทยก้าวหน้า
+  type: party
+  url: /party/ไทยก้าวหน้า
+- q: พลัง
+  type: party
+  url: /party/พลัง
+- q: สยามพล
+  type: party
+  url: /party/สยามพล
+- q: ชาติรุ่งเรือง
+  type: party
+  url: /party/ชาติรุ่งเรือง
+- q: รวมใจไทย
+  type: party
+  url: /party/รวมใจไทย
+- q: สัมมาธิปไตย
+  type: party
+  url: /party/สัมมาธิปไตย
 - q: พลเอก ประยุทธ์ จันทร์โอชา
   type: people
   url: /people/ประยุทธ์-จันทร์โอชา
@@ -295,9 +487,9 @@
 - q: นาย คำพอง เทพาคำ
   type: people
   url: /people/คำพอง-เทพาคำ
-- q: นาย คุณากร ปรีชาชนะชัย
+- q: นาย ากร ปรีชาชนะชัย
   type: people
-  url: /people/คุณากร-ปรีชาชนะชัย
+  url: /people/ากร-ปรีชาชนะชัย
 - q: นาย จตุพร เจริญเชื้อ
   type: people
   url: /people/จตุพร-เจริญเชื้อ
@@ -726,7 +918,7 @@
   url: /people/นิโรธ-สุนทรเลขา
 - q: นางสาว แนน บุณย์ธิดา สมชัย
   type: people
-  url: /people/แนน บุณย์ธิดา-สมชัย
+  url: /people/แนน-บุณย์ธิดา สมชัย
 - q: นายแพทย์ บัญญัติ เจตนจันทร์
   type: people
   url: /people/บัญญัติ-เจตนจันทร์
@@ -1840,9 +2032,9 @@
 - q: พลเอก ดนัย มีชูเวท
   type: people
   url: /people/ดนัย-มีชูเวท
-- q: นาง ดวงพร รอดพยาธื์
+- q: นาง ดวงพร รอดพยาธิ์
   type: people
-  url: /people/ดวงพร-รอดพยาธื์
+  url: /people/ดวงพร-รอดพยาธิ์
 - q: ดร. ดาวน้อย สุทธินิภาพันธ์
   type: people
   url: /people/ดาวน้อย-สุทธินิภาพันธ์
@@ -2428,51 +2620,9 @@
 - q: พลอากาศเอก มานัต วงษ์วาทย์
   type: people
   url: /people/มานัต-วงษ์วาทย์
-- q: นาย สุวิชญ์ โยทองยศ
-  type: people
-  url: /people/สุวิชญ์-โยทองยศ
-- q: นางสาว กัญจนา ศิลปอาชา
-  type: people
-  url: /people/กัญจนา-ศิลปอาชา
-- q: นาย วิวัฒน์ เจริญพาณิชย์ศิริ
-  type: people
-  url: /people/วิวัฒน์-เจริญพาณิชย์ศิริ
-- q: นาย จตุรวิทย์ กาละมิตร์
-  type: people
-  url: /people/จตุรวิทย์-กาละมิตร์
 - q: พันตำรวจเอก ทวี สอดส่อง
   type: people
   url: /people/ทวี-สอดส่อง
-- q: นาย ชัยวุฑ ตรึกตรอง
-  type: people
-  url: /people/ชัยวุฑ-ตรึกตรอง
-- q: นาย ชุณห์ ศิริชัยคีรีโกศล
-  type: people
-  url: /people/ชุณห์-ศิริชัยคีรีโกศล
-- q: พลตำรวจตรี วรยุทธ อินทรสุวรรณ
-  type: people
-  url: /people/วรยุทธ-อินทรสุวรรณ
-- q: ศาสตราจารย์ นายแพทย์ สมเกียรติ วัฒนศิริชัยกุล
-  type: people
-  url: /people/สมเกียรติ-วัฒนศิริชัยกุล
-- q: นาย ธีรศักดิ์ พานิชวิทย์
-  type: people
-  url: /people/ธีรศักดิ์-พานิชวิทย์
-- q: นาย วินัย ไชยบุตร
-  type: people
-  url: /people/วินัย-ไชยบุตร
-- q: นายแพทย์ นิทัศน์ รายยวา
-  type: people
-  url: /people/นิทัศน์-รายยวา
-- q: นาย จรินทร์ เฮียงกุล
-  type: people
-  url: /people/จรินทร์-เฮียงกุล
-- q: นาย ทวีศักดิ์ ณ ตะกั่วทุ่ง
-  type: people
-  url: /people/ทวีศักดิ์-ณ ตะกั่วทุ่ง
-- q: นาย สันติภาพ อินทรพัฒน์
-  type: people
-  url: /people/สันติภาพ-อินทรพัฒน์
 - q: นาย เผดิมชัย สะสมทรัพย์
   type: people
   url: /people/เผดิมชัย-สะสมทรัพย์
@@ -2491,720 +2641,9 @@
 - q: นาย เพชรภูมิ อาภรณ์รัตน์
   type: people
   url: /people/เพชรภูมิ-อาภรณ์รัตน์
-- q: นาง กนกนุช กลิ่นสังข์
-  type: people
-  url: /people/กนกนุช-กลิ่นสังข์
-- q: นาย กฤช เอื้อวงศ์
-  type: people
-  url: /people/กฤช-เอื้อวงศ์
-- q: นาย กฤต เลิศเศรษฐการ
-  type: people
-  url: /people/กฤต-เลิศเศรษฐการ
-- q: นาย กิติศักดิ์ พ้นภัย
-  type: people
-  url: /people/กิติศักดิ์-พ้นภัย
-- q: นาย เกิดโชค เกษมวงศ์จิตร
-  type: people
-  url: /people/เกิดโชค-เกษมวงศ์จิตร
-- q: นาย โกวิทย์ ธารณา
-  type: people
-  url: /people/โกวิทย์-ธารณา
-- q: นางสาว ขนิษฐา สหเมธาพัฒน์
-  type: people
-  url: /people/ขนิษฐา-สหเมธาพัฒน์
-- q: นาง คชาภรณ์ รุ่งหิรัญรักษ์
-  type: people
-  url: /people/คชาภรณ์-รุ่งหิรัญรักษ์
-- q: นาย คมสัณห์ ฐานะโชติพันธุ์
-  type: people
-  url: /people/คมสัณห์-ฐานะโชติพันธุ์
-- q: นาย คริส โปตระนันทน์
-  type: people
-  url: /people/คริส-โปตระนันทน์
-- q: นาย จตุภัทร์ บุญภัทรรักษา
-  type: people
-  url: /people/จตุภัทร์-บุญภัทรรักษา
-- q: นาย จารุพล เรืองสุวรรณ
-  type: people
-  url: /people/จารุพล-เรืองสุวรรณ
-- q: รองศาสตราจารย์ จิราพร ลิ้มปานานนท์
-  type: people
-  url: /people/จิราพร-ลิ้มปานานนท์
-- q: นาย เจริญ คัมภีรภาพ
-  type: people
-  url: /people/เจริญ-คัมภีรภาพ
-- q: นาย ฉลอง เทพวิทักษ์กิจ
-  type: people
-  url: /people/ฉลอง-เทพวิทักษ์กิจ
-- q: นาย ฉลอง เรี่ยวแรง
-  type: people
-  url: /people/ฉลอง-เรี่ยวแรง
-- q: นาย ชนินทร์ รุ่งแสง
-  type: people
-  url: /people/ชนินทร์-รุ่งแสง
-- q: นางสาว ชลธิชา แจ้งเร็ว
-  type: people
-  url: /people/ชลธิชา-แจ้งเร็ว
-- q: นาย ชัน ภักดีศรี
-  type: people
-  url: /people/ชัน-ภักดีศรี
-- q: นาย ชัยเกษม นิติสิริ
-  type: people
-  url: /people/ชัยเกษม-นิติสิริ
-- q: นาย ชัยณรงค์ กัจฉปานันท์
-  type: people
-  url: /people/ชัยณรงค์-กัจฉปานันท์
-- q: นาย ชัยธวัช ตุลาธน
-  type: people
-  url: /people/ชัยธวัช-ตุลาธน
-- q: นาย ชัยวุฒิ ผ่องแผ้ว
-  type: people
-  url: /people/ชัยวุฒิ-ผ่องแผ้ว
-- q: นาย ชำนาญ ชูเที่ยง
-  type: people
-  url: /people/ชำนาญ-ชูเที่ยง
-- q: นาย ชุมลาภ เตชะเสน
-  type: people
-  url: /people/ชุมลาภ-เตชะเสน
-- q: นาย ชุมสาย ศรียาภัย
-  type: people
-  url: /people/ชุมสาย-ศรียาภัย
-- q: นาง ชูชีวี ชีพชล
-  type: people
-  url: /people/ชูชีวี-ชีพชล
-- q: นาย ชูศักดิ์ ศิรินิล
-  type: people
-  url: /people/ชูศักดิ์-ศิรินิล
-- q: นาย เชษฐา โมสิกรัตน์
-  type: people
-  url: /people/เชษฐา-โมสิกรัตน์
-- q: นาย เชิดชัย ตันติศิรินทร์
-  type: people
-  url: /people/เชิดชัย-ตันติศิรินทร์
-- q: พลตำรวจตรี โชติ ชัยชมภู
-  type: people
-  url: /people/โชติ-ชัยชมภู
-- q: นาย ไชยณรงค์ เศรษฐเชื้อ
-  type: people
-  url: /people/ไชยณรงค์-เศรษฐเชื้อ
-- q: นาย ณรงค์ สืบตระกูล
-  type: people
-  url: /people/ณรงค์-สืบตระกูล
-- q: นาย ณัฐพงษ์ พานิชศิริ
-  type: people
-  url: /people/ณัฐพงษ์-พานิชศิริ
-- q: นาย ดนัย ธีวันดา
-  type: people
-  url: /people/ดนัย-ธีวันดา
-- q: หม่อมหลวง ดิศปนัดดา ดิศกุล
-  type: people
-  url: /people/ดิศปนัดดา-ดิศกุล
-- q: นาย ดิสทัต คำประกอบ
-  type: people
-  url: /people/ดิสทัต-คำประกอบ
-- q: นาง ดุษฎี นามวิเศษ
-  type: people
-  url: /people/ดุษฎี-นามวิเศษ
-- q: นาย เดชรัต สุขกำเนิด
-  type: people
-  url: /people/เดชรัต-สุขกำเนิด
-- q: นาย ตรีรัตน์ ศิริจันทโรภาส
-  type: people
-  url: /people/ตรีรัตน์-ศิริจันทโรภาส
-- q: รองศาสตราจารย์ ต่อตระกูล ยมนาค
-  type: people
-  url: /people/ต่อตระกูล-ยมนาค
-- q: นาย เถกิง ศักดานุวงศ์
-  type: people
-  url: /people/เถกิง-ศักดานุวงศ์
-- q: นาย เถลิงศักดิ์ เพ็ชรสุวรรณ
-  type: people
-  url: /people/เถลิงศักดิ์-เพ็ชรสุวรรณ
-- q: นาย ทศพร เสรีรักษ์
-  type: people
-  url: /people/ทศพร-เสรีรักษ์
-- q: นาย ทศพล เพ็งส้ม
-  type: people
-  url: /people/ทศพล-เพ็งส้ม
-- q: นาย ธนกร วังบุญคงชนะ
-  type: people
-  url: /people/ธนกร-วังบุญคงชนะ
-- q: นาย ธนวัฒน์ ศรีสุข
-  type: people
-  url: /people/ธนวัฒน์-ศรีสุข
-- q: นาย ธนาคม จงจิระ
-  type: people
-  url: /people/ธนาคม-จงจิระ
-- q: นาย ธเนศ ดุสิตสุนทรกุล
-  type: people
-  url: /people/ธเนศ-ดุสิตสุนทรกุล
-- q: นาย ธารา กุศลชาติธรรม
-  type: people
-  url: /people/ธารา-กุศลชาติธรรม
-- q: นาย ธีรศานต์ สหัสสพาศน์
-  type: people
-  url: /people/ธีรศานต์-สหัสสพาศน์
-- q: นาย ธีระทัศน์ เตียวเจริญโสภา
-  type: people
-  url: /people/ธีระทัศน์-เตียวเจริญโสภา
-- q: พลเรือตรี ธีระยุทธ นอบน้อม
-  type: people
-  url: /people/ธีระยุทธ-นอบน้อม
-- q: นาย ธีระยุทธ วานิชชัง
-  type: people
-  url: /people/ธีระยุทธ-วานิชชัง
-- q: นาย นพร โพธิ์พัฒนชัย
-  type: people
-  url: /people/นพร-โพธิ์พัฒนชัย
-- q: นางสาว นพสรัญ วรรณศิริกุล
-  type: people
-  url: /people/นพสรัญ-วรรณศิริกุล
-- q: นาย นภดล ตันติเมฆิน
-  type: people
-  url: /people/นภดล-ตันติเมฆิน
-- q: พันโท นราวิทย์ เปาอินทร์
-  type: people
-  url: /people/นราวิทย์-เปาอินทร์
-- q: นาง นฤมล ธารดำรงค์
-  type: people
-  url: /people/นฤมล-ธารดำรงค์
-- q: นาย นิพิฏฐ์ อินทรสมบัติ
-  type: people
-  url: /people/นิพิฏฐ์-อินทรสมบัติ
-- q: นางสาว นุชนภา รื่นอบเชย
-  type: people
-  url: /people/นุชนภา-รื่นอบเชย
-- q: ผู้ช่วยศาสตราจารย์ บัณฑิต จันทร์โรจน์กิจ
-  type: people
-  url: /people/บัณฑิต-จันทร์โรจน์กิจ
-- q: นาย บุญดำรง ประเสริฐโสภา
-  type: people
-  url: /people/บุญดำรง-ประเสริฐโสภา
-- q: นาย บุญเลิศ เหลียงกอบกิจ
-  type: people
-  url: /people/บุญเลิศ-เหลียงกอบกิจ
-- q: นาย ปกรณ์ นิลประพันธ์
-  type: people
-  url: /people/ปกรณ์-นิลประพันธ์
-- q: นางสาว ปรกชล อู่ทรัพย์
-  type: people
-  url: /people/ปรกชล-อู่ทรัพย์
-- q: นาย ประพัฒน์ ปัญญาชาติรักษ์
-  type: people
-  url: /people/ประพัฒน์-ปัญญาชาติรักษ์
-- q: นาย ประพิศ นวมโคกสูง
-  type: people
-  url: /people/ประพิศ-นวมโคกสูง
-- q: นาย ประยงค์ ดอกลำใย
-  type: people
-  url: /people/ประยงค์-ดอกลำใย
-- q: นาย ประยุทธ์ ศิริพานิชย์
-  type: people
-  url: /people/ประยุทธ์-ศิริพานิชย์
-- q: นาย ประสิทธิ์ชัย หนูนวล
-  type: people
-  url: /people/ประสิทธิ์ชัย-หนูนวล
-- q: นาย ปวิณ ชำนิประศาสน์
-  type: people
-  url: /people/ปวิณ-ชำนิประศาสน์
-- q: นาย ปองพล สะสมทรัพย์
-  type: people
-  url: /people/ปองพล-สะสมทรัพย์
-- q: นาง ปัณณิตา สท้านไตรภพ
-  type: people
-  url: /people/ปัณณิตา-สท้านไตรภพ
-- q: นาง ปิยะศิริ นาโคศิริ
-  type: people
-  url: /people/ปิยะศิริ-นาโคศิริ
-- q: นาย เป็นหนึ่ง วานิชชัย
-  type: people
-  url: /people/เป็นหนึ่ง-วานิชชัย
-- q: นาง ผุสดี ตามไท
-  type: people
-  url: /people/ผุสดี-ตามไท
-- q: นาย พงศ์กิตติ์ อรุณภักดีสกุล
-  type: people
-  url: /people/พงศ์กิตติ์-อรุณภักดีสกุล
-- q: นาย พงศ์เทพ เทพกาญจนา
-  type: people
-  url: /people/พงศ์เทพ-เทพกาญจนา
-- q: นาย พงศ์บุณย์ ปองทอง
-  type: people
-  url: /people/พงศ์บุณย์-ปองทอง
-- q: นาย พจน์ เจริญสันเทียะ
-  type: people
-  url: /people/พจน์-เจริญสันเทียะ
-- q: นางสาว พรเพ็ญ คงขจรเกียรติ
-  type: people
-  url: /people/พรเพ็ญ-คงขจรเกียรติ
-- q: รองศาสตราจารย์ พวงรัตน์ ขจิตวิชยานุกูล
-  type: people
-  url: /people/พวงรัตน์-ขจิตวิชยานุกูล
-- q: นาย พะโยม ชิณวงศ์
-  type: people
-  url: /people/พะโยม-ชิณวงศ์
-- q: นาย พัศพงศ์ พงศ์เรืองรอง
-  type: people
-  url: /people/พัศพงศ์-พงศ์เรืองรอง
-- q: พลเรือเอก พิเชฐ ตานะเศรษฐ
-  type: people
-  url: /people/พิเชฐ-ตานะเศรษฐ
-- q: นาย พิทักษ์ สันติวงษ์สกุล
-  type: people
-  url: /people/พิทักษ์-สันติวงษ์สกุล
-- q: นาย พินิจ พูลเกิด
-  type: people
-  url: /people/พินิจ-พูลเกิด
-- q: นาย พิสิษฐ์ คงสมพรต
-  type: people
-  url: /people/พิสิษฐ์-คงสมพรต
-- q: นาย พุทธิสัตย์ นามเดช
-  type: people
-  url: /people/พุทธิสัตย์-นามเดช
-- q: พลตำรวจโท ไพฑูรย์ ชูชัยยะ
-  type: people
-  url: /people/ไพฑูรย์-ชูชัยยะ
-- q: นาย ภพ เอครพานิช
-  type: people
-  url: /people/ภพ-เอครพานิช
-- q: นาง ภัทธมน เพ็งส้ม
-  type: people
-  url: /people/ภัทธมน-เพ็งส้ม
-- q: นาง ภัทรพร วรทรัพย์
-  type: people
-  url: /people/ภัทรพร-วรทรัพย์
-- q: นาย ภัทร ภมรมนตรี
-  type: people
-  url: /people/ภัทร-ภมรมนตรี
-- q: นาย ภาคภูมิ แสงกนกกุล
-  type: people
-  url: /people/ภาคภูมิ-แสงกนกกุล
-- q: รองศาสตราจารย์ ภูมินทร์ บุตรอินทร์
-  type: people
-  url: /people/ภูมินทร์-บุตรอินทร์
-- q: นาง เภาพงา สุทธิมณฑล
-  type: people
-  url: /people/เภาพงา-สุทธิมณฑล
-- q: รองศาสตราจารย์ โภคิน พลกุล
-  type: people
-  url: /people/โภคิน-พลกุล
-- q: พลตำรวจตรี มณเฑียร ประทีปะวณิช
-  type: people
-  url: /people/มณเฑียร-ประทีปะวณิช
-- q: นาย มานะ มหาสุวีระชัย
-  type: people
-  url: /people/มานะ-มหาสุวีระชัย
-- q: นาย มานะ ศิริพิทยาวัฒน์
-  type: people
-  url: /people/มานะ-ศิริพิทยาวัฒน์
-- q: นาย มูหามัดเปาซี อาลีฮา
-  type: people
-  url: /people/มูหามัดเปาซี-อาลีฮา
-- q: ผู้ช่วยศาสตราจารย์ ยอดพล เทพสิทธา
-  type: people
-  url: /people/ยอดพล-เทพสิทธา
 - q: นาย ยุทธนา โพธสุธน
   type: people
   url: /people/ยุทธนา-โพธสุธน
-- q: นางสาว โยธากาญจน์ ฟองงาม
-  type: people
-  url: /people/โยธากาญจน์-ฟองงาม
-- q: นางสาว รตญา กอบศิริกาญจน์
-  type: people
-  url: /people/รตญา-กอบศิริกาญจน์
-- q: นางสาว รวิวรรณ จตุรพิธพร
-  type: people
-  url: /people/รวิวรรณ-จตุรพิธพร
-- q: นาย รัฐชทรัพย์ นิชิด้า
-  type: people
-  url: /people/รัฐชทรัพย์-นิชิด้า
-- q: นาย รัฐชยุตม์ รุ่งจารุพันธ์
-  type: people
-  url: /people/รัฐชยุตม์-รุ่งจารุพันธ์
-- q: นาย รัฐพล แสนรักษ์
-  type: people
-  url: /people/รัฐพล-แสนรักษ์
-- q: นาย เรืองไกร ลีกิจวัฒนะ
-  type: people
-  url: /people/เรืองไกร-ลีกิจวัฒนะ
-- q: นาย เรืองศักดิ์ สุวารี
-  type: people
-  url: /people/เรืองศักดิ์-สุวารี
-- q: นางสาว ลีลาวดี วัชโรบล
-  type: people
-  url: /people/ลีลาวดี-วัชโรบล
-- q: นาย วรณัฐ ศรีสุริยชัย
-  type: people
-  url: /people/วรณัฐ-ศรีสุริยชัย
-- q: นาย วรรณรัตน์ ชาญนุกูล
-  type: people
-  url: /people/วรรณรัตน์-ชาญนุกูล
-- q: นาง วรลักษณ์ ศรีสะอาด
-  type: people
-  url: /people/วรลักษณ์-ศรีสะอาด
-- q: นาย วรัชญ์ เพชรร่วง
-  type: people
-  url: /people/วรัชญ์-เพชรร่วง
-- q: ผู้ช่วยศาสตราจารย์ วลัยพร รัตนเศรษฐ
-  type: people
-  url: /people/วลัยพร-รัตนเศรษฐ
-- q: ร้อยตำรวจเอก วัฒนรักษ์ อำนรรฆสรเดช
-  type: people
-  url: /people/วัฒนรักษ์-อำนรรฆสรเดช
-- q: นาย วัฒนา เมืองสุข
-  type: people
-  url: /people/วัฒนา-เมืองสุข
-- q: นาย วัลลภ นาคบัว
-  type: people
-  url: /people/วัลลภ-นาคบัว
-- q: นาย วาสุเทพ ศรีโสดา
-  type: people
-  url: /people/วาสุเทพ-ศรีโสดา
-- q: นาย วิจักร อากัปกริยา
-  type: people
-  url: /people/วิจักร-อากัปกริยา
-- q: นาย วิจิตร พรพฤฒิพันธ์ุ
-  type: people
-  url: /people/วิจิตร-พรพฤฒิพันธ์ุ
-- q: นาย วิชัย ไชยมงคล
-  type: people
-  url: /people/วิชัย-ไชยมงคล
-- q: ว่าที่ร้อยตรี วิชากร เฮงษฎีกุล
-  type: people
-  url: /people/วิชากร-เฮงษฎีกุล
-- q: นาย วิชาญ มีนชัยนันท์
-  type: people
-  url: /people/วิชาญ-มีนชัยนันท์
-- q: พลเอก วิชิต สาทรานนท์
-  type: people
-  url: /people/วิชิต-สาทรานนท์
-- q: นาย วิฑูรย์ เลี่ยนจำรูญ
-  type: people
-  url: /people/วิฑูรย์-เลี่ยนจำรูญ
-- q: นาย วิทยา พานิชพงศ์
-  type: people
-  url: /people/วิทยา-พานิชพงศ์
-- q: นาย วิทยา ยาม่วง
-  type: people
-  url: /people/วิทยา-ยาม่วง
-- q: นางสาว วิภาวัลย์ วรวรรณปรีชา
-  type: people
-  url: /people/วิภาวัลย์-วรวรรณปรีชา
-- q: พลตำรวจโท วิโรจน์ เปาอินทร์
-  type: people
-  url: /people/วิโรจน์-เปาอินทร์
-- q: นาง วิไลรัตน์ อักษรพันธ์
-  type: people
-  url: /people/วิไลรัตน์-อักษรพันธ์
-- q: นาย วีระ สมความคิด
-  type: people
-  url: /people/วีระ-สมความคิด
-- q: รองศาสตราจารย์ วุฒิสาร ตันไชย
-  type: people
-  url: /people/วุฒิสาร-ตันไชย
-- q: นาย ศรัญ ฤกษ์อัตการ
-  type: people
-  url: /people/ศรัญ-ฤกษ์อัตการ
-- q: นาย ศันสนะ สุริยะโยธิน
-  type: people
-  url: /people/ศันสนะ-สุริยะโยธิน
-- q: พันตำรวจโทหญิง ศิพร โกวิท
-  type: people
-  url: /people/ศิพร-โกวิท
-- q: นาง ศิริวรรณ สุคนธมาน
-  type: people
-  url: /people/ศิริวรรณ-สุคนธมาน
-- q: นาย ศุภชัย นาคสุวรรณ์
-  type: people
-  url: /people/ศุภชัย-นาคสุวรรณ์
-- q: นาย ศุภณัฐค์ น้อยโสภณ
-  type: people
-  url: /people/ศุภณัฐค์-น้อยโสภณ
-- q: นาย ศุภณัฐ อิ่มทอง
-  type: people
-  url: /people/ศุภณัฐ-อิ่มทอง
-- q: นาย สนธิญาน ชื่นฤทัยในธรรม
-  type: people
-  url: /people/สนธิญาน-ชื่นฤทัยในธรรม
-- q: นาย สนธิญา หนูจีนเส้ง
-  type: people
-  url: /people/สนธิญา-หนูจีนเส้ง
-- q: นาย สมชัย ศรีสุทธิยากร
-  type: people
-  url: /people/สมชัย-ศรีสุทธิยากร
-- q: นาย สมชัย อภิวัฒนพร
-  type: people
-  url: /people/สมชัย-อภิวัฒนพร
-- q: นาย สมชาติ ธรรมศิริ
-  type: people
-  url: /people/สมชาติ-ธรรมศิริ
-- q: นาย สมชาย สุมนัสขจรกุล
-  type: people
-  url: /people/สมชาย-สุมนัสขจรกุล
-- q: นาย สมพงษ์ สระกวี
-  type: people
-  url: /people/สมพงษ์-สระกวี
-- q: นาย สมศักดิ์ ภู่สกุล
-  type: people
-  url: /people/สมศักดิ์-ภู่สกุล
-- q: ว่าที่ร้อยตรี สรชาติ วิชย สุวรรณพรหม
-  type: people
-  url: /people/สรชาติ-วิชย สุวรรณพรหม
-- q: นาย สรสินธุ ไตรจักรภพ
-  type: people
-  url: /people/สรสินธุ-ไตรจักรภพ
-- q: นาย สวาท สุทธิอาคาร
-  type: people
-  url: /people/สวาท-สุทธิอาคาร
-- q: ศาสตราจารย์ สัมพันธ์ ฤทธิเดช
-  type: people
-  url: /people/สัมพันธ์-ฤทธิเดช
-- q: นาย สัมพันธ์ เลิศนุวัฒน์
-  type: people
-  url: /people/สัมพันธ์-เลิศนุวัฒน์
-- q: นาย สามารถ เจนชัยจิตรวนิช
-  type: people
-  url: /people/สามารถ-เจนชัยจิตรวนิช
-- q: นาย สามารถ ราชพลสิทธิ์
-  type: people
-  url: /people/สามารถ-ราชพลสิทธิ์
-- q: ผู้ช่วยศาสตราจารย์ สิตางศุ์ พิลัยหล้า
-  type: people
-  url: /people/สิตางศุ์-พิลัยหล้า
-- q: นาย สิทธิพล วิบูลย์ธนากุล
-  type: people
-  url: /people/สิทธิพล-วิบูลย์ธนากุล
-- q: นาย สุชาติ โรจน์ทองคำ
-  type: people
-  url: /people/สุชาติ-โรจน์ทองคำ
-- q: นางสาว สุณีย์ กัลยะจิตร
-  type: people
-  url: /people/สุณีย์-กัลยะจิตร
-- q: นาย สุทัศน์ วีสกุล
-  type: people
-  url: /people/สุทัศน์-วีสกุล
-- q: นาย สุพจน์ โตวิจักษณ์ชัยกุล
-  type: people
-  url: /people/สุพจน์-โตวิจักษณ์ชัยกุล
-- q: นาย สุพล บริสุทธิ์
-  type: people
-  url: /people/สุพล-บริสุทธิ์
-- q: นางสาว สุเพ็ญศรี พึ่งโคกสูง
-  type: people
-  url: /people/สุเพ็ญศรี-พึ่งโคกสูง
-- q: นางสาว สุภัทรา บุญเสริม
-  type: people
-  url: /people/สุภัทรา-บุญเสริม
-- q: นาย สุเมธ องกิตติกุล
-  type: people
-  url: /people/สุเมธ-องกิตติกุล
-- q: พลตำรวจตรี สุรชาติ จึงดำรงกิจ
-  type: people
-  url: /people/สุรชาติ-จึงดำรงกิจ
-- q: นาย สุรวุฒิ อินนะใจ
-  type: people
-  url: /people/สุรวุฒิ-อินนะใจ
-- q: นาย สุรสาล ผาสุข
-  type: people
-  url: /people/สุรสาล-ผาสุข
-- q: นาย สุริยันต์ ทองหนูเอียด
-  type: people
-  url: /people/สุริยันต์-ทองหนูเอียด
-- q: นาย สุริยันต์ สุริยะโชติกุล
-  type: people
-  url: /people/สุริยันต์-สุริยะโชติกุล
-- q: นาง สุวรรณา เตียรถ์สุวรรณ
-  type: people
-  url: /people/สุวรรณา-เตียรถ์สุวรรณ
-- q: นาย สุวิทย์ งอกศรี
-  type: people
-  url: /people/สุวิทย์-งอกศรี
-- q: นาย เสน่ห์ ขาวโต
-  type: people
-  url: /people/เสน่ห์-ขาวโต
-- q: นางสาว แสงเดือน ชัยเลิศ
-  type: people
-  url: /people/แสงเดือน-ชัยเลิศ
-- q: นาย องอาจ วนามากสมบัติ
-  type: people
-  url: /people/องอาจ-วนามากสมบัติ
-- q: นาย อนันต์ ปาลีคุปต์
-  type: people
-  url: /people/อนันต์-ปาลีคุปต์
-- q: นาย อนันต์ ฤกษ์ดี
-  type: people
-  url: /people/อนันต์-ฤกษ์ดี
-- q: นาย อนุกูล ทรายเพชร
-  type: people
-  url: /people/อนุกูล-ทรายเพชร
-- q: นาย อนุชา บูรพชัยศรี
-  type: people
-  url: /people/อนุชา-บูรพชัยศรี
-- q: นาย อภิชาต ศักดิเศรษฐ์
-  type: people
-  url: /people/อภิชาต-ศักดิเศรษฐ์
-- q: นาย อภิวัฒน์ อากาศฤกษ์
-  type: people
-  url: /people/อภิวัฒน์-อากาศฤกษ์
-- q: ผู้ช่วยศาสตราจารย์ อลงกรณ์ อรรคแสง
-  type: people
-  url: /people/อลงกรณ์-อรรคแสง
-- q: นาย อัครพล ทองพูน
-  type: people
-  url: /people/อัครพล-ทองพูน
-- q: นาง อังคณา นีละไพจิตร
-  type: people
-  url: /people/อังคณา-นีละไพจิตร
-- q: นาย อับดุลกอฮาร์ อาแวปูเตะ
-  type: people
-  url: /people/อับดุลกอฮาร์-อาแวปูเตะ
-- q: นาย อัมภัส ปิ่นวนิชย์กุล
-  type: people
-  url: /people/อัมภัส-ปิ่นวนิชย์กุล
-- q: นาย อำนวย ยุติธรรม
-  type: people
-  url: /people/อำนวย-ยุติธรรม
-- q: นาย อุดม รัฐอมฤต
-  type: people
-  url: /people/อุดม-รัฐอมฤต
-- q: นางสาว อุษณี กังวารจิตต์
-  type: people
-  url: /people/อุษณี-กังวารจิตต์
-- q: นาย เอกพันธุ์ ปิณฑวณิช
-  type: people
-  url: /people/เอกพันธุ์-ปิณฑวณิช
-- q: นางสาว เอมอร เสียงใหญ่
-  type: people
-  url: /people/เอมอร-เสียงใหญ่
-- q: นางสาว ทิพานัน ศิริชนะ
-  type: people
-  url: /people/ทิพานัน-ศิริชนะ
-- q: นาย ธนิตพล ไชยนันทน์
-  type: people
-  url: /people/ธนิตพล-ไชยนันทน์
-- q: ศาสตราจารย์ ธีระวัฒน์ เหมะจุฑา
-  type: people
-  url: /people/ธีระวัฒน์-เหมะจุฑา
-- q: นางสาว นพวรรณ หัวใจมั่น
-  type: people
-  url: /people/นพวรรณ-หัวใจมั่น
-- q: นาย ปรเมศวร์ กุมารบุญ
-  type: people
-  url: /people/ปรเมศวร์-กุมารบุญ
-- q: นาย ปลอดประสพ สุรัสวดี
-  type: people
-  url: /people/ปลอดประสพ-สุรัสวดี
-- q: นาย พรพจน์ เพ็ญพาส
-  type: people
-  url: /people/พรพจน์-เพ็ญพาส
-- q: นาย ไพโรจน์ อิสระเสรีพงษ์
-  type: people
-  url: /people/ไพโรจน์-อิสระเสรีพงษ์
-- q: นาย ยงยุทธ ติยะไพรัช
-  type: people
-  url: /people/ยงยุทธ-ติยะไพรัช
-- q: นาย วสันต์ กล้าแท้
-  type: people
-  url: /people/วสันต์-กล้าแท้
-- q: นาย วิชิต ปลั่งศรีสกุล
-  type: people
-  url: /people/วิชิต-ปลั่งศรีสกุล
-- q: นาย สงกรานต์ จิตสุทธิภากร
-  type: people
-  url: /people/สงกรานต์-จิตสุทธิภากร
-- q: นาย สัมพันธ์ แป้นพัฒน์
-  type: people
-  url: /people/สัมพันธ์-แป้นพัฒน์
-- q: นาย อุดมศักดิ์ ศรีสุทิวา
-  type: people
-  url: /people/อุดมศักดิ์-ศรีสุทิวา
-- q: นางสาว สุรางค์รัตน์ จำเนียรพล
-  type: people
-  url: /people/สุรางค์รัตน์-จำเนียรพล
-- q: พันตำรวจเอก ประเวศน์ มูลประมุข
-  type: people
-  url: /people/ประเวศน์-มูลประมุข
-- q: นาย มุข สุไลมาน
-  type: people
-  url: /people/มุข-สุไลมาน
-- q: นาย อดิศร เพียงเกษ
-  type: people
-  url: /people/อดิศร-เพียงเกษ
-- q: นาย อุดมเดช รัตนเสถียร
-  type: people
-  url: /people/อุดมเดช-รัตนเสถียร
-- q: นางสาว ชญาวดี ชัยอนันต์
-  type: people
-  url: /people/ชญาวดี-ชัยอนันต์
-- q: นาย ดนุชา พิชยนันท์
-  type: people
-  url: /people/ดนุชา-พิชยนันท์
-- q: นาย ทศพร ศิริสัมพันธ์
-  type: people
-  url: /people/ทศพร-ศิริสัมพันธ์
-- q: นาย ธีรัชย์ อัตนวานิช
-  type: people
-  url: /people/ธีรัชย์-อัตนวานิช
-- q: นาย พรชัย ฐีระเวช
-  type: people
-  url: /people/พรชัย-ฐีระเวช
-- q: นางสาว ศิรสา กันต์พิทยา
-  type: people
-  url: /people/ศิรสา-กันต์พิทยา
-- q: นาย เข้มแข็ง ยุติธรรมดำรง
-  type: people
-  url: /people/เข้มแข็ง-ยุติธรรมดำรง
-- q: นาย ทศพล ทังสุบุตร
-  type: people
-  url: /people/ทศพล-ทังสุบุตร
-- q: นาย ไพศาล ดั่นคุ้ม
-  type: people
-  url: /people/ไพศาล-ดั่นคุ้ม
-- q: นาง อรมน ทรัพย์ทวีธรรม
-  type: people
-  url: /people/อรมน-ทรัพย์ทวีธรรม
-- q: นางสาว กรรณิการ กิจติเวชกุล
-  type: people
-  url: /people/กรรณิการ-กิจติเวชกุล
-- q: นาย เชิดชาย ใช้ไววิทย์
-  type: people
-  url: /people/เชิดชาย-ใช้ไววิทย์
-- q: นาย ธกร เลาหพงศ์ชนะ
-  type: people
-  url: /people/ธกร-เลาหพงศ์ชนะ
-- q: นาย ธีระพงษ์ วัฒนวงษ์ภิญโญ
-  type: people
-  url: /people/ธีระพงษ์-วัฒนวงษ์ภิญโญ
-- q: นาย เนวินธุ์ ช่อชัยทิพฐ์
-  type: people
-  url: /people/เนวินธุ์-ช่อชัยทิพฐ์
-- q: นาย ประเสริฐ ชัยกิจเด่นนภาลัย
-  type: people
-  url: /people/ประเสริฐ-ชัยกิจเด่นนภาลัย
-- q: นาย ปริญญ์ พานิชภักดิ์
-  type: people
-  url: /people/ปริญญ์-พานิชภักดิ์
-- q: นาง รัชฎาภรณ์ แก้วสนิท
-  type: people
-  url: /people/รัชฎาภรณ์-แก้วสนิท
-- q: นาย ศุภกิจ ศิริลักษณ์
-  type: people
-  url: /people/ศุภกิจ-ศิริลักษณ์
-- q: นาย สุนทร รักษ์รงค์
-  type: people
-  url: /people/สุนทร-รักษ์รงค์
-- q: รองศาสตราจารย์ สุรวิช วรรณไกรโรจน์
-  type: people
-  url: /people/สุรวิช-วรรณไกรโรจน์
-- q: นางสาว เสริมสุข สลักเพ็ชร์
-  type: people
-  url: /people/เสริมสุข-สลักเพ็ชร์
-- q: นางสาว อรพินทร์ เพชรทัต
-  type: people
-  url: /people/อรพินทร์-เพชรทัต
-- q: นาย จักรวี วิสุทธิผล
-  type: people
-  url: /people/จักรวี-วิสุทธิผล
 - q: นาย สุชาติ โชคชัยวัฒนากร
   type: people
   url: /people/สุชาติ-โชคชัยวัฒนากร
@@ -3289,828 +2728,1075 @@
 - q: นางสาว จิราพร นาคดิลก
   type: people
   url: /people/จิราพร-นาคดิลก
-- q: ตั้ง กมธ.วิสามัญ ศึกษาปัญหาราคาพืชผลทางการเกษตรตกต่ำ
-  type: votelog
-  url: /votelog/
-- q: ตั้ง กมธ.วิสามัญ ศึกษาการต่อสัญญาสัมปทานทางด่วนและรถไฟฟ้าบีทีเอส
-  type: votelog
-  url: /votelog/
-- q: ตั้ง กมธ. วิสามัญ ศึกษาปัญหาหนี้ กยศ.
-  type: votelog
-  url: /votelog/
-- q: ตั้ง กมธ. วิสามัญ ศึกษาปัญหาการข่มขืนกระทำชำเรา
-  type: votelog
-  url: /votelog/
-- q: ตั้ง กมธ. วิสามัญ ศึกษาผลกระทบของการใช้กัญชาในประเทศไทย
-  type: votelog
-  url: /votelog/
-- q: ตั้ง กมธ.วิสามัญ พิจารณาศึกษาการขุดคลองไทย
-  type: votelog
-  url: /votelog/
-- q: ตั้ง กมธ.วิสามัญ พิจารณาราคาหนังสัตว์ โค – กระบือ ตกต่ำ
-  type: votelog
-  url: /votelog/
-- q: ตั้ง กมธ.วิสามัญ พิจารณาปัญหาหนี้และค่าครองชีพสูงจากราคาน้ำมัน แก๊ส ไฟฟ้า
-  type: votelog
-  url: /votelog/
-- q: ตั้ง กมธ. วิสามัญศึกษาปัญหาฝุ่น PM 2.5
-  type: votelog
-  url: /votelog/
-- q: ตั้ง กมธ. วิสามัญ ศึกษาผลกระทบจาก พรบ. e-Payment
-  type: votelog
-  url: /votelog/
-- q: ตั้ง กมธ. วิสามัญ แก้ไขปัญหาที่ดินทำกิน
-  type: votelog
-  url: /votelog/
-- q: ลงมติเลือกนายกรัฐมนตรี
-  type: votelog
-  url: /votelog/
-- q: พ.ร.บ. เหรียญรัตนาภรณ์ รัชกาลที่ 10 (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: พ.ร.บ. เหรียญราชรุจิ รัชกาลที่ 10 (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: ตั้งคณะกรรมาธิการผู้มีความหลากหลายทางเพศ
+- q: พล.ร.อ. เชิงชาย ชมเชิงแพทย์
+  type: people
+  url: /people/เชิงชาย-ชมเชิงแพทย์
+- q: พลเรือเอก สมประสงค์ นิลสมัย
+  type: people
+  url: /people/สมประสงค์-นิลสมัย
+- q: พลเอก วรเกียรติ รัตนานนท์
+  type: people
+  url: /people/วรเกียรติ-รัตนานนท์
+- q: พลเอก สนิธชนก สังขจันทร์
+  type: people
+  url: /people/สนิธชนก-สังขจันทร์
+- q: พล.อ.อ. อลงกรณ์ วัณณรถ
+  type: people
+  url: /people/อลงกรณ์-วัณณรถ
+- q: นางสาว กิตติประภา จิวะสันติการ
+  type: people
+  url: /people/กิตติประภา-จิวะสันติการ
+- q: นางสาว ภคอร จันทรคณา
+  type: people
+  url: /people/ภคอร-จันทรคณา
+- q: นาย สุวัฒน์ จิราพันธุ์
+  type: people
+  url: /people/สุวัฒน์-จิราพันธุ์
+- q: พันตำรวจเอก จรุงวิทย์ ภุมมา
+  type: people
+  url: /people/จรุงวิทย์-ภุมมา
+- q: พลอากาศเอก นภาเดช ธูปะเตมีย์
+  type: people
+  url: /people/นภาเดช-ธูปะเตมีย์
+- q: นาย เกริกมนตรี รุจโสตถิรพัฒน์
+  type: people
+  url: /people/เกริกมนตรี-รุจโสตถิรพัฒน์
+- q: นาย โกมินทร์ ทีฆธนานนท์
+  type: people
+  url: /people/โกมินทร์-ทีฆธนานนท์
+- q: ผู้ช่วยศาสตราจารย์ ร้อยตำรวจเอก จอมเดช ตรีเมฆ
+  type: people
+  url: /people/จอมเดช-ตรีเมฆ
+- q: null เจือ ราชสีห์
+  type: people
+  url: /people/เจือ-ราชสีห์
+- q: พลตำรวจเอก ดำรงศักดิ์ กิตติประภัสร์
+  type: people
+  url: /people/ดำรงศักดิ์-กิตติประภัสร์
+- q: นาง บุศริณธญ์ วรพัฒนานัมน์
+  type: people
+  url: /people/บุศริณธญ์-วรพัฒนานัมน์
+- q: นาย ประพันธ์ คูณมี
+  type: people
+  url: /people/ประพันธ์-คูณมี
+- q: null พันธุ์ศักดิ์ ซาบุ
+  type: people
+  url: /people/พันธุ์ศักดิ์-ซาบุ
+- q: นาง มัลลิกา บุญมีตระกูล มหาสุข
+  type: people
+  url: /people/มัลลิกา-บุญมีตระกูล มหาสุข
+- q: นาย ยอดยิ่ง แสนยากุล
+  type: people
+  url: /people/ยอดยิ่ง-แสนยากุล
+- q: นาย รองรักษ์ บุญศิริ
+  type: people
+  url: /people/รองรักษ์-บุญศิริ
+- q: null วลัยพร รัตนเศรษฐ
+  type: people
+  url: /people/วลัยพร-รัตนเศรษฐ
+- q: นาง วารีรัตน์ แก้วเงิน
+  type: people
+  url: /people/วารีรัตน์-แก้วเงิน
+- q: null วารีรัตน์ สิริธัญญ์สกุล
+  type: people
+  url: /people/วารีรัตน์-สิริธัญญ์สกุล
+- q: null ศุภชัย นาคสุวรรณ์
+  type: people
+  url: /people/ศุภชัย-นาคสุวรรณ์
+- q: null สมศักดิ์ นิลบรรเจิดกุล
+  type: people
+  url: /people/สมศักดิ์-นิลบรรเจิดกุล
+- q: null สิทธิพงศ์ วงศ์เลิศศักดิ์
+  type: people
+  url: /people/สิทธิพงศ์-วงศ์เลิศศักดิ์
+- q: null สุธรรม ระหงษ์
+  type: people
+  url: /people/สุธรรม-ระหงษ์
+- q: null สุรบถ หลีกภัย
+  type: people
+  url: /people/สุรบถ-หลีกภัย
+- q: null อนุพร อรุณรัตน์
+  type: people
+  url: /people/อนุพร-อรุณรัตน์
+- q: นาย สุนทร ปานแสงทอง
+  type: people
+  url: /people/สุนทร-ปานแสงทอง
+- q: นาย ธนกร วังบุญคงชนะ
+  type: people
+  url: /people/ธนกร-วังบุญคงชนะ
+- q: นาย อนุสิษฐ คุณากร
+  type: people
+  url: /people/อนุสิษฐ-คุณากร
+- q: นาย ไชยยศ จิรเมธากร
+  type: people
+  url: /people/ไชยยศ-จิรเมธากร
+- q: null เดชทวี ศรีวิชัย
+  type: people
+  url: /people/เดชทวี-ศรีวิชัย
+- q: ร่าง พ.ร.บ. เหรียญรัตนาภรณ์ รัชกาลที่ 10 (วาระ 3)
   type: votelog
   url: /votelog/1
-- q: ขยายสัญญาสัมปทานทางด่วนและรถไฟฟ้าบีทีเอส
+- q: ร่าง พ.ร.บ. เหรียญราชรุจิ รัชกาลที่ 10 (วาระ 3)
   type: votelog
   url: /votelog/2
-- q: ตั้งคณะกรรมาธิการวิสามัญพิจารณาผลกระทบโครงการอีอีซี
+- q: ตั้ง กมธ. ผู้มีความหลากหลายทางเพศ
   type: votelog
   url: /votelog/3
-- q: ตั้ง กมธ.วิสามัญศึกษาแนวทางการควบคุมการใช้สารเคมีในภาคเกษตรกรรม
+- q: ขยายสัญญาสัมปทานทางด่วนและรถไฟฟ้าบีทีเอส
   type: votelog
   url: /votelog/4
-- q: พิจารณาพ.ร.ก.โอนกำลังพลและงบประมาณฯ
+- q: ตั้ง กมธ. วิสามัญ พิจารณาผลกระทบโครงการอีอีซี
   type: votelog
   url: /votelog/5
-- q: พ.ร.บ.งบประมาณฯ 2563 (วาระ 1)
+- q: ตั้ง กมธ. วิสามัญ ศึกษาแนวทางการควบคุมการใช้สารเคมีในภาคเกษตรกรรม
   type: votelog
   url: /votelog/6
-- q: พ.ร.บ. งบประมาณ 2563 (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: อนุมัติ พรก.
-  type: votelog
-  url: /votelog/
-- q: ตั้ง กมธ. วิสามัญ ศึกษาโครงการผันน้ำ โขง เลย ชี มูล ป่าสัก
+- q: อนุมัติ พ.ร.ก. โอนกำลังพลและงบประมาณฯ
   type: votelog
   url: /votelog/7
-- q: >-
-    ขอถอนญัตติ ตั้ง กมธ. วิสามัญ ศึกษาผลกระทบกฎอัยการศึก และพรก.ฉุกเฉินในพื้นที่
-    3 จังหวัดชายแดนภาคใต้
+- q: ร่าง พ.ร.บ. งบประมาณฯ 2563 (วาระ 1)
   type: votelog
   url: /votelog/8
-- q: ตั้ง กมธ.วิสามัญ ศึกษาผลกระทบจาก ม. 44
+- q: อนุมัติ พ.ร.ก. สถาบันครอบครัว
   type: votelog
   url: /votelog/9
-- q: ตั้ง กมธ.วิสามัญ ตรวจสอบละเมิดสิทธิมนุษยชน
+- q: ตั้ง กมธ. วิสามัญ ศึกษาโครงการผันน้ำ โขง เลย ชี มูล ป่าสัก
   type: votelog
   url: /votelog/10
-- q: ตั้ง กมธ. วิสามัญ ตรวจสอบโครงการก่อสร้างอาคารรัฐสภาแห่งใหม่
+- q: ตั้ง กมธ. วิสามัญ ศึกษาผลกระทบจาก ม. 44
   type: votelog
   url: /votelog/11
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: พ.ร.บ. งบประมาณ 2563 (วาระ 3) รอบที่ 1
-  type: votelog
-  url: /votelog/
-- q: ตั้ง กมธ.วิสามัญศึกษาโครงการจัดตั้งกระทรวงการข้าว
+- q: ตั้ง กมธ. วิสามัญ ตรวจสอบละเมิดสิทธิมนุษยชน
   type: votelog
   url: /votelog/12
-- q: พ.ร.บ. งบประมาณ 2563 (วาระ 3) รอบที่ 2
-  type: votelog
-  url: /votelog/
-- q: ตั้ง กมธ. วิสามัญ ศึกษาแนวทางป้องกันไม่ให้เกิดการรัฐประหารขึ้นอีกในอนาคต
+- q: ตั้ง กมธ. วิสามัญ ตรวจสอบโครงการก่อสร้างอาคารรัฐสภาแห่งใหม่
   type: votelog
   url: /votelog/13
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: อนุมัติ พรก.
-  type: votelog
-  url: /votelog/
-- q: อนุมัติ พรก.
-  type: votelog
-  url: /votelog/
-- q: อนุมัติ พรก.
-  type: votelog
-  url: /votelog/
-- q: อนุมัติ พรก.
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: พ.ร.บ. งบประมาณ 2564 (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: ''
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: พ.ร.บ. งบประมาณ 2564 (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 3)
-  type: votelog
-  url: /votelog/
 - q: >-
-    พิจารณารับหลักการ หรือไม่รับหลักการร่างแก้ไขรัฐธรรมนูญจำนวน 7 ฉบับ (ฉบับที่
-    2)
-  type: votelog
-  url: /votelog/15
-- q: >-
-    พิจารณารับหลักการ หรือไม่รับหลักการร่างแก้ไขรัฐธรรมนูญจำนวน 7 ฉบับ (ฉบับที่
+    ร่าง พ.ร.บ. แก้ไขวิธีพิจารณาความแพ่ง (ไกล่เกลี่ยข้อพิพาทก่อนฟ้องคดี) (วาระ
     1)
   type: votelog
   url: /votelog/14
-- q: >-
-    พิจารณารับหลักการ หรือไม่รับหลักการร่างแก้ไขรัฐธรรมนูญจำนวน 7 ฉบับ (ฉบับที่
-    4)
+- q: ร่าง พ.ร.บ. งบประมาณ 2563 (วาระ 3) รอบที่ 1
   type: votelog
-  url: /votelog/17
-- q: >-
-    พิจารณารับหลักการ หรือไม่รับหลักการร่างแก้ไขรัฐธรรมนูญจำนวน 7 ฉบับ (ฉบับที่
-    6)
-  type: votelog
-  url: /votelog/19
-- q: >-
-    พิจารณารับหลักการ หรือไม่รับหลักการร่างแก้ไขรัฐธรรมนูญจำนวน 7 ฉบับ (ฉบับที่
-    3)
+  url: /votelog/15
+- q: ตั้ง กมธ. วิสามัญ ศึกษาโครงการจัดตั้งกระทรวงการข้าว
   type: votelog
   url: /votelog/16
-- q: >-
-    พิจารณารับหลักการ หรือไม่รับหลักการร่างแก้ไขรัฐธรรมนูญจำนวน 7 ฉบับ (ฉบับที่
-    5)
+- q: ร่าง พ.ร.บ. งบประมาณ 2563 (วาระ 3) รอบที่ 2
+  type: votelog
+  url: /votelog/17
+- q: ตั้ง กมธ. วิสามัญ ศึกษาแนวทางป้องกันไม่ให้เกิดการรัฐประหารขึ้นอีกในอนาคต
   type: votelog
   url: /votelog/18
-- q: >-
-    พิจารณารับหลักการ หรือไม่รับหลักการร่างแก้ไขรัฐธรรมนูญจำนวน 7 ฉบับ (ฉบับที่
-    7)
+- q: ร่าง พ.ร.บ. วิทยุโทรทัศน์ (วาระ 1)
+  type: votelog
+  url: /votelog/19
+- q: อนุมัติ พ.ร.ก. รักษาเสถียรภาพของระบบการเงิน
   type: votelog
   url: /votelog/20
-- q: (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: ขอให้ศาลรัฐธรรมนูญพิจารณาเกี่ยวกับหน้าที่และอำนาจของรัฐสภาตามรัฐธรรมนูญ
+- q: อนุมัติ พ.ร.ก. การประชุมผ่านสื่ออิเล็กทรอนิกส์
   type: votelog
   url: /votelog/21
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: >-
-    อภิปรายไม่ไว้วางใจรัฐมนตรีรายบุคคล พลเอกประยุทธ์ จันทร์โอชา นายกรัฐมนตรี
-    และรัฐมนตรีว่าการกระทรวงกลาโหม
+- q: อนุมัติ พ.ร.ก. ช่วยเหลือ SME จากโควิด-19
   type: votelog
   url: /votelog/22
-- q: อภิปรายไม่ไว้วางใจรัฐมนตรีรายบุคคล พลเอกประวิตร วงษ์สุวรรณ รองนายกรัฐมนตรี
+- q: อนุมัติ พ.ร.ก. เงินกู้โควิด-19
   type: votelog
   url: /votelog/23
-- q: >-
-    อภิปรายไม่ไว้วางใจรัฐมนตรีรายบุคคล นายอนุทิน ชาญวีรกูล
-    รองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงสาธารณสุข
+- q: ร่าง พ.ร.บ. โอนงบประมาณรายจ่าย (วาระ 1)
   type: votelog
   url: /votelog/24
-- q: >-
-    อภิปรายไม่ไว้วางใจรัฐมนตรีรายบุคคล นายจุรินทร์ ลักษณวิศิษฏ์
-    รองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงพาณิชย์
+- q: ร่าง พ.ร.บ. โอนงบประมาณรายจ่าย (วาระ 3)
   type: votelog
   url: /votelog/25
-- q: >-
-    อภิปรายไม่ไว้วางใจรัฐมนตรีรายบุคคล พลเอก อนุพงษ์ เผ่าจินดา
-    รัฐมนตรีว่าการกระทรวงมหาดไทย
+- q: ร่าง พ.ร.บ. งบประมาณ 2564 (วาระ 1)
   type: votelog
   url: /votelog/26
-- q: >-
-    อภิปรายไม่ไว้วางใจรัฐมนตรีรายบุคคล นายณัฏฐพล ทีปสุวรรณ
-    รัฐมนตรีว่าการกระทรวงศึกษาธิการ
+- q: ร่าง พ.ร.บ. กองทุนฟื้นฟูและพัฒนาเกษตรกร (วาระ 3)
   type: votelog
   url: /votelog/27
-- q: >-
-    อภิปรายไม่ไว้วางใจรัฐมนตรีรายบุคคล นายสุชาติ ชมกลิ่น
-    รัฐมนตรีว่าการกระทรวงแรงงาน
+- q: ร่าง พ.ร.บ. ยุบเลิกบรรษัทตลาดรองสินเชื่อที่อยู่อาศัย (วาระ 3)
   type: votelog
   url: /votelog/28
-- q: >-
-    อภิปรายไม่ไว้วางใจรัฐมนตรีรายบุคคล นายศักดิ์สยาม ชิดชอบ
-    รัฐมนตรีว่าการกระทรวงคมนาคม
+- q: ร่าง พ.ร.บ. จัดตั้งศาลปกครองและวิธีพิจารณาคดีปกครอง (วาระ 1)
   type: votelog
   url: /votelog/29
 - q: >-
-    อภิปรายไม่ไว้วางใจรัฐมนตรีรายบุคคล นายนิพนธ์ บุญญามณี
-    รัฐมนตรีช่วยว่าการกระทรวงมหาดไทย
+    ร่าง พ.ร.บ. แก้ไขวิธีพิจารณาความแพ่ง (ไกล่เกลี่ยข้อพิพาทก่อนฟ้องคดี) (วาระ
+    3)
   type: votelog
   url: /votelog/30
-- q: >-
-    อภิปรายไม่ไว้วางใจรัฐมนตรีรายบุคคล ร้อยเอก ธรรมนัส พรมเผ่า
-    รัฐมนตรีช่วยว่าการเกษตรและสหกรณ์
+- q: ร่าง พ.ร.บ. ชี้ขาดอำนาจหน้าที่ระหว่างศาล (วาระ 1)
   type: votelog
   url: /votelog/31
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: พิจารณาแก้ไขเพิ่มเติมร่าง ร.ธ.น. (แก้ไขเพิ่มเติมมาตรา 256 และเพิ่มหมวด 15/1)
+- q: ร่าง พ.ร.บ. เข้าชื่อเสนอกฎหมาย (วาระ 1)
   type: votelog
   url: /votelog/32
-- q: (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: อนุมัติ พรก.
-  type: votelog
-  url: /votelog/
-- q: อนุมัติ พรก.
-  type: votelog
-  url: /votelog/
-- q: พ.ร.บ. งบประมาณ 2565 (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: โหวตพ.ร.ก.เงินกู้ เพิ่มเติม 2564
+- q: ร่าง พ.ร.บ. ปรับปรุงกระทรวง ทบวง กรม (วาระ 1)
   type: votelog
   url: /votelog/33
-- q: อนุมัติ พรก.
+- q: ร่าง พ.ร.บ. วิธีพิจารณาคดียาเสพติด (วาระ 1)
   type: votelog
-  url: /votelog/
-- q: (วาระ 3)
+  url: /votelog/34
+- q: ร่าง พ.ร.บ. ประมวลกฎหมายยาเสพติด (วาระ 1)
   type: votelog
-  url: /votelog/
-- q: (วาระ 3)
+  url: /votelog/35
+- q: ร่าง พ.ร.บ. งบประมาณ 2564 (วาระ 3)
   type: votelog
-  url: /votelog/
-- q: (วาระ 3)
+  url: /votelog/36
+- q: ร่าง พ.ร.บ. จัดตั้งศาลปกครองและวิธีพิจารณาคดีปกครอง(วาระ 3)
   type: votelog
-  url: /votelog/
-- q: (วาระ 3)
+  url: /votelog/37
+- q: ร่าง พ.ร.บ. ชี้ขาดอำนาจหน้าที่ระหว่างศาล (วาระ 3)
   type: votelog
-  url: /votelog/
-- q: >-
-    ร่างพรรคประชาธิปัตย์ ฉบับที่ 4
-    แก้เรื่องที่มานายกรัฐมนตรีและยกเลิกอำนาจส.ว.ในการเลือกนายกรัฐมนตรี
+  url: /votelog/38
+- q: แก้ รธน. ฉบับที่ 1 ตั้ง สสร. เสนอโดยเพื่อไทย (โหวต 7 ฉบับ) (วาระ 1)
+  type: votelog
+  url: /votelog/39
+- q: แก้ รธน. ฉบับที่ 2 ตั้ง สสร. เสนอโดยฝ่ายรัฐบาล (โหวต 7 ฉบับ) (วาระ 1)
+  type: votelog
+  url: /votelog/40
+- q: แก้ รธน. ฉบับที่ 3 ยกเลิกอำนาจ ส.ว. ปฏิรูปประเทศ (โหวต 7 ฉบับ) (วาระ 1)
+  type: votelog
+  url: /votelog/41
+- q: แก้ รธน. ฉบับที่ 4 ยกเลิกอำนาจ ส.ว. เลือกนายกฯ (โหวต 7 ฉบับ) (วาระ 1)
+  type: votelog
+  url: /votelog/42
+- q: แก้ รธน. ฉบับที่ 5 ยกเลิกนิรโทษกรรม คสช. (โหวต 7 ฉบับ) (วาระ 1)
+  type: votelog
+  url: /votelog/43
+- q: แก้ รธน. ฉบับที่ 6 ใช้บัตรเลือกตั้ง 2 ใบ (โหวต 7 ฉบับ) (วาระ 1)
   type: votelog
   url: /votelog/44
 - q: >-
-    ร่างพรรคเพื่อไทย ฉบับที่ 3
-    แก้เรื่องที่มานายกรัฐมนตรีและยกเลิกอำนาจส.ว.ในการเลือกนายกรัฐมนตรี
-  type: votelog
-  url: /votelog/37
-- q: ร่างพรรคประชาธิปัตย์ ฉบับที่ 3 กระบวนการตรวจสอบ ป.ป.ช.
-  type: votelog
-  url: /votelog/43
-- q: ร่างพรรคประชาธิปัตย์ ฉบับที่ 2 ตัดอำนาจ ส.ว. ในการแก้รัฐธรรมนูญ
-  type: votelog
-  url: /votelog/42
-- q: ร่างพรรคเพื่อไทย ฉบับที่ 1 เพิ่มสิทธิเสรีภาพของประชาชน
-  type: votelog
-  url: /votelog/35
-- q: >-
-    ร่างพรรคประชาธิปัตย์ ฉบับที่ 1 เพิ่มสิทธิในกระบวนการยุติธรรม สิทธิชุมชน
-    สิทธิผู้บริโภค
-  type: votelog
-  url: /votelog/41
-- q: ร่างพรรคภูมิใจไทย ฉบับที่ 1 แก้ไขแผนยุทธศาสตร์ชาติ
-  type: votelog
-  url: /votelog/39
-- q: ร่างพรรคประชาธิปัตย์ ฉบับที่ 5 ประเด็นกระจายอำนาจสู่ท้องถิ่น
+    แก้ รธน. ฉบับที่ 7 ร่างประชาชน รื้อ สร้าง ร่าง รัฐธรรมนูญใหม่ (โหวต 7 ฉบับ)
+    (วาระ 1)
   type: votelog
   url: /votelog/45
-- q: ร่างพรรคเพื่อไทย ฉบับที่ 2 แก้ระบบเลือกตั้งเป็นบัตรสองใบแบบรัฐธรรมนูญ 2540
-  type: votelog
-  url: /votelog/36
-- q: >-
-    ร่างพรรคประชาธิปัตย์ ฉบับที่ 6 แก้ระบบเลือกตั้งเป็นบัตรสองใบแบบรัฐธรรมนูญ
-    2540
+- q: ร่าง พ.ร.บ. วิทยุโทรทัศน์ (วาระ 3)
   type: votelog
   url: /votelog/46
-- q: >-
-    ร่างพรรคพลังประชารัฐ เพิ่มสิทธิในกระบวนการยุติธรรม
-    แก้ระบบเลือกตั้งเป็นบัตรสองใบคล้ายแบบรัฐธรรมนูญ 2540 ลดกลไกปราบทุจริต
-  type: votelog
-  url: /votelog/34
-- q: ร่างพรรคภูมิใจไทย ฉบับที่ 2 เสนอหลักประกันรายได้ถ้วนหน้า (UBI)
-  type: votelog
-  url: /votelog/40
-- q: >-
-    ร่างพรรคเพื่อไทย ฉบับที่ 4 ยกเลิกแผนยุทธศาสตร์ชาติ 20 ปีและยกเลิกอำนาจ
-    ส.ว.บางประการ
-  type: votelog
-  url: /votelog/38
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: ร่างพ.ร.บ.พืชกระท่อม (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: พ.ร.บ. งบประมาณ 2565 (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: อภิปรายไม่ไว้วางใจเฉลิมชัย ศรีอ่อน 2564
-  type: votelog
-  url: /votelog/51
-- q: อภิปรายไม่ไว้วางใจชัยวุฒิ ธนาคมมานุสรณ์ 2564
-  type: votelog
-  url: /votelog/52
-- q: อภิปรายไม่ไว้วางใจศักดิ์สยาม ชิดชอบ 2564
-  type: votelog
-  url: /votelog/50
-- q: อภิปรายไม่ไว้วางใจสุชาติ ชมกลิ่น 2564
-  type: votelog
-  url: /votelog/49
-- q: อภิปรายไม่ไว้วางใจอนุทิน ชาญวีรกูล 2564
-  type: votelog
-  url: /votelog/48
-- q: อภิปรายไม่ไว้วางใจพลเอกประยุทธ์ จันทรโอชา 2564
+- q: ร่าง พ.ร.บ. หอการค้า (วาระ 1)
   type: votelog
   url: /votelog/47
-- q: ร่างพ.ร.บ.พืชกระท่อม
+- q: ร่าง พ.ร.บ. ปรับปรุงกระทรวง ทบวง กรม (วาระ 3)
+  type: votelog
+  url: /votelog/48
+- q: ร่าง พ.ร.บ. ประชามติ (วาระ 1)
+  type: votelog
+  url: /votelog/49
+- q: ร่าง พ.ร.บ. ยาเสพติดให้โทษ (วาระ 1)
+  type: votelog
+  url: /votelog/50
+- q: ร่าง พ.ร.บ. ทำแท้งปลอดภัย (วาระ 1)
+  type: votelog
+  url: /votelog/51
+- q: ร่าง พ.ร.บ. จัดตั้งศาลปกครองและวิธีพิจารณาคดีปกครอง (วาระ 1)
+  type: votelog
+  url: /votelog/52
+- q: ร่าง พ.ร.บ. อ้อยและน้ำตาลทราย (วาระ 1)
   type: votelog
   url: /votelog/53
-- q: (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: ร่างพ.ร.บ.ลิขสิทธิ์
+- q: ร่าง พ.ร.บ. ทำแท้งปลอดภัย (วาระ 3)
   type: votelog
   url: /votelog/54
-- q: ร่าง พ.ร.บ. การศึกษาแห่งชาติ
+- q: ร่าง พ.ร.บ. แก้ไขเพิ่มเติมประมวลรัษฎากร (วาระ 1)
   type: votelog
   url: /votelog/55
-- q: ร่าง พ.ร.บ. ส่งเสริมการเรียนรู้
+- q: ร่าง พ.ร.บ. วัตถุอันตราย (วาระ 1)
   type: votelog
   url: /votelog/56
-- q: ร่างพ.ร.บ. คุ้มครองพยานในคดีอาญา
+- q: ร่าง พ.ร.บ.วิชาชีพการสัตวบาล (วาระ 1)
   type: votelog
   url: /votelog/57
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: ร่าง พ.ร.บ. ฟอกเงิน
-  type: votelog
-  url: /votelog/59
-- q: ร่างแก้ไขรัฐธรรมนูญ (ฉบับประชาชน - Resolution)
+- q: ร่าง พ.ร.บ. ควบคุมยุทธภัณฑ์ (วาระ 1)
   type: votelog
   url: /votelog/58
-- q: (วาระ 1)
+- q: ร่าง พ.ร.บ. ยาเสพติดให้โทษ (วาระ 3)
   type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: ร่าง พ.ร.บ. วิธีการงบประมาณ (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: ร่าง พ.ร.บ. สหกรณ์ (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: ร่าง พ.ร.บ. ปลดอาวุธ คสช.
-  type: votelog
-  url: /votelog/61
-- q: ร่าง พ.ร.บ. ปลดอาวุธ คสช. (ฉบับประชาชน)
+  url: /votelog/59
+- q: ร่าง พ.ร.บ.ลิขสิทธิ์ (วาระ 1)
   type: votelog
   url: /votelog/60
-- q: (วาระ 1)
+- q: ร่าง พ.ร.บ. วิชาชีพการสัตวบาล (วาระ 1)
   type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (ถอนร่าง)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: อนุมัติ พรก.
-  type: votelog
-  url: /votelog/
-- q: อนุมัติ พรก.
-  type: votelog
-  url: /votelog/
-- q: (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: ร่าง พ.ร.บ. กยศ. ((วาระ 1))
+  url: /votelog/61
+- q: ร่าง พ.ร.บ. การเข้าชื่อเสนอข้อบัญญัติท้องถิ่น (วาระ 1)
   type: votelog
   url: /votelog/62
-- q: (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: (วาระ 3)
-  type: votelog
-  url: /votelog/
-- q: ร่าง พ.ร.บ. คุ้มครองแรงงาน ((วาระ 1))
-  type: votelog
-  url: /votelog/65
-- q: ร่าง พ.ร.บ. จราจรทางบก
+- q: >-
+    ขอให้ศาลรัฐธรรมนูญพิจารณาวินิจฉัยปัญหาเกี่ยวกับหน้าที่และอำนาจของรัฐสภาตามรัฐธรรมนูญ
+    มาตรา 210 (2)
   type: votelog
   url: /votelog/63
-- q: ร่าง พ.ร.บ. ป้องกันการกระทำความผิดซ้ำฯ ((วาระ 1))
+- q: >-
+    ร่าง พ.ร.บ. การเข้าชื่อเพื่อถอดถอนสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น
+    (วาระ 1)
   type: votelog
   url: /votelog/64
-- q: รายงานศึกษาขุดคลองไทย
+- q: ร่าง พ.ร.บ. จราจรทางบก (วาระ 1)
+  type: votelog
+  url: /votelog/65
+- q: ร่าง พ.ร.บ. จัดตั้งศาลปกครองและวิธีพิจารณาคดีปกครอง (วาระ 3)
   type: votelog
   url: /votelog/66
-- q: ร่าง พ.ร.บ. เวลาดำเนินงานในกระบวนการยุติธรรม (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: ร่าง พ.ร.บ. การปรับเป็นพินัย (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: ร่าง พ.ร.บ. ฉุกเฉิน (โหวตให้ ครม. รับไปพิจารณาก่อนรับหลักการ)
-  type: votelog
-  url: /votelog/68
-- q: >-
-    ร่าง พ.ร.บ. แพ่งและพาณิชย์ (สมรสเท่าเทียม) (โหวตให้ ครม.
-    รับไปพิจารณาก่อนรับหลักการ)
-  type: votelog
-  url: /votelog/70
-- q: (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: แก้ พ.ร.บ.ธนาคารแห่งประเทศไทย (โหวตให้ ครม. รับไปพิจารณาก่อนรับหลักการ)
-  type: votelog
-  url: /votelog/69
-- q: ร่าง พ.ร.บ.สุราก้าวหน้า (โหวตให้ ครม. รับไปพิจารณาก่อนรับหลักการ)
+- q: อภิปรายไม่ไว้วางใจ พลเอกประยุทธ์ จันทร์โอชา (ก.พ. 64)
   type: votelog
   url: /votelog/67
-- q: (วาระ 1)
+- q: อภิปรายไม่ไว้วางใจ พลเอกประวิตร วงษ์สุวรรณ (ก.พ. 64)
   type: votelog
-  url: /votelog/
-- q: ร่าง พ.ร.บ. ป้องกันและปราบปรามการทรมานและบุคคลสูญหาย (วาระ 3)
+  url: /votelog/68
+- q: อภิปรายไม่ไว้วางใจ นายอนุทิน ชาญวีรกูล (ก.พ. 64)
   type: votelog
-  url: /votelog/
+  url: /votelog/69
+- q: อภิปรายไม่ไว้วางใจ นายจุรินทร์ ลักษณวิศิษฏ์ (ก.พ. 64)
+  type: votelog
+  url: /votelog/70
+- q: อภิปรายไม่ไว้วางใจ พลเอก อนุพงษ์ เผ่าจินดา (ก.พ. 64)
+  type: votelog
+  url: /votelog/71
+- q: อภิปรายไม่ไว้วางใจ นายณัฏฐพล ทีปสุวรรณ (ก.พ. 64)
+  type: votelog
+  url: /votelog/72
+- q: อภิปรายไม่ไว้วางใจ นายสุชาติ ชมกลิ่น (ก.พ. 64)
+  type: votelog
+  url: /votelog/73
+- q: อภิปรายไม่ไว้วางใจ นายศักดิ์สยาม ชิดชอบ (ก.พ. 64)
+  type: votelog
+  url: /votelog/74
+- q: อภิปรายไม่ไว้วางใจ นายนิพนธ์ บุญญามณี (ก.พ. 64)
+  type: votelog
+  url: /votelog/75
+- q: อภิปรายไม่ไว้วางใจ ร้อยเอก ธรรมนัส พรมเผ่า (ก.พ. 64)
+  type: votelog
+  url: /votelog/76
+- q: ร่าง พ.ร.บ. ส่งเสริมการใช้ประโยชน์ผลงานวิจัยและนวัตกรรม (วาระ 1)
+  type: votelog
+  url: /votelog/77
+- q: พิจารณาแก้ไขเพิ่มเติม ร.ธ.น. (แก้ไขเพิ่มเติมมาตรา 256 และเพิ่มหมวด 15/1)
+  type: votelog
+  url: /votelog/78
+- q: ร่าง พ.ร.บ. เข้าชื่อเสนอกฎหมาย (วาระ 3)
+  type: votelog
+  url: /votelog/79
+- q: อนุมัติ พ.ร.ก. ให้ความช่วยเหลือและฟื้นฟูผู้ประกอบธุรกิจจากโควิด-19
+  type: votelog
+  url: /votelog/80
+- q: อนุมัติ พ.ร.ก. แก้ไขเพิ่มเติมประมวลกฎหมายแพ่งและพาณิชย์ พ.ศ. 2564
+  type: votelog
+  url: /votelog/81
+- q: ร่าง พ.ร.บ. งบประมาณ 2565 (วาระ 1)
+  type: votelog
+  url: /votelog/82
+- q: โหวตพ.ร.ก.เงินกู้ เพิ่มเติม 2564
+  type: votelog
+  url: /votelog/83
+- q: อนุมัติ พ.ร.ก. ให้อำนาจกระทรวงการคลังกู้เงินเยียวยาโควิด-19
+  type: votelog
+  url: /votelog/84
+- q: ร่าง พ.ร.บ. แก้ไขเพิ่มเติมประมวลรัษฎากร (วาระ 3)
+  type: votelog
+  url: /votelog/85
+- q: ร่าง พ.ร.บ. จราจรทางบก (วาระ 3)
+  type: votelog
+  url: /votelog/86
+- q: ร่าง พ.ร.บ. หอการค้า (วาระ 3)
+  type: votelog
+  url: /votelog/87
+- q: ร่าง พ.ร.บ. ประชามติ (วาระ 3)
+  type: votelog
+  url: /votelog/88
+- q: >-
+    แก้ รธน. พรรคพลังประชารัฐ สิทธิเสรีภาพ / บัตรเลือกตั้ง 2 ใบ / ตัดบทลงโทษ
+    ส.ส.ดูเรื่องงบ / ตัดข้อห้าม ส.ส.เกี่ยวข้องราชการ / ให้ ส.ส.
+    ร่วมติดตามปฏิรูปประเทศกับ ส.ว. (โหวต 13 ฉบับ) (วาระ 1)
+  type: votelog
+  url: /votelog/89
+- q: >-
+    แก้ รธน. พรรคเพื่อไทย ฉบับที่ 1 เพิ่มสิทธิเสรีภาพของประชาชน  (โหวต 13 ฉบับ)
+    (วาระ 1)
+  type: votelog
+  url: /votelog/90
+- q: แก้ รธน. พรรคเพื่อไทย ฉบับที่ 2 บัตรเลือกตั้ง 2 ใบ (โหวต 13 ฉบับ) (วาระ 1)
+  type: votelog
+  url: /votelog/91
+- q: >-
+    แก้ รธน. พรรคเพื่อไทย ฉบับที่ 3 ยกเลิกอำนาจ ส.ว. ร่วมเลือกนายกฯ (โหวต 13
+    ฉบับ) (วาระ 1)
+  type: votelog
+  url: /votelog/92
+- q: >-
+    แก้ รธน. พรรคเพื่อไทย ฉบับที่ 4 ยกเลิกแผนยุทธศาสตร์ชาติ 20 ปีและยกเลิกอำนาจ
+    ส.ว.บางประการ (โหวต 13 ฉบับ) (วาระ 1)
+  type: votelog
+  url: /votelog/93
+- q: >-
+    แก้ รธน. พรรคภูมิใจไทย ฉบับที่ 1 แก้ไขแผนยุทธศาสตร์ชาติ (โหวต 13 ฉบับ) (วาระ
+    1)
+  type: votelog
+  url: /votelog/94
+- q: >-
+    แก้ รธน. พรรคภูมิใจไทย ฉบับที่ 2 เสนอหลักประกันรายได้ถ้วนหน้า (UBI) (โหวต 13
+    ฉบับ) (วาระ 1)
+  type: votelog
+  url: /votelog/95
+- q: >-
+    แก้ รธน. พรรคประชาธิปัตย์ ฉบับที่ 1 เพิ่มสิทธิในกระบวนการยุติธรรม สิทธิชุมชน
+    สิทธิผู้บริโภค (โหวต 13 ฉบับ) (วาระ 1)
+  type: votelog
+  url: /votelog/96
+- q: >-
+    แก้ รธน. พรรคประชาธิปัตย์ ฉบับที่ 2 ตัดอำนาจ ส.ว. ในการแก้รัฐธรรมนูญ (โหวต
+    13 ฉบับ) (วาระ 1)
+  type: votelog
+  url: /votelog/97
+- q: >-
+    แก้ รธน. พรรคประชาธิปัตย์ ฉบับที่ 3 กระบวนการตรวจสอบ ป.ป.ช. (โหวต 13 ฉบับ)
+    (วาระ 1)
+  type: votelog
+  url: /votelog/98
+- q: >-
+    แก้ รธน. พรรคประชาธิปัตย์ ฉบับที่ 4
+    แก้เรื่องที่มานายกรัฐมนตรีและยกเลิกอำนาจส.ว.ในการเลือกนายกรัฐมนตรี (โหวต 13
+    ฉบับ) (วาระ 1)
+  type: votelog
+  url: /votelog/99
+- q: >-
+    แก้ รธน. พรรคประชาธิปัตย์ ฉบับที่ 5 ประเด็นกระจายอำนาจสู่ท้องถิ่น (โหวต 13
+    ฉบับ) (วาระ 1)
+  type: votelog
+  url: /votelog/100
+- q: >-
+    แก้ รธน. พรรคประชาธิปัตย์ ฉบับที่ 6 แก้ระบบเลือกตั้ง ส.ส. ใช้บัตรเลือกตั้ง 2
+    ใบ (โหวต 13 ฉบับ) (วาระ 1)
+  type: votelog
+  url: /votelog/101
+- q: ร่าง พ.ร.บ. แก้ไขเพิ่มเติมประมวลกฎหมายแพ่งและพาณิชย์ (วาระ 1)
+  type: votelog
+  url: /votelog/102
+- q: ร่าง พ.ร.บ. คุ้มครองพยานในคดีอาญา (วาระ 1)
+  type: votelog
+  url: /votelog/103
+- q: ร่าง พ.ร.บ.พืชกระท่อม (วาระ 1)
+  type: votelog
+  url: /votelog/104
+- q: ร่าง พ.ร.บ. งบประมาณ 2565 (วาระ 3)
+  type: votelog
+  url: /votelog/105
+- q: ร่าง พ.ร.บ. วิธีพิจารณาคดียาเสพติด (วาระ 3)
+  type: votelog
+  url: /votelog/106
+- q: ร่าง พ.ร.บ. ประมวลกฎหมายยาเสพติด (วาระ 3)
+  type: votelog
+  url: /votelog/107
+- q: อภิปรายไม่ไว้วางใจ พลเอก ประยุทธ์ จันทรโอชา (ก.ย. 64)
+  type: votelog
+  url: /votelog/108
+- q: อภิปรายไม่ไว้วางใจ อนุทิน ชาญวีรกูล (ก.ย. 64)
+  type: votelog
+  url: /votelog/109
+- q: อภิปรายไม่ไว้วางใจ สุชาติ ชมกลิ่น (ก.ย. 64)
+  type: votelog
+  url: /votelog/110
+- q: อภิปรายไม่ไว้วางใจ ศักดิ์สยาม ชิดชอบ (ก.ย. 64)
+  type: votelog
+  url: /votelog/111
+- q: อภิปรายไม่ไว้วางใจ เฉลิมชัย ศรีอ่อน (ก.ย. 64)
+  type: votelog
+  url: /votelog/112
+- q: อภิปรายไม่ไว้วางใจ ชัยวุฒิ ธนาคมมานุสรณ์ (ก.ย. 64)
+  type: votelog
+  url: /votelog/113
+- q: ร่าง พ.ร.บ. การเข้าชื่อเสนอข้อบัญญัติท้องถิ่น (วาระ 3)
+  type: votelog
+  url: /votelog/114
+- q: ร่าง พ.ร.บ.การประกอบธุรกิจข้อมูลเครดิต (วาระ 1)
+  type: votelog
+  url: /votelog/115
+- q: ร่าง พ.ร.บ.พืชกระท่อม (วาระ 3)
+  type: votelog
+  url: /votelog/116
+- q: >-
+    ร่าง พ.ร.บ.แก้ไขเพิ่มเติมคำสั่ง คสช. ที่ 19/2560 เรื่อง การปฏิรูปการศึกษา
+    (วาระ 1)
+  type: votelog
+  url: /votelog/117
+- q: ร่าง พ.ร.บ. อุ้มหาย (วาระ 1)
+  type: votelog
+  url: /votelog/118
+- q: ร่าง พ.ร.บ. ส่งเสริมการใช้ประโยชน์ผลงานวิจัยและนวัตกรรม (วาระ 3)
+  type: votelog
+  url: /votelog/119
+- q: ร่าง พ.ร.บ.ลิขสิทธิ์ (วาระ 3)
+  type: votelog
+  url: /votelog/120
+- q: ร่าง พ.ร.บ. การศึกษาแห่งชาติ (วาระ 1)
+  type: votelog
+  url: /votelog/121
+- q: ร่าง พ.ร.บ. ส่งเสริมการเรียนรู้ (วาระ 1)
+  type: votelog
+  url: /votelog/122
+- q: ร่าง พ.ร.บ. คุ้มครองพยานในคดีอาญา (วาระ 3)
+  type: votelog
+  url: /votelog/123
+- q: ร่าง พ.ร.บ.จัดตั้งศาลทรัพย์สินทางปัญญาและการค้าระหว่างประเทศ (วาระ 1)
+  type: votelog
+  url: /votelog/124
+- q: ร่าง พ.ร.บ.จัดตั้งศาลแรงงานและวิธีพิจารณาคดีแรงงาน (วาระ 1)
+  type: votelog
+  url: /votelog/125
+- q: >-
+    ร่าง พ.ร.บ.ยกเลิกกฎหมายบางฉบับที่หมดความจำเป็นหรือซ้ำซ้อนกับกฎหมายอื่น (วาระ
+    1)
+  type: votelog
+  url: /votelog/126
+- q: ร่าง พ.ร.บ.ระเบียบข้าราชการฝ่ายตุลาการศาลยุติธรรม (วาระ 1)
+  type: votelog
+  url: /votelog/127
+- q: ร่าง พ.ร.บ.ศาลเยาวชนและครอบครัวและวิธีพิจารณาคดีเยาวชนและครอบครัว (วาระ 1)
+  type: votelog
+  url: /votelog/128
+- q: ร่าง พ.ร.บ. ฟอกเงิน (วาระ 1)
+  type: votelog
+  url: /votelog/129
+- q: แก้ รธน. ฉบับประชาชน (Resolution) (วาระ 1)
+  type: votelog
+  url: /votelog/130
+- q: ร่าง พ.ร.บ.เครื่องสำอาง (วาระ 1)
+  type: votelog
+  url: /votelog/131
+- q: ร่าง พ.ร.บ.บริษัทมหาชนจำกัด (วาระ 1)
+  type: votelog
+  url: /votelog/132
+- q: ร่าง พ.ร.บ. อาหาร (วาระ 1)
+  type: votelog
+  url: /votelog/133
+- q: ร่าง พ.ร.บ.การเดินเรือในน่านน้ำไทย (วาระ 1)
+  type: votelog
+  url: /votelog/134
+- q: ร่าง พ.ร.บ. วิธีการงบประมาณ (วาระ 1)
+  type: votelog
+  url: /votelog/135
+- q: ร่าง พ.ร.บ. สหกรณ์ (วาระ 1)
+  type: votelog
+  url: /votelog/136
+- q: ร่าง พ.ร.บ. ปลดอาวุธ คสช. (ฉบับประชาชน)
+  type: votelog
+  url: /votelog/137
+- q: ร่าง พ.ร.บ. ปลดอาวุธ คสช.
+  type: votelog
+  url: /votelog/138
+- q: ร่าง พ.ร.บ. ปฏิบัติราชการทางอิเล็กทรอนิกส์ (วาระ 1)
+  type: votelog
+  url: /votelog/139
+- q: ร่าง พ.ร.บ.กองทุนบำเหน็จบำนาญข้าราชการ (วาระ 1)
+  type: votelog
+  url: /votelog/140
+- q: >-
+    ร่าง พ.ร.บ.แก้ไขเพิ่มเติมพ.ร.ก.ให้อำนาจกระทรวงการคลังกู้เงินช่วยโควิด-19
+    (วาระ 1)
+  type: votelog
+  url: /votelog/141
+- q: ร่าง พ.ร.บ.เครื่องราชอิสริยาภรณ์จุลจอมเกล้า (วาระ 1)
+  type: votelog
+  url: /votelog/142
+- q: ร่าง พ.ร.บ.เครื่องราชอิสริยาภรณ์จุลจอมเกล้า (วาระ 3)
+  type: votelog
+  url: /votelog/143
+- q: ร่าง พ.ร.บ.จัดตั้งศาลทรัพย์สินทางปัญญาและการค้าระหว่างประเทศ (วาระ 3)
+  type: votelog
+  url: /votelog/144
+- q: ร่าง พ.ร.บ.จัดตั้งศาลแรงงานและวิธีพิจารณาคดีแรงงาน (วาระ 3)
+  type: votelog
+  url: /votelog/145
+- q: (ถอน) ร่าง พ.ร.บ. ยาเสพติดให้โทษ
+  type: votelog
+  url: /votelog/146
+- q: ร่าง พ.ร.บ.ระเบียบข้าราชการฝ่ายตุลาการศาลยุติธรรม (วาระ 3)
+  type: votelog
+  url: /votelog/147
+- q: ร่าง พ.ร.บ.ศาลเยาวชนและครอบครัวและวิธีพิจารณาคดีเยาวชนและครอบครัว (วาระ 3)
+  type: votelog
+  url: /votelog/148
+- q: ร่าง พ.ร.บ. ควบคุมยุทธภัณฑ์ (วาระ 3)
+  type: votelog
+  url: /votelog/149
+- q: >-
+    ร่าง พ.ร.บ.ยกเลิกกฎหมายบางฉบับที่หมดความจำเป็นหรือซ้ำซ้อนกับกฎหมายอื่น (วาระ
+    3)
+  type: votelog
+  url: /votelog/150
+- q: อนุมัติ พ.ร.ก. แก้ไขเพิ่มเติมพระราชบัญญัติควบคุมการใช้สารต้องห้ามทางการกีฬา
+  type: votelog
+  url: /votelog/151
+- q: อนุมัติ พ.ร.ก. พิกัดอัตราศุลกากร
+  type: votelog
+  url: /votelog/152
+- q: ร่าง พ.ร.บ.การประกอบธุรกิจข้อมูลเครดิต (วาระ 3)
+  type: votelog
+  url: /votelog/153
+- q: ร่าง พ.ร.บ.บริษัทมหาชนจำกัด (วาระ 3)
+  type: votelog
+  url: /votelog/154
+- q: ร่าง พ.ร.บ. กยศ. (วาระ 1)
+  type: votelog
+  url: /votelog/155
+- q: ร่าง พ.ร.บ. คุ้มครองแรงงาน (วาระ 1)
+  type: votelog
+  url: /votelog/156
+- q: ร่าง พ.ร.บ. จราจรทางบก
+  type: votelog
+  url: /votelog/157
+- q: ร่าง พ.ร.บ. ป้องกันการกระทำความผิดซ้ำฯ (วาระ 1)
+  type: votelog
+  url: /votelog/158
+- q: รายงานศึกษาขุดคลองไทย
+  type: votelog
+  url: /votelog/159
+- q: ร่าง พ.ร.บ. เวลาดำเนินงานในกระบวนการยุติธรรม (วาระ 1)
+  type: votelog
+  url: /votelog/160
+- q: ร่าง พ.ร.บ. การปรับเป็นพินัย (วาระ 1)
+  type: votelog
+  url: /votelog/161
+- q: ร่าง พ.ร.บ. สมรสเท่าเทียม (ส่งไป ครม.)
+  type: votelog
+  url: /votelog/162
+- q: ร่าง พ.ร.บ.ธนาคารแห่งประเทศไทย (ส่งไป ครม.)
+  type: votelog
+  url: /votelog/163
+- q: ร่าง พ.ร.บ.สุราก้าวหน้า (ส่งไป ครม.)
+  type: votelog
+  url: /votelog/164
+- q: ร่าง พ.ร.บ. ฉุกเฉิน (ส่งไป ครม.)
+  type: votelog
+  url: /votelog/165
+- q: ร่าง พ.ร.บ. แก้ไขเพิ่มเติมประมวลกฎหมายวิธีพิจารณาความอาญา (วาระ 1)
+  type: votelog
+  url: /votelog/166
+- q: ร่าง พ.ร.บ. อนุญาโตตุลาการ (วาระ 1)
+  type: votelog
+  url: /votelog/167
+- q: ร่าง พ.ร.บ. อุ้มหาย (วาระ 3)
+  type: votelog
+  url: /votelog/168
 - q: ร่าง พ.ร.บ. ป้องกันการกระทำความผิดซ้ำเกี่ยวกับเพศหรือความรุนแรง (วาระ 3)
   type: votelog
-  url: /votelog/
-- q: '- วาระที่ 1 คณะรัฐมนตรี เป็นผู้เสนอ (ผลการลงมติ)'
-  type: votelog
-  url: /votelog/
-- q: '- วาระที่ 1 นายชลน่าน ศรีแก้ว กับคณะ เป็นผู้เสนอ (ผลการลงมติ)'
-  type: votelog
-  url: /votelog/
-- q: '- วาระที่ 1 นายวิเชียร ชวลิต กับคณะ เป็นผู้เสนอ (ผลการลงมติ)'
-  type: votelog
-  url: /votelog/
-- q: '- วาระที่ 1 นายพิธา ลิ้มเจริญรัตน์ กับคณะ เป็นผู้เสนอ (ผลการลงมติ)'
-  type: votelog
-  url: /votelog/
-- q: คณะรัฐมนตรี
-  type: votelog
-  url: /votelog/
-- q: ชลน่าน ศรีแก้ว กับคณะ
-  type: votelog
-  url: /votelog/
-- q: พิธา ลิ้มเจริญรัตน์ กับคณะ
-  type: votelog
-  url: /votelog/
-- q: วิเชียร ชวลิต กับคณะ
-  type: votelog
-  url: /votelog/
-- q: พันตำรวจเอก ทวี สอดส่อง กับคณะ
-  type: votelog
-  url: /votelog/
-- q: อนันต์ ผลอำนวย กับคณะ
-  type: votelog
-  url: /votelog/
+  url: /votelog/169
 - q: >-
-    - ใช้ร่างพระราชบัญญัติประกอบรัฐธรรมนูญของนายวิเชียร ชวลิต กับคณะ
-    เป็นหลักในการพิจารณา (ผลการลงมติ)
+    ร่าง พ.ร.บ.ประกอบรัฐธรรมนูญว่าด้วยการเลือกตั้งสมาชิกสภาผู้แทนราษฎร ที่ ครม.
+    เป็นผู้เสนอ (วาระ 1)
   type: votelog
-  url: /votelog/
+  url: /votelog/170
+- q: >-
+    ร่าง พ.ร.บ.ประกอบรัฐธรรมนูญว่าด้วยการเลือกตั้งสมาชิกสภาผู้แทนราษฎร ที่
+    นายชลน่าน ศรีแก้ว กับคณะ เป็นผู้เสนอ เป็นผู้เสนอ (วาระ 1)
+  type: votelog
+  url: /votelog/171
+- q: >-
+    ร่าง พ.ร.บ.ประกอบรัฐธรรมนูญว่าด้วยการเลือกตั้งสมาชิกสภาผู้แทนราษฎร ที่
+    นายวิเชียร ชวลิต กับคณะ เป็นผู้เสนอ เป็นผู้เสนอ (วาระ 1)
+  type: votelog
+  url: /votelog/172
+- q: >-
+    ร่าง พ.ร.บ.ประกอบรัฐธรรมนูญว่าด้วยการเลือกตั้งสมาชิกสภาผู้แทนราษฎร ที่
+    นายพิธา ลิ้มเจริญรัตน์ กับคณะ เป็นผู้เสนอ เป็นผู้เสนอ (วาระ 1)
+  type: votelog
+  url: /votelog/173
+- q: ร่าง พ.ร.บ.ประกอบรัฐธรรมนูญว่าด้วยพรรคการเมือง ที่ ครม. เป็นผู้เสนอ (วาระ 1)
+  type: votelog
+  url: /votelog/174
+- q: >-
+    ร่าง พ.ร.บ.ประกอบรัฐธรรมนูญว่าด้วยพรรคการเมือง ที่ นายชลน่าน ศรีแก้ว กับคณะ
+    เป็นผู้เสนอ เป็นผู้เสนอ (วาระ 1)
+  type: votelog
+  url: /votelog/175
+- q: >-
+    ร่าง พ.ร.บ.ประกอบรัฐธรรมนูญว่าด้วยพรรคการเมือง ที่ นายวิเชียร ชวลิต กับคณะ
+    เป็นผู้เสนอ เป็นผู้เสนอ (วาระ 1)
+  type: votelog
+  url: /votelog/176
+- q: >-
+    ร่าง พ.ร.บ.ประกอบรัฐธรรมนูญว่าด้วยพรรคการเมือง ที่ นายพิธา ลิ้มเจริญรัตน์
+    กับคณะ เป็นผู้เสนอ เป็นผู้เสนอ (วาระ 1)
+  type: votelog
+  url: /votelog/177
+- q: >-
+    ร่าง พ.ร.บ.ประกอบรัฐธรรมนูญว่าด้วยพรรคการเมือง ที่ พันตำรวจเอก ทวี สอดส่อง
+    กับคณะ เป็นผู้เสนอ เป็นผู้เสนอ (วาระ 1)
+  type: votelog
+  url: /votelog/178
+- q: >-
+    ร่าง พ.ร.บ.ประกอบรัฐธรรมนูญว่าด้วยพรรคการเมือง ที่ อนันต์ ผลอำนวย กับคณะ
+    เป็นผู้เสนอ เป็นผู้เสนอ (วาระ 1)
+  type: votelog
+  url: /votelog/179
+- q: >-
+    ร่าง พ.ร.บ.ประกอบรัฐธรรมนูญว่าด้วยพรรคการเมือง - ให้ใช้ร่าง
+    พ.ร.บ.ประกอบรัฐธรรมนูญของนายวิเชียร ชวลิต กับคณะ เป็นหลักในการพิจารณา
+    (ผลการลงมติ)
+  type: votelog
+  url: /votelog/180
+- q: ร่าง พ.ร.บ.แก้ไขเพิ่มเติมประมวลกฎหมายแพ่งและพาณิชย์
+  type: votelog
+  url: /votelog/181
 - q: >-
     ร่าง พ.ร.บ. ห้างหุ้นส่วนจดทะเบียน ห้างหุ้นส่วนจำกัด บริษัทจำกัด สมาคม
     และมูลนิธิ (วาระ 3)
   type: votelog
-  url: /votelog/
-- q: ''
-  type: votelog
-  url: /votelog/
+  url: /votelog/182
 - q: ร่าง พ.ร.บ. งบประมาณปี 66 (วาระ 1)
   type: votelog
-  url: /votelog/71
-- q: พ.ร.บ. งบประมาณ 2566 (วาระ 1)
-  type: votelog
-  url: /votelog/
-- q: ร่าง พ.ร.บ. กัญชา กัญชง (วาระ 1)
-  type: votelog
-  url: /votelog/72
+  url: /votelog/183
 - q: ร่าง พ.ร.บ. สุราก้าวหน้า (วาระ 1)
   type: votelog
-  url: /votelog/73
-- q: ร่าง พ.ร.บ. แพ่งและพาณิชย์ (สมรสเท่าเทียม) ฉบับก้าวไกล (วาระ 1)
+  url: /votelog/184
+- q: ร่าง พ.ร.บ. กัญชาเสรี (วาระ 1)
   type: votelog
-  url: /votelog/74
+  url: /votelog/185
+- q: ร่าง พ.ร.บ. สมรสเท่าเทียม (วาระ 1)
+  type: votelog
+  url: /votelog/186
 - q: ร่าง พ.ร.บ. แพ่งและพาณิชย์ ​(คู่ชีวิต) ฉบับ ครม. (วาระ 1)
   type: votelog
-  url: /votelog/76
+  url: /votelog/187
 - q: ร่าง พ.ร.บ. คู่ชีวิต ฉบับ ครม. (วาระ 1)
   type: votelog
-  url: /votelog/75
-- q: ร่างพ.ร.บ. คู่ชีวิต ฉบับ ประชาธิปัตย์ (วาระ 1)
+  url: /votelog/188
+- q: ร่าง พ.ร.บ. คู่ชีวิต ฉบับ ประชาธิปัตย์ (วาระ 1)
   type: votelog
-  url: /votelog/77
+  url: /votelog/189
 - q: ร่าง พ.ร.บ. อ้อยและน้ำตาลทราย (วาระ 3)
   type: votelog
-  url: /votelog/
-- q: (วาระ 3)
+  url: /votelog/190
+- q: ร่าง พ.ร.บ.วิชาชีพการสัตวบาล (วาระ 3)
   type: votelog
-  url: /votelog/
-- q: (วาระ 3)
+  url: /votelog/191
+- q: ร่าง พ.ร.บ.การเดินเรือในน่านน้ำไทย (วาระ 3)
   type: votelog
-  url: /votelog/
-- q: (วาระ 3)
+  url: /votelog/192
+- q: >-
+    ร่าง พ.ร.บ.แก้ไขเพิ่มเติมคำสั่ง คสช. ที่ 19/2560 เรื่อง การปฏิรูปการศึกษา
+    (วาระ 3)
   type: votelog
-  url: /votelog/
-- q: (วาระ 3)
+  url: /votelog/193
+- q: ร่าง พ.ร.บ.เครื่องสำอาง (วาระ 3)
   type: votelog
-  url: /votelog/
-- q: (วาระ 3)
+  url: /votelog/194
+- q: ร่าง พ.ร.บ. ฟอกเงิน (วาระ 3)
   type: votelog
-  url: /votelog/
-- q: (วาระ 3)
+  url: /votelog/195
+- q: ร่างพระราชบัญญัติคุ้มครองพยานในคดีอาญา (วาระ 3)
   type: votelog
-  url: /votelog/
-- q: ร่าง พ.ร.บ. เลือกตั้งสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น (วาระ 1)
-  type: votelog
-  url: /votelog/
+  url: /votelog/196
 - q: ร่าง พ.ร.บ. คุ้มครองแรงงาน (วาระ 3)
   type: votelog
-  url: /votelog/
+  url: /votelog/197
 - q: ร่าง พ.ร.บ. พืชกระท่อม (วาระ 3)
   type: votelog
-  url: /votelog/
+  url: /votelog/198
 - q: ร่าง พ.ร.บ. สถาปนิก (วาระ 3)
   type: votelog
-  url: /votelog/
-- q: (วาระ 1)
+  url: /votelog/199
+- q: ร่าง พ.ร.บ. เลือกตั้งสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น (วาระ 1)
   type: votelog
-  url: /votelog/
-- q: ร่างพระราชบัญญัติตำรวจแห่งชาติ
+  url: /votelog/200
+- q: ร่าง พ.ร.บ.ตำรวจแห่งชาติ (วาระ 3)
   type: votelog
-  url: /votelog/78
+  url: /votelog/201
 - q: >-
     แก้ไข ร่าง พ.ร.บ.ประกอบรัฐธรรมนูญว่าด้วยการเลือกตั้ง ส.ส.
     เรื่องการคำนวณบัญชีรายชื่อ
   type: votelog
-  url: /votelog/79
-- q: ร่างพ.ร.บ.ขนส่งทางราง (วาระ 1)
+  url: /votelog/202
+- q: ร่าง พ.ร.บ.ขนส่งทางราง (วาระ 1)
   type: votelog
-  url: /votelog/83
+  url: /votelog/203
 - q: >-
-    ร่างพ.ร.บ.แก้ไขเพิ่มเติมพ.ร.ก.รักษาเสถียรภาพของระบบการเงินและความมั่นคงทางเศรษฐกิจของประเทศ
+    ร่าง
+    พ.ร.บ.แก้ไขเพิ่มเติมพ.ร.ก.รักษาเสถียรภาพของระบบการเงินและความมั่นคงทางเศรษฐกิจของประเทศ
     (วาระ 1)
   type: votelog
-  url: /votelog/81
+  url: /votelog/204
 - q: >-
-    ร่างพ.ร.บ.แก้ไขเพิ่มเติมพ.ร.ก.ให้ความช่วยเหลือทางการเงินแก่ผู้ประกอบวิสาหกิจ
+    ร่าง พ.ร.บ.แก้ไขเพิ่มเติมพ.ร.ก.ให้อำนาจกระทรวงการคลังกู้เงินช่วยโควิด-19
     (วาระ 1)
   type: votelog
-  url: /votelog/80
+  url: /votelog/205
 - q: >-
-    ร่างพ.ร.บ.แก้ไขเพิ่มเติมพ.ร.ก.ให้อำนาจกระทรวงการคลังกู้เงินช่วยโควิด-19
+    ร่าง
+    พ.ร.บ.แก้ไขเพิ่มเติมพ.ร.ก.ให้ความช่วยเหลือทางการเงินแก่ผู้ประกอบวิสาหกิจ
     (วาระ 1)
   type: votelog
-  url: /votelog/82
-- q: ร่างพ.ร.บ.ธรรมนูญศาลทหาร (วาระ 1)
+  url: /votelog/206
+- q: ร่าง พ.ร.บ.ธรรมนูญศาลทหาร (วาระ 1)
   type: votelog
-  url: /votelog/84
-- q: (วาระ 1)
+  url: /votelog/207
+- q: ลงมติไม่ไว้วางใจ พลเอก ประยุทธ์ จันทร์โอชา (ก.ค. 65)
   type: votelog
-  url: /votelog/
-- q: (วาระ 1)
+  url: /votelog/208
+- q: อภิปรายไม่ไว้วางใจ นายจุรินทร์ ลักษณวิศิษฏ์ (ก.ค. 65)
   type: votelog
-  url: /votelog/
+  url: /votelog/209
+- q: อภิปรายไม่ไว้วางใจ นายอนุทิน ชาญวีรกูล (ก.ค. 65)
+  type: votelog
+  url: /votelog/210
+- q: อภิปรายไม่ไว้วางใจ พลเอก ประวิตร วงษ์สุวรรณ (ก.ค. 65)
+  type: votelog
+  url: /votelog/211
+- q: อภิปรายไม่ไว้วางใจ พลเอก อนุพงษ์ เผ่าจินดา (ก.ค. 65)
+  type: votelog
+  url: /votelog/212
+- q: อภิปรายไม่ไว้วางใจ นายศักดิ์สยาม ชิดชอบ (ก.ค. 65)
+  type: votelog
+  url: /votelog/213
+- q: อภิปรายไม่ไว้วางใจ นายชัยวุฒิ ธนาคมานุสรณ์ (ก.ค. 65)
+  type: votelog
+  url: /votelog/214
+- q: อภิปรายไม่ไว้วางใจ นายจุติ ไกรฤกษ์ (ก.ค. 65)
+  type: votelog
+  url: /votelog/215
+- q: อภิปรายไม่ไว้วางใจ นายสันติ พร้อมพัฒน์ (ก.ค. 65)
+  type: votelog
+  url: /votelog/216
+- q: อภิปรายไม่ไว้วางใจ นายนิพนธ์ บุญญามณี (ก.ค. 65)
+  type: votelog
+  url: /votelog/217
+- q: อภิปรายไม่ไว้วางใจ นายสุชาติ ชมกลิ่น (ก.ค. 65)
+  type: votelog
+  url: /votelog/218
 - q: >-
-    ลงมติไม่ไว้วางใจ นายจุติ ไกรฤกษ์
-    รัฐมนตรีว่าการกระทรวงการพัฒนาสังคมและความมั่นคงของมนุษย์
-  type: votelog
-  url: /votelog/92
-- q: >-
-    ลงมติไม่ไว้วางใจ นายจุรินทร์ ลักษณวิศิษฏ์
-    รองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงพาณิชย์
-  type: votelog
-  url: /votelog/86
-- q: >-
-    ลงมติไม่ไว้วางใจ นายชัยวุฒิ ธนาคมานุสรณ์
-    รัฐมนตรีว่าการกระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคม
-  type: votelog
-  url: /votelog/91
-- q: ลงมติไม่ไว้วางใจ นายนิพนธ์ บุญญามณี รัฐมนตรีช่วยว่าการกระทรวงมหาดไทย
-  type: votelog
-  url: /votelog/94
-- q: ลงมติไม่ไว้วางใจ นายศักดิ์สยาม ชิดชอบ รัฐมนตรีว่าการกระทรวงคมนาคม
-  type: votelog
-  url: /votelog/90
-- q: ลงมติไม่ไว้วางใจ นายสันติ พร้อมพัฒน์ รัฐมนตรีช่วยว่าการกระทรวงการคลัง
-  type: votelog
-  url: /votelog/93
-- q: ลงมติไม่ไว้วางใจ นายสุชาติ ชมกลิ่น รัฐมนตรีว่าการกระทรวงแรงงาน
-  type: votelog
-  url: /votelog/95
-- q: >-
-    ลงมติไม่ไว้วางใจ นายอนุทิน ชาญวีรกูล
-    รองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงสาธารณสุข
-  type: votelog
-  url: /votelog/87
-- q: >-
-    ลงมติไม่ไว้วางใจ พลเอก ประยุทธ์ จันทร์โอชา
-    นายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงกลาโหม
-  type: votelog
-  url: /votelog/85
-- q: ลงมติไม่ไว้วางใจ พลเอก ประวิตร วงษ์สุวรรณ รองนายกรัฐมนตรี
-  type: votelog
-  url: /votelog/88
-- q: ลงมติไม่ไว้วางใจ พลเอก อนุพงษ์ เผ่าจินดา รัฐมนตรีว่าการกระทรวงมหาดไทย
-  type: votelog
-  url: /votelog/89
-- q: >-
-    ถอนร่าง พ.ร.บ.ประกอบรัฐธรรมนูญว่าด้วยการเลือกตั้ง ส.ส. เพื่อให้ กมธ.
+    ถอน ร่าง พ.ร.บ.ประกอบรัฐธรรมนูญว่าด้วยการเลือกตั้ง ส.ส. เพื่อให้ กมธ.
     พิจารณาใหม่
   type: votelog
-  url: /votelog/96
+  url: /votelog/219
 - q: ร่าง พ.ร.บ. ปฏิบัติราชการทางอิเล็กทรอนิกส์ (วาระ 3)
   type: votelog
-  url: /votelog/
+  url: /votelog/220
 - q: ร่าง พ.ร.บ. การปรับเป็นพินัย (วาระ 3)
   type: votelog
-  url: /votelog/
-- q: (วาระ 3)
+  url: /votelog/221
+- q: ร่าง พ.ร.บ.กองทุนบำเหน็จบำนาญข้าราชการ (วาระ 3)
   type: votelog
-  url: /votelog/
-- q: (วาระ 1)
+  url: /votelog/222
+- q: ร่าง พ.ร.บ.ธนาคารแห่งประเทศไทย (วาระ 1)
   type: votelog
-  url: /votelog/
-- q: (วาระ 1)
+  url: /votelog/223
+- q: ร่าง พ.ร.บ. การบริหารราชการในสถานการณ์ฉุกเฉิน พ.ศ. …. (วาระ 1)
   type: votelog
-  url: /votelog/
-- q: (วาระ 3)
+  url: /votelog/224
+- q: ร่าง พ.ร.บ. กำหนดระยะเวลาดำเนินงานในกระบวนการยุติธรรม พ.ศ. (วาระ 3)
   type: votelog
-  url: /votelog/
-- q: พ.ร.บ. งบประมาณ 2566 (วาระ 3)
+  url: /votelog/225
+- q: ร่าง พ.ร.บ. งบประมาณ 2566 (วาระ 3)
   type: votelog
-  url: /votelog/
-- q: (วาระ 3)
+  url: /votelog/226
+- q: >-
+    ร่าง พ.ร.บ. การเข้าชื่อเพื่อถอดถอนสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น
+    (วาระ 3)
   type: votelog
-  url: /votelog/
-- q: (วาระ 1)
+  url: /votelog/227
+- q: ร่าง พ.ร.บ. มหาวิทยาลัยนเรศวร (วาระ 1)
   type: votelog
-  url: /votelog/
-- q: (วาระ 1)
+  url: /votelog/228
+- q: ร่าง พ.ร.บ. ระเบียบข้าราชการฝ่ายอัยการ (วาระ 1)
   type: votelog
-  url: /votelog/
-- q: (วาระ 1)
+  url: /votelog/229
+- q: ร่าง พ.ร.บ. ล้มละลาย (วาระ 1)
   type: votelog
-  url: /votelog/
-- q: (วาระ 1)
+  url: /votelog/230
+- q: ร่าง พ.ร.บ. ว่าด้วยการเวนคืนและการได้มาซึ่งอสังหาริมทรัพย์ (วาระ 1)
   type: votelog
-  url: /votelog/
+  url: /votelog/231
+- q: ร่าง พ.ร.บ. เหรียญรัตนาภรณ์ รัชกาลที่ 10 (วาระ 1)
+  type: votelog
+  url: /votelog/232
+- q: ร่าง พ.ร.บ. เหรียญราชรุจิ รัชกาลที่ 10 (วาระ 1)
+  type: votelog
+  url: /votelog/233
+- q: >-
+    ตั้ง กมธ. วิสามัญ
+    ตรวจสอบรถไฟความเร็วสูงเชื่อมสามสนามบินและพื้นที่ระเบียงเศรษฐกิจภาคตะวันออก
+  type: votelog
+  url: /votelog/234
+- q: ตั้ง กมธ. วิสามัญ ศึกษาหลักเกณฑ์และวิธีการแก้ไขรัฐธรรมนูญ
+  type: votelog
+  url: /votelog/235
+- q: อภิปรายไม่ไว้วางใจ พลเอก ประยุทธ์ จันทร์โอชา (ก.พ. 63)
+  type: votelog
+  url: /votelog/236
+- q: อภิปรายไม่ไว้วางใจ พลเอก ประวิตร วงษ์สุวรรณ (ก.พ. 63)
+  type: votelog
+  url: /votelog/237
+- q: อภิปรายไม่ไว้วางใจ นายวิษณุ เครืองาม (ก.พ. 63)
+  type: votelog
+  url: /votelog/238
+- q: อภิปรายไม่ไว้วางใจ พลเอก อนุพงษ์ เผ่าจินดา (ก.พ. 63)
+  type: votelog
+  url: /votelog/239
+- q: อภิปรายไม่ไว้วางใจ นายดอน ปรมัตถ์วินัย (ก.พ. 63)
+  type: votelog
+  url: /votelog/240
+- q: อภิปรายไม่ไว้วางใจ ร้อยเอก ธรรมนัส พรหมเผ่า (ก.พ. 63)
+  type: votelog
+  url: /votelog/241
+- q: ร่าง พ.ร.บ. ยกศาลแขวง เป็นศาลจังหวัด (วาระ 1)
+  type: votelog
+  url: /votelog/242
+- q: ร่าง พ.ร.บ. ยกศาลแขวง เป็นศาลจังหวัด (วาระ 3)
+  type: votelog
+  url: /votelog/243
+- q: ร่าง พ.ร.บ.ตำรวจแห่งชาติ (วาระ 1)
+  type: votelog
+  url: /votelog/244
+- q: >-
+    ร่าง พ.ร.บ. ห้างหุ้นส่วนจดทะเบียน ห้างหุ้นส่วนจำกัด บริษัทจำกัด สมาคม
+    และมูลนิธิ (วาระ 1)
+  type: votelog
+  url: /votelog/245
+- q: ร่าง พ.ร.บ. แก้ไขเพิ่มเติมประมวลกฎหมายอาญา (วาระ 1)
+  type: votelog
+  url: /votelog/246
+- q: ร่าง พ.ร.บ. วิชาชีพการสัตวบาล (วาระ 3)
+  type: votelog
+  url: /votelog/247
+- q: ร่าง พ.ร.บ. ประมวลกฎหมายอาญา (วาระ 3)
+  type: votelog
+  url: /votelog/248
+- q: ตั้ง กมธ. วิสามัญ Enterrainment Complex
+  type: votelog
+  url: /votelog/249
+- q: ร่าง พ.ร.บ. สถาปนิก (วาระ 1)
+  type: votelog
+  url: /votelog/250
+- q: ร่าง พ.ร.บ. แก้ไขประมวลกฎหมายวิธีพิจารณาความอาญา (ส่งไป ครม.)
+  type: votelog
+  url: /votelog/251
+- q: ร่าง พ.ร.บ. ธรรมนูญศาลทหาร (ส่งไป ครม.)
+  type: votelog
+  url: /votelog/252
+- q: แก้ รธน. ปิดสวิตช์ ส.ว. ฉบับประชาชน (No 272) (วาระ 1)
+  type: votelog
+  url: /votelog/253
+- q: ร่าง พ.ร.บ. เครื่องราชอิสริยาภรณ์จุลจอมเกล้า (แก้ใหม่)
+  type: votelog
+  url: /votelog/254
+- q: ร่าง พ.ร.บ. การเลือกตั้งสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น (วาระ 3)
+  type: votelog
+  url: /votelog/255
+- q: ร่าง พ.ร.บ. กองทุนเงินให้กู้ยืมเพื่อการศึกษา (วาระ 3)
+  type: votelog
+  url: /votelog/256
+- q: ร่าง พ.ร.บ. สุราก้าวหน้า (วาระ 3)
+  type: votelog
+  url: /votelog/257
+- q: ร่าง พ.ร.บ. ระเบียบข้าราชการฝ่ายอัยการ (วาระ 3)
+  type: votelog
+  url: /votelog/258
+- q: >-
+    ร่าง พ.ร.บ.
+    การแลกเปลี่ยนข้อมูลเพื่อปฏิบัติตามความตกลงระหว่างประเทศเกี่ยวกับภาษีอากร
+    (วาระ 1)
+  type: votelog
+  url: /votelog/259
+- q: >-
+    พ.ร.ก.
+    ผ่อนผันให้กระทรวงการคลังค้ำประกันการชำระหนี้ของสำนักงานกองทุนน้ำมันเชื้อเพลิง
+    พ.ศ. 2565
+  type: votelog
+  url: /votelog/260
+- q: >-
+    ร่าง พ.ร.บ. การจัดทำประมวลกฎหมายและกฎเพื่อให้ประชาชนเข้าถึงได้โดยสะดวก (วาระ
+    1)
+  type: votelog
+  url: /votelog/261
+- q: แก้ รธน. ปลดล็อคท้องถิ่น (คณะก้าวหน้า) (วาระ 1)
+  type: votelog
+  url: /votelog/262
+- q: ร่าง พ.ร.บ. กำหนดระยะเวลาดำเนินงานในกระบวนการยุติธรรม (วาระ 1)
+  type: votelog
+  url: /votelog/263
+- q: ร่าง พ.ร.บ. ว่าด้วยการปรับเป็นพินัย (วาระ 1)
+  type: votelog
+  url: /votelog/264
+- q: ร่าง พ.ร.บ. ราชวิทยาลัยจุฬาภรณ์ (วาระ 3)
+  type: votelog
+  url: /votelog/265
+- q: ร่าง พ.ร.บ. จัดตั้งศาลภาษีอากรและวิธีพิจารณาคดีภาษีอากร (วาระ 1)
+  type: votelog
+  url: /votelog/266
+- q: เลือก กมธ. สามัญ ตรวจสอบประวัติผู้ได้รับการเสนอชื่อเป็นตุลาการศาลรัฐธรรมนูญ
+  type: votelog
+  url: /votelog/267
+- q: >-
+    ขยายเวลาการทำงาน กมธ. สามัญ
+    ตรวจสอบประวัติผู้ได้รับการเสนอชื่อเป็นตุลาการศาลรัฐธรรมนูญ 30 วัน 
+  type: votelog
+  url: /votelog/268
+- q: >-
+    ขยายเวลาการทำงาน กมธ. สามัญ
+    ตรวจสอบประวัติผู้ได้รับการเสนอชื่อเป็นตุลาการศาลรัฐธรรมนูญ 15 วัน
+  type: votelog
+  url: /votelog/269
+- q: ให้ความเห็นชอบผู้ได้รับการเสนอชื่อเป็นตุลาการศาลรัฐธรรมนูญ
+  type: votelog
+  url: /votelog/270
+- q: >-
+    ไม่เปิดเผยบันทึกการประชุมและรายงานลับของ กมธ. สามัญ
+    ตรวจสอบประวัติผู้ได้รับการเสนอชื่อเป็นตุลาการศาลรัฐธรรมนูญ 
+  type: votelog
+  url: /votelog/271
+- q: >-
+    ขยายเวลาการทำงาน กมธ. สามัญ
+    ตรวจสอบประวัติผู้ได้รับการเสนอชื่อเป็นตุลาการศาลรัฐธรรมนูญ 30 วัน
+  type: votelog
+  url: /votelog/272
+- q: ให้ กมธ. ติดตามยุทธศาสตร์ชาติ ทำงานเกินกรอบเวลาที่กำหนด
+  type: votelog
+  url: /votelog/273
+- q: ให้ กมธ. ติดตามยุทธศาสตร์ชาติ ทำงานเกินกรอบเวลาที่กำหนด
+  type: votelog
+  url: /votelog/274
+- q: >-
+    ไม่เปิดเผยบันทึกการประชุมและรายงานลับของ กมธ. สามัญ
+    ตรวจสอบประวัติผู้ได้รับการเสนอชื่อเป็นตุลาการศาลรัฐธรรมนูญ 
+  type: votelog
+  url: /votelog/275
+- q: ให้ความเห็นชอบผู้ได้รับการเสนอชื่อเป็นตุลาการศาลรัฐธรรมนูญ
+  type: votelog
+  url: /votelog/276
+- q: ขยายเวลาจัดทำรายงานความคืบหน้าแผนปฏิรูปประเทศ 14 วัน
+  type: votelog
+  url: /votelog/277
+- q: ขยายเวลาจัดทำรายงานความคืบหน้าแผนปฏิรูปประเทศ 30 วัน
+  type: votelog
+  url: /votelog/278
+- q: พิจารณา พ.ร.บ. ร่างแก้ไขเพิ่มเติมคำสั่งหัวหน้า คสช. ที่ 19/2560 (วาระ 1)
+  type: votelog
+  url: /votelog/287
+- q: ร่าง พ.ร.บ. แก้ พ.ร.ก. ประมง
+  type: votelog
+  url: /votelog/288
+- q: แก้ รธน. สิทธิที่จะมีชีวิตอยู่ในสิ่งแวดล้อมที่ดี (เพื่อไทย) (วาระ 1)
+  type: votelog
+  url: /votelog/290
+- q: แก้ รธน. เพิ่มสิทธิพื้นฐาน (เพื่อไทย) (วาระ 1)
+  type: votelog
+  url: /votelog/291
+- q: แก้ รธน. นายกต้องเป็น ส.ส. (เพื่อไทย) (วาระ 1)
+  type: votelog
+  url: /votelog/292
+- q: >-
+    ตั้ง กมธ. สามัญพิจารณากรณี ส.ส.
+    มีมติให้รัฐสภาส่งเรื่องที่ควรออกเสียงประชามติให้ ครม. ดำเนินการ
+  type: votelog
+  url: /votelog/293
+- q: ให้ความเห็นชอบผู้ได้รับการเสนอชื่อดำรงตำแหน่งตุลาการศาลรัฐธรรมนูญ
+  type: votelog
+  url: /votelog/294
+- q: >-
+    ลงมติกรณี ส.ส. มีมติให้รัฐสภาส่งเรื่องที่ควรออกเสียงประชามติให้ ครม.
+    ดำเนินการ
+  type: votelog
+  url: /votelog/295
