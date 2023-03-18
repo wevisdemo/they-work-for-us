@@ -15,7 +15,6 @@ import { device } from "../components/motion/size"
 export const query = graphql`
   query(
     $id: String!
-    $select_committee: String!
     $main_cat: String!
     $votelog_id: String!
   ) {
@@ -37,7 +36,6 @@ export const query = graphql`
         party
         title
       }
-      select_committee
       status
       sub_cat
       voting_date
@@ -47,22 +45,6 @@ export const query = graphql`
       page_url
       voting_url
       main_cat
-    }
-
-    committee: allPeopleYaml(
-      filter: {
-        committee: { elemMatch: { set: { eq: $select_committee, ne: "" } } }
-      }
-    ) {
-      nodes {
-        id
-        name
-        lastname
-        party
-        fields {
-          slug
-        }
-      }
     }
 
     motions: allMotionYaml(filter: { main_cat: { eq: $main_cat } }) {
@@ -157,7 +139,6 @@ const MotionPage = props => {
   const {
     data: {
       motion,
-      committee: { nodes: members },
       motions: { nodes: motionCat },
       votelog,
     },
@@ -258,7 +239,7 @@ const MotionPage = props => {
           `}
           votelog={votelog}
           motion={motion}
-          members={members}
+          members={[]}
         />
       </Layout>
     </MenuContext.Provider>

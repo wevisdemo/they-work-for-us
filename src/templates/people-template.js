@@ -38,13 +38,8 @@ export const query = graphql`
       mp_list
       vote
       senator_method
-      committee {
-        set
-        position
-      }
       party
       asset
-      debt
       quotes
       quotes_url
       facebook
@@ -180,19 +175,6 @@ const PersonPosition = person => (
         ))}
       </p>
     ) : null}
-
-    {person.committee.length > 0 ? (
-      <p>
-        {person.committee
-          .filter(pos => pos.set && pos.position)
-          .map((pos, i) => (
-            <span key={`${pos.set} ${pos.position}`}>
-              {i > 0 && ", "}
-              {pos.position} {pos.set}{" "}
-            </span>
-          ))}
-      </p>
-    ) : null}
   </div>
 )
 
@@ -237,7 +219,11 @@ const PersonFinance = person => (
     </span>{" "}
     <span>
       <strong>หนี้สิน</strong>{" "}
-      {person.debt === null
+      { /* 
+            'debt' is always null from data source (NocoDB) which caused error on this page query.
+            Re-enable the query above once debt has some level of availability.
+        */
+      person.debt === null || person.debt === undefined
         ? "ไม่มีข้อมูล"
         : `${formatNumber(person.debt)} บาท`}
     </span>{" "}
