@@ -36,7 +36,7 @@ export function parseArray<T>(prefix: string, obj: object): T[] {
 
     // Possible an object member (first depth... for now)
     const internalKey = key.replace(prefix + index, '')
-    
+
     if (objectMaps.has(index)) {
       objectMaps.get(index)[internalKey] = obj[key]
     } else {
