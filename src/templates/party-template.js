@@ -41,7 +41,6 @@ export const query = graphql`
       filter: {
         is_mp: { eq: true }
         party: { eq: $party }
-        is_active: { eq: true }
       }
     ) {
       totalCount
@@ -60,6 +59,7 @@ export const query = graphql`
           mp_province
           mp_zone
           mp_list
+          is_active
         }
       }
     }
@@ -67,7 +67,6 @@ export const query = graphql`
       filter: {
         is_mp: { eq: true }
         party: { eq: $party }
-        is_active: { eq: true }
       }
     ) {
       group(field: { mp_type: SELECT }) {
@@ -79,7 +78,6 @@ export const query = graphql`
       filter: {
         is_mp: { eq: true }
         party: { eq: $party }
-        is_active: { eq: true }
       }
     ) {
       group(field: { gender: SELECT }) {
@@ -91,7 +89,6 @@ export const query = graphql`
       filter: {
         is_mp: { eq: true }
         party: { eq: $party }
-        is_active: { eq: true }
       }
     ) {
       group(field: { education: SELECT }) {
@@ -103,7 +100,6 @@ export const query = graphql`
       filter: {
         is_mp: { eq: true }
         party: { eq: $party }
-        is_active: { eq: true }
       }
     ) {
       group(field: { occupation_group: SELECT }) {
@@ -115,7 +111,6 @@ export const query = graphql`
       filter: {
         is_mp: { eq: true }
         party: { eq: $party }
-        is_active: { eq: true }
       }
     ) {
       edges {
@@ -128,7 +123,6 @@ export const query = graphql`
       filter: {
         is_mp: { eq: true }
         party: { eq: $party }
-        is_active: { eq: true }
       }
     ) {
       edges {
@@ -138,7 +132,6 @@ export const query = graphql`
       }
     }
     allVotelogYaml(
-      filter: { is_active: { eq: true } }
       sort: { vote_date: DESC }
     ) {
       totalCount

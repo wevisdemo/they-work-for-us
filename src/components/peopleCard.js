@@ -3,9 +3,14 @@ import { media } from "../styles"
 import PeopleAvatar from "./peopleAvatar"
 
 export const ProfilePicture = props => {
+  let className = "profile-picture"
+  if (!props.is_active) {
+    className += " in-active"
+  }
+
   return (
     <div
-      className="profile-picture"
+      className={className}
       css={{
         flex: "0 0 84px",
         borderRadius: 84,
@@ -16,9 +21,34 @@ export const ProfilePicture = props => {
         border: "2px solid var(--cl-black)",
         background: "var(--cl-gray-2) no-repeat",
         overflow: "hidden",
+        position: "relative",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        "&.in-active": {
+          "> .avatar": {
+            opacity: 0.5
+          }
+        }
       }}
     >
       <PeopleAvatar {...props} />
+
+      {!props.is_active ? (
+        <div
+          css={{
+            position: "absolute",
+            display: "flex",
+            alignItems: "center",
+            flexDirection: "column",
+            color: "var(--cl-white)",
+            fontSize: "1.2rem",
+          }}
+        >
+          <span>พ้นจาก</span>
+          <span>ตำแหน่ง</span>
+        </div>
+      ) : null}
     </div>
   )
 }

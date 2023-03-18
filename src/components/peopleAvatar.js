@@ -31,11 +31,13 @@ const PeopleAvatar = ({ title = "", name, lastname }) => {
   )
 
   return getImage((personImageNode || placeHolderImageNode).node) ? (
-    <GatsbyImage
-      image={getImage((personImageNode || placeHolderImageNode).node)}
-      alt={alt}
-      style={{ pointerEvents: "none" }}
-    />
+    <div className="avatar">
+      <GatsbyImage
+        image={getImage((personImageNode || placeHolderImageNode).node)}
+        alt={alt}
+        style={{ pointerEvents: "none" }}
+      />
+    </div>
   ) : null
 }
 
