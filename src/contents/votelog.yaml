@@ -76,8 +76,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20190823113634A11.pdf
-    - title: null
-      link: null
   passed: false
   approve: 101
   disprove: 365
@@ -106,8 +104,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20191008153956A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 412
   disprove: 25
@@ -148,8 +144,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20190913143158A3.pdf
-    - title: null
-      link: null
   passed: false
   approve: 223
   disprove: 231
@@ -177,8 +171,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20190917112227A5.pdf
-    - title: null
-      link: null
   passed: true
   approve: 400
   disprove: 0
@@ -292,8 +284,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20191120191531A3.pdf
-    - title: null
-      link: null
   passed: true
   approve: 246
   disprove: 74
@@ -328,8 +318,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20191122170454A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 392
   disprove: 0
@@ -372,8 +360,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20191128082252A2.pdf
-    - title: null
-      link: null
   passed: false
   approve: 5
   disprove: 244
@@ -408,8 +394,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20191219171121A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 411
   disprove: 0
@@ -447,8 +431,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20191220131329A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 354
   disprove: 0
@@ -473,8 +455,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20191225131128A7.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -503,8 +483,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200111175706A101.pdf
-    - title: null
-      link: null
   passed: false
   approve: 253
   disprove: 0
@@ -539,8 +517,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200116150748A3.pdf
-    - title: null
-      link: null
   passed: false
   approve: 10
   disprove: 343
@@ -569,8 +545,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200214142748A89.pdf
-    - title: null
-      link: null
   passed: true
   approve: 257
   disprove: 1
@@ -607,8 +581,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200220141311A1.pdf
-    - title: null
-      link: null
   passed: false
   approve: 216
   disprove: 242
@@ -633,8 +605,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200220141311A3.pdf
-    - title: null
-      link: null
   passed: true
   approve: 339
   disprove: 11
@@ -671,8 +641,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200601105937A5.pdf
-    - title: null
-      link: null
   passed: true
   approve: 275
   disprove: 194
@@ -701,8 +669,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200601105937A7.pdf
-    - title: null
-      link: null
   passed: true
   approve: 271
   disprove: 11
@@ -727,8 +693,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200601105937A3.pdf
-    - title: null
-      link: null
   passed: true
   approve: 275
   disprove: 1
@@ -754,8 +718,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200601105937A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 273
   disprove: 0
@@ -778,8 +740,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20201002103334A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -802,8 +762,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200618094101A9.pdf
-    - title: null
-      link: null
   passed: true
   approve: 251
   disprove: 6
@@ -826,8 +784,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200708135636A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 273
   disprove: 200
@@ -850,8 +806,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20201002112807A3.pdf
-    - title: null
-      link: null
   passed: true
   approve: 387
   disprove: 0
@@ -874,8 +828,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200715194114A7.pdf
-    - title: null
-      link: null
   passed: true
   approve: 377
   disprove: 0
@@ -898,8 +850,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200723191604A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 327
   disprove: 51
@@ -924,8 +874,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200726151513A3.pdf
-    - title: null
-      link: null
   passed: true
   approve: 513
   disprove: 51
@@ -948,8 +896,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200729184306A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 382
   disprove: 0
@@ -972,8 +918,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200804174945A3.pdf
-    - title: null
-      link: null
   passed: true
   approve: 568
   disprove: 0
@@ -996,8 +940,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200804174945A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 504
   disprove: 0
@@ -1020,8 +962,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200901181549A3.pdf
-    - title: null
-      link: null
   passed: true
   approve: 596
   disprove: 0
@@ -1044,8 +984,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200901181549A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 577
   disprove: 0
@@ -1068,8 +1006,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200919110046A3.pdf
-    - title: null
-      link: null
   passed: true
   approve: 269
   disprove: 60
@@ -1092,8 +1028,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20201105184403A18.pdf
-    - title: null
-      link: null
   passed: true
   approve: 302
   disprove: 38
@@ -1116,8 +1050,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20201105184403A29.pdf
-    - title: null
-      link: null
   passed: true
   approve: 285
   disprove: 14
@@ -1142,8 +1074,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20201202092442A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 574
   disprove: 21
@@ -1168,8 +1098,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20201202092442A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 644
   disprove: 17
@@ -1194,8 +1122,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20201202092442A1.pdf
-    - title: null
-      link: null
   passed: false
   approve: 213
   disprove: 34
@@ -1220,8 +1146,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20201202092442A1.pdf
-    - title: null
-      link: null
   passed: false
   approve: 266
   disprove: 20
@@ -1246,8 +1170,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20201202092442A1.pdf
-    - title: null
-      link: null
   passed: false
   approve: 209
   disprove: 48
@@ -1270,8 +1192,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20201202092442A1.pdf
-    - title: null
-      link: null
   passed: false
   approve: 267
   disprove: 19
@@ -1315,8 +1235,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20201202092442A1.pdf
-    - title: null
-      link: null
   passed: false
   approve: 211
   disprove: 137
@@ -1341,8 +1259,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20201125194033A7.pdf
-    - title: null
-      link: null
   passed: true
   approve: 338
   disprove: 7
@@ -1365,8 +1281,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20201126163758A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 307
   disprove: 3
@@ -1389,8 +1303,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20201201143006A7.pdf
-    - title: null
-      link: null
   passed: true
   approve: 520
   disprove: 6
@@ -1420,8 +1332,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20201201181516A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 561
   disprove: 2
@@ -1453,8 +1363,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20201216172325A3.pdf
-    - title: null
-      link: null
   passed: true
   approve: 331
   disprove: 2
@@ -1491,8 +1399,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20201223184059A9.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -1515,8 +1421,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20201223151755A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -1539,8 +1443,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20201223151755A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -1594,8 +1496,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210120183829A3.pdf
-    - title: null
-      link: null
   passed: true
   approve: 275
   disprove: 8
@@ -1618,8 +1518,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210120183829A7.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -1642,8 +1540,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210120183829A9.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -1666,8 +1562,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210127172751A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -1690,8 +1584,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210127153231A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -1723,8 +1615,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210127140825A3.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -1747,8 +1637,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210127141251A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -1771,8 +1659,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210127172751A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -1795,8 +1681,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210203141919A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -1828,8 +1712,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210209154329A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 363
   disprove: 315
@@ -1855,8 +1737,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210210161643A12.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -1879,8 +1759,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210210174720A11.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -1903,8 +1781,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210210161643A8.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -1938,8 +1814,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210220122732A1.pdf
-    - title: null
-      link: null
   passed: false
   approve: 205
   disprove: 272
@@ -1970,8 +1844,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210220122732A3.pdf
-    - title: null
-      link: null
   passed: false
   approve: 203
   disprove: 274
@@ -2004,8 +1876,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210220122732A5.pdf
-    - title: null
-      link: null
   passed: false
   approve: 200
   disprove: 275
@@ -2038,8 +1908,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210220122732A7.pdf
-    - title: null
-      link: null
   passed: false
   approve: 205
   disprove: 269
@@ -2071,8 +1939,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210220122732A9.pdf
-    - title: null
-      link: null
   passed: false
   approve: 204
   disprove: 272
@@ -2104,8 +1970,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210220122732A11.pdf
-    - title: null
-      link: null
   passed: false
   approve: 214
   disprove: 258
@@ -2138,8 +2002,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210220122732A13.pdf
-    - title: null
-      link: null
   passed: false
   approve: 212
   disprove: 263
@@ -2170,8 +2032,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210220122732A15.pdf
-    - title: null
-      link: null
   passed: false
   approve: 201
   disprove: 268
@@ -2201,8 +2061,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210220122732A17.pdf
-    - title: null
-      link: null
   passed: false
   approve: 205
   disprove: 272
@@ -2235,8 +2093,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210220122732A19.pdf
-    - title: null
-      link: null
   passed: false
   approve: 199
   disprove: 273
@@ -2259,8 +2115,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210224162746A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -2288,8 +2142,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210319113904A3.pdff
-    - title: null
-      link: null
   passed: false
   approve: 0
   disprove: 0
@@ -2312,8 +2164,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210324105418A31.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -2338,8 +2188,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210611090246A5.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -2362,8 +2210,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210611090246A2.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -2386,8 +2232,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210611090400A2.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -2417,8 +2261,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210611090447A2.pdf
-    - title: null
-      link: null
   passed: true
   approve: 270
   disprove: 196
@@ -2443,8 +2285,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210611090447A2.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -2467,8 +2307,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210617103416A2.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -2491,8 +2329,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210617103417A41.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -2515,8 +2351,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210617103417A62.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -2576,8 +2410,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210623141727A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 611
   disprove: 4
@@ -2621,8 +2453,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210625095058A1.pdf
-    - title: null
-      link: null
   passed: false
   approve: 334
   disprove: 199
@@ -2681,8 +2511,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210625095058A1.pdf
-    - title: null
-      link: null
   passed: false
   approve: 399
   disprove: 136
@@ -2711,8 +2539,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210625095058A1.pdf
-    - title: null
-      link: null
   passed: false
   approve: 376
   disprove: 89
@@ -2745,8 +2571,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210625095058A1.pdf
-    - title: null
-      link: null
   passed: false
   approve: 455
   disprove: 101
@@ -2780,8 +2604,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210625095058A1.pdf
-    - title: null
-      link: null
   passed: false
   approve: 327
   disprove: 150
@@ -2812,8 +2634,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210625095058A1.pdf
-    - title: null
-      link: null
   passed: false
   approve: 454
   disprove: 86
@@ -2844,8 +2664,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210625095058A1.pdf
-    - title: null
-      link: null
   passed: false
   approve: 476
   disprove: 78
@@ -2885,8 +2703,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210625095058A1.pdf
-    - title: null
-      link: null
   passed: false
   approve: 469
   disprove: 75
@@ -2919,8 +2735,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210625095058A1.pdf
-    - title: null
-      link: null
   passed: false
   approve: 415
   disprove: 102
@@ -2955,8 +2769,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210625095058A1.pdf
-    - title: null
-      link: null
   passed: false
   approve: 431
   disprove: 97
@@ -2990,8 +2802,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210625095058A1.pdf
-    - title: null
-      link: null
   passed: false
   approve: 461
   disprove: 96
@@ -3041,8 +2851,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210625095058A1.pdf
-    - title: null
-      link: null
   passed: false
   approve: 457
   disprove: 82
@@ -3073,8 +2881,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210625095058A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 552
   disprove: 24
@@ -3097,8 +2903,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210707145318A5.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -3126,8 +2930,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210707145318A2.pdf
-    - title: null
-      link: null
   passed: true
   approve: 1
   disprove: 0
@@ -3156,8 +2958,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210707164847A11.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -3180,8 +2980,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210823101340A47.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -3204,8 +3002,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210824165846A57.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -3228,8 +3024,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210824165846A57.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -3259,8 +3053,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210904111929A2.pdf
-    - title: null
-      link: null
   passed: false
   approve: 208
   disprove: 264
@@ -3289,8 +3081,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210904112822A5.pdf
-    - title: null
-      link: null
   passed: false
   approve: 195
   disprove: 260
@@ -3319,8 +3109,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210904111929A8.pdf
-    - title: null
-      link: null
   passed: false
   approve: 198
   disprove: 255
@@ -3350,8 +3138,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210904111929A11.pdf
-    - title: null
-      link: null
   passed: false
   approve: 195
   disprove: 269
@@ -3380,8 +3166,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210904111929A14.pdf
-    - title: null
-      link: null
   passed: false
   approve: 199
   disprove: 270
@@ -3409,8 +3193,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210904111929A16.pdf
-    - title: null
-      link: null
   passed: false
   approve: 200
   disprove: 258
@@ -3433,8 +3215,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211214145041A9.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -3457,8 +3237,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211214145042A14.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -3487,8 +3265,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211214142846A3.pdf
-    - title: null
-      link: null
   passed: true
   approve: 281
   disprove: 0
@@ -3516,8 +3292,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210915170256A5.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -3540,8 +3314,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210916184433A2.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -3564,8 +3336,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210917114544A20.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -3591,8 +3361,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211103140646A12.pdf
-    - title: null
-      link: null
   passed: true
   approve: 274
   disprove: 0
@@ -3620,8 +3388,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211109161620A2.pdf
-    - title: null
-      link: null
   passed: true
   approve: 421
   disprove: 29
@@ -3649,8 +3415,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211109161316A5.pdf
-    - title: null
-      link: null
   passed: true
   approve: 526
   disprove: 30
@@ -3678,8 +3442,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211110122437A6.pdf
-    - title: null
-      link: null
   passed: true
   approve: 277
   disprove: 9
@@ -3703,8 +3465,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211110162647A27.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -3727,8 +3487,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211110162647A24.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -3753,8 +3511,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211110174428A30.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -3777,8 +3533,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211110154758A18.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -3801,8 +3555,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211110162647A21.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -3832,8 +3584,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211117151614A2.pdf
-    - title: null
-      link: null
   passed: true
   approve: 283
   disprove: 0
@@ -3865,8 +3615,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211117132303A2.pdf
-    - title: null
-      link: null
   passed: false
   approve: 212
   disprove: 403
@@ -3889,8 +3637,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211125135527A7.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -3913,8 +3659,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211125135527A13.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -3937,8 +3681,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211125135527A10.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -3961,8 +3703,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211208144649A2.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -3985,8 +3725,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211208161741A2.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -4009,8 +3747,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211208144758A2.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -4059,8 +3795,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211215151011A2.pdf
-    - title: null
-      link: null
   passed: false
   approve: 162
   disprove: 234
@@ -4090,8 +3824,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211215151011A5.pdf
-    - title: null
-      link: null
   passed: false
   approve: 157
   disprove: 229
@@ -4124,8 +3856,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211221171357A11.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -4148,8 +3878,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211222151600A33.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -4177,8 +3905,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211222180529A39.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -4201,8 +3927,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211222142453A28.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -4225,8 +3949,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211222142453A30.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -4250,8 +3972,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211222142453A23.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -4274,8 +3994,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211222123059A16.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -4298,8 +4016,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211222180529A42.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -4322,8 +4038,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211222121612A2.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -4346,8 +4060,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211222121612A9.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -4370,8 +4082,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220119122646A9.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -4396,8 +4106,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220119115555A4.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -4422,8 +4130,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220119181719A0.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -4446,8 +4152,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220119145547A14.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -4470,8 +4174,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220126142534A9.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -4494,8 +4196,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220126150506A20.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -4521,8 +4221,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220126173848A46.pdf
-    - title: null
-      link: null
   passed: true
   approve: 347
   disprove: 0
@@ -4548,8 +4246,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220202144456A19.pdf
-    - title: null
-      link: null
   passed: true
   approve: 263
   disprove: 31
@@ -4575,8 +4271,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220202123433A2.pdf
-    - title: null
-      link: null
   passed: true
   approve: 289
   disprove: 0
@@ -4606,8 +4300,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220202123433A7.pdf
-    - title: null
-      link: null
   passed: true
   approve: 278
   disprove: 1
@@ -4637,8 +4329,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220204114657A2.pdf
-    - title: null
-      link: null
   passed: false
   approve: 121
   disprove: 144
@@ -4661,8 +4351,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220208165529A2.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -4685,8 +4373,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220208171721A5.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -4714,8 +4400,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220209190321A17.pdf
-    - title: null
-      link: null
   passed: true
   approve: 219
   disprove: 118
@@ -4744,8 +4428,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220209165301A2.pdf
-    - title: null
-      link: null
   passed: true
   approve: 239
   disprove: 140
@@ -4773,8 +4455,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220209135647A8.pdf
-    - title: null
-      link: null
   passed: true
   approve: 207
   disprove: 196
@@ -4805,8 +4485,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220209165600A11.pdf
-    - title: null
-      link: null
   passed: true
   approve: 227
   disprove: 158
@@ -4834,8 +4512,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220209121641A2.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -4863,8 +4539,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220209135647A5.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -4896,8 +4570,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220224083529A96.pdf
-    - title: null
-      link: null
   passed: true
   approve: 359
   disprove: 0
@@ -4921,8 +4593,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220224091420A119.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -4947,8 +4617,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220224191155A4.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -4973,8 +4641,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220224191155A6.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -4999,8 +4665,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220224191155A8.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -5025,8 +4689,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220224191155A10.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -5049,8 +4711,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220228144636A5.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -5075,8 +4735,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220228144636A11.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -5101,8 +4759,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220228144636A14.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -5127,8 +4783,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220228144636A17.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -5153,8 +4807,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220228144636A8.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -5179,8 +4831,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220228144636A20.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -5206,8 +4856,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220228144636A23.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -5230,8 +4878,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220526093813A32.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -5258,8 +4904,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220526093813A43.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -5493,8 +5137,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220616145328A5.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -5517,8 +5159,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211103180822A75.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -5541,8 +5181,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220622141001A30.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -5570,8 +5208,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220622131344A14.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -5594,8 +5230,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220622143451A42.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -5618,8 +5252,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220622161217A5.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -5642,8 +5274,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220622173018A72.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -5666,8 +5296,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220629182801A39.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -5690,8 +5318,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220629175807A2.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -5714,8 +5340,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220629174554A9.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -5738,8 +5362,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220629182801A46.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -5762,8 +5384,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220705145613A10.pdf
-    - title: null
-      link: null
   passed: true
   approve: 333
   disprove: 38
@@ -5796,8 +5416,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220707131107A57.pdf
-    - title: null
-      link: null
   passed: true
   approve: 208
   disprove: 153
@@ -5820,8 +5438,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220707174604A11.pdf
-    - title: null
-      link: null
   passed: true
   approve: 251
   disprove: 1
@@ -5849,8 +5465,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220707133040A5.pdf
-    - title: null
-      link: null
   passed: false
   approve: 84
   disprove: 180
@@ -5878,8 +5492,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220707133040A8.pdf
-    - title: null
-      link: null
   passed: false
   approve: 83
   disprove: 181
@@ -5912,8 +5524,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220707133040A2.pdf
-    - title: null
-      link: null
   passed: false
   approve: 84
   disprove: 181
@@ -5936,8 +5546,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220707174604A14.pdf
-    - title: null
-      link: null
   passed: false
   approve: 80
   disprove: 185
@@ -5984,8 +5592,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220725135559A2.pdf
-    - title: null
-      link: null
   passed: false
   approve: 207
   disprove: 254
@@ -6017,8 +5623,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220725135559A5.pdf
-    - title: null
-      link: null
   passed: false
   approve: 207
   disprove: 240
@@ -6054,8 +5658,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220725135559A8.pdf
-    - title: null
-      link: null
   passed: false
   approve: 205
   disprove: 263
@@ -6085,8 +5687,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220725135559A11.pdf
-    - title: null
-      link: null
   passed: false
   approve: 193
   disprove: 267
@@ -6116,8 +5716,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220725135559A14.pdf
-    - title: null
-      link: null
   passed: false
   approve: 212
   disprove: 244
@@ -6150,8 +5748,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220725135559A17.pdf
-    - title: null
-      link: null
   passed: false
   approve: 205
   disprove: 261
@@ -6186,8 +5782,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220725135559A20.pdf
-    - title: null
-      link: null
   passed: false
   approve: 205
   disprove: 248
@@ -6219,8 +5813,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220725135559A23.pdf
-    - title: null
-      link: null
   passed: false
   approve: 209
   disprove: 244
@@ -6254,8 +5846,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220725135559A26.pdf
-    - title: null
-      link: null
   passed: false
   approve: 204
   disprove: 248
@@ -6286,8 +5876,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220725135559A29.pdf
-    - title: null
-      link: null
   passed: false
   approve: 206
   disprove: 245
@@ -6317,8 +5905,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220725135559A32.pdf
-    - title: null
-      link: null
   passed: false
   approve: 208
   disprove: 242
@@ -6352,8 +5938,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220726135727A2.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -6386,8 +5970,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220727162752A30.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -6417,8 +5999,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220803093511A7.pdf
-    - title: null
-      link: null
   passed: true
   approve: 365
   disprove: 0
@@ -6441,8 +6021,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220804133543A9.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -6465,8 +6043,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220804152843A16.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -6489,8 +6065,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220804170227A20.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -6513,8 +6087,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220811091102A8.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -6537,8 +6109,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220824094320A7.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -6564,8 +6134,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220824142209A8.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -6588,8 +6156,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220825111828A20.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -6612,8 +6178,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220824163226A11.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -6636,8 +6200,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220824163226A14.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -6660,8 +6222,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220824165726A17.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -6746,8 +6306,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20201002140555A3.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -6772,8 +6330,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20191219131320A1.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -6798,8 +6354,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200228114649A1.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -6824,8 +6378,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200228114649A3.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -6850,8 +6402,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200228114649A5.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -6876,8 +6426,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200228114649A7.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -6902,8 +6450,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200228114649A9.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -6928,8 +6474,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200228114649A11.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -6954,8 +6498,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20201223151755A3.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -6978,8 +6520,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210203124424A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -7002,8 +6542,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210224132837A1.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -7030,8 +6568,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210707145318A8.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -7054,8 +6590,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210915124909A2.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -7081,8 +6615,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211103180822A75.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -7105,8 +6637,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211110135921A13.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -7132,8 +6662,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211202155300A2.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -7156,8 +6684,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211208130645A2.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -7186,8 +6712,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211215170117A8.pdf
-    - title: null
-      link: null
   passed: false
   approve: 0
   disprove: 0
@@ -7213,8 +6737,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220202165133A22.pdf
-    - title: null
-      link: null
   passed: true
   approve: 0
   disprove: 0
@@ -7240,8 +6762,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220908152832A8.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -7266,8 +6786,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220908110354A2.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -7292,8 +6810,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220914163131A56.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -7318,8 +6834,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220914153141A44.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -7347,8 +6861,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20221103080616A23.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -7373,8 +6885,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20221102152505A2.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -7401,8 +6911,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20221109181151A5.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -7430,8 +6938,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20221109161038A2.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -7456,8 +6962,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20221130151751A2.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -7498,8 +7002,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20221207122225A2.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -7522,8 +7024,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220208165529A2.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -7546,8 +7046,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220208171721A5.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -7570,8 +7068,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20230209155335A4.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -7594,8 +7090,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20230209172541A9.pdf
-    - title: null
-      link: null
   passed: null
   approve: 0
   disprove: 0
@@ -7616,8 +7110,6 @@
   document:
     - title: รวม 14-2562
       link: 'https://drive.google.com/drive/folders/157rfJWwPNNtF8K013oZuXiJ2IcoZf6w8'
-    - title: null
-      link: null
   passed: false
   approve: 0
   disprove: 0
@@ -7642,8 +7134,6 @@
   document:
     - title: รวม 7-2562
       link: 'https://drive.google.com/drive/folders/1Ij-_ndthzGKIq61a2ActWB1zoLUO9u0i'
-    - title: null
-      link: null
   passed: false
   approve: 0
   disprove: 0
@@ -7668,8 +7158,6 @@
   document:
     - title: รวม 10 (2)
       link: 'https://drive.google.com/drive/folders/16uDYgDt4DVbb6NojRqBIYHxhgap1sekL'
-    - title: null
-      link: null
   passed: false
   approve: 0
   disprove: 0
@@ -7690,8 +7178,6 @@
   document:
     - title: รวม 18
       link: 'https://drive.google.com/drive/folders/1eOSttXeczQZy1EtTdCBx5KIPMnJUlcx7'
-    - title: null
-      link: null
   passed: false
   approve: 0
   disprove: 0
@@ -7716,8 +7202,6 @@
   document:
     - title: รวม 18
       link: 'https://drive.google.com/drive/folders/1eOSttXeczQZy1EtTdCBx5KIPMnJUlcx7'
-    - title: null
-      link: null
   passed: false
   approve: 0
   disprove: 0
@@ -7742,8 +7226,6 @@
   document:
     - title: รวม 1-2562 วิสามัญ
       link: 'https://drive.google.com/drive/folders/1Wea2slywo2JV0ziQbikA2cJbHVzyUfBG'
-    - title: null
-      link: null
   passed: false
   approve: 0
   disprove: 0
@@ -7764,8 +7246,6 @@
   document:
     - title: รวม 7
       link: 'https://drive.google.com/drive/folders/1Elogbd8-RdYlA7pqt_riWjL01ANBpsaP'
-    - title: null
-      link: null
   passed: false
   approve: 0
   disprove: 0
@@ -7786,8 +7266,6 @@
   document:
     - title: รวม 11
       link: 'https://drive.google.com/drive/folders/1vPkTA86u5LxFdrWNbgPpE2Bw3418oVsW'
-    - title: null
-      link: null
   passed: false
   approve: 0
   disprove: 0
@@ -7812,8 +7290,6 @@
   document:
     - title: รวม 13
       link: 'https://drive.google.com/drive/folders/1arsMh2PB8jiRRY2ZafFP9dSCztOEO9D5'
-    - title: null
-      link: null
   passed: false
   approve: 0
   disprove: 0
@@ -7834,8 +7310,6 @@
   document:
     - title: รวม 13
       link: 'https://drive.google.com/drive/folders/1arsMh2PB8jiRRY2ZafFP9dSCztOEO9D5'
-    - title: null
-      link: null
   passed: false
   approve: 0
   disprove: 0
@@ -7856,8 +7330,6 @@
   document:
     - title: รวม 3
       link: 'https://drive.google.com/drive/folders/1wChu7VmAWVtaXiFmQglP8dlviyo_G4AJ'
-    - title: null
-      link: null
   passed: false
   approve: 0
   disprove: 0
@@ -7878,8 +7350,6 @@
   document:
     - title: รวม 10
       link: 'https://drive.google.com/drive/folders/1ybowlZtc7q7B7NjB5dLenBQXYMgv6I_-'
-    - title: null
-      link: null
   passed: false
   approve: 0
   disprove: 0
@@ -7900,8 +7370,6 @@
   document:
     - title: รวมออกเสียง 13
       link: 'https://drive.google.com/drive/folders/1e8_ESDe0STS1e2oacvFKNwzhdIneoLln'
-    - title: null
-      link: null
   passed: false
   approve: 0
   disprove: 0
@@ -7924,8 +7392,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20230223134228A2.pdf
-    - title: null
-      link: null
   passed: false
   approve: 0
   disprove: 0
@@ -7951,8 +7417,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220908152832A8.pdf
-    - title: null
-      link: null
   passed: false
   approve: 0
   disprove: 0
@@ -7979,8 +7443,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220908152832A8.pdf
-    - title: null
-      link: null
   passed: false
   approve: 0
   disprove: 0
@@ -8006,8 +7468,6 @@
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220908152832A8.pdf
-    - title: null
-      link: null
   passed: false
   approve: 0
   disprove: 0
@@ -8032,8 +7492,6 @@
   document:
     - title: รวมใบประมวลผล6
       link: 'https://drive.google.com/drive/folders/1F1Etr-U3LFPr95x7TvNgB3z4m9HN9yCZ'
-    - title: null
-      link: null
   passed: false
   approve: 0
   disprove: 0
@@ -8054,8 +7512,6 @@
   document:
     - title: รวมใบประมวลผล13
       link: 'https://drive.google.com/drive/folders/17lIYLaCcZmLZGB0yoxH5eTvWkGVWaAx9'
-    - title: null
-      link: null
   passed: false
   approve: 0
   disprove: 0
@@ -8080,8 +7536,6 @@
   document:
     - title: รวมใบประมวลผล26
       link: 'https://drive.google.com/drive/folders/1q7qEdpIGzrjMx_p_OUSKSmP9HSy8hUi2'
-    - title: null
-      link: null
   passed: false
   approve: 0
   disprove: 0
