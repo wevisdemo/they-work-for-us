@@ -12,12 +12,41 @@ export function parseNumber(input: string | any): number | null {
   return Number(input.trim())
 }
 
+  /**
+   * Parse array members in format of {prefix}{number}[internal-key] e.g. document0title, cabinet_position0
+   * @param {string} prefix Prefix of the array members. e.g. document, cabinet_position
+   * @param {string} obj Targeted object.
+   * @returns {array} Can be an array of objects or primitives. e.g. [{ title: 'doc title' }], ['some position']
+   */
 export function parseArray<T>(prefix: string, obj: object): T[] {
-  return Object
+  const arrayKeys = Object
     .keys(obj)
     .filter(k => k.startsWith(prefix))
-    .sort()
-    .map(key => obj[key])
+
+  // Match prefix + numbers
+  const re = new RegExp(`^${prefix}[0-9]*`, 'g')
+  const objectMaps = new Map()
+
+  arrayKeys.forEach((key) => {
+    const index = key.match(re)[0].replace(prefix, '')
+
+    // Possible an object member (first depth... for now)
+    const internalKey = key.replace(prefix + index, '')
+
+    if (objectMaps.has(index)) {
+      objectMaps.get(index)[internalKey] = obj[key]
+    } else {
+      if (internalKey === '') {
+        objectMaps.set(index, obj[key])
+      } else {
+        const newObject = {}
+        newObject[internalKey] = obj[key]
+        objectMaps.set(index, newObject)
+      }
+    }
+  })
+
+  return [...objectMaps.values()]
 }
 
 export function deleteArrayKeys(prefix: string, obj: object) {
