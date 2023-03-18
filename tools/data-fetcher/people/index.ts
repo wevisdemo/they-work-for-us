@@ -43,8 +43,8 @@ function mapPerson(person: object) {
   converted['lastname'] = last_name
   // Party
   const partyHistory = getLatestPartyHistory(converted['people_party_history'])
-  converted['party'] = partyHistory?.party?.name
-  converted['party_group'] = partyHistory?.party?.party_group
+  converted['party'] = partyHistory?.party?.name ?? ''
+  converted['party_group'] = partyHistory?.party?.party_group ?? ''
   // PeopleVotes
   delete converted['people_votes']
   

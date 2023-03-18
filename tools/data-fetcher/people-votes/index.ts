@@ -28,7 +28,7 @@ function mapPeopleVote(peopleVote: object) {
   converted['lastname'] = last_name
   // Party
   const partyHistory = getLatestPartyHistory(converted['people_party_history'])
-  converted['party'] = partyHistory?.party?.name
+  converted['party'] = partyHistory?.party?.name ?? ''
   delete converted['people_party_history']
   // Votelog
   converted['votelog'] = parsePeopleVoteRecords(converted['people_votes'])

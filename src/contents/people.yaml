@@ -198,8 +198,8 @@
     - รองนายกรัฐมนตรี
     - ที่ปรึกษาคณะรักษาความสงบแห่งชาติ
   lastname: เครืองาม
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: ชัยชาญ
   is_mp: false
@@ -242,8 +242,8 @@
     - ปลัดกระทรวงกลาโหม
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: ช้างมงคล
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: ดร.
   name: อุตตม
   is_mp: false
@@ -338,8 +338,8 @@
     - รัฐมนตรีว่าการกระทรวงการต่างประเทศ
     - เอกอัครราชทูตไทยประจำสหรัฐอเมริกา
   lastname: ปรมัตถ์วินัย
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: พิพัฒน์
   is_mp: false
@@ -720,8 +720,8 @@
     - ผู้บัญชาการทหารบก
     - ที่ปรึกษาคณะรักษาความสงบแห่งชาติ
   lastname: เผ่าจินดา
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: นิพนธ์
   is_mp: false
@@ -858,8 +858,8 @@
     - ผู้ว่าการธนาคารแห่งประเทศไทย
     - null
   lastname: โสณกุล
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: อิทธิพล
   is_mp: false
@@ -1909,7 +1909,7 @@
     - สมาชิกสภากรุงเทพมหานคร
   lastname: โหสกุล
   party: ไทยสร้างไทย
-  party_group: null
+  party_group: ''
 - title: นาย
   name: กิตติ
   is_mp: true
@@ -5238,7 +5238,7 @@
     - null
   lastname: วิชยสุทธิ์
   party: ไทยสร้างไทย
-  party_group: null
+  party_group: ''
 - title: นาย
   name: ชัชวาลล์
   is_mp: true
@@ -8689,7 +8689,7 @@
     - สมาชิกกลุ่ม กปปส.
   lastname: เสนเนียม
   party: ไทยภักดี
-  party_group: null
+  party_group: ''
 - title: นาย
   name: ธรรมวิชญ์
   is_mp: true
@@ -25712,8 +25712,8 @@
     - หัวหน้าคณะนายทหารฝ่ายเสนาธิการประจำผู้บังคับบัญชา
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: ชาญปรีชญา
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: กรรณภว์
   is_mp: false
@@ -25756,8 +25756,8 @@
     - ผู้พิพากษาสมทบ ศาลทรัพย์สินทางปัญญาและการค้าระหว่างประเทศ
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: ธนภรรคภวิน
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลตรี
   name: กลชัย
   is_mp: false
@@ -25800,8 +25800,8 @@
     - สมาชิกวุฒิสภา
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: สุวรรณบูรณ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: กล้านรงค์
   is_mp: false
@@ -25844,8 +25844,8 @@
     - เลขาธิการคณะกรรมการป้องกัน และปราบปรามการทุจริตแห่งชาติ
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: จันทิก
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: กษิดิศ
   is_mp: false
@@ -25888,8 +25888,8 @@
     - สมาชิกสภาขับเคลื่อนการปฏิรูปประเทศ (สปท.)
     - null
   lastname: อาชวคุณ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาง
   name: กอบกุล
   is_mp: false
@@ -25933,8 +25933,8 @@
     - กรรมการบริษัท
     - null
   lastname: อาภากร ณ อยุธยา
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาง
   name: กาญจนารัตน์
   is_mp: false
@@ -25977,8 +25977,8 @@
     - ที่ปรึกษาสำนักงานศาลปกครอง
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: ลีวิโรจน์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: กำพล
   is_mp: false
@@ -26021,8 +26021,8 @@
     - ธุรกิจส่วนตัว
     - null
   lastname: เลิศเกียรติดำรงค์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: กิตติ
   is_mp: false
@@ -26065,8 +26065,8 @@
     - เอกอัครราชทูตไทยประจำออสเตรเลีย
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: วะสีนนท์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: กิตติศักดิ์
   is_mp: false
@@ -26110,8 +26110,8 @@
     - สมาชิกองค์การบริหารส่วนตำบล
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: รัตนวราหะ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: กูรดิสถ์
   is_mp: false
@@ -26154,8 +26154,8 @@
     - ธุรกิจส่วนตัว
     - null
   lastname: จันทร์ศรีชวาลา
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: เกียว
   is_mp: false
@@ -26199,8 +26199,8 @@
     - นายกองค์การบริหารส่วนตำบล
     - null
   lastname: แก้วสุทอ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: ดร.
   name: ไกรสิทธิ์
   is_mp: false
@@ -26243,8 +26243,8 @@
     - ผู้อำนวยการใหญ่ ฝ่ายอาหารและโภชนาการ องค์การอาหารและเกษตรแห่งสหประชาชาติ
     - null
   lastname: ตันติศิรินทร์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ขวัญชาติ
   is_mp: false
@@ -26288,8 +26288,8 @@
     - รองเลขาธิการศูนย์อำนวยการบริหารจังหวัดชายแดนภาคใต้
     - null
   lastname: วงศ์ศุภรานันต์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: คำนูณ
   is_mp: false
@@ -26332,8 +26332,8 @@
     - สมาชิกวุฒิสภา
     - สมาชิกสภาขับเคลื่อนการปฏิรูปประเทศ (สปท.)
   lastname: สิทธิสมาน
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: จเด็จ
   is_mp: false
@@ -26376,8 +26376,8 @@
     - ปลัดกระทรวงการท่องเที่ยวและกีฬา
     - null
   lastname: อินสว่าง
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: จรินทร์
   is_mp: false
@@ -26420,8 +26420,8 @@
     - ปลัดกระทรวงแรงงาน
     - null
   lastname: จักกะพาก
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลโท
   name: จเรศักณิ์
   is_mp: false
@@ -26466,8 +26466,8 @@
     - ผู้ทรงคุณวุฒิพิเศษ กองทัพบก
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: อานุภาพ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลตำรวจเอก
   name: จักรทิพย์
   is_mp: false
@@ -26510,8 +26510,8 @@
     - ผู้บัญชาการตำรวจแห่งชาติ
     - สมาชิกคณะรักษาความสงบแห่งชาติ
   lastname: ชัยจินดา
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลตำรวจโท
   name: จิตติ
   is_mp: false
@@ -26554,8 +26554,8 @@
     - ผู้บัญชาการตำรวจภูธรภาค 2
     - null
   lastname: รอดบางยาง
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาง
   name: จินตนา
   is_mp: false
@@ -26598,8 +26598,8 @@
     - ผู้ช่วยรัฐมนตรีว่าการกระทรวงเกษตรและสหกรณ์
     - null
   lastname: ชัยยวรรณาการ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: จิรชัย
   is_mp: false
@@ -26642,8 +26642,8 @@
     - ปลัดสำนักนายกรัฐมนตรี
     - null
   lastname: มูลทองโร่ย
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาง
   name: จิรดา
   is_mp: false
@@ -26686,8 +26686,8 @@
     - ที่ปรึกษานายกองค์การบริหารส่วนจังหวัดภูเก็ต
     - นายกองค์การบริหารส่วนจังหวัดชัยนาท
   lastname: สงฆ์ประชา
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: จิรพงศ์
   is_mp: false
@@ -26730,8 +26730,8 @@
     - ที่ปรึกษากองทัพบก
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: วรรณรัตน์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: จีระศักดิ์
   is_mp: false
@@ -26774,8 +26774,8 @@
     - รองผู้ว่าราชการกรุงเทพมหานคร
     - ที่ปรึกษานายกรัฐมนตรี
   lastname: ชมประสพ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นายแพทย์
   name: เจตน์
   is_mp: false
@@ -26818,8 +26818,8 @@
     - สมาชิกวุฒิสภา
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: ศิรธรานนท์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: เจน
   is_mp: false
@@ -26862,8 +26862,8 @@
     - ประธานสภาอุตสาหกรรมแห่งประเทศไทย
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: นำชัยศิริ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: ดร.
   name: ฉวีรัตน์
   is_mp: false
@@ -26906,8 +26906,8 @@
     - ผู้ช่วยรัฐมนตรีว่าการกระทรวงวัฒนธรรม
     - null
   lastname: เกษตรสุนทร
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: ฉัตรเฉลิม
   is_mp: false
@@ -26950,8 +26950,8 @@
     - เสนาธิการทหารบก
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: เฉลิมสุข
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: ฉัตรชัย
   is_mp: false
@@ -26994,8 +26994,8 @@
     - รองนายกรัฐมนตรี
     - รัฐมนตรีว่าการกระทรวงเกษตรและสหกรณ์
   lastname: สาริกัลยะ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: เฉลา
   is_mp: false
@@ -27038,8 +27038,8 @@
     - ผู้อำนวยการสถานศึกษา
     - null
   lastname: พวงมาลัย
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลอากาศตรี นายแพทย์
   name: เฉลิมชัย
   is_mp: false
@@ -27082,8 +27082,8 @@
     - สมาชิกวุฒิสภา
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: เครืองาม
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: ผู้ช่วยศาสตราจารย์ นายแพทย์
   name: เฉลิมชัย
   is_mp: false
@@ -27129,8 +27129,8 @@
     - อธิการบดีมหาวิทยาลัยศรีนครินทรวิโรฒ
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: บุญยะลีพรรณ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: เฉลิมชัย
   is_mp: false
@@ -27173,8 +27173,8 @@
     - ผู้ว่าราชการจังหวัดอุตรดิตถ์
     - null
   lastname: เฟื่องคอน
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: เฉลียว
   is_mp: false
@@ -27218,8 +27218,8 @@
     - ธุรกิจส่วนตัว
     - null
   lastname: เกาะแก้ว
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ชยุต
   is_mp: false
@@ -27264,8 +27264,8 @@
     - เลขานุการผู้ว่าราชการกรุงเทพมหานคร
     - null
   lastname: สืบตระกูล
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: ชยุติ
   is_mp: false
@@ -27309,8 +27309,8 @@
     - ที่ปรึกษากองบัญชาการกองทัพไทย
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: สุวรรณมาศ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ชลิต
   is_mp: false
@@ -27354,8 +27354,8 @@
     - สมาชิกวุฒิสภา
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: แก้วจินดา
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลตำรวจเอก
   name: ชัชวาลย์
   is_mp: false
@@ -27400,8 +27400,8 @@
     - ปลัดกระทรวงยุติธรรม
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: สุขสมจิตร์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลอากาศเอก
   name: ชัยพฤกษ์
   is_mp: false
@@ -27444,8 +27444,8 @@
     - ผู้บัญชาการทหารอากาศ
     - สมาชิกคณะรักษาความสงบแห่งชาติ
   lastname: ดิษยะศริน
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเรือเอก
   name: ชัยวัฒน์
   is_mp: false
@@ -27488,8 +27488,8 @@
     - ผู้ช่วยเสนาธิการทหารเรือ ฝ่ายกิจการพลเรือน
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: เอี่ยมสมุทร
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: ดร.
   name: ชาญวิทย์
   is_mp: false
@@ -27532,8 +27532,8 @@
     - หัวหน้าผู้ฝึกสอนฟุตบอลทีมชาติไทย
     - สมาชิกสภาขับเคลื่อนการปฏิรูปประเทศ (สปท.)
   lastname: ผลชีวิน
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: ชาตอุดม
   is_mp: false
@@ -27576,8 +27576,8 @@
     - รองเลขาธิการคณะรักษาความสงบแห่งชาติ
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: ติตถะสิริ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเรือเอก
   name: ชุมนุม
   is_mp: false
@@ -27620,8 +27620,8 @@
     - ตุลาการศาลทหารสูงสุด
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: อาจวงษ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: ชูศักดิ์
   is_mp: false
@@ -27664,8 +27664,8 @@
     - คณะกรรมการจัดทำยุทธศาสตร์ชาติด้านความมั่นคง
     - สมาชิกสภาขับเคลื่อนการปฏิรูปประเทศ (สปท.)
   lastname: เมฆสุวรรณ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: เชวงศักดิ์
   is_mp: false
@@ -27708,8 +27708,8 @@
     - ที่ปรึกษาปลัดกระทรวงกลาโหม
     - null
   lastname: ทองสลวย
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: ว่าที่ร้อยตรี
   name: เชิดศักดิ์
   is_mp: false
@@ -27753,8 +27753,8 @@
     - ที่ปรึกษารัฐมนตรีว่าการกระทรวงยุติธรรม
     - null
   lastname: จำปาเทศ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: เชิดศักดิ์
   is_mp: false
@@ -27797,8 +27797,8 @@
     - ผู้อํานวยการสํานักข่าวกรองแห่งชาติ
     - null
   lastname: สันติวรวุฒิ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ซากีย์
   is_mp: false
@@ -27842,8 +27842,8 @@
     - อาจารย์ประจำสถาบันสันติศึกษา
     - null
   lastname: พิทักษ์คุมพล
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเรือเอก
   name: ฐนิธ
   is_mp: false
@@ -27886,8 +27886,8 @@
     - นายกสภาสถาปนิก
     - null
   lastname: กิตติอำพน
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเรือเอก
   name: ณรงค์
   is_mp: false
@@ -27930,8 +27930,8 @@
     - รองนายกรัฐมนตรี
     - รองหัวหน้าคณะรักษาความสงบแห่งชาติ
   lastname: พิพัฒนาศัย
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ณรงค์
   is_mp: false
@@ -27974,8 +27974,8 @@
     - เลขาธิการคณะกรรมการป้องกันและปราบปรามยาเสพติด
     - null
   lastname: รัตนานุกูล
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ณรงค์
   is_mp: false
@@ -28018,8 +28018,8 @@
     - ปลัดกระทรวงสาธารณสุข
     - null
   lastname: สหเมธาพัฒน์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ณรงค์
   is_mp: false
@@ -28062,8 +28062,8 @@
     - ที่ปรึกษารัฐมนตรีว่าการกระทรวงเกษตรและสหกรณ์
     - null
   lastname: อ่อนสอาด
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: ณัฐ
   is_mp: false
@@ -28106,8 +28106,8 @@
     - ปลัดกระทรวงกลาโหม
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: อินทรเจริญ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: ดนัย
   is_mp: false
@@ -28150,8 +28150,8 @@
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
     - null
   lastname: มีชูเวท
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาง
   name: ดวงพร
   is_mp: false
@@ -28194,8 +28194,8 @@
     - อธิบดีกรมการค้าต่างประเทศ
     - null
   lastname: รอดพยาธิ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: ดร.
   name: ดาวน้อย
   is_mp: false
@@ -28238,8 +28238,8 @@
     - ผู้ว่าการการยาสูบแห่งประเทศไทย
     - null
   lastname: สุทธินิภาพันธ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: ดร.
   name: ดิเรกฤทธิ์
   is_mp: false
@@ -28283,8 +28283,8 @@
     - นักวิชาการอิสระ
     - null
   lastname: เจนครองธรรม
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ดุสิต
   is_mp: false
@@ -28327,8 +28327,8 @@
     - องผู้อำนวยการสำนักงบประมาณ
     - null
   lastname: เขมะศักดิ์ชัย
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลตำรวจเอก
   name: เดชณรงค์
   is_mp: false
@@ -28371,8 +28371,8 @@
     - รองผู้บัญชาการตำรวจแห่งชาติ
     - สมาชิกสภาขับเคลื่อนการปฏิรูปประเทศ
   lastname: สุทธิชาญบัญชา
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลตำรวจโท
   name: ตรีทศ
   is_mp: false
@@ -28415,8 +28415,8 @@
     - ผู้บัญชาการตำรวจสันติบาล
     - null
   lastname: รณฤทธิวิชัย
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลอากาศเอก
   name: ตรีทศ
   is_mp: false
@@ -28459,8 +28459,8 @@
     - ผู้บัญชาการทหารอากาศ
     - สมาชิกคณะรักษาความสงบแห่งชาติ
   lastname: สนแจ้ง
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: ดร.
   name: ตวง
   is_mp: false
@@ -28503,8 +28503,8 @@
     - สมาชิกวุฒิสภา
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: อันทะไชย
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: ไตรโรจน์
   is_mp: false
@@ -28547,8 +28547,8 @@
     - ผู้ทรงคุณวุฒิพิเศษ กองทัพบก
     - เจ้ากรมแพทย์ทหารบก/ผู้บัญชาการโรงเรียนเสนารักษ์ กรมแพทย์ทหารบก
   lastname: ครุธเวโช
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ถนัด
   is_mp: false
@@ -28591,8 +28591,8 @@
     - ผู้อำนวยการกอง กองคุ้มครองผู้บริโภคด้านฉลาก
     - null
   lastname: มานะพันธ์ุนิยม
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ถวิล
   is_mp: false
@@ -28635,8 +28635,8 @@
     - ประธานกรรมการการไฟฟ้าส่วนภูมิภาค
     - คณะกรรมการวินิจฉัยการเปิดเผยข้อมูลข่าวสาร
   lastname: เปลี่ยนศรี
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ถาวร
   is_mp: false
@@ -28679,8 +28679,8 @@
     - นายกองค์การบริหารส่วนตำบล
     - null
   lastname: เทพวิมลเพชรกุล
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลอากาศเอก
   name: ถาวร
   is_mp: false
@@ -28723,8 +28723,8 @@
     - รองผู้บัญชาการทหารสูงสุด
     - null
   lastname: มณีพฤกษ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ทรงเดช
   is_mp: false
@@ -28767,8 +28767,8 @@
     - ประธานฝ่ายเทคนิคสโมสรฟุตบอลสุโขทัย
     - null
   lastname: เสมอคำ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: ทวีป
   is_mp: false
@@ -28811,8 +28811,8 @@
     - ผู้บัญชาการหน่วยบัญชาการทหารพัฒนา
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: เนตรนิยม
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นายแพทย์
   name: ทวีวงษ์
   is_mp: false
@@ -28857,8 +28857,8 @@
     - นายกสมาคมแพทย์อุบัติเหตุแห่งประเทศไทย
     - null
   lastname: จุลกมนตรี
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาง
   name: ทัศนา
   is_mp: false
@@ -28901,8 +28901,8 @@
     - กรรมการผู้ทรงคุณวุฒิในคณะกรรมการกลางพนักงานส่วนตำบล
     - null
   lastname: ยุวานนท์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: ร้อยเอก ดร.
   name: ทินพันธุ์
   is_mp: false
@@ -28945,8 +28945,8 @@
     - นักวิชาการ
     - ประธานสภาขับเคลื่อนการปฏิรูปประเทศ (สปท.)
   lastname: นาคะตะ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: เทพพงศ์
   is_mp: false
@@ -28989,8 +28989,8 @@
     - ปลัดกระทรวงกลาโหม
     - สมาชิกคณะรักษาความสงบแห่งชาติ
   lastname: ทิพยจันทร์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: ธงชัย
   is_mp: false
@@ -29033,8 +29033,8 @@
     - ผู้บัญชาการหน่วยบัญชาการทหารพัฒนา
     - null
   lastname: สาระสุข
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก ดร.
   name: ธนะศักดิ์
   is_mp: false
@@ -29077,8 +29077,8 @@
     - รัฐมนตรีว่าการกระทรวงการต่างประเทศ
     - รองหัวหน้าคณะรักษาความสงบแห่งชาติ
   lastname: ปฏิมาประกร
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: ธวัชชัย
   is_mp: false
@@ -29121,8 +29121,8 @@
     - แม่ทัพภาคที่ 2
     - สมาชิกสภาขับเคลื่อนการปฏิรูปประเทศ (สปท.)
   lastname: สมุทรสาคร
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ธานี
   is_mp: false
@@ -29165,8 +29165,8 @@
     - ทนายความ
     - null
   lastname: สุโชดายน
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ธานี
   is_mp: false
@@ -29209,8 +29209,8 @@
     - กรรมการการเลือกตั้งประจำจังหวัดนครปฐม
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: อ่อนละเอียด
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: ธีรเดช
   is_mp: false
@@ -29253,8 +29253,8 @@
     - ประธานวุฒิสภา
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: มีเพียร
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ธีระเกียรติ
   is_mp: false
@@ -29297,8 +29297,8 @@
     - รัฐมนตรีว่าการกระทรวงศึกษาธิการ
     - null
   lastname: เจริญเศรษฐศิลป์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเรือเอก
   name: นพดล
   is_mp: false
@@ -29341,8 +29341,8 @@
     - รองเสนาธิการทหาร กองบัญชาการกองทัพไทย
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: โชคระดา
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: นพดล
   is_mp: false
@@ -29385,8 +29385,8 @@
     - เลขานุการรัฐมนตรีว่าการกระทรวงกลาโหม
     - null
   lastname: อินทปัญญา
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: นาวิน
   is_mp: false
@@ -29429,8 +29429,8 @@
     - รองเลขาธิการนายกรัฐมนตรีฝ่ายการเมือง
     - คณะกรรมการจัดทำยุทธศาสตร์ชาติด้านความมั่นคง
   lastname: ดำริกาญจน์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: นิพนธ์
   is_mp: false
@@ -29473,8 +29473,8 @@
     - นายกสมาคมทีวีดาวเทียม
     - null
   lastname: นาคสมภพ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: นิวัตร
   is_mp: false
@@ -29517,8 +29517,8 @@
     - ผู้ช่วยรัฐมนตรีประจำกระทรวงยุติธรรม
     - สมาชิกคณะรักษาความสงบแห่งชาติ
   lastname: มีนะโยธิน
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: ดร.
   name: นิสดารก์
   is_mp: false
@@ -29561,8 +29561,8 @@
     - คณบดีคณะรัฐประศาสนศาสตร์ สถาบันบัณฑิตพัฒนบริหารศาสตร์
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: เวชยานนท์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: นิอาแซ
   is_mp: false
@@ -29606,8 +29606,8 @@
     - นายอำเภอบาเจาะ จ.นราธิวาส
     - สมาชิกสภาปฏิรูปแห่งชาติ (สปช.)
   lastname: ซีอุเซ็ง
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: เนาวรัตน์
   is_mp: false
@@ -29651,8 +29651,8 @@
     - นักเขียน กวี ศิลปินแห่งชาติ
     - สมาชิกสภาปฏิรูปแห่งชาติ (สปช.)
   lastname: พงษ์ไพบูลย์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: บรรชา
   is_mp: false
@@ -29695,8 +29695,8 @@
     - ธุรกิจส่วนตัว
     - สมาชิกวุฒิสภา
   lastname: พงศ์อายุกูล
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: บุญธรรม
   is_mp: false
@@ -29739,8 +29739,8 @@
     - สมาชิกสภาขับเคลื่อนการปฏิรูปประเทศ (สปท.)
     - รองผู้อำนวยการศูนย์ปรองดองสมานฉันท์เพื่อการปฏิรูป (ศปป.)
   lastname: โอริส
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: บุญมี
   is_mp: false
@@ -29783,8 +29783,8 @@
     - เกษตรกร
     - null
   lastname: สุระโคตร
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: ดร.
   name: บุญส่ง
   is_mp: false
@@ -29827,8 +29827,8 @@
     - สมาชิกวุฒิสภา
     - สมาชิกสภาผู้แทนราษฎร
   lastname: ไข่เกษ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก ดร.
   name: บุญสร้าง
   is_mp: false
@@ -29871,8 +29871,8 @@
     - ผู้บัญชาการทหารสูงสุด
     - สมาชิกคณะมนตรีความมั่นคงแห่งชาติ (คมช.)
   lastname: เนียมประดิษฐ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาง
   name: เบญจรัตน์
   is_mp: false
@@ -29915,8 +29915,8 @@
     - ผู้พิพากษาสมทบ
     - null
   lastname: จริยธาราสิทธิ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: หม่อมหลวง
   name: ปนัดดา
   is_mp: false
@@ -29959,8 +29959,8 @@
     - ผู้ช่วยรัฐมนตรีประจำสำนักนายกรัฐมนตรี
     - รัฐมนตรีช่วยว่าการกระทรวงศึกษาธิการ
   lastname: ดิศกุล
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลอากาศเอก ดร.
   name: ประจิน
   is_mp: false
@@ -30003,8 +30003,8 @@
     - รองนายกรัฐมนตรี
     - รัฐมนตรีว่าการกระทรวงยุติธรรม
   lastname: จั่นตอง
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ประดิษฐ์
   is_mp: false
@@ -30047,8 +30047,8 @@
     - สมาชิกสภาร่างรัฐธรรมนูญ
     - null
   lastname: เหลืองอร่าม
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาง
   name: ประภาศรี
   is_mp: false
@@ -30091,8 +30091,8 @@
     - ประธานหอการค้าจังหวัดยโสธร
     - สมาชิกสภาปฏิรูปแห่งชาติ (สปช.)
   lastname: สุฉันทบุตร
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ประมนต์
   is_mp: false
@@ -30135,8 +30135,8 @@
     - กรรมการบริษัท
     - null
   lastname: สุธีวงศ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ประมาณ
   is_mp: false
@@ -30179,8 +30179,8 @@
     - เกษตรกร
     - null
   lastname: สว่างญาติ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: ร้อยเอก
   name: ประยุทธ
   is_mp: false
@@ -30223,8 +30223,8 @@
     - คณะกรรมการสถาบันการบินพลเรือน
     - null
   lastname: เสาวคนธ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาง
   name: ประยูร
   is_mp: false
@@ -30268,8 +30268,8 @@
     - ธุรกิจส่วนตัว
     - null
   lastname: เหล่าสายเชื้อ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก ดร.
   name: ประสาท
   is_mp: false
@@ -30312,8 +30312,8 @@
     - รองเลขาธิการนายกรัฐมนตรีฝ่ายการเมือง
     - null
   lastname: สุขเกษตร
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: รองศาสตราจารย์ ดร.
   name: ประเสริฐ
   is_mp: false
@@ -30356,8 +30356,8 @@
     - อธิการบดีมหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี
     - null
   lastname: ปิ่นปฐมรัฐ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลตำรวจตรี
   name: ปรัชญ์ชัย
   is_mp: false
@@ -30400,8 +30400,8 @@
     - ผู้บังคับการตำรวจภูธร จังหวัดสมุทรสงคราม
     - กรรมการบริษัท
   lastname: ใจชาญสุขกิจ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: ปรีชา
   is_mp: false
@@ -30444,8 +30444,8 @@
     - ปลัดกระทรวงกลาโหม
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: จันทร์โอชา
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ปรีชา
   is_mp: false
@@ -30490,8 +30490,8 @@
     - อาจารย์ประจำคณะศึกษาศาสตร์ มหาวิทยาลัยฟาร์อีสเทอร์น
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: บัววิรัตน์เลิศ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ปัญญา
   is_mp: false
@@ -30534,8 +30534,8 @@
     - ผู้ว่าราชการจังหวัดสมุทรสงคราม
     - null
   lastname: งานเลิศ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: ปัฐมพงศ์
   is_mp: false
@@ -30578,8 +30578,8 @@
     - ผู้ช่วยรัฐมนตรีประจำสำนักนายกรัฐมนตรี
     - null
   lastname: ประถมภัฏ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ปานเทพ
   is_mp: false
@@ -30622,8 +30622,8 @@
     - ประธานกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ
     - สมาชิกสภาขับเคลื่อนการปฏิรูปประเทศ (สปท.)
   lastname: กล้าณรงค์ราญ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: ดร.
   name: ปิยฉัฏฐ์
   is_mp: false
@@ -30666,8 +30666,8 @@
     - นิติกร
     - null
   lastname: วันเฉลิม
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ปิยพันธุ์
   is_mp: false
@@ -30710,8 +30710,8 @@
     - สมาชิกวุฒิสภา
     - อธิบดีกรมบัญชีกลาง
   lastname: นิมมานเหมินท์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: โปฎก
   is_mp: false
@@ -30754,8 +30754,8 @@
     - ผู้ช่วยผู้บัญชาการทหารบก
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: บุนนาค
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาง
   name: ผาณิต
   is_mp: false
@@ -30798,8 +30798,8 @@
     - ประธานผู้ตรวจการแผ่นดินของประเทศไทย
     - สมาชิกสภาปฏิรูปแห่งชาติ (สปช.)
   lastname: นิติทัณฑ์ประภาศ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: แพทย์หญิง คุณหญิง
   name: พรทิพย์
   is_mp: false
@@ -30842,8 +30842,8 @@
     - ผู้อำนวยการสถาบันนิติวิทยาศาสตร์
     - สมาชิกสภาขับเคลื่อนการปฏิรูปประเทศ (สปท.)
   lastname: โรจนสุนันท์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: พรพิพัฒน์
   is_mp: false
@@ -30886,8 +30886,8 @@
     - ผู้บัญชาการทหารสูงสุด
     - สมาชิกคณะรักษาความสงบแห่งชาติ
   lastname: เบญญศรี
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: พรเพชร
   is_mp: false
@@ -30930,8 +30930,8 @@
     - ประธานสภานิติบัญญัติแห่งชาติ (สนช.)
     - ผู้ตรวจการแผ่นดิน
   lastname: วิชิตชลชัย
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นายแพทย์
   name: พลเดช
   is_mp: false
@@ -30974,8 +30974,8 @@
     - เลขาธิการคณะกรรมการสุขภาพแห่งชาติ
     - สมาชิกสภาปฏิรูปแห่งชาติ (สปช.)
   lastname: ปิ่นประทีป
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเรือเอก
   name: พะจุณณ์
   is_mp: false
@@ -31018,8 +31018,8 @@
     - สมาชิกสภาขับเคลื่อนการปฏิรูปประเทศ (สปท.)
     - สมาชิกสภาปฏิรูปแห่งชาติ (สปช.)
   lastname: ตามประทีป
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเรือเอก
   name: พัลลภ
   is_mp: false
@@ -31062,8 +31062,8 @@
     - เสนาธิการทหารเรือ
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: ตมิศานนท์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาง
   name: พิกุลแก้ว
   is_mp: false
@@ -31106,8 +31106,8 @@
     - สมาชิกวุฒิสภา
     - null
   lastname: ไกรฤกษ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: พิทักษ์
   is_mp: false
@@ -31150,8 +31150,8 @@
     - ทันตแพทย์
     - null
   lastname: ไชยเจริญ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: พิศณุ
   is_mp: false
@@ -31194,8 +31194,8 @@
     - หัวหน้าสำนักงานมูลนิธิรัฐบุรุษ
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: พุทธวงศ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: พิศาล
   is_mp: false
@@ -31238,8 +31238,8 @@
     - เอกอัครราชทูตไทยประจำสหรัฐอเมริกา
     - null
   lastname: มาณวพัฒน์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลตำรวจโท
   name: พิสัณห์
   is_mp: false
@@ -31282,8 +31282,8 @@
     - ผู้บัญชาการตำรวจภูธรภาค 3
     - null
   lastname: จุลดิลก
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: พิสิทธิ์
   is_mp: false
@@ -31326,8 +31326,8 @@
     - รองผู้บัญชาการทหารบก
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: สิทธิสาร
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: พีระศักดิ์
   is_mp: false
@@ -31370,8 +31370,8 @@
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
     - null
   lastname: พอจิต
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาง
   name: เพ็ญพักตร์
   is_mp: false
@@ -31414,8 +31414,8 @@
     - สมาชิกวุฒิสภา
     - null
   lastname: ศรีทอง
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: ไพชยนต์
   is_mp: false
@@ -31458,8 +31458,8 @@
     - รองปลัดกระทรวงกลาโหม
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: ค้าทันเจริญ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ไพฑูรย์
   is_mp: false
@@ -31502,8 +31502,8 @@
     - สมาชิกสภาขับเคลื่อนการปฏิรูปประเทศ (สปท.)
     - สมาชิกสภาปฏิรูปแห่งชาติ (สปช.)
   lastname: หลิมวัฒนา
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ไพโรจน์
   is_mp: false
@@ -31546,8 +31546,8 @@
     - เกษตรกร
     - null
   lastname: พ่วงทอง
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: ไพโรจน์
   is_mp: false
@@ -31592,8 +31592,8 @@
     - รองผู้บัญชาการทหารสูงสุด
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: พานิชสมัย
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นางสาว
   name: ภัทรา
   is_mp: false
@@ -31636,8 +31636,8 @@
     - สมาชิกสภาผู้แทนราษฎร
     - null
   lastname: วรามิตร
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ภาณุ
   is_mp: false
@@ -31680,8 +31680,8 @@
     - เลขาธิการศูนย์อำนวยการบริหารจังหวัดชายแดนภาคใต้ (ศอ.บต.)
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: อุทัยรัตน์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: มณเฑียร
   is_mp: false
@@ -31726,8 +31726,8 @@
     - สมาชิกวุฒิสภา
     - null
   lastname: บุญตัน
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลอากาศเอก
   name: มนัส
   is_mp: false
@@ -31772,8 +31772,8 @@
     - ผู้ทรงคุณวุฒิพิเศษ กองทัพอากาศ
     - สมาชิกสภาขับเคลื่อนการปฏิรูปประเทศ (สปท.)
   lastname: รูปขจร
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: มหรรณพ
   is_mp: false
@@ -31816,8 +31816,8 @@
     - สมาชิกวุฒิสภา
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: เดชวิทักษ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: มารุต
   is_mp: false
@@ -31860,8 +31860,8 @@
     - ผู้อำนวยการหลักสูตรการบริหารจัดการด้านความมั่นคงขั้นสูง วปอ.
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: ปัชโชตะสิงห์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พันตำรวจตรี ดร.
   name: ยงยุทธ
   is_mp: false
@@ -31904,8 +31904,8 @@
     - ปลัดสำนักนายกรัฐมนตรี
     - null
   lastname: สาระสมบัติ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก ดร.
   name: ยอดยุทธ
   is_mp: false
@@ -31948,8 +31948,8 @@
     - ประธานกรรมการ การรถไฟฟ้าขนส่งมวลชนแห่งประเทศไทย
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: บุญญาธิการ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พันตำรวจเอก
   name: ยุทธกร
   is_mp: false
@@ -31992,8 +31992,8 @@
     - ผู้กำกับการ สถานีตำรวจภูธรอุบลรัตน์ จังหวัดขอนแก่น
     - null
   lastname: วงเวียน
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ยุทธนา
   is_mp: false
@@ -32036,8 +32036,8 @@
     - ผู้ว่าการการรถไฟแห่งประเทศไทย
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: ทัพเจริญ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: รณวริทธิ์
   is_mp: false
@@ -32081,8 +32081,8 @@
     - ผู้อำนวยการสำนักงานเครือข่ายวิสาหกิจชุมชนเกษตรอินทรีย์อีสาน
     - null
   lastname: ปริยฉัตรตระกูล
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ระวี
   is_mp: false
@@ -32126,8 +32126,8 @@
     - นายกสมาคมการค้าเครือข่ายชาวนาไทย
     - null
   lastname: รุ่งเรือง
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นางสาว
   name: เรณู
   is_mp: false
@@ -32170,8 +32170,8 @@
     - รองเลขาธิการนายกรัฐมนตรีฝ่ายการเมือง
     - null
   lastname: ตังคจิวางกูร
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ลักษณ์
   is_mp: false
@@ -32214,8 +32214,8 @@
     - รัฐมนตรีช่วยว่าการกระทรวงเกษตรและสหกรณ์
     - null
   lastname: วจนานวัช
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเรือเอก
   name: ลือชัย
   is_mp: false
@@ -32258,8 +32258,8 @@
     - ผู้บัญชาการทหารเรือ
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: รุดดิษฐ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: เลิศรัตน์
   is_mp: false
@@ -32302,8 +32302,8 @@
     - คณะกรรมการร่างรัฐธรรมนูญ
     - สมาชิกสภาขับเคลื่อนการปฏิรูปประเทศ (สปท.)
   lastname: รัตนวานิช
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: เลิศฤทธิ์
   is_mp: false
@@ -32346,8 +32346,8 @@
     - สมาชิกวุฒิสภา
     - null
   lastname: เวชสวรรค์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: ว่าที่ร้อยตรี
   name: วงศ์สยาม
   is_mp: false
@@ -32390,8 +32390,8 @@
     - ธุรกิจส่วนตัว
     - null
   lastname: เพ็งพานิชภักดี
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก ดร.
   name: วรพงษ์
   is_mp: false
@@ -32434,8 +32434,8 @@
     - ผู้บัญชาการทหารสูงสุด
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: สง่าเนตร
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาง
   name: วรารัตน์
   is_mp: false
@@ -32478,8 +32478,8 @@
     - เลขาธิการวุฒิสภา
     - null
   lastname: อติแพทย์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: วราห์
   is_mp: false
@@ -32522,8 +32522,8 @@
     - ที่ปรึกษาพิเศษ กองทัพบก
     - สมาชิกสภาขับเคลื่อนการปฏิรูปประเทศ (สปท.)
   lastname: บุญญะสิทธิ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: วลิต
   is_mp: false
@@ -32566,8 +32566,8 @@
     - รองผู้บัญชาการทหารบก
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: โรจนภักดี
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: วสันต์
   is_mp: false
@@ -32610,8 +32610,8 @@
     - ผู้ทรงคุณวุฒิพิเศษ กองบัญชาการกองทัพไทย
     - null
   lastname: สุริยมงคล
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: วัฒนา
   is_mp: false
@@ -32654,8 +32654,8 @@
     - รองผู้บัญชาการทหารสูงสุด
     - สมาชิกสภาขับเคลื่อนการปฏิรูปประเทศ (สปท.)
   lastname: สรรพานิช
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: วันชัย
   is_mp: false
@@ -32699,8 +32699,8 @@
     - ทนายความ
     - สมาชิกสภาขับเคลื่อนการปฏิรูปประเทศ (สปท.)
   lastname: สอนศิริ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: วัลลภ
   is_mp: false
@@ -32743,8 +32743,8 @@
     - กรรมการเลขาธิการ มูลนิธิสร้างสรรค์เด็ก
     - null
   lastname: ตังคณานุรักษ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก ดร.
   name: วิชิต
   is_mp: false
@@ -32787,8 +32787,8 @@
     - รองผู้บัญชาการทหารบก
     - null
   lastname: ยาทิพย์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: วิทยา
   is_mp: false
@@ -32831,8 +32831,8 @@
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
     - null
   lastname: ผิวผ่อง
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: วินัย
   is_mp: false
@@ -32875,8 +32875,8 @@
     - ผู้ทรงคุณวุฒิพิเศษ กองทัพบก
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: สร้างสุขดี
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลตำรวจโท
   name: วิบูลย์
   is_mp: false
@@ -32919,8 +32919,8 @@
     - ผู้บัญชาการสำนักงานตรวจคนเข้าเมือง
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: บางท่าไม้
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นางสาว
   name: วิบูลย์ลักษณ์
   is_mp: false
@@ -32963,8 +32963,8 @@
     - ปลัดกระทรวงพาณิชย์
     - null
   lastname: ร่วมรักษ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: วิรัตน์
   is_mp: false
@@ -33007,8 +33007,8 @@
     - พนักงานรัฐวิสาหกิจ
     - null
   lastname: เกสสมบูรณ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นางสาว
   name: วิไลลักษณ์
   is_mp: false
@@ -33051,8 +33051,8 @@
     - ธุรกิจส่วนตัว
     - null
   lastname: อรินทมะพงษ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: วิวรรธน์
   is_mp: false
@@ -33095,8 +33095,8 @@
     - หัวหน้าสำนักงานทนายความ
     - สมาชิกสภาปฏิรูปแห่งชาติ (สปช.)
   lastname: แสงสุริยะฉัตร
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: วิสุทธิ์
   is_mp: false
@@ -33139,8 +33139,8 @@
     - รัฐมนตรีช่วยว่าการกระทรวงการคลัง
     - null
   lastname: ศรีสุพรรณ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: วีระศักดิ์
   is_mp: false
@@ -33183,8 +33183,8 @@
     - รัฐมนตรีช่วยว่าการกระทรวงการต่างประเทศ
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: ฟูตระกูล
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: วีระศักดิ์
   is_mp: false
@@ -33228,8 +33228,8 @@
     - รัฐมนตรีว่าการกระทรวงการท่องเที่ยวและกีฬา
     - null
   lastname: โควสุรัตน์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: วีระศักดิ์
   is_mp: false
@@ -33272,8 +33272,8 @@
     - ประธาน กกต. จังหวัดกาฬสินธุ์
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: ภูครองหิน
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: วีรัณ
   is_mp: false
@@ -33316,8 +33316,8 @@
     - ประธานคณะที่ปรึกษากองทัพบก
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: ฉันทศาสตร์โกศล
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: วุฒิพันธุ์
   is_mp: false
@@ -33360,8 +33360,8 @@
     - ผู้อำนวยการสำนักงบประมาณ
     - null
   lastname: วิชัยรัตน์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ศรีศักดิ์
   is_mp: false
@@ -33404,8 +33404,8 @@
     - นายกสมาคมกีฬาจังหวัดสมุทรสาคร
     - null
   lastname: วัฒนพรมงคล
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ศักดิ์ชัย
   is_mp: false
@@ -33448,8 +33448,8 @@
     - ธุรกิจส่วนตัว
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: ธนบุญชัย
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: ดร.
   name: ศักดิ์ไทย
   is_mp: false
@@ -33492,8 +33492,8 @@
     - นักวิชาการศึกษา
     - null
   lastname: สุรกิจบวร
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเรือเอก
   name: ศักดิ์สิทธิ์
   is_mp: false
@@ -33537,8 +33537,8 @@
     - ผู้ทรงคุณวุฒิพิเศษ กองทัพเรือ
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: เชิดบุญเมือง
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลตำรวจโท
   name: ศานิตย์
   is_mp: false
@@ -33581,8 +33581,8 @@
     - ผู้บัญชาการตำรวจนครบาล
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: มหถาวร
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: ดร.
   name: ศิรินา
   is_mp: false
@@ -33626,8 +33626,8 @@
     - ธุรกิจส่วนตัว
     - null
   lastname: ปวโรฬารวิทยา
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเรือเอก
   name: ศิษฐวัชร
   is_mp: false
@@ -33670,8 +33670,8 @@
     - สมาชิกวุฒิสภา
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: วงษ์สุวรรณ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ศุภชัย
   is_mp: false
@@ -33714,8 +33714,8 @@
     - ประธานกรรมการการเลือกตั้ง
     - null
   lastname: สมเจริญ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: ศุภรัตน์
   is_mp: false
@@ -33758,8 +33758,8 @@
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
     - null
   lastname: พัฒนาวิสุทธิ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: สกนธ์
   is_mp: false
@@ -33802,8 +33802,8 @@
     - รองผู้บัญชาการทหารสูงสุด
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: สัจจานิตย์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: สกล
   is_mp: false
@@ -33846,8 +33846,8 @@
     - แม่ทัพภาคที่ 4
     - null
   lastname: ชื่นตระกูล
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นายแพทย์ หม่อมหลวง
   name: สกุล
   is_mp: false
@@ -33890,8 +33890,8 @@
     - ช่างกายอุปกรณ์
     - null
   lastname: มาลากุล
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: ดร.
   name: สถิตย์
   is_mp: false
@@ -33934,8 +33934,8 @@
     - ประธานกรรมการตลาดหลักทรัพย์แห่งประเทศไทย
     - สมาชิกสภาขับเคลื่อนการปฏิรูปประเทศ (สปท.)
   lastname: ลิ่มพงศ์พันธุ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเรือโท
   name: สนธยา
   is_mp: false
@@ -33978,8 +33978,8 @@
     - ผู้บัญชาการหน่วยบัญชาการนาวิกโยธิน
     - null
   lastname: น้อยฉายา
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: สนธยา
   is_mp: false
@@ -34022,8 +34022,8 @@
     - แม่ทัพน้อยที่ 2
     - null
   lastname: ศรีเจริญ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: สนั่น
   is_mp: false
@@ -34066,8 +34066,8 @@
     - แม่ทัพภาคที่ 2
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: มะเริงสิทธิ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: ดร.
   name: สม
   is_mp: false
@@ -34110,8 +34110,8 @@
     - รัฐมนตรีว่าการกระทรวงพาณิชย์
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: จาตุศรีพิทักษ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: สมเจตน์
   is_mp: false
@@ -34154,8 +34154,8 @@
     - หัวหน้าคณะสำนักงานเลขาธิการคณะมนตรีความมั่นคงแห่งชาติ (คมช.)
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: บุญถนอม
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: สมชาย
   is_mp: false
@@ -34198,8 +34198,8 @@
     - อธิบดีกรมส่งเสริมการเกษตร
     - null
   lastname: ชาญณรงค์กุล
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: สมชาย
   is_mp: false
@@ -34242,8 +34242,8 @@
     - กรรมการบริหารศูนย์วัฒนธรรม มหาวิทยาลัยราชภัฎพระนคร
     - ปลัดกระทรวงวัฒนธรรม
   lastname: เสียงหลาย
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: สมชาย
   is_mp: false
@@ -34287,8 +34287,8 @@
     - สมาชิกวุฒิสภา
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: แสวงการ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: ดร.
   name: สมชาย
   is_mp: false
@@ -34331,8 +34331,8 @@
     - รัฐมนตรีช่วยว่าการกระทรวงอุตสาหกรรม
     - null
   lastname: หาญหิรัญ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: สมเดช
   is_mp: false
@@ -34375,8 +34375,8 @@
     - อธิการบดีมหาวิทยาลัยราชภัฎนครปฐม
     - สมาชิกสภาปฏิรูปแห่งชาติ (สปช.)
   lastname: นิลพันธุ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลตำรวจโท
   name: สมบัติ
   is_mp: false
@@ -34419,8 +34419,8 @@
     - จเรตำรวจ
     - null
   lastname: มิลินทจินดา
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: สมบูรณ์
   is_mp: false
@@ -34463,8 +34463,8 @@
     - สมาชิกวุฒิสภา
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: งามลักษณ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: สมพล
   is_mp: false
@@ -34507,8 +34507,8 @@
     - กรรมการในคณะกรรมการสอบสวนคดีพิเศษ (DSI)
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: เกียรติไพบูลย์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: สมศักดิ์
   is_mp: false
@@ -34551,8 +34551,8 @@
     - ผู้อำนวยการสำนักงบประมาณ
     - null
   lastname: โชติรัตนะศิริ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลตำรวจโท
   name: สมหมาย
   is_mp: false
@@ -34595,8 +34595,8 @@
     - ผู้บัญชาการตำรวจปราบปรามยาเสพติด
     - null
   lastname: กองวิสัยสุข
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: สมหมาย
   is_mp: false
@@ -34639,8 +34639,8 @@
     - ตุลาการศาลทหารสูงสุด
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: เกาฏีระ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: สราวุฒิ
   is_mp: false
@@ -34684,8 +34684,8 @@
     - ตุลาการศาลทหารสูงสุด
     - สมาชิกสภาขับเคลื่อนการปฏิรูปประเทศ (สปท.)
   lastname: ชลออยู่
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: สวัสดิ์
   is_mp: false
@@ -34729,8 +34729,8 @@
     - ประธาน กกต. นครศรีธรรมราช
     - null
   lastname: สมัครพงศ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: สสิน
   is_mp: false
@@ -34773,8 +34773,8 @@
     - รองผู้บัญชาการทหารบก
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: ทองภักดี
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: ดร.
   name: สังศิต
   is_mp: false
@@ -34817,8 +34817,8 @@
     - คณบดีวิทยาลัยนวัตกรรมสังคม มหาวิทยาลัยรังสิต
     - สมาชิกสภาขับเคลื่อนการปฏิรูปประเทศ (สปท.)
   lastname: พิริยะรังสรรค์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: สัญชัย
   is_mp: false
@@ -34861,8 +34861,8 @@
     - ผู้อำนวยการองค์การสวนสัตว์
     - null
   lastname: จุลมนต์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: สาธิต
   is_mp: false
@@ -34905,8 +34905,8 @@
     - ประธานหอการค้าจังหวัดชัยนาท
     - null
   lastname: เหล่าสุวรรณ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: สำราญ
   is_mp: false
@@ -34949,8 +34949,8 @@
     - สมาชิกสภาองค์การบริหารส่วนจังหวัดสุราษฎร์ธานี
     - null
   lastname: ครรชิต
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: สำเริง
   is_mp: false
@@ -34993,8 +34993,8 @@
     - แม่ทัพภาคที่ 3
     - null
   lastname: ศิวาดารงค์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: สิงห์ศึก
   is_mp: false
@@ -35037,8 +35037,8 @@
     - สมาชิกวุฒิสภา
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: สิงห์ไพร
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลอากาศเอก
   name: สุจินต์
   is_mp: false
@@ -35082,8 +35082,8 @@
     - สมาชิกวุฒิสภา
     - null
   lastname: แช่มช้อย
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: สุชัย
   is_mp: false
@@ -35127,8 +35127,8 @@
     - รองผู้ว่าราชการจังหวัดขอนแก่น
     - null
   lastname: บุตรสาระ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: สุธี
   is_mp: false
@@ -35171,8 +35171,8 @@
     - รัฐมนตรีช่วยว่าการกระทรวงมหาดไทย
     - null
   lastname: มากบุญ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาง
   name: สุนี
   is_mp: false
@@ -35215,8 +35215,8 @@
     - ทันตแพทย์
     - null
   lastname: จึงวิโรจน์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: สุรชัย
   is_mp: false
@@ -35259,8 +35259,8 @@
     - ประธานกรรมการ บรรษัทประกันสินเชื่ออุตสาหกรรมขนาดย่อม (บสย.)
     - null
   lastname: ดนัยตั้งตระกูล
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: สุรชัย
   is_mp: false
@@ -35303,8 +35303,8 @@
     - สมาชิกวุฒิสภา
     - รองประธานสภานิติบัญญัติแห่งชาติ
   lastname: เลี้ยงบุญเลิศชัย
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: สุรเชษฐ์
   is_mp: false
@@ -35347,8 +35347,8 @@
     - รัฐมนตรีช่วยว่าการกระทรวงศึกษาธิการ
     - ราชองครักษ์พิเศษ
   lastname: ชัยวงศ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: ดร.
   name: สุรเดช
   is_mp: false
@@ -35391,8 +35391,8 @@
     - สมาชิกวุฒิสภา
     - null
   lastname: จิรัฐิติเจริญ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: สุรพงษ์
   is_mp: false
@@ -35435,8 +35435,8 @@
     - ผู้บัญชาการทหารสูงสุด
     - สมาชิกคณะรักษาความสงบแห่งชาติ
   lastname: สุวรรณอัตถ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: สุรศักดิ์
   is_mp: false
@@ -35479,8 +35479,8 @@
     - รัฐมนตรีว่าการกระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม
     - ปลัดกระทรวงกลาโหม
   lastname: กาญจนรัตน์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: สุรสิทธิ์
   is_mp: false
@@ -35523,8 +35523,8 @@
     - สมาชิกสภาผู้แทนราษฎร
     - null
   lastname: ตรีทอง
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: สุวพันธ์ุ
   is_mp: false
@@ -35567,8 +35567,8 @@
     - รัฐมนตรีว่าการกระทรวงยุติธรรม
     - ผู้อำนวยการสำนักข่าวกรองแห่งชา
   lastname: ตันยุวรรธนะ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: สุวรรณ
   is_mp: false
@@ -35611,8 +35611,8 @@
     - ธุรกิจส่วนตัว
     - null
   lastname: เลิศปัญญาโรจน์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาง
   name: สุวรรณี
   is_mp: false
@@ -35655,8 +35655,8 @@
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
     - null
   lastname: สิริเวชชะพันธ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: เสรี
   is_mp: false
@@ -35701,8 +35701,8 @@
     - สมาชิกวุฒิสภา
     - รองประธานสภาร่างรัฐธรรมนูญ
   lastname: สุวรรณภานนท์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: อกนิษฐ์
   is_mp: false
@@ -35745,8 +35745,8 @@
     - ที่ปรึกษาคณะกรรมาธิการความมั่นคงสภาผู้แทนราษฎร
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: หมื่นสวัสดิ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลอากาศเอก
   name: อดิศักดิ์
   is_mp: false
@@ -35789,8 +35789,8 @@
     - รองผู้บัญชาการทหารสูงสุด
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: กลั่นเสนาะ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลตำรวจเอก
   name: อดุลย์
   is_mp: false
@@ -35833,8 +35833,8 @@
     - รัฐมนตรีว่าการกระทรวงแรงงาน
     - รองหัวหน้าคณะรักษาความสงบแห่งชาติ
   lastname: แสงสิงแก้ว
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: อนันตพร
   is_mp: false
@@ -35877,8 +35877,8 @@
     - รัฐมนตรีว่าการกระทรวงการพัฒนาสังคมและความมั่นคงของมนุษย์
     - null
   lastname: กาญจนรัตน์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: อนุมัติ
   is_mp: false
@@ -35921,8 +35921,8 @@
     - ธุรกิจส่วนตัว
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: อาหมัด
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: อนุศักดิ์
   is_mp: false
@@ -35967,8 +35967,8 @@
     - กรรมการผู้อำนวยการฝ่ายบริหารโรงพยาบาล
     - ทันตแพทย์
   lastname: คงมาลัย
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: อนุศาสน์
   is_mp: false
@@ -36011,8 +36011,8 @@
     - สมาชิกวุฒิสภา
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: สุวรรณมงคล
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาง
   name: อภิรดี
   is_mp: false
@@ -36056,8 +36056,8 @@
     - รัฐมนตรีว่าการกระทรวงพาณิชย์
     - null
   lastname: ตันตราภรณ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: อภิรัชต์
   is_mp: false
@@ -36100,8 +36100,8 @@
     - ผู้บัญชาการทหารบก
     - เลขาธิการคณะรักษาความสงบแห่งชาติ
   lastname: คงสมพงษ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: อมร
   is_mp: false
@@ -36146,8 +36146,8 @@
     - สมาชิกวุฒิสภา
     - null
   lastname: นิลเปรม
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ออน
   is_mp: false
@@ -36190,8 +36190,8 @@
     - ข้าราชการครู
     - null
   lastname: กาจกระโทก
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: อักษรา
   is_mp: false
@@ -36234,8 +36234,8 @@
     - ราชองครักษ์พิเศษ
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: เกิดผล
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: อับดุลฮาลิม
   is_mp: false
@@ -36278,8 +36278,8 @@
     - ผู้อำนวยการสำนักประสานนโยบายการศึกษา ศาสนา วัฒนธรรมและกีฬา (ศอ.บต.)
     - สมาชิกสภาขับเคลื่อนการปฏิรูปประเทศ (สปท.)
   lastname: มินซาร์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: อาชาไนย
   is_mp: false
@@ -36322,8 +36322,8 @@
     - รองปลัดกระทรวงกลาโหม
     - รองแม่ทัพภาคที่ 2
   lastname: ศรีสุข
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลโท
   name: อำพน
   is_mp: false
@@ -36366,8 +36366,8 @@
     - ข้าราชการทหาร
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: ชูประทุม
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: อำพล
   is_mp: false
@@ -36411,8 +36411,8 @@
     - เลขาธิการคณะกรรมการสุขภาพแห่งชาติ
     - สมาชิกสภาปฏิรูปแห่งชาติ (สปช.)
   lastname: จินดาวัฒนะ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเรือเอก
   name: อิทธิคมน์
   is_mp: false
@@ -36455,8 +36455,8 @@
     - รองเลขาธิการนายกรัฐมนตรีฝ่ายการเมือง (รัฐบาล คสช.)
     - null
   lastname: ภมรสูต
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นายแพทย์
   name: อุดม
   is_mp: false
@@ -36502,8 +36502,8 @@
     - รัฐมนตรีช่วยว่าการกระทรวงศึกษาธิการ
     - อธิการบดีมหาวิทยาลัยมหิดล
   lastname: คชินทร
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: อุดม
   is_mp: false
@@ -36547,8 +36547,8 @@
     - เกษตรกร
     - null
   lastname: วรัญญูรัฐ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: อุดมชัย
   is_mp: false
@@ -36591,8 +36591,8 @@
     - หัวหน้าคณะพูดคุยสันติสุข
     - แม่ทัพภาคที่ 4 กองทัพบกไทย
   lastname: ธรรมสาโรรัชต์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: อุปกิต
   is_mp: false
@@ -36635,8 +36635,8 @@
     - ธุรกิจส่วนตัว
     - null
   lastname: ปาจรียางกูร
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: อู้ด
   is_mp: false
@@ -36679,8 +36679,8 @@
     - ปลัดกระทรวงกลาโหม
     - null
   lastname: เบื้องบน
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลตรี
   name: โอสถ
   is_mp: false
@@ -36723,8 +36723,8 @@
     - เลขาธิการมูลนิธิคณะกรรมการพาราลิมปิกแห่งประเทศไทย
     - null
   lastname: ภาวิไล
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: อภิชาติ
   is_mp: false
@@ -36767,8 +36767,8 @@
     - อธิบดีกรมการพัฒนาชุมชน กระทรวงมหาดไทย
     - null
   lastname: โตดิลกเวชช์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลอากาศเอก
   name: มานัต
   is_mp: false
@@ -36811,8 +36811,8 @@
     - ผู้บัญชาการทหารอากาศ
     - null
   lastname: วงษ์วาทย์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พันตำรวจเอก
   name: ทวี
   is_mp: true
@@ -37366,8 +37366,8 @@
     - null
     - null
   lastname: เสริมสุข
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: วิชัย
   is_mp: false
@@ -37413,8 +37413,8 @@
     - กรรมาธิการยกร่างรัฐธรรมนูญ (ชุดบวรศักดิ์)
     - null
   lastname: ทิตตภักดี
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ประสิทธิ์
   is_mp: false
@@ -37457,8 +37457,8 @@
     - อัยการอาวุโส
     - สมาชิกสภาขับเคลื่อนการปฏิรูปประเทศ
   lastname: ปทุมารักษ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลอากาศเอก
   name: แอร์บูล
   is_mp: false
@@ -37503,8 +37503,8 @@
     - นายทหารราชองค์รักษ์
     - ผู้บัญชาการทหารอากาศ
   lastname: สุทธิวรรณ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: เฉลิมพล
   is_mp: false
@@ -37549,8 +37549,8 @@
     - ผู้บัญชาการทหารสูงสุด
     - null
   lastname: ศรีสวัสดิ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเรือเอก
   name: ชาติชาย
   is_mp: false
@@ -37595,8 +37595,8 @@
     - ผู้บัญชาการทหารเรือ
     - null
   lastname: ศรีวรขาน
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: ณรงค์พันธ์
   is_mp: false
@@ -37641,8 +37641,8 @@
     - ผู้ช่วยผู้บัญชาการทหารบก
     - สภานิติบัญญัติแห่งชาติ
   lastname: จิตต์แก้วแท้
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลตำรวจเอก
   name: สุวัฒน์
   is_mp: false
@@ -37687,8 +37687,8 @@
     - รองผู้บัญชาการตำรวจแห่งชาติ
     - null
   lastname: แจ้งยอดสุข
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: อาคม
   is_mp: false
@@ -37733,8 +37733,8 @@
     - เลขาธิการสำนักงานคณะกรรมการพัฒนาเศรษฐกิจและสังคมแห่งชาติ
     - สภานิติบัญญัติแห่งชาติ
   lastname: เติมพิทยาไพสิฐ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ปรีดี
   is_mp: false
@@ -37777,8 +37777,8 @@
     - สภานิติบัญญัติแห่งชาติ
     - รัฐมนตรีว่าการกระทรวงการคลัง
   lastname: ดาวฉาย
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: สุพัฒนพงษ์
   is_mp: false
@@ -37823,8 +37823,8 @@
     - ประธานเจ้าหน้าที่บริหารและกรรมการผู้จัดการใหญ่ ของพีทีที โกลบอล เคมิคอล
     - ที่ปรึกษาของนายกรัฐมนตรี
   lastname: พันธ์มีเชาว์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: เอนก
   is_mp: false
@@ -37869,8 +37869,8 @@
     - อธิการบดีวิทยาลัยรัฐกิจ มหาวิทยาลัยรังสิต
     - สมาชิกสภาปฏิรูปแห่งชาติ
   lastname: เหล่าธรรมทัศน์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: กองตรี
   name: อาญาสิทธิ์
   is_mp: true
@@ -38582,8 +38582,8 @@
     - ' ผู้ช่วยผู้บัญชาการทหารเรือ'
     - รองเสนาธิการทหาร กองบัญชาการกองทัพไทย
   lastname: ชมเชิงแพทย์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเรือเอก
   name: สมประสงค์
   is_mp: false
@@ -38624,8 +38624,8 @@
     - ' รองปลัดกระทรวงกลาโหม'
     - รองเสนาธิการทหารเรือ
   lastname: นิลสมัย
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: วรเกียรติ
   is_mp: false
@@ -38666,8 +38666,8 @@
     - ปลัดกระทรวงกลาโหม
     - null
   lastname: รัตนานนท์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลเอก
   name: สนิธชนก
   is_mp: false
@@ -38708,8 +38708,8 @@
     - รองปลัดกระทรวงกลาโหม
     - หัวหน้านายทหารฝ่ายเสนาธิการประจำรมว.กลาโหม
   lastname: สังขจันทร์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พล.อ.อ.
   name: อลงกรณ์
   is_mp: false
@@ -38750,8 +38750,8 @@
     - ผู้ช่วยผู้บัญชาการทหารอากาศ
     - ปลัดบัญชีทหารอากาศ
   lastname: วัณณรถ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นางสาว
   name: กิตติประภา
   is_mp: true
@@ -38886,8 +38886,8 @@
     - รองปลัดกระทรวงการต่างประเทศ
     - 'สมาชิกสภาขับเคลื่อนการปฏิรูปประเทศ '
   lastname: จิราพันธุ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พันตำรวจเอก
   name: จรุงวิทย์
   is_mp: false
@@ -38928,8 +38928,8 @@
     - เลขาธิการคณะกรรมการการเลือกตั้ง
     - null
   lastname: ภุมมา
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: พลอากาศเอก
   name: นภาเดช
   is_mp: false
@@ -38970,8 +38970,8 @@
     - ผู้บัญชาการกรมควบคุมการปฏิบัติทางอากาศ
     - ประธานคณะที่ปรึกษากองทัพอากาศ
   lastname: ธูปะเตมีย์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: เกริกมนตรี
   is_mp: true
@@ -39055,8 +39055,8 @@
     - null
     - null
   lastname: ทีฆธนานนท์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: ผู้ช่วยศาสตราจารย์ ร้อยตำรวจเอก
   name: จอมเดช
   is_mp: true
@@ -39196,8 +39196,8 @@
     - 'ผู้บัญชาการตำรวจแห่งชาติ '
     - null
   lastname: กิตติประภัสร์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาง
   name: บุศริณธญ์
   is_mp: true
@@ -39281,8 +39281,8 @@
     - ทนายความ
     - สมาชิกสภานิติบัญญัติแห่งชาติ (สนช.)
   lastname: คูณมี
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: null
   name: พันธุ์ศักดิ์
   is_mp: false
@@ -39323,8 +39323,8 @@
     - null
     - null
   lastname: ซาบุ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาง
   name: มัลลิกา
   is_mp: true
@@ -39459,8 +39459,8 @@
     - กรรมการผู้จัดการใหญ่ บริษัท สิริพัชรนันท์ จำกัด
     - 'ที่ปรึกษากรรมการผู้ช่วยรัฐมนตรี '
   lastname: บุญศิริ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: null
   name: วลัยพร
   is_mp: false
@@ -39501,8 +39501,8 @@
     - null
     - null
   lastname: รัตนเศรษฐ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาง
   name: วารีรัตน์
   is_mp: true
@@ -39590,8 +39590,8 @@
     - null
     - null
   lastname: สิริธัญญ์สกุล
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: null
   name: ศุภชัย
   is_mp: false
@@ -39632,8 +39632,8 @@
     - null
     - null
   lastname: นาคสุวรรณ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: null
   name: สมศักดิ์
   is_mp: false
@@ -39674,8 +39674,8 @@
     - null
     - null
   lastname: นิลบรรเจิดกุล
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: null
   name: สิทธิพงศ์
   is_mp: false
@@ -39716,8 +39716,8 @@
     - null
     - null
   lastname: วงศ์เลิศศักดิ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: null
   name: สุธรรม
   is_mp: false
@@ -39758,8 +39758,8 @@
     - null
     - null
   lastname: ระหงษ์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: null
   name: สุรบถ
   is_mp: false
@@ -39800,8 +39800,8 @@
     - null
     - null
   lastname: หลีกภัย
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: null
   name: อนุพร
   is_mp: false
@@ -39842,8 +39842,8 @@
     - null
     - null
   lastname: อรุณรัตน์
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: สุนทร
   is_mp: false
@@ -39884,8 +39884,8 @@
     - null
     - null
   lastname: ปานแสงทอง
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ธนกร
   is_mp: false
@@ -39926,8 +39926,8 @@
     - null
     - null
   lastname: วังบุญคงชนะ
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: อนุสิษฐ
   is_mp: false
@@ -39964,8 +39964,8 @@
     - เลขาธิการสภาความมั่นคงแห่งชาติ
     - สภาขับเคลื่อนการปฏิรูปประเทศ
   lastname: คุณากร
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: นาย
   name: ไชยยศ
   is_mp: true
@@ -40002,8 +40002,8 @@
     - null
     - null
   lastname: จิรเมธากร
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
 - title: null
   name: เดชทวี
   is_mp: false
@@ -40040,5 +40040,5 @@
     - null
     - null
   lastname: ศรีวิชัย
-  party: !<tag:yaml.org,2002:js/undefined> ''
-  party_group: !<tag:yaml.org,2002:js/undefined> ''
+  party: ''
+  party_group: ''
