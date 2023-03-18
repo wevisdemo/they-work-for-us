@@ -4,6 +4,7 @@ import { NocoDB } from './nocodb'
 import { parsePeople } from './people'
 import { parseParties } from './parties'
 import { parseVotelogs } from './votelogs'
+import { parsePeopleVotes } from './people-votes'
 
 const OUT_DIR = "src/contents"
 const NOCODB_BASE_URL = "https://sheets.wevis.info"
@@ -33,6 +34,12 @@ async function main() {
   fs.writeFileSync(
     `${OUT_DIR}/votelog.yaml`,
     yaml.dump(await parseVotelogs(nocoClient, NOCODB_TABLE_VOTELOGS))
+  )
+
+  console.log("Fetching people-votes...")
+  fs.writeFileSync(
+    `${OUT_DIR}/people_vote.yaml`,
+    yaml.dump(await parsePeopleVotes(nocoClient, NOCODB_TABLE_PEOPLE))
   )
 }
 

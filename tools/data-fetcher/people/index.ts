@@ -2,6 +2,7 @@ import jsConvert from 'js-convert-case'
 import { NocoDB } from '../nocodb'
 import { deleteArrayKeys, guardStringToEmpty, parseArray, parseNumber } from '../parsing-utils'
 import { splitPeopleName } from './split-people-name'
+import { getLatestPartyHistory } from './people-party-history'
 
 export async function parsePeople(nocoClient: NocoDB, viewId: string) {
   const people = await nocoClient.getAllRow(viewId, {
@@ -38,8 +39,8 @@ function mapPerson(person: object) {
   // Spacial cases
   // Last name
   const { name, last_name } = splitPeopleName(converted['name'])
-  converted['name'] = name;
-  converted['lastname'] = last_name;
+  converted['name'] = name
+  converted['lastname'] = last_name
   // Party
   const partyHistory = getLatestPartyHistory(converted['people_party_history'])
   converted['party'] = partyHistory?.party?.name
@@ -48,29 +49,4 @@ function mapPerson(person: object) {
   delete converted['people_votes']
   
   return converted
-}
-
-function getLatestPartyHistory(histories: PeoplePartyHistory[]): PeoplePartyHistory {
-  histories.sort(
-    (h1: PeoplePartyHistory, h2: PeoplePartyHistory) => {
-      if (h1.established_date < h2.established_date) {
-        return -1
-      }
-      if (h1.established_date > h2.established_date) {
-        return 1
-      }
-      return 0
-    }
-  )
-
-  return histories[histories.length - 1]
-}
-
-type PeoplePartyHistory = {
-  established_date: string
-  party: {
-    id: number,
-    name: string,
-    party_group: 'ร่วมรัฐบาล' | 'ฝ่ายค้าน' | null,
-  } | null
 }
