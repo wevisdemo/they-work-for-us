@@ -28,11 +28,15 @@ export function parseArray<T>(prefix: string, obj: object): T[] {
   const objectMaps = new Map()
 
   arrayKeys.forEach((key) => {
+    if (obj[key] === null) {
+      return
+    }
+
     const index = key.match(re)[0].replace(prefix, '')
 
     // Possible an object member (first depth... for now)
     const internalKey = key.replace(prefix + index, '')
-
+    
     if (objectMaps.has(index)) {
       objectMaps.get(index)[internalKey] = obj[key]
     } else {
