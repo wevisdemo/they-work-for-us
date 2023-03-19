@@ -284,19 +284,19 @@ const VotelogPage = ({
               text="เห็นด้วย"
               boxSize={10}
               quantity={votelogYaml.approve}
-              background={"var(--cl-vote-yes)"}
+              background="var(--cl-vote-yes)"
             />
             <QuantityLegend
               text="ไม่เห็นด้วย"
               boxSize={10}
               quantity={votelogYaml.disprove}
-              background={"var(--cl-vote-no)"}
+              background="var(--cl-vote-no)"
             />
             <QuantityLegend
               text="งดออกเสียง"
               boxSize={10}
               quantity={votelogYaml.abstained}
-              background={"var(--cl-vote-abstained)"}
+              background="var(--cl-vote-abstained)"
             />
             <QuantityLegend
               text="ไม่ลงคะแนน"

@@ -31,7 +31,7 @@ const VoteLegendPopupGroup = ({ voteLog }) => {
         boxStyle={boxStyle}
         descTextStyle={descTextStyle}
         quantity={voteLog.approve}
-        background={"var(--cl-vote-yes)"}
+        background="var(--cl-vote-yes)"
         invertedBoldText
       />
       <QuantityLegend
@@ -40,7 +40,7 @@ const VoteLegendPopupGroup = ({ voteLog }) => {
         boxStyle={boxStyle}
         descTextStyle={descTextStyle}
         quantity={voteLog.disprove}
-        background={"var(--cl-vote-no)"}
+        background="var(--cl-vote-no)"
         invertedBoldText
       />
       <QuantityLegend
@@ -49,7 +49,7 @@ const VoteLegendPopupGroup = ({ voteLog }) => {
         boxStyle={boxStyle}
         descTextStyle={descTextStyle}
         quantity={voteLog.abstained}
-        background={"var(--cl-senate-vote-abstained)"}
+        background="var(--cl-senate-vote-abstained)"
         invertedBoldText
       />
       <QuantityLegend
@@ -58,7 +58,7 @@ const VoteLegendPopupGroup = ({ voteLog }) => {
         boxStyle={boxStyle}
         descTextStyle={descTextStyle}
         quantity={voteLog.absent}
-        background={"var(--cl-senate-vote-absent)"}
+        background="var(--cl-senate-vote-absent)"
         invertedBoldText
       />
       <QuantityLegend
@@ -67,7 +67,7 @@ const VoteLegendPopupGroup = ({ voteLog }) => {
         boxStyle={boxStyle}
         descTextStyle={descTextStyle}
         quantity={voteLog.missing}
-        background={"var(--cl-senate-vote-missing)"}
+        background="var(--cl-senate-vote-missing)"
         invertedBoldText
       />
     </>

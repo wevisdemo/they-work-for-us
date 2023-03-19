@@ -174,19 +174,19 @@ const VoteLogCard = votelog => {
             text="เห็นด้วย"
             boxSize={8}
             quantity={approve}
-            background={"var(--cl-vote-yes)"}
+            background="var(--cl-vote-yes)"
           />
           <QuantityLegend
             text="ไม่เห็นด้วย"
             boxSize={8}
             quantity={disprove}
-            background={"var(--cl-vote-no)"}
+            background="var(--cl-vote-no)"
           />
           <QuantityLegend
             text="งดออกเสียง"
             boxSize={8}
             quantity={abstained}
-            background={"var(--cl-vote-abstained)"}
+            background="var(--cl-vote-abstained)"
           />
           <QuantityLegend text="ไม่ลงคะแนน" boxSize={8} quantity={absent} />
         </div>

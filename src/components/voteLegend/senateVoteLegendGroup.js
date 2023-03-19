@@ -64,7 +64,7 @@ const SenateVoteLegendGroup = ({ voteLog, hasAverageText, isSmallText }) => {
         boxStyle={isSmallText ? smallBoxStyle : boxStyle}
         descTextStyle={isSmallText ? smallDescTextStyle : descTextStyle}
         quantity={voteLog.approve}
-        background={"var(--cl-vote-yes)"}
+        background="var(--cl-vote-yes)"
         invertedBoldText
         isPercent
       />
@@ -74,7 +74,7 @@ const SenateVoteLegendGroup = ({ voteLog, hasAverageText, isSmallText }) => {
         boxStyle={isSmallText ? smallBoxStyle : boxStyle}
         descTextStyle={isSmallText ? smallDescTextStyle : descTextStyle}
         quantity={voteLog.disprove}
-        background={"var(--cl-vote-no)"}
+        background="var(--cl-vote-no)"
         invertedBoldText
         isPercent
       />
@@ -84,7 +84,7 @@ const SenateVoteLegendGroup = ({ voteLog, hasAverageText, isSmallText }) => {
         boxStyle={isSmallText ? smallBoxStyle : boxStyle}
         descTextStyle={isSmallText ? smallDescTextStyle : descTextStyle}
         quantity={voteLog.abstained}
-        background={"var(--cl-senate-vote-abstained)"}
+        background="var(--cl-senate-vote-abstained)"
         invertedBoldText
         isPercent
       />
@@ -94,7 +94,7 @@ const SenateVoteLegendGroup = ({ voteLog, hasAverageText, isSmallText }) => {
         boxStyle={isSmallText ? smallBoxStyle : boxStyle}
         descTextStyle={isSmallText ? smallDescTextStyle : descTextStyle}
         quantity={voteLog.absent}
-        background={"var(--cl-senate-vote-absent)"}
+        background="var(--cl-senate-vote-absent)"
         invertedBoldText
         isPercent
       />
@@ -104,7 +104,7 @@ const SenateVoteLegendGroup = ({ voteLog, hasAverageText, isSmallText }) => {
         boxStyle={isSmallText ? smallBoxStyle : boxStyle}
         descTextStyle={isSmallText ? smallDescTextStyle : descTextStyle}
         quantity={voteLog.missing}
-        background={"var(--cl-senate-vote-missing)"}
+        background="var(--cl-senate-vote-missing)"
         invertedBoldText
         isPercent
       />
