@@ -12,7 +12,7 @@ const QuantityLegend = ({
   boxStyle,
   descTextStyle,
 }) => {
-  const quantityDisplayText = () => (isPercent ? `${quantity}%` : `${quantity}`)
+  const quantityDisplayText = isPercent ? `${quantity}%` : `${quantity}`
 
   return (
     <div
@@ -51,12 +51,12 @@ const QuantityLegend = ({
       )}{" "}
       {invertedBoldText ? (
         <span>
-          <b style={{ ...descTextStyle }}>{text ? `${text} ` : ""}</b>
-          {quantityDisplayText()}
+          {text && <b style={{ ...descTextStyle }}>{text}</b>}
+          {quantityDisplayText}
         </span>
       ) : (
         <span>
-          {text ? `${text} ` : ""} <b>{quantityDisplayText()}</b>
+          {text ? `${text} ` : ""} <b>{quantityDisplayText}</b>
         </span>
       )}
     </div>
