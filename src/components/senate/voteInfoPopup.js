@@ -1,10 +1,10 @@
 import React, { useEffect } from "react"
 import Waffle from "../waffle"
-import VoteLogLegend from "../voteLogLegend"
 import VoterList from "../voterList"
 import download from "../../images/icons/download/download.png"
 import _ from "lodash"
 import { media } from "../../styles"
+import VoteLegendPopupGroup from "../voteLegend/voteInfoPopupGroup"
 
 const cssPopupContainer = {
   position: "fixed",
@@ -241,8 +241,15 @@ const VoteInfoPopup = ({
                 `var(--cl-senate-vote-missing)`,
               ]}
             />
-            <div css={{ marginTop: "4rem" }}>
-              <VoteLogLegend type="popup" {...countVotelog} />
+            <div
+              css={{
+                display: "flex",
+                flexWrap: "wrap",
+                justifyContent: "center",
+                marginTop: "4rem",
+              }}
+            >
+              <VoteLegendPopupGroup voteLog={countVotelog} />
             </div>
           </section>
 

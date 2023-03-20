@@ -10,6 +10,7 @@ import search from "../../images/icons/search/search-grey.png"
 import { media } from "../../styles"
 import _ from "lodash"
 import PeopleAvatar from "../peopleAvatar"
+import SenateVoteLegendGroup from "../voteLegend/senateVoteLegendGroup"
 
 const cssContainer = ({ isShowAll }) => ({
   display: "flex",
@@ -118,6 +119,14 @@ const cssClearIcon = {
     transform: "rotate(-45deg)",
   },
 }
+const cssAvgVoteLegend = {
+  display: "flex",
+  flexWrap: "wrap",
+  justifyContent: "center",
+  [media(767)]: {
+    justifyContent: "unset",
+  },
+}
 const cssSearchIcon = {
   position: "absolute",
   top: "9px",
@@ -152,6 +161,10 @@ const cssMobile = {
   [media(767)]: {
     display: "none",
   },
+}
+const cssVotelog = {
+  display: "flex",
+  alignItems: "end",
 }
 
 const AutoComplete = ({
@@ -455,9 +468,9 @@ const AutoComplete = ({
 
   const calLegend = () => {
     const numberType = _.groupBy(getAllPeopleVotes(), "senator_method")
-    const sumVoteGovernment = numberType["เลือกโดย คสช."].length
-    const sumVotePosition = numberType["โดยตำแหน่ง"].length
-    const sumVoteCareer = numberType["เลือกกันเอง"].length
+    const sumVoteGovernment = numberType["เลือกโดย คสช."]?.length ?? 0
+    const sumVotePosition = numberType["โดยตำแหน่ง"]?.length ?? 0
+    const sumVoteCareer = numberType["เลือกกันเอง"]?.length ?? 0
     const sumTotal =
       totalVotelogType.approve +
       totalVotelogType.disprove +
@@ -552,7 +565,9 @@ const AutoComplete = ({
           <span css={cssAvg} style={{ margin: "0 1.5rem" }}>
             โดยเฉลี่ย
           </span>
-          <VoteLogLegend {...avgVotelog} />
+          <div css={cssAvgVoteLegend}>
+            <SenateVoteLegendGroup voteLog={avgVotelog} hasAverageText />
+          </div>
         </div>
       ) : (
         <div css={cssWrapper({ isShowAll })}>
@@ -561,18 +576,27 @@ const AutoComplete = ({
             style={{ width: barchartGroupWidth[0] + 230 }}
           >
             <span css={cssGroup}>โดยตำแหน่ง</span>
-            <VoteLogLegend type="group" {...select_by_position} />
+            <div css={cssVotelog}>
+              <SenateVoteLegendGroup voteLog={select_by_position} isSmallText />
+            </div>
           </div>
           <div
             css={cssTypeDetails}
             style={{ width: barchartGroupWidth[1] + 105 }}
           >
             <span css={cssGroup}>คสช. สรรหา</span>
-            <VoteLogLegend type="group" {...select_by_government} />
+            <div css={cssVotelog}>
+              <SenateVoteLegendGroup
+                voteLog={select_by_government}
+                isSmallText
+              />
+            </div>
           </div>
           <div css={cssTypeDetails} style={{ width: barchartGroupWidth[2] }}>
             <span css={cssGroup}>ตามกลุ่มอาชีพ</span>
-            <VoteLogLegend type="group" {...select_by_career} />
+            <div css={cssVotelog}>
+              <SenateVoteLegendGroup voteLog={select_by_career} isSmallText />
+            </div>
           </div>
           <div css={cssDropdown}>
             <DropDown
