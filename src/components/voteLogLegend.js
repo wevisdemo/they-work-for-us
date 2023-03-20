@@ -90,7 +90,7 @@ const VoteLogLegend = ({
         {missing !== undefined ? (
           type === "group" ? (
             <>
-              <b style={{ margin: "0 0.3rem" }}></b> {approve}%
+              <b style={{ margin: "0 0.3rem" }}></b> {approve.toFixed(2)}%
             </>
           ) : type === "popup" ? (
             <>
@@ -98,7 +98,7 @@ const VoteLogLegend = ({
             </>
           ) : (
             <>
-              <b css={cssLegendSpace}>เห็นด้วย</b> {approve}%
+              <b css={cssLegendSpace}>เห็นด้วย</b> {approve.toFixed(2)}%
             </>
           )
         ) : (
@@ -118,7 +118,7 @@ const VoteLogLegend = ({
         {missing !== undefined ? (
           type === "group" ? (
             <>
-              <b style={{ margin: "0 0.3rem" }}></b> {disprove}%
+              <b style={{ margin: "0 0.3rem" }}></b> {disprove.toFixed(2)}%
             </>
           ) : type === "popup" ? (
             <>
@@ -126,7 +126,7 @@ const VoteLogLegend = ({
             </>
           ) : (
             <>
-              <b css={cssLegendSpace}>ไม่เห็นด้วย</b> {disprove}%
+              <b css={cssLegendSpace}>ไม่เห็นด้วย</b> {disprove.toFixed(2)}%
             </>
           )
         ) : (
@@ -150,7 +150,7 @@ const VoteLogLegend = ({
         {missing !== undefined ? (
           type === "group" ? (
             <>
-              <b style={{ margin: "0 0.3rem" }}></b> {abstained}%
+              <b style={{ margin: "0 0.3rem" }}></b> {abstained.toFixed(2)}%
             </>
           ) : type === "popup" ? (
             <>
@@ -158,7 +158,7 @@ const VoteLogLegend = ({
             </>
           ) : (
             <>
-              <b css={cssLegendSpace}>งดออกเสียง</b> {abstained}%
+              <b css={cssLegendSpace}>งดออกเสียง</b> {abstained.toFixed(2)}%
             </>
           )
         ) : (
@@ -182,7 +182,7 @@ const VoteLogLegend = ({
         {missing !== undefined ? (
           type === "group" ? (
             <>
-              <b style={{ margin: "0 0.3rem" }}></b> {absent}%
+              <b style={{ margin: "0 0.3rem" }}></b> {absent.toFixed(2)}%
             </>
           ) : type === "popup" ? (
             <>
@@ -190,7 +190,7 @@ const VoteLogLegend = ({
             </>
           ) : (
             <>
-              <b css={cssLegendSpace}>ไม่ลงมติ</b> {absent}%
+              <b css={cssLegendSpace}>ไม่ลงมติ</b> {absent.toFixed(2)}%
             </>
           )
         ) : (
@@ -199,42 +199,30 @@ const VoteLogLegend = ({
           </>
         )}
       </span>
-      <span css={cssLegendWrap({ missing, type })}>
-        <img
-          src={cross}
-          style={{
-            margin: "0",
-          }}
-          width="8"
-          height="8"
-          alt={
-            missing !== undefined
-              ? type === "group"
-                ? ""
-                : "ไม่ลงมติ"
-              : "ไม่เข้าประชุม"
-          }
-        />{" "}
-        {missing !== undefined ? (
-          type === "group" ? (
+      {missing === undefined && special !== undefined && (
+        <span css={cssLegendWrap({ missing, type })}>
+          <img
+            src={cross}
+            style={{
+              margin: "0",
+            }}
+            width="8"
+            height="8"
+            alt={
+              missing !== undefined
+                ? type === "group"
+                  ? ""
+                  : "ไม่ลงมติ"
+                : "ไม่เข้าประชุม"
+            }
+          />{" "}
+          {missing === undefined && (
             <>
-              <b style={{ margin: "0 0.3rem" }}></b> {special}%
+              ไม่เข้าประชุม <b>{special}</b>
             </>
-          ) : type === "popup" ? (
-            <>
-              <b style={{ margin: "0 1rem" }}>ไม่ลงมติ</b> {special}
-            </>
-          ) : (
-            <>
-              <b css={cssLegendSpace}>ไม่ลงมติ</b> {special}%
-            </>
-          )
-        ) : (
-          <>
-            ไม่เข้าประชุม <b>{special}</b>
-          </>
-        )}
-      </span>
+          )}
+        </span>
+      )}
       {missing !== undefined && (
         <span css={cssLegendWrap({ missing, type })}>
           <div
@@ -246,7 +234,7 @@ const VoteLogLegend = ({
           />{" "}
           {type === "group" ? (
             <>
-              <b style={{ margin: "0 0.3rem" }}></b> {missing}%
+              <b style={{ margin: "0 0.3rem" }}></b> {missing.toFixed(2)}%
             </>
           ) : type === "popup" ? (
             <>
@@ -254,7 +242,7 @@ const VoteLogLegend = ({
             </>
           ) : (
             <>
-              <b css={cssLegendSpace}>ขาด</b> {missing}%
+              <b css={cssLegendSpace}>ขาด</b> {missing.toFixed(2)}%
             </>
           )}
         </span>
