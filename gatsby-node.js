@@ -21,44 +21,27 @@ exports.onPreInit = () => {
   buildSearchableZones("./static/content/zones.json")
 }
 
-exports.onCreateNode = ({ node, getNode, actions }) => {
-  const { createNodeField } = actions
-  if (node.internal.type === `PeopleYaml`) {
-    const slug = `/people/${node.name}-${node.lastname.replace(/ /g, "-")}`
-    createNodeField({
-      node,
-      name: `slug`,
-      value: slug,
-    })
-  }
-  if (node.internal.type === `PartyYaml`) {
-    const slug = `/party/${node.name}`
-    createNodeField({
-      node,
-      name: `slug`,
-      value: slug,
-    })
-  }
-  if (node.internal.type === `VotelogYaml`) {
-    const slug = `/votelog/${node.id}`
-    createNodeField({
-      node,
-      name: `slug`,
-      value: slug,
-    })
-  }
-  if (node.internal.type === `MotionYaml`) {
-    const id = node.id
-    const slug = `/motions/${id}`
-    createNodeField({
-      node,
-      name: `slug`,
-      value: slug,
-    })
+exports.onCreateNode = ({ node, actions: { createNodeField } }) => {
+  function getNodeSlug(node) {
+    switch (node.internal.type) {
+      case "PeopleYaml":
+        return `/people/${node.name}-${node.lastname.replace(/ /g, "-")}`
+      case "PartyYaml":
+        return `/party/${node.name}`
+      case "VotelogYaml":
+        return `/votelog/${node.yamlId}`
+      case "MotionYaml":
+        return `/motions/${node.yamlId}`
+      case "MotionCatYaml":
+        return `/motions/category/${node.sub_cat.replace(/ /g, "-")}`
+      default:
+        return undefined
+    }
   }
 
-  if (node.internal.type === `MotionCatYaml`) {
-    const slug = `/motions/category/${node.sub_cat.replace(/ /g, "-")}`
+  const slug = getNodeSlug(node)
+
+  if (slug) {
     createNodeField({
       node,
       name: `slug`,

@@ -18,7 +18,7 @@ import { media } from "../styles"
 export const query = graphql`
   query($slug: String!) {
     votelogYaml(fields: { slug: { eq: $slug } }) {
-      id
+      yamlId
       title
       legal_title
       vote_date(formatString: "DD.M.YYYY")
@@ -54,7 +54,7 @@ export const query = graphql`
     }
     allPeopleVoteYaml {
       nodes {
-        id
+        yamlId
         title
         name
         lastname
@@ -66,7 +66,7 @@ export const query = graphql`
     }
     allPeopleYaml {
       nodes {
-        id
+        yamlId
         fields {
           slug
         }
@@ -123,15 +123,15 @@ const VotelogPage = ({
 
   let combined = []
   allPeopleVoteYaml.nodes.forEach(votelog => {
-    const matched = _.find(allPeopleYaml.nodes, ["id", votelog.id])
+    const matched = _.find(allPeopleYaml.nodes, ["yamlId", votelog.yamlId])
     combined.push({ ...votelog, ...matched })
   })
 
-  const approve = filterVote(combined, votelogYaml.id, "1")
-  const disprove = filterVote(combined, votelogYaml.id, "2")
-  const abstained = filterVote(combined, votelogYaml.id, "3")
-  const absent = filterVote(combined, votelogYaml.id, "4")
-  const special = filterVote(combined, votelogYaml.id, "")
+  const approve = filterVote(combined, votelogYaml.yamlId, "1")
+  const disprove = filterVote(combined, votelogYaml.yamlId, "2")
+  const abstained = filterVote(combined, votelogYaml.yamlId, "3")
+  const absent = filterVote(combined, votelogYaml.yamlId, "4")
+  const special = filterVote(combined, votelogYaml.yamlId, "")
 
   return (
     <Layout
