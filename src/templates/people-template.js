@@ -44,6 +44,12 @@ export const query = graphql`
       quotes_url
       facebook
       twitter
+      people_party_history {
+        established_date
+        party {
+          name
+        }
+      }
     }
     peopleVoteYaml(name: { eq: $name }, lastname: { eq: $lastname }) {
       votelog {
@@ -126,9 +132,11 @@ const cssRightPage = {
   },
 }
 
-const MPParty = person => (
-  <div>
-    {person.is_mp ? (
+const MPParty = ({ person, partyHistory }) => {
+  if (!person.is_mp) return null
+
+  return (
+    <div>
       <p css={{ fontWeight: "bold" }}>
         {person.party ? (
           <Link to={`/party/${person.party}`}>พรรค {person.party}</Link>
@@ -136,9 +144,29 @@ const MPParty = person => (
           "ไม่สังกัดพรรค"
         )}
       </p>
-    ) : null}
-  </div>
-)
+      {partyHistory.length > 1 && (
+        <div css={{ fontSize: 14, color: "var(--cl-gray-1)" }}>
+          พรรคที่เคยสังกัด :
+          <ul css={{ marginLeft: 0, marginBottom: "1rem" }}>
+            {partyHistory.slice(1).map(({ partyName, dateRange }, i) => (
+              <li key={i} css={{ listStyle: "none" }}>
+                <strong>{partyName}</strong> (
+                {dateRange
+                  .map(date =>
+                    new Date(date).toLocaleDateString("TH-th", {
+                      dateStyle: "medium",
+                    })
+                  )
+                  .join(" - ")}
+                )
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </div>
+  )
+}
 
 const PersonAffiliation = person => (
   <div>
@@ -219,7 +247,7 @@ const PersonFinance = person => (
     </span>{" "}
     <span>
       <strong>หนี้สิน</strong>{" "}
-      { /* 
+      {/* 
             'debt' is always null from data source (NocoDB) which caused error on this page query.
             Re-enable the query above once debt has some level of availability.
         */
@@ -243,6 +271,19 @@ const PeoplePage = props => {
 
   const pageBGColor = partyYaml !== null ? partyYaml.color : "var(--cl-gray-4)"
   const personFullName = `${person.title} ${person.name} ${person.lastname}`
+
+  const partyHistory = person.people_party_history
+    .sort((a, z) => z.established_date.localeCompare(a.established_date))
+    .map(({ party, established_date }, i) => ({
+      partyName: party?.name,
+      dateRange: [
+        established_date,
+        i > 0
+          ? person.people_party_history[i - 1].established_date
+          : new Date(),
+      ],
+    }))
+    .filter(({ partyName }) => partyName)
 
   return (
     <Layout
@@ -287,7 +328,7 @@ const PeoplePage = props => {
               ข้อมูลพื้นฐาน
             </h2>
             <hr className={hr} />
-            <MPParty {...person}></MPParty>
+            <MPParty person={person} partyHistory={partyHistory}></MPParty>
             <PersonAffiliation {...person}></PersonAffiliation>
             <PersonPosition {...person}></PersonPosition>
 
@@ -364,6 +405,7 @@ const PeoplePage = props => {
         <PeopleVote
           peopleVoteYaml={peopleVoteYaml}
           allVotelogYaml={allVotelogYaml}
+          partyHistory={partyHistory}
         />
       ) : null}
 

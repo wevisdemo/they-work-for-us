@@ -1,6 +1,7 @@
-import React, { Component } from "react"
+import React, { useState } from "react"
 import { Link } from "gatsby"
 import _ from "lodash"
+import dayjs from "dayjs"
 
 import { formatDate } from "../utils"
 import VoteSearchInput from "./votesearch/VoteSearchInput"
@@ -35,7 +36,7 @@ const voteText = {
   "": "-",
 }
 
-const PeopleVoteCard = ({ choice, fields, title, legal_title, vote_date }) => (
+const PeopleVoteCard = ({ choice, fields, title, vote_date }) => (
   <Link
     to={fields.slug}
     css={{
@@ -77,131 +78,157 @@ const PeopleVoteCard = ({ choice, fields, title, legal_title, vote_date }) => (
   </Link>
 )
 
-class PeopleVote extends Component {
-  state = {
-    allVote: this.props.allVote,
-    activeFilter: 0,
-    searchText: "",
-  }
+const PeopleVote = ({ allVote, partyHistory }) => {
+  const [statusFilter, setStatusFilter] = useState(0)
+  const [titleFilter, setTitleFilter] = useState("")
+  const [partyFilter, setPartyFilter] = useState(0)
 
-  applyFilterAndSearch = (choice, searchText) => {
-    const trimmedSearchText = searchText.trim()
+  const matchConsecutiveSpaces = /\s+/g
 
-    const matchConsecutiveSpaces = /\s+/g
-    const searchRegExp = new RegExp(
-      trimmedSearchText.replace(matchConsecutiveSpaces, "|"),
+  const applyStatusFilter = ({ choice }) =>
+    statusFilter === 0 || choice === String(statusFilter)
+
+  const applyTitleFilter = ({ title, legal_title }) =>
+    new RegExp(
+      titleFilter.trim().replace(matchConsecutiveSpaces, "|"),
       "g"
-    )
+    ).test(title + legal_title)
 
-    const allVote = this.props.allVote.filter(function({
-      choice: voteChoice,
-      title,
-      legal_title,
-    }) {
-      return (
-        (choice === 0 || voteChoice === String(choice)) &&
-        searchRegExp.test(title + legal_title)
-      )
-    })
-    this.setState({ allVote, activeFilter: choice, searchText })
-  }
+  const applyPartyFilter = ({ vote_date }, dateRange) =>
+    !dateRange ||
+    (dayjs(vote_date).isAfter(dateRange[0], "date") &&
+      dayjs(vote_date).isBefore(dateRange[1], "date"))
 
-  handleFilter = choice => {
-    this.applyFilterAndSearch(choice, this.state.searchText)
-  }
+  const filteredVotes = allVote.filter(
+    vote =>
+      applyStatusFilter(vote) &&
+      applyTitleFilter(vote) &&
+      applyPartyFilter(vote, partyHistory[partyFilter]?.dateRange)
+  )
 
-  handleChangeSearchText = searchText => {
-    this.applyFilterAndSearch(this.state.activeFilter, searchText)
-  }
+  return (
+    <section
+      css={{
+        ...cssSectionWhite,
+        paddingTop: "6rem",
+      }}
+    >
+      <div className="container">
+        <h2
+          css={{
+            fontSize: "4.8rem",
+            textAlign: "center",
+            marginBottom: "3rem",
+          }}
+        >
+          สรุปการลงมติในสภา
+        </h2>
+        <div
+          css={{
+            display: "block",
+            listStyle: "none",
+            textAlign: "center",
+            marginBottom: "2.4rem",
+            "> button": {
+              display: "inline-block",
+              fontSize: "2.4rem",
+              padding: "1rem 0 0",
+              margin: "0 1rem",
+              cursor: "pointer",
+              background: "transparent",
+              border: "none",
+              lineHeight: 1.5,
+              "&.active": {
+                borderBottom: "8px solid var(--cl-black)",
+              },
+            },
+          }}
+          role="tablist"
+        >
+          {filterChoice.map(({ text, choice }) => (
+            <button
+              type="button"
+              key={choice}
+              className={statusFilter === choice ? "active" : ""}
+              role="tab"
+              onClick={() => setStatusFilter(choice)}
+              style={
+                statusFilter === choice
+                  ? {
+                      borderBottomColor: voteColor[choice],
+                    }
+                  : null
+              }
+            >
+              {text}
+            </button>
+          ))}
+        </div>
 
-  render() {
-    const { allVote, activeFilter } = this.state
-    return (
-      <section
-        css={{
-          ...cssSectionWhite,
-          paddingTop: "6rem",
-        }}
-      >
-        <div className="container">
-          <h2
-            css={{
-              fontSize: "4.8rem",
-              textAlign: "center",
-              marginBottom: "3rem",
+        {partyHistory.length > 1 && (
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              marginBottom: "2.4rem",
+              fontSize: 21,
             }}
           >
-            สรุปการลงมติในสภา
-          </h2>
+            <strong style={{ marginRight: 10 }}>สังกัดพรรค</strong>
+            <select
+              style={{
+                padding: 6,
+                borderColor: "#bdbdbd",
+                backgroundColor: "white",
+                borderRadius: 5,
+              }}
+              onChange={({ target }) => setPartyFilter(+target.value)}
+              value={`${partyFilter}`}
+            >
+              {partyHistory.map(({ partyName, dateRange }, i) => (
+                <option key={partyName} value={i}>
+                  {partyName} (
+                  {
+                    allVote.filter(vote => applyPartyFilter(vote, dateRange))
+                      .length
+                  }{" "}
+                  มติ)
+                </option>
+              ))}
+            </select>
+          </div>
+        )}
+
+        <VoteSearchInput
+          value={titleFilter}
+          onChangeText={text => setTitleFilter(text)}
+        />
+
+        {filteredVotes.length > 0 ? (
+          filteredVotes.map(vote => (
+            <PeopleVoteCard key={vote.yamlId} {...vote}></PeopleVoteCard>
+          ))
+        ) : (
           <div
             css={{
-              display: "block",
-              listStyle: "none",
               textAlign: "center",
-              marginBottom: "2.4rem",
-              "> button": {
-                display: "inline-block",
-                fontSize: "2.4rem",
-                padding: "1rem 0 0",
-                margin: "0 1rem",
-                cursor: "pointer",
-                background: "transparent",
-                border: "none",
-                lineHeight: 1.5,
-                "&.active": {
-                  borderBottom: "8px solid var(--cl-black)",
-                },
-              },
+              margin: "6rem 0",
+              color: "var(--cl-gray-2)",
             }}
-            role="tablist"
           >
-            {filterChoice.map(({ text, choice }) => (
-              <button
-                type="button"
-                key={choice}
-                className={activeFilter === choice ? "active" : ""}
-                role="tab"
-                onClick={() => this.handleFilter(choice)}
-                style={
-                  activeFilter === choice
-                    ? {
-                        borderBottomColor: voteColor[choice],
-                      }
-                    : null
-                }
-              >
-                {text}
-              </button>
-            ))}
+            ไม่พบการลงมติจากเงื่อนไขที่เลือก
           </div>
-          <VoteSearchInput
-            value={this.state.searchText}
-            onChangeText={this.handleChangeSearchText}
-          />
-          {allVote.length > 0 ? (
-            allVote.map(vote => (
-              <PeopleVoteCard key={vote.id} {...vote}></PeopleVoteCard>
-            ))
-          ) : (
-            <div
-              css={{
-                textAlign: "center",
-                margin: "6rem 0",
-                color: "var(--cl-gray-2)",
-              }}
-            >
-              ไม่พบการลงมตินี้ในเว็บไซต์
-            </div>
-          )}
-        </div>
-      </section>
-    )
-  }
+        )}
+      </div>
+    </section>
+  )
 }
 
 export default function PeopleVoteComponent({
   peopleVoteYaml,
   allVotelogYaml,
+  partyHistory,
 }) {
   const voteLogs = peopleVoteYaml.votelog || []
   const allVotes = [...allVotelogYaml.nodes]
@@ -218,5 +245,5 @@ export default function PeopleVoteComponent({
       return b.vote_date.localeCompare(a.vote_date)
     })
 
-  return <PeopleVote allVote={sortedAllVotes} />
+  return <PeopleVote allVote={sortedAllVotes} partyHistory={partyHistory} />
 }
