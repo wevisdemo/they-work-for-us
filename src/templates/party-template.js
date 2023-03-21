@@ -20,7 +20,7 @@ export const query = graphql`
       party_type: { eq: "พรรค" }
       fields: { slug: { eq: $slug } }
     ) {
-      id
+      yamlId
       name
       en {
         name
@@ -37,16 +37,11 @@ export const query = graphql`
       twitter
       is_active
     }
-    allPeopleYaml(
-      filter: {
-        is_mp: { eq: true }
-        party: { eq: $party }
-      }
-    ) {
+    allPeopleYaml(filter: { is_mp: { eq: true }, party: { eq: $party } }) {
       totalCount
       edges {
         node {
-          id
+          yamlId
           fields {
             slug
           }
@@ -64,10 +59,7 @@ export const query = graphql`
       }
     }
     mp_type: allPeopleYaml(
-      filter: {
-        is_mp: { eq: true }
-        party: { eq: $party }
-      }
+      filter: { is_mp: { eq: true }, party: { eq: $party } }
     ) {
       group(field: { mp_type: SELECT }) {
         value: totalCount
@@ -75,10 +67,7 @@ export const query = graphql`
       }
     }
     gender: allPeopleYaml(
-      filter: {
-        is_mp: { eq: true }
-        party: { eq: $party }
-      }
+      filter: { is_mp: { eq: true }, party: { eq: $party } }
     ) {
       group(field: { gender: SELECT }) {
         value: totalCount
@@ -86,10 +75,7 @@ export const query = graphql`
       }
     }
     education: allPeopleYaml(
-      filter: {
-        is_mp: { eq: true }
-        party: { eq: $party }
-      }
+      filter: { is_mp: { eq: true }, party: { eq: $party } }
     ) {
       group(field: { education: SELECT }) {
         value: totalCount
@@ -97,22 +83,14 @@ export const query = graphql`
       }
     }
     occupation_group: allPeopleYaml(
-      filter: {
-        is_mp: { eq: true }
-        party: { eq: $party }
-      }
+      filter: { is_mp: { eq: true }, party: { eq: $party } }
     ) {
       group(field: { occupation_group: SELECT }) {
         value: totalCount
         name: fieldValue
       }
     }
-    age: allPeopleYaml(
-      filter: {
-        is_mp: { eq: true }
-        party: { eq: $party }
-      }
-    ) {
+    age: allPeopleYaml(filter: { is_mp: { eq: true }, party: { eq: $party } }) {
       edges {
         node {
           birthdate
@@ -120,10 +98,7 @@ export const query = graphql`
       }
     }
     asset: allPeopleYaml(
-      filter: {
-        is_mp: { eq: true }
-        party: { eq: $party }
-      }
+      filter: { is_mp: { eq: true }, party: { eq: $party } }
     ) {
       edges {
         node {
@@ -131,13 +106,11 @@ export const query = graphql`
         }
       }
     }
-    allVotelogYaml(
-      sort: { vote_date: DESC }
-    ) {
+    allVotelogYaml(sort: { vote_date: DESC }) {
       totalCount
       edges {
         node {
-          id
+          yamlId
           fields {
             slug
           }
@@ -151,7 +124,7 @@ export const query = graphql`
     allPeopleVoteYaml {
       edges {
         node {
-          id
+          yamlId
           votelog {
             key
             value
@@ -486,10 +459,10 @@ const PartyPage = props => {
                 marginTop: "6rem",
               }}
             >
-              {votelogs.map(({ id, fields, ...voteLog }) => (
+              {votelogs.map(({ yamlId, fields, ...voteLog }) => (
                 <VoteLogCard
                   isCompact
-                  key={id}
+                  key={yamlId}
                   css={{
                     width: `calc((var(--container-width) - 4rem) / 2)`,
                     margin: "0 1rem 2rem 1rem",

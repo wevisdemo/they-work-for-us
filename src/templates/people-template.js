@@ -17,7 +17,7 @@ import PeopleAvatar from "../components/peopleAvatar"
 export const query = graphql`
   query($slug: String!, $name: String!, $lastname: String!, $party: String!) {
     person: peopleYaml(fields: { slug: { eq: $slug } }) {
-      id
+      yamlId
       title
       name
       lastname
@@ -56,7 +56,7 @@ export const query = graphql`
     }
     allVotelogYaml(filter: { is_active: { eq: true } }) {
       nodes {
-        id
+        yamlId
         fields {
           slug
         }

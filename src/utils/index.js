@@ -368,7 +368,7 @@ export function filterVote(peopleVotelog, key, value) {
 export function joinPeopleVotelog(people, peopleVotelogs, votelogs, limit) {
   const votelogByPeople = peopleVotelogs.edges.map(({ node }) => node)
   const allPeople = people.edges.map(({ node: person }) => {
-    const vote = _.find(votelogByPeople, ["id", person.id])
+    const vote = _.find(votelogByPeople, ["yamlId", person.yamlId])
     return {
       ...person,
       ...vote,
@@ -377,10 +377,10 @@ export function joinPeopleVotelog(people, peopleVotelogs, votelogs, limit) {
 
   let voteResult = votelogs.edges
     .map(({ node: votelog }) => {
-      const approve = filterVote(allPeople, votelog.id, "1").length
-      const disprove = filterVote(allPeople, votelog.id, "2").length
-      const abstained = filterVote(allPeople, votelog.id, "3").length
-      const absent = filterVote(allPeople, votelog.id, "4").length
+      const approve = filterVote(allPeople, votelog.yamlId, "1").length
+      const disprove = filterVote(allPeople, votelog.yamlId, "2").length
+      const abstained = filterVote(allPeople, votelog.yamlId, "3").length
+      const absent = filterVote(allPeople, votelog.yamlId, "4").length
       const filteredVoteResult = {
         approve,
         disprove,

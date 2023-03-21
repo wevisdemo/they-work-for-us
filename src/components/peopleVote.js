@@ -207,7 +207,7 @@ export default function PeopleVoteComponent({
   const allVotes = [...allVotelogYaml.nodes]
   // merge allVote and voteLog into allVote
   allVotes.forEach(vote => {
-    const matchedVotelog = _.find(voteLogs, ["key", vote.id])
+    const matchedVotelog = _.find(voteLogs, ["key", vote.yamlId])
     if (matchedVotelog) {
       vote.choice = matchedVotelog.value
     }
