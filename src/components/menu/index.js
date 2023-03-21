@@ -156,11 +156,12 @@ const Menu = ({ siteTitle }) => {
             <Link to="/votelog">สรุปวาระการลงมติ</Link>
           </span>
         </li>
-        <li>
+        {/* TODO: Hide archive page since the votelog migration hcnage the id which break unmaintain data */}
+        {/* <li>
           <span>
             <Link to="/archive">คลังข้อมูลน่าสนใจ</Link>
           </span>
-        </li>
+        </li> */}
         <li>
           <span>
             <Link to="/about">เกี่ยวกับเรา</Link>
