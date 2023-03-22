@@ -51,6 +51,7 @@ export const query = graphql`
           name
           lastname
           senator_method
+          is_active
         }
       }
     }
