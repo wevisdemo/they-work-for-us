@@ -223,7 +223,7 @@ exports.sourceNodes = async ({
 
   // Contributors
   const { data } = await axios.get(
-    `https://api.github.com/repos/electinth/politician-directory/contributors`
+    `https://api.github.com/repos/wevisdemo/they-work-for-us/contributors`
   )
 
   data.forEach(contributor => {
