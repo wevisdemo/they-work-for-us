@@ -7,7 +7,6 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
 function SEO({ description, lang, meta, title, imageUrl }) {
@@ -25,7 +24,6 @@ function SEO({ description, lang, meta, title, imageUrl }) {
       }
     `
   )
-
   const metaDescription = description || site.siteMetadata.description
   const metaImageUrl = imageUrl || "/seo/share/default.png"
   const sharableTitle =
@@ -34,68 +32,22 @@ function SEO({ description, lang, meta, title, imageUrl }) {
       : title
 
   return (
-    <Helmet
-      htmlAttributes={{
-        lang,
-      }}
-      title={title}
-      titleTemplate={
-        (title === "Home" ? `` : `%s | `) +
-        `${site.siteMetadata.title} รู้จักและติดตาม 'ผู้แทน' ในสภาของเรา`
-      }
-      meta={[
-        {
-          name: `description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:title`,
-          content: sharableTitle,
-        },
-        {
-          property: `og:description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:type`,
-          content: `website`,
-        },
-        {
-          property: `og:image`,
-          content: metaImageUrl,
-        },
-        {
-          property: `og:image:width`,
-          content: `1200`,
-        },
-        {
-          property: `og:image:height`,
-          content: `630`,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary_large_image`,
-        },
-        {
-          name: `twitter:image`,
-          content: metaImageUrl.includes("http")
-            ? metaImageUrl
-            : `${site.siteMetadata.baseUrl}${metaImageUrl}`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata.author,
-        },
-        {
-          name: `twitter:title`,
-          content: sharableTitle,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
-      ].concat(meta)}
-    />
+    <>
+      <html lang={lang} />
+      <title>{(title === "Home" ? `` : `${title} | `) + `${site.siteMetadata.title} รู้จักและติดตาม 'ผู้แทน' ในสภาของเรา`}</title>
+      <meta name="description" content={metaDescription}/>
+      <meta name="og:title" content={sharableTitle}/>
+      <meta name="og:description" content={metaDescription}/>
+      <meta name="og:type" content="website" />
+      <meta name="og:image" content={metaImageUrl}/>
+      <meta name="og:image:width" content={1200}/>
+      <meta name="og:image:height" content={630}/>
+      <meta name="twitter:card" content="summary_large_image"/>
+      <meta name="twitter:image" content={metaImageUrl.includes("http") ? metaImageUrl : `${site.siteMetadata.baseUrl}${metaImageUrl}`}/>
+      <meta name="twitter:creator" content={site.siteMetadata.author}/>
+      <meta name="twitter:title" content={sharableTitle}/>
+      <meta name="twitter:description" content={metaDescription}/>
+    </>
   )
 }
 
