@@ -6,7 +6,6 @@ const FeatureIcon = ({ image, borderWidth }) => {
   return (
     <div
       css={{
-        backgroundColor: "#19171a",
         borderRadius: "50%",
         maxWidth: "5rem",
         maxHeight: "5rem",
