@@ -51,6 +51,9 @@ export const query = graphql`
           mp_province
           mp_zone
           party
+          images {
+            url
+          }
         }
       }
     }

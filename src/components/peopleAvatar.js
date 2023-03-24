@@ -1,20 +1,15 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 
-const PeopleAvatar = ({ title = "", name, lastname }) => {
-  const { peopleImages } = useStaticQuery(graphql`
-    query {
-      peopleImages: allFile(
-        filter: { relativeDirectory: { eq: "images/people" } }
+const PeopleAvatar = ({ title = "", name, lastname, images }) => {
+  const { placeholderImage } = useStaticQuery(graphql`
+    {
+      placeholderImage: file(
+        relativePath: { eq: "images/people/placeholder.png" }
       ) {
-        edges {
-          node {
-            name
-            childImageSharp {
-              gatsbyImageData(width: 160)
-            }
-          }
+        childImageSharp {
+          gatsbyImageData(width: 160)
         }
       }
     }
@@ -22,23 +17,25 @@ const PeopleAvatar = ({ title = "", name, lastname }) => {
 
   const alt = title ? `${title} ${name} ${lastname}` : `${name} ${lastname}`
 
-  const placeHolderImageNode = peopleImages.edges.find(
-    ({ node }) => node.name === "placeholder"
-  )
+  if (images?.[0]?.url) {
+    return (
+      <img
+        src={images[0]?.url}
+        alt={alt}
+        style={{ pointerEvents: "none", margin: 0 }}
+      />
+    )
+  }
 
-  const personImageNode = peopleImages.edges.find(
-    ({ node }) => node.name === `${name}-${lastname}`
-  )
-
-  return getImage((personImageNode || placeHolderImageNode).node) ? (
+  return (
     <div className="avatar">
       <GatsbyImage
-        image={getImage((personImageNode || placeHolderImageNode).node)}
+        image={placeholderImage.childImageSharp.gatsbyImageData}
         alt={alt}
         style={{ pointerEvents: "none" }}
       />
     </div>
-  ) : null
+  )
 }
 
 export default PeopleAvatar

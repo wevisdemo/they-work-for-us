@@ -37,7 +37,7 @@ export const query = graphql`
       twitter
       is_active
     }
-    allPeopleYaml(filter: { is_mp: { eq: true }, party: { eq: $party } }) {
+    allPeopleYaml(filter: { party: { eq: $party } }) {
       totalCount
       edges {
         node {
@@ -55,6 +55,10 @@ export const query = graphql`
           mp_zone
           mp_list
           is_active
+          is_mp
+          images {
+            url
+          }
         }
       }
     }
@@ -191,9 +195,11 @@ const cssStickyMenuTitle = {
 
 const PartyPage = props => {
   const { party, ...data } = props.data
+  const members = data.allPeopleYaml.edges
+    .map(e => e.node)
+    .filter(({ is_mp }) => is_mp)
 
   const [memberFilter, setMemberFilter] = useState({})
-  const [members] = useState(data.allPeopleYaml.edges.map(e => e.node))
   const selectMemberFilter = filter => () => setMemberFilter(filter)
 
   const [voteLogsArrow, setVoteLogsArrow] = useState({})
@@ -313,7 +319,11 @@ const PartyPage = props => {
       const name = nameParts[0]
       const lastname = nameParts.slice(1).join(" ")
       const position = keyPos.label
-      return { id, name, lastname, position, fields: { slug } }
+      const images = data.allPeopleYaml.edges.find(
+        ({ node }) => node.name === name && node.lastname === lastname
+      )?.node?.images
+
+      return { id, name, lastname, position, fields: { slug }, images }
     })
   )
 

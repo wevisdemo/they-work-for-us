@@ -50,6 +50,9 @@ export const query = graphql`
           name
         }
       }
+      images {
+        url
+      }
     }
     peopleVoteYaml(name: { eq: $name }, lastname: { eq: $lastname }) {
       votelog {

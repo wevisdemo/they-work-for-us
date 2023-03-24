@@ -122,8 +122,8 @@ export const WaffleAligner = ({ data, cellStyleProps, style, className }) => {
 const WaffleGroup = ({ party, cellStyleProps }) => {
   return (
     <div className="waffle-group">
-      <a href={`/party/${party.name}`}>
-        <PartyLogo name={party.name} />
+      <a href={party.fields?.slug} style={{ maxWidth: 24, marginRight: 5 }}>
+        <PartyLogo {...party} />
       </a>
       <WaffleAligner data={party.data} cellStyleProps={cellStyleProps} />
     </div>
@@ -137,12 +137,14 @@ const Waffle = ({
   style,
   css,
   crossLast = false,
+  parties,
 }) => {
   const peopleGrouppedByParty = data.map(type => {
     const groupByParty = groupBy(type, ({ node }) => node.party)
     return Object.entries(groupByParty)
       .map(([partyName, data]) => ({
         name: partyName,
+        ...(parties.find(({ name }) => name === partyName) || {}),
         data,
       }))
       .sort((a, z) => z.data.length - a.data.length)

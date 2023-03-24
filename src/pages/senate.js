@@ -43,7 +43,7 @@ export const query = graphql`
       totalCount
       edges {
         node {
-          id
+          yamlId
           fields {
             slug
           }
@@ -52,6 +52,9 @@ export const query = graphql`
           lastname
           senator_method
           is_active
+          images {
+            url
+          }
         }
       }
     }
@@ -104,7 +107,7 @@ export const query = graphql`
       totalCount
       edges {
         node {
-          id
+          yamlId
           fields {
             slug
           }
@@ -118,7 +121,7 @@ export const query = graphql`
     allPeopleVoteYaml {
       edges {
         node {
-          id
+          yamlId
           votelog {
             key
             value
@@ -246,7 +249,11 @@ const SenatePage = props => {
       const name = nameParts[0]
       const lastname = nameParts.slice(1).join(" ")
       const position = keyPos.label
-      return { id, name, lastname, position, fields: { slug } }
+      const { images } = data.allPeopleYaml.edges.find(
+        ({ node }) => node.name === name && node.lastname === lastname
+      ).node
+
+      return { id, name, lastname, position, fields: { slug }, images }
     })
   )
 

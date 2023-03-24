@@ -27,9 +27,12 @@ export const ProfilePicture = props => {
         alignItems: "center",
         "&.in-active": {
           "> .avatar": {
-            opacity: 0.5
-          }
-        }
+            opacity: 0.5,
+          },
+          "> img": {
+            opacity: 0.5,
+          },
+        },
       }}
     >
       <PeopleAvatar {...props} />

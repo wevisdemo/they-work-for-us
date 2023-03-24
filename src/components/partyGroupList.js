@@ -65,6 +65,9 @@ const PartyGroupList = ({ paneHeaderStyle }) => {
             }
             name
             party_group
+            images {
+              url
+            }
           }
         }
       }
@@ -104,7 +107,7 @@ const PartyGroupList = ({ paneHeaderStyle }) => {
         marginBottom: "0.5rem",
       }}
     >
-      <PartyLogo name={node.name} />
+      <PartyLogo {...node} />
       <p style={{ margin: "auto 10px" }}>
         {node.name} ({totalActiveMember(node.name)})
       </p>

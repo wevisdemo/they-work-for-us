@@ -78,6 +78,22 @@ export const query = graphql`
         mp_province
         mp_zone
         party
+        images {
+          url
+        }
+      }
+    }
+    allPartyYaml {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          name
+          images {
+            url
+          }
+        }
       }
     }
   }
@@ -117,6 +133,7 @@ const VotelogPage = ({
     downloadIcon,
     allPeopleVoteYaml,
     allPeopleYaml,
+    allPartyYaml,
   },
 }) => {
   const { passed, total_voter, total_people } = votelogYaml
@@ -333,6 +350,7 @@ const VotelogPage = ({
               `var(--cl-vote-absent)`,
             ]}
             crossLast={true}
+            parties={allPartyYaml.edges.map(e => e.node)}
           />
         </section>
         <section
