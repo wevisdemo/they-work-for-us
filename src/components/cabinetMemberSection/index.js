@@ -19,6 +19,9 @@ const CabinetMemberSection = () => {
             party_group
             mp_type
             is_active
+            images {
+              url
+            }
             fields {
               slug
             }
