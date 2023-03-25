@@ -27,6 +27,11 @@ exports.onCreateNode = ({ node, actions: { createNodeField } }) => {
       case "PeopleYaml":
         return `/people/${node.name}-${node.lastname.replace(/ /g, "-")}`
       case "PartyYaml":
+        if (node.name === 'สภาผู้แทนราษฎร') {
+          return `/representative`
+        } else if (node.name === 'วุฒิสภา') {
+          return `/senate`
+        }
         return `/party/${node.name}`
       case "VotelogYaml":
         return `/votelog/${node.yamlId}`
