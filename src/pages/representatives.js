@@ -31,6 +31,7 @@ export const query = graphql`
       speaker
       first_deputy_speaker
       second_deputy_speaker
+      whip
       opposition_leader
       website
       facebook
@@ -182,6 +183,10 @@ const RepresentativesPage = props => {
       {
         name: "second_deputy_speaker",
         label: "รองประธานสภา คนที่ 2",
+      },
+      {
+        name: "whip",
+        label: "ผู้นำฝ่ายรัฐบาล",
       },
       {
         name: "opposition_leader",
