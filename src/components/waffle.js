@@ -140,7 +140,12 @@ const Waffle = ({
   parties,
 }) => {
   const peopleGrouppedByParty = data.map(type => {
-    const groupByParty = groupBy(type, ({ node }) => node.party)
+    const groupByParty = groupBy(type, ({ node }) => {
+      if (node.is_senator) {
+        return 'วุฒิสภา'
+      }
+      return node.party
+    })
     return Object.entries(groupByParty)
       .map(([partyName, data]) => ({
         name: partyName,
