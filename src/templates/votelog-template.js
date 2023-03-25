@@ -73,6 +73,7 @@ export const query = graphql`
         is_mp
         is_senator
         is_cabinet
+        is_active
         mp_type
         mp_list
         mp_province
