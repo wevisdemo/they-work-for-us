@@ -1,3 +1,5 @@
+import { NOCODB_BASE_URL } from "."
+
 export function guardStringToEmpty(input: string | any): string {
   if (!input) {
     return ''
@@ -58,4 +60,29 @@ export function deleteArrayKeys(prefix: string, obj: object) {
     .keys(obj)
     .filter(k => k.startsWith(prefix) && k !== prefix)
     .forEach(k => delete obj[k])
+}
+
+type NocoImage = {
+  title: string
+  url?: string
+  path?: string
+  mimetype: string
+  size?: number
+}
+
+export function parseImages(images: NocoImage[]): NocoImage[] {
+  if (!images) {
+    return images
+  }
+  
+  return images.map(image => {
+    if (image.path) {
+      return {
+        title: image.title,
+        url: `${NOCODB_BASE_URL}/${image.path}`,
+        mimetype: image.mimetype,
+      }
+    }
+    return image
+  })
 }

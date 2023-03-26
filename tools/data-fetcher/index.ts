@@ -7,7 +7,7 @@ import { parseVotelogs } from './votelogs'
 import { parsePeopleVotes } from './people-votes'
 
 const OUT_DIR = "src/contents"
-const NOCODB_BASE_URL = "https://sheets.wevis.info"
+export const NOCODB_BASE_URL = "https://sheets.wevis.info"
 const NOCODB_TABLE_PARTIES = "40065196-c978-4d7a-b3fb-fb84694383a7"
 const NOCODB_TABLE_PEOPLE = "572c5e5c-a3d8-440f-9a70-3c4c773543ec"
 const NOCODB_TABLE_VOTELOGS = "e06d1465-2786-4799-9c0f-a20f4cf71ec4"

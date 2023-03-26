@@ -1,6 +1,6 @@
 import jsConvert from 'js-convert-case'
 import { NocoDB } from '../nocodb'
-import { guardStringToEmpty, parseNumber } from '../parsing-utils'
+import { guardStringToEmpty, parseImages, parseNumber } from '../parsing-utils'
 
 export async function parseParties(nocoClient: NocoDB, viewId: string) {
   const parties = await nocoClient.getAllRow(viewId)
@@ -30,6 +30,9 @@ function mapParty(party: object) {
 
   // Numbers
   converted['party_ordinal'] = parseNumber(converted['party_ordinal'])
+
+  // Images
+  converted['images'] = parseImages(converted['images'])
 
   // Spacial cases
   // EnName
