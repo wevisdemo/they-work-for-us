@@ -27,14 +27,16 @@ exports.onCreateNode = ({ node, actions: { createNodeField } }) => {
       case "PeopleYaml":
         return `/people/${node.name}-${node.lastname.replace(/ /g, "-")}`
       case "PartyYaml":
-        if (node.name === 'สภาผู้แทนราษฎร') {
-          return '/representative'
-        } else if (node.name === 'วุฒิสภา') {
-          return '/senate'
-        } else if (node.name === 'คณะรัฐมนตรี') {
-          return 'cabinet'
+        switch (node.name) {
+          case 'สภาผู้แทนราษฎร':
+            return '/representative'
+          case 'วุฒิสภา':
+            return '/senate'
+          case 'คณะรัฐมนตรี':
+            return 'cabinet'
+          default:
+            return `/party/${node.name}`
         }
-        return `/party/${node.name}`
       case "VotelogYaml":
         return `/votelog/${node.yamlId}`
       case "MotionYaml":
