@@ -28,9 +28,11 @@ exports.onCreateNode = ({ node, actions: { createNodeField } }) => {
         return `/people/${node.name}-${node.lastname.replace(/ /g, "-")}`
       case "PartyYaml":
         if (node.name === 'สภาผู้แทนราษฎร') {
-          return `/representative`
+          return '/representative'
         } else if (node.name === 'วุฒิสภา') {
-          return `/senate`
+          return '/senate'
+        } else if (node.name === 'คณะรัฐมนตรี') {
+          return 'cabinet'
         }
         return `/party/${node.name}`
       case "VotelogYaml":
