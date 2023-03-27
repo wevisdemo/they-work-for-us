@@ -49,7 +49,7 @@ const Header = ({ siteTitle }) => {
     <header style={{ overflow: "hidden" }}>
       <EnvBadge />
 
-      <WvNavbar title="THEY WORK FOR US" alwayShowSlot>
+      <WvNavbar title="THEY WORK FOR US" logoAddonSrc="/icon.png" alwayShowSlot>
         <button
           type="button"
           className={`hamburger-icon ${iconClicked ? "animateIcon" : ""}`}

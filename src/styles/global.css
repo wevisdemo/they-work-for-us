@@ -49,6 +49,10 @@ a:hover {
   text-decoration: underline;
 }
 
+img {
+  margin: 0;
+}
+
 .container {
   max-width: var(--container-width);
   margin: 0 auto;

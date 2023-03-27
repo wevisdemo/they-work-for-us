@@ -1,12 +1,8 @@
 .hamburger-icon {
-  height: 40px;
-  width: 40px;
+  width: 30px;
   position: relative;
-  top: 0;
-  right: -0.75rem;
   z-index: 600;
-  cursor: pointer;
-
+  align-self: center;
   background: transparent;
   border: none;
   margin: 0;
@@ -71,11 +67,7 @@
 
 @media screen and (min-width: 767px) {
   .hamburger-icon {
-    height: 60px;
-    width: 60px;
-    position: relative;
-    z-index: 600;
-    cursor: pointer;
+    width: 40px;
   }
 
   .bar {
@@ -92,4 +84,8 @@
     top: 8px;
     height: 5px;
   }
+}
+
+.wv_navbar__logo__addon {
+  max-height: 2.2rem !important;
 }
