@@ -211,13 +211,15 @@ const IndexPage = ({ data }) => {
           >
             ใครคือผู้แทนของเรา
           </h1>
-          <h2
+          <h2>ค้นหา ตรวจสอบ โปร่งใส</h2>
+          <strong
             css={{
               marginBottom: "8rem",
             }}
           >
-            ค้นหา ตรวจสอบ โปร่งใส
-          </h2>
+            อัพเดตข้อมูล:{" "}
+            {new Date().toLocaleDateString("TH-th", { dateStyle: "long" })}
+          </strong>
           <h3
             css={{
               marginTop: "4rem",
