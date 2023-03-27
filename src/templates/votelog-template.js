@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 import { css } from "@emotion/react"
 import _ from "lodash"
+import ReactMarkdown from "react-markdown"
 
 import ExternalLink from "../components/externalLink"
 import Layout from "../components/layout"
@@ -361,7 +362,7 @@ const VotelogPage = ({
           }}
         >
           <h1>เนื้อหา</h1>
-          <p>{votelogYaml.description_th}</p>
+          <ReactMarkdown>{votelogYaml.description_th}</ReactMarkdown>
           <p
             css={css`
               font-weight: bold;

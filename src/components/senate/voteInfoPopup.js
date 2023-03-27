@@ -1,4 +1,5 @@
 import React, { useEffect } from "react"
+import ReactMarkdown from "react-markdown"
 import Waffle from "../waffle"
 import VoterList from "../voterList"
 import download from "../../images/icons/download/download.png"
@@ -257,7 +258,9 @@ const VoteInfoPopup = ({
             <div css={cssSubTitle}>
               <b>เนื้อหา</b>
             </div>
-            <div css={cssSubstance}>{votelogInfo.description_th}</div>
+            <ReactMarkdown css={cssSubstance}>
+              {votelogInfo.description_th}
+            </ReactMarkdown>
             <div css={cssVotingDocs}>
               <b>เอกสารการลงมติ</b>
             </div>
