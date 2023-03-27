@@ -1,6 +1,6 @@
 import jsConvert from 'js-convert-case'
 import { NocoDB } from '../nocodb'
-import { deleteArrayKeys, guardStringToEmpty, parseArray, parseNumber } from '../parsing-utils'
+import { deleteArrayKeys, guardStringToEmpty, parseArray, parseImages, parseNumber } from '../parsing-utils'
 import { splitPeopleName } from './split-people-name'
 import { getLatestPartyHistory } from './people-party-history'
 
@@ -35,6 +35,9 @@ function mapPerson(person: object) {
   converted['ex_occupation'] = parseArray<string>('ex_occupation', converted)
   deleteArrayKeys('cabinet_position', converted)
   deleteArrayKeys('ex_occupation', converted)
+
+  // Images
+  converted['images'] = parseImages(converted['images'])
 
   // Spacial cases
   // Last name

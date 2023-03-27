@@ -12,6 +12,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4149
   id: '1'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -41,6 +45,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4149
   id: '2'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -72,6 +80,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4154
   id: '3'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -100,6 +112,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4156
   id: '4'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -113,7 +129,7 @@
   special: 0
   total_people: 457
 - title: ตั้ง กมธ. วิสามัญ พิจารณาผลกระทบโครงการอีอีซี
-  is_active: true
+  is_active: false
   legal_title: >-
     ญัตติด่วน
     ขอให้สภาผู้แทนราษฎรตั้งคณะกรรมาธิการวิสามัญพิจารณาศึกษาและตรวจสอบผลกระทบจากการดำเนินโครงการเขตพัฒนาพิเศษภาคตะวันออก
@@ -140,6 +156,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4158
   id: '5'
+  note: OCR Error! เห็นด้วย ขาดไป 1 คน
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -167,6 +187,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4158
   id: '6'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -205,6 +229,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4162
   id: '7'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -245,6 +273,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4162
   id: '8'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -280,6 +312,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4167
   id: '9'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -314,6 +350,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4169
   id: '10'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -327,7 +367,7 @@
   special: 0
   total_people: 394
 - title: ตั้ง กมธ. วิสามัญ ศึกษาผลกระทบจาก ม. 44
-  is_active: true
+  is_active: false
   legal_title: >-
     พิจารณาตั้งคณะกรรมาธิการวิสามัญ เพื่อศึกษาผลกระทบจากการกระทำ ประกาศ
     และคำสั่งของคณะรักษาความสงบแห่งชาติ
@@ -356,6 +396,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4172
   id: '11'
+  note: OCR Error! ผลไม่ตรง กรอกมือใหม่
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -390,6 +434,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4175
   id: '12'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -427,6 +475,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4176
   id: '13'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -451,6 +503,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4177
   id: '14'
+  note: OCR Error! ไม่อ่านผล ส.ว. กรอกมือ
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -479,6 +535,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4180
   id: '15'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -513,6 +573,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4182
   id: '16'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -541,6 +605,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4190
   id: '17'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -577,6 +645,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4193
   id: '18'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -601,6 +673,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4193
   id: '19'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -614,7 +690,7 @@
   special: 0
   total_people: 359
 - title: อนุมัติ พ.ร.ก. รักษาเสถียรภาพของระบบการเงิน
-  is_active: true
+  is_active: false
   legal_title: >-
     พระราชกำหนดการรักษาเสถียรภาพของระบบการเงินและความมั่นคงทางเศรษฐกิจของประเทศ
     พ.ศ. 2563
@@ -637,6 +713,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4198
   id: '20'
+  note: ผลผิด เห็นด้วย เกิน 1 / ไม่เห็นด้วย ขาด 1 เช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -665,6 +745,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4198
   id: '21'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -689,6 +773,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4198
   id: '22'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -702,7 +790,7 @@
   special: 0
   total_people: 481
 - title: อนุมัติ พ.ร.ก. เงินกู้โควิด-19
-  is_active: true
+  is_active: false
   legal_title: >-
     พระราชกำหนดให้อำนาจกระทรวงการคลังกู้เงินเพื่อแก้ไขปัญหา เยียวยา
     และฟื้นฟูเศรษฐกิจและสังคม
@@ -714,6 +802,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4198
   id: '23'
+  note: ผลผิด เห็นด้วย ขาด 1 / งดออกเสียง เกิน 1 เช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -736,6 +828,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4199
   id: '24'
+  note: OCR Error! กรอกมือ
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -758,6 +854,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4202
   id: '25'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -780,6 +880,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4208
   id: '26'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -802,6 +906,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4212
   id: '27'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -815,7 +923,7 @@
   special: 0
   total_people: 392
 - title: ร่าง พ.ร.บ. ยุบเลิกบรรษัทตลาดรองสินเชื่อที่อยู่อาศัย (วาระ 3)
-  is_active: true
+  is_active: false
   legal_title: ร่างพระราชบัญญัติยุบเลิกบรรษัทตลาดรองสินเชื่อที่อยู่อาศัย
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2020-07-15'
@@ -824,6 +932,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4212
   id: '28'
+  note: ผลผิด เห็นด้วย ขาด 1 เช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -846,6 +958,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4214
   id: '29'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -870,6 +986,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4215
   id: '30'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -892,6 +1012,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4216
   id: '31'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -914,18 +1038,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4218
   id: '32'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200804174945A3.pdf
   passed: true
-  approve: 568
+  approve: 504
   disprove: 0
-  abstained: 52
-  absent: 1
-  total_voter: 621
+  abstained: 49
+  absent: 3
+  total_voter: 556
   special: 0
-  total_people: 621
+  total_people: 556
 - title: ร่าง พ.ร.บ. ปรับปรุงกระทรวง ทบวง กรม (วาระ 1)
   is_active: true
   legal_title: ร่างพระราชบัญญัติปรับปรุงกระทรวง ทบวง กรม
@@ -936,18 +1064,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4218
   id: '33'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200804174945A1.pdf
   passed: true
-  approve: 504
+  approve: 568
   disprove: 0
-  abstained: 49
-  absent: 3
-  total_voter: 556
+  abstained: 52
+  absent: 1
+  total_voter: 621
   special: 0
-  total_people: 556
+  total_people: 621
 - title: ร่าง พ.ร.บ. วิธีพิจารณาคดียาเสพติด (วาระ 1)
   is_active: true
   legal_title: ร่างพระราชบัญญัติวิธีพิจารณาคดียาเสพติด
@@ -958,32 +1090,14 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4228
   id: '34'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200901181549A3.pdf
-  passed: true
-  approve: 596
-  disprove: 0
-  abstained: 2
-  absent: 2
-  total_voter: 600
-  special: 0
-  total_people: 600
-- title: ร่าง พ.ร.บ. ประมวลกฎหมายยาเสพติด (วาระ 1)
-  is_active: true
-  legal_title: ร่างพระราชบัญญัติให้ใช้ประมวลกฎหมายยาเสพติด
-  meeting: ประชุมร่วมกันของรัฐสภา
-  vote_date: '2020-09-01'
-  description_th: null
-  meeting_id: '4228'
-  reference: >-
-    https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4228
-  id: '35'
-  document:
-    - title: ใบประมวลผลการลงมติ
-      link: >-
-        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200901181549A1.pdf
   passed: true
   approve: 577
   disprove: 0
@@ -992,6 +1106,32 @@
   total_voter: 583
   special: 0
   total_people: 583
+- title: ร่าง พ.ร.บ. ประมวลกฎหมายยาเสพติด (วาระ 1)
+  is_active: false
+  legal_title: ร่างพระราชบัญญัติให้ใช้ประมวลกฎหมายยาเสพติด
+  meeting: ประชุมร่วมกันของรัฐสภา
+  vote_date: '2020-09-01'
+  description_th: null
+  meeting_id: '4228'
+  reference: >-
+    https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4228
+  id: '35'
+  note: ผลผิด เห็นด้วย ขาด 1 เช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
+  document:
+    - title: ใบประมวลผลการลงมติ
+      link: >-
+        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20200901181549A1.pdf
+  passed: true
+  approve: 596
+  disprove: 0
+  abstained: 2
+  absent: 2
+  total_voter: 600
+  special: 0
+  total_people: 600
 - title: ร่าง พ.ร.บ. งบประมาณ 2564 (วาระ 3)
   is_active: true
   legal_title: ร่างพระราชบัญญัติงบประมาณรายจ่ายประจำปีงบประมาณ พ.ศ. 2564
@@ -1002,6 +1142,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4232
   id: '36'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -1024,6 +1168,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4237
   id: '37'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -1046,6 +1194,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4237
   id: '38'
+  note: ไม่มีรายชื่อคนที่ไม่เข้าร่วมประชุมในเอกสารสภา
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -1059,7 +1211,7 @@
   special: 0
   total_people: 303
 - title: แก้ รธน. ฉบับที่ 1 ตั้ง สสร. เสนอโดยเพื่อไทย (โหวต 7 ฉบับ) (วาระ 1)
-  is_active: true
+  is_active: false
   legal_title: "ร่างรัฐธรรมนูญแห่งราชอาณาจักรไทย แก้ไขเพิ่มเติม พุทธศักราช .... (แก้ไขเพิ่มเติมมาตรา ๒๕๖ และเพิ่มหมวด ๑๕/๑) ซึ่ง นายสมพงษ์\r\nอมรวิวัฒน์ กับคณะ เป็นผู้เสนอ"
   meeting: ประชุมร่วมกันของรัฐสภา
   vote_date: '2020-11-18'
@@ -1070,6 +1222,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4242
   id: '39'
+  note: OCR Error! ผลไม่ตรง กรอกมือใหม่
+  ocr: false
+  re_check: false
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -1083,7 +1239,7 @@
   special: 0
   total_people: 729
 - title: แก้ รธน. ฉบับที่ 2 ตั้ง สสร. เสนอโดยฝ่ายรัฐบาล (โหวต 7 ฉบับ) (วาระ 1)
-  is_active: true
+  is_active: false
   legal_title: "ร่างรัฐธรรมนูญแห่งราชอาณาจักรไทย แก้ไขเพิ่มเติม พุทธศักราช .... (แก้ไขเพิ่มเติมมาตรา ๒๕๖ และเพิ่มหมวด ๑๕/๑) ซึ่ง นายวิรัช\r\nรัตนเศรษฐ กับคณะ เป็นผู้เสนอ"
   meeting: ประชุมร่วมกันของรัฐสภา
   vote_date: '2020-11-18'
@@ -1094,6 +1250,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4242
   id: '40'
+  note: OCR Error! ผลไม่ตรง กรอกมือใหม่
+  ocr: false
+  re_check: false
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -1107,7 +1267,7 @@
   special: 0
   total_people: 729
 - title: แก้ รธน. ฉบับที่ 3 ยกเลิกอำนาจ ส.ว. ปฏิรูปประเทศ (โหวต 7 ฉบับ) (วาระ 1)
-  is_active: true
+  is_active: false
   legal_title: "ร่างรัฐธรรมนูญแห่งราชอาณาจักรไทย แก้ไขเพิ่มเติม พุทธศักราช .... (ยกเลิกมาตรา ๒๗๐ และมาตรา ๒๗๑) ซึ่ง นายสมพงษ์ อมรวิวัฒน์\r\nกับคณะ เป็นผู้เสนอ"
   meeting: ประชุมร่วมกันของรัฐสภา
   vote_date: '2020-11-18'
@@ -1118,6 +1278,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4242
   id: '41'
+  note: OCR Error! ผลไม่ตรง กรอกมือใหม่
+  ocr: false
+  re_check: false
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -1131,7 +1295,7 @@
   special: 0
   total_people: 728
 - title: แก้ รธน. ฉบับที่ 4 ยกเลิกอำนาจ ส.ว. เลือกนายกฯ (โหวต 7 ฉบับ) (วาระ 1)
-  is_active: true
+  is_active: false
   legal_title: "ร่างรัฐธรรมนูญแห่งราชอาณาจักรไทย แก้ไขเพิ่มเติม พุทธศักราช .... (แก้ไขเพิ่มเติมมาตรา ๑๕๙ และยกเลิกมาตรา ๒๗๒) ซึ่ง นายสมพงษ์\r\nอมรวิวัฒน์ กับคณะ เป็นผู้เสนอ"
   meeting: ประชุมร่วมกันของรัฐสภา
   vote_date: '2020-11-18'
@@ -1142,6 +1306,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4242
   id: '42'
+  note: OCR Error! ผลไม่ตรง กรอกมือใหม่
+  ocr: false
+  re_check: false
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -1166,6 +1334,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4242
   id: '43'
+  note: OCR Error! ผลไม่ตรง กรอกมือใหม่
+  ocr: false
+  re_check: false
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -1179,7 +1351,7 @@
   special: 0
   total_people: 729
 - title: แก้ รธน. ฉบับที่ 6 ใช้บัตรเลือกตั้ง 2 ใบ (โหวต 7 ฉบับ) (วาระ 1)
-  is_active: true
+  is_active: false
   legal_title: "ร่างรัฐธรรมนูญแห่งราชอาณาจักรไทย แก้ไขเพิ่มเติม พุทธศักราช .... (แก้ไขเพิ่มเติมมาตรา ๙๑ มาตรา ๙๒ และมาตรา ๙๔ และยกเลิก\r\nมาตรา ๙๓ มาตรา ๑๐๑ (๔) และมาตรา ๑๐๕ วรรคสาม) ซึ่ง นายสมพงษ์ อมรวิวัฒน์ กับคณะ เป็นผู้เสนอ"
   meeting: ประชุมร่วมกันของรัฐสภา
   vote_date: '2020-11-18'
@@ -1188,6 +1360,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4242
   id: '44'
+  note: OCR Error! ผลไม่ตรง กรอกมือใหม่
+  ocr: false
+  re_check: false
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -1203,7 +1379,7 @@
 - title: >-
     แก้ รธน. ฉบับที่ 7 ร่างประชาชน รื้อ สร้าง ร่าง รัฐธรรมนูญใหม่ (โหวต 7 ฉบับ)
     (วาระ 1)
-  is_active: true
+  is_active: false
   legal_title: "ร่างรัฐธรรมนูญแห่งราชอาณาจักรไทย แก้ไขเพิ่มเติม พุทธศักราช .... (ยกเลิกมาตรา ๖๕ มาตรา ๘๘ มาตรา ๒๐๓ มาตรา ๒๑๗\r\nมาตรา ๒๗๐ มาตรา ๒๗๒ มาตรา ๒๗๕ และมาตรา ๒๗๙ ยกเลิกหมวด ๑๖ แก้ไขเพิ่มเติมมาตรา ๑๔๒ มาตรา ๑๕๙ วรรคแรก มาตรา ๑๖๒ วรรคแรก\r\nมาตรา ๒๕๒ วรรคสอง มาตรา ๒๕๖ และมาตรา ๒๖๙ และเพิ่มหมวด ๑๗) ซึ่ง นายจอน อึ๊งภากรณ์ กับประชาชนผู้มีสิทธิเลือกตั้ง จ านวน ๙๘,๐๔๑ คน เป็นผู้เสนอ"
   meeting: ประชุมร่วมกันของรัฐสภา
   vote_date: '2020-11-18'
@@ -1231,6 +1407,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4242
   id: '45'
+  note: OCR Error! ผลไม่ตรง กรอกมือใหม่
+  ocr: false
+  re_check: false
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -1255,6 +1435,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4243
   id: '46'
+  note: ขาดข้อมูล ไม่เข้าร่วมประชุม เติมเพิ่ม
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -1265,8 +1449,8 @@
   abstained: 4
   absent: 2
   total_voter: 351
-  special: 0
-  total_people: 351
+  special: 137
+  total_people: 488
 - title: ร่าง พ.ร.บ. หอการค้า (วาระ 1)
   is_active: true
   legal_title: ร่างพระราชบัญญัติหอการค้า
@@ -1277,6 +1461,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4244
   id: '47'
+  note: ขาดข้อมูล ไม่เข้าร่วมประชุม เติมเพิ่ม
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -1287,8 +1475,8 @@
   abstained: 3
   absent: 3
   total_voter: 316
-  special: 0
-  total_people: 316
+  special: 171
+  total_people: 487
 - title: ร่าง พ.ร.บ. ปรับปรุงกระทรวง ทบวง กรม (วาระ 3)
   is_active: true
   legal_title: ร่างพระราชบัญญัติปรับปรุงกระทรวง ทบวง กรม
@@ -1299,6 +1487,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4245
   id: '48'
+  note: ขาดข้อมูล ไม่เข้าร่วมประชุม เติมเพิ่ม
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -1309,8 +1501,8 @@
   abstained: 52
   absent: 0
   total_voter: 578
-  special: 0
-  total_people: 578
+  special: 162
+  total_people: 740
 - title: ร่าง พ.ร.บ. ประชามติ (วาระ 1)
   is_active: true
   legal_title: ร่างพระราชบัญญัติว่าด้วยการออกเสียงประชามติ
@@ -1328,6 +1520,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4245
   id: '49'
+  note: ขาดข้อมูล ไม่เข้าร่วมประชุม เติมเพิ่ม
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -1338,8 +1534,8 @@
   abstained: 50
   absent: 0
   total_voter: 613
-  special: 0
-  total_people: 613
+  special: 125
+  total_people: 738
 - title: ร่าง พ.ร.บ. ยาเสพติดให้โทษ (วาระ 1)
   is_active: true
   legal_title: ร่างพระราชบัญญัติยาเสพติดให้โทษ
@@ -1359,6 +1555,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4248
   id: '50'
+  note: ขาดข้อมูล ไม่เข้าร่วมประชุม เติมเพิ่ม
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -1369,10 +1569,10 @@
   abstained: 4
   absent: 1
   total_voter: 338
-  special: 0
-  total_people: 338
+  special: 150
+  total_people: 488
 - title: ร่าง พ.ร.บ. ทำแท้งปลอดภัย (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติแก้ไขเพิ่มเติมประมวลกฎหมายอาญา
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2020-12-23'
@@ -1395,20 +1595,24 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4250
   id: '51'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20201223184059A9.pdf
   passed: true
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  approve: 287
+  disprove: 5
+  abstained: 16
+  absent: 1
+  total_voter: 309
+  special: 178
+  total_people: 487
 - title: ร่าง พ.ร.บ. จัดตั้งศาลปกครองและวิธีพิจารณาคดีปกครอง (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติจัดตั้งศาลปกครองและวิธีพิจารณาคดีปกครอง
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2020-12-23'
@@ -1417,18 +1621,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4250
   id: '52'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20201223151755A1.pdf
   passed: true
-  approve: 0
+  approve: 299
   disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  abstained: 2
+  absent: 5
+  total_voter: 306
+  special: 182
+  total_people: 488
 - title: ร่าง พ.ร.บ. อ้อยและน้ำตาลทราย (วาระ 1)
   is_active: false
   legal_title: ร่างพระราชบัญญัติอ้อยและน้ำตาลทราย
@@ -1439,10 +1647,13 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4250
   id: '53'
+  note: ลิงก์ในเว็บสภาผิด
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
-      link: >-
-        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20201223151755A1.pdf
+      link: ''
   passed: true
   approve: 0
   disprove: 0
@@ -1452,7 +1663,7 @@
   special: 0
   total_people: 0
 - title: ร่าง พ.ร.บ. ทำแท้งปลอดภัย (วาระ 3)
-  is_active: true
+  is_active: false
   legal_title: ร่างพระราชบัญญัติแก้ไขเพิ่มเติมประมวลกฎหมายอาญา
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-01-20'
@@ -1492,6 +1703,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4266
   id: '54'
+  note: ผลผิด เห็นด้วย ขาด 1 เช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -1514,20 +1729,24 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4266
   id: '55'
+  note: เห็นด้วย ขาด 1 เช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210120183829A7.pdf
   passed: true
-  approve: 0
+  approve: 337
   disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  abstained: 3
+  absent: 1
+  total_voter: 341
+  special: 145
+  total_people: 486
 - title: ร่าง พ.ร.บ. วัตถุอันตราย (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติวัตถุอันตราย
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-01-20'
@@ -1536,20 +1755,24 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4266
   id: '56'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210120183829A9.pdf
   passed: true
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  approve: 254
+  disprove: 71
+  abstained: 3
+  absent: 4
+  total_voter: 332
+  special: 155
+  total_people: 487
 - title: ร่าง พ.ร.บ.วิชาชีพการสัตวบาล (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: พระราชบัญญัติวิชาชีพการสัตวบาล
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-01-27'
@@ -1558,20 +1781,24 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4269
   id: '57'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210127172751A1.pdf
   passed: true
-  approve: 0
-  disprove: 0
+  approve: 327
+  disprove: 1
   abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  absent: 2
+  total_voter: 330
+  special: 157
+  total_people: 487
 - title: ร่าง พ.ร.บ. ควบคุมยุทธภัณฑ์ (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติควบคุมยุทธภัณฑ์
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-01-27'
@@ -1580,18 +1807,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4269
   id: '58'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210127153231A1.pdf
   passed: true
-  approve: 0
+  approve: 298
   disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  abstained: 1
+  absent: 2
+  total_voter: 301
+  special: 186
+  total_people: 487
 - title: ร่าง พ.ร.บ. ยาเสพติดให้โทษ (วาระ 3)
   is_active: false
   legal_title: ร่างพระราชบัญญัติยาเสพติดให้โทษ
@@ -1611,18 +1842,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4269
   id: '59'
+  note: เห็นด้วย ขาด 1 เช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210127140825A3.pdf
   passed: true
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  approve: 318
+  disprove: 7
+  abstained: 3
+  absent: 1
+  total_voter: 329
+  special: 157
+  total_people: 486
 - title: ร่าง พ.ร.บ.ลิขสิทธิ์ (วาระ 1)
   is_active: false
   legal_title: ร่างพระราชบัญญัติลิขสิทธิ์
@@ -1633,42 +1868,24 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4269
   id: '60'
+  note: เห็นด้วย ขาด 1 เช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210127141251A1.pdf
   passed: true
-  approve: 0
+  approve: 47
   disprove: 0
   abstained: 0
   absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
-- title: ร่าง พ.ร.บ. วิชาชีพการสัตวบาล (วาระ 1)
-  is_active: false
-  legal_title: ร่างพระราชบัญญัติวิชาชีพการสัตวบาล
-  meeting: ประชุมสภาผู้แทนราษฎร
-  vote_date: '2021-01-27'
-  description_th: null
-  meeting_id: '4269'
-  reference: >-
-    https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4269
-  id: '61'
-  document:
-    - title: ใบประมวลผลการลงมติ
-      link: >-
-        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210127172751A1.pdf
-  passed: true
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  total_voter: 47
+  special: 20
+  total_people: 67
 - title: ร่าง พ.ร.บ. การเข้าชื่อเสนอข้อบัญญัติท้องถิ่น (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติการเข้าชื่อเสนอข้อบัญญัติท้องถิ่น
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-02-03'
@@ -1677,6 +1894,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4272
   id: '62'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -1708,18 +1929,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4275
   id: '63'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210209154329A1.pdf
   passed: true
-  approve: 363
-  disprove: 315
+  approve: 366
+  disprove: 316
   abstained: 15
   absent: 0
-  total_voter: 693
-  special: 0
-  total_people: 693
+  total_voter: 697
+  special: 40
+  total_people: 737
 - title: >-
     ร่าง พ.ร.บ. การเข้าชื่อเพื่อถอดถอนสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น
     (วาระ 1)
@@ -1733,6 +1958,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4276
   id: '64'
+  note: ผลผิด รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -1755,6 +1984,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4276
   id: '65'
+  note: OCR ERROR! กรอกมือ
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -1777,6 +2010,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4276
   id: '66'
+  note: ผลผิด รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -1810,6 +2047,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4279
   id: '67'
+  note: ผลผิด รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -1840,6 +2081,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4279
   id: '68'
+  note: ผลผิด รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -1872,6 +2117,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4279
   id: '69'
+  note: ผลผิด รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -1904,6 +2153,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4279
   id: '70'
+  note: OCR ERROR! กรอกมือ
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -1935,6 +2188,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4279
   id: '71'
+  note: ผลผิด รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -1966,6 +2223,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4279
   id: '72'
+  note: ผลผิด รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -1998,6 +2259,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4279
   id: '73'
+  note: ผลผิด รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -2028,6 +2293,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4279
   id: '74'
+  note: ผลผิด รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -2057,6 +2326,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4279
   id: '75'
+  note: ผลผิด รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -2089,6 +2362,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4279
   id: '76'
+  note: ผลผิด รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -2111,6 +2388,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4280
   id: '77'
+  note: OCR ERROR! กรอกมือ
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -2138,10 +2419,14 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4298
   id: '78'
+  note: OCR ERROR! กรอกมือ
+  ocr: false
+  re_check: false
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
-        http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210319113904A3.pdff
+        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210319113904A3.pdf
   passed: false
   approve: 0
   disprove: 0
@@ -2151,7 +2436,7 @@
   special: 0
   total_people: 0
 - title: ร่าง พ.ร.บ. เข้าชื่อเสนอกฎหมาย (วาระ 3)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติการเข้าชื่อเสนอกฎหมาย
   meeting: ประชุมร่วมกันของรัฐสภา
   vote_date: '2021-03-18'
@@ -2160,20 +2445,24 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4299
   id: '79'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210324105418A31.pdf
   passed: true
-  approve: 0
+  approve: 518
   disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  abstained: 1
+  absent: 3
+  total_voter: 522
+  special: 215
+  total_people: 737
 - title: อนุมัติ พ.ร.ก. ให้ความช่วยเหลือและฟื้นฟูผู้ประกอบธุรกิจจากโควิด-19
-  is_active: false
+  is_active: true
   legal_title: >-
     พระราชกำหนดการให้ความช่วยเหลือและฟื้นฟูผู้ประกอบธุรกิจที่ได้รับผลกระทบจากการระบาดของโรคติดเชื้อไวรัสโคโรนา
     2019 พ.ศ. 2564
@@ -2184,18 +2473,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4317
   id: '80'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210611090246A5.pdf
   passed: true
-  approve: 0
-  disprove: 0
-  abstained: 0
+  approve: 331
+  disprove: 1
+  abstained: 58
   absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  total_voter: 390
+  special: 92
+  total_people: 482
 - title: อนุมัติ พ.ร.ก. แก้ไขเพิ่มเติมประมวลกฎหมายแพ่งและพาณิชย์ พ.ศ. 2564
   is_active: false
   legal_title: พระราชกำหนดแก้ไขเพิ่มเติมประมวลกฎหมายแพ่งและพาณิชย์ พ.ศ. 2564
@@ -2206,11 +2499,15 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4317
   id: '81'
+  note: ผลผิด รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210611090246A2.pdf
-  passed: null
+  passed: true
   approve: 0
   disprove: 0
   abstained: 0
@@ -2219,7 +2516,7 @@
   special: 0
   total_people: 0
 - title: ร่าง พ.ร.บ. งบประมาณ 2565 (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติงบประมาณรายจ่ายประจำปีงบประมาณ พ.ศ. 2565
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-06-02'
@@ -2228,18 +2525,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4318
   id: '82'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210611090400A2.pdf
-  passed: null
-  approve: 0
-  disprove: 0
-  abstained: 0
+  passed: true
+  approve: 269
+  disprove: 201
+  abstained: 2
   absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  total_voter: 472
+  special: 11
+  total_people: 483
 - title: โหวตพ.ร.ก.เงินกู้ เพิ่มเติม 2564
   is_active: true
   legal_title: >-
@@ -2257,6 +2558,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4319
   id: '83'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -2269,32 +2574,8 @@
   total_voter: 469
   special: 0
   total_people: 469
-- title: อนุมัติ พ.ร.ก. ให้อำนาจกระทรวงการคลังกู้เงินเยียวยาโควิด-19
-  is_active: false
-  legal_title: >-
-    พระราชกำหนดให้อำนาจกระทรวงการคลังกู้เงินเพื่อแก้ไขปัญหาเยียวยาและฟื้นฟูเศรษฐกิจและสังคมที่ได้รับผลกระทบจากการระบาดของโรคติดเชื้อไวรัสโคโรนา
-    2019 พ.ศ. 2564
-  meeting: ประชุมสภาผู้แทนราษฎร
-  vote_date: '2021-06-10'
-  description_th: null
-  meeting_id: '4319'
-  reference: >-
-    https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4319
-  id: '84'
-  document:
-    - title: ใบประมวลผลการลงมติ
-      link: >-
-        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210611090447A2.pdf
-  passed: null
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
 - title: ร่าง พ.ร.บ. แก้ไขเพิ่มเติมประมวลรัษฎากร (วาระ 3)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติแก้ไขเพิ่มเติมประมวลรัษฎากร
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-06-16'
@@ -2303,20 +2584,24 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4321
   id: '85'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210617103416A2.pdf
-  passed: null
-  approve: 0
+  passed: true
+  approve: 322
   disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  abstained: 1
+  absent: 4
+  total_voter: 327
+  special: 156
+  total_people: 483
 - title: ร่าง พ.ร.บ. จราจรทางบก (วาระ 3)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติจราจรทางบก
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-06-16'
@@ -2325,20 +2610,24 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4321
   id: '86'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210617103417A41.pdf
-  passed: null
-  approve: 0
+  passed: true
+  approve: 315
   disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  abstained: 1
+  absent: 3
+  total_voter: 319
+  special: 164
+  total_people: 483
 - title: ร่าง พ.ร.บ. หอการค้า (วาระ 3)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติหอการค้า
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-06-16'
@@ -2347,18 +2636,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4321
   id: '87'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210617103417A62.pdf
-  passed: null
-  approve: 0
+  passed: true
+  approve: 312
   disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  abstained: 2
+  absent: 3
+  total_voter: 317
+  special: 166
+  total_people: 483
 - title: ร่าง พ.ร.บ. ประชามติ (วาระ 3)
   is_active: true
   legal_title: ร่างพระราชบัญญัติว่าด้วยการออกเสียงประชามติ
@@ -2406,6 +2699,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4323
   id: '88'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -2449,6 +2746,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4325
   id: '89'
+  note: null
+  ocr: false
+  re_check: true
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -2507,6 +2808,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4325
   id: '90'
+  note: null
+  ocr: false
+  re_check: true
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -2535,6 +2840,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4325
   id: '91'
+  note: null
+  ocr: false
+  re_check: true
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -2567,6 +2876,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4325
   id: '92'
+  note: null
+  ocr: false
+  re_check: true
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -2600,6 +2913,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4325
   id: '93'
+  note: null
+  ocr: false
+  re_check: true
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -2630,6 +2947,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4325
   id: '94'
+  note: null
+  ocr: false
+  re_check: true
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -2660,6 +2981,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4325
   id: '95'
+  note: null
+  ocr: false
+  re_check: true
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -2699,6 +3024,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4325
   id: '96'
+  note: null
+  ocr: false
+  re_check: true
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -2731,6 +3060,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4325
   id: '97'
+  note: null
+  ocr: false
+  re_check: true
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -2765,6 +3098,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4325
   id: '98'
+  note: null
+  ocr: false
+  re_check: true
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -2798,6 +3135,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4325
   id: '99'
+  note: null
+  ocr: false
+  re_check: true
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -2847,6 +3188,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4325
   id: '100'
+  note: null
+  ocr: false
+  re_check: true
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -2877,6 +3222,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4325
   id: '101'
+  note: null
+  ocr: false
+  re_check: true
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -2890,7 +3239,7 @@
   special: 0
   total_people: 706
 - title: ร่าง พ.ร.บ. แก้ไขเพิ่มเติมประมวลกฎหมายแพ่งและพาณิชย์ (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติแก้ไขเพิ่มเติมประมวลกฎหมายแพ่งและพาณิชย์
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-07-07'
@@ -2899,20 +3248,24 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4328
   id: '102'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210707145318A5.pdf
-  passed: null
-  approve: 0
+  passed: true
+  approve: 256
   disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  abstained: 4
+  absent: 2
+  total_voter: 262
+  special: 221
+  total_people: 483
 - title: ร่าง พ.ร.บ. คุ้มครองพยานในคดีอาญา (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติคุ้มครองพยานในคดีอาญา
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-07-07'
@@ -2926,20 +3279,24 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4328
   id: '103'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210707145318A2.pdf
   passed: true
-  approve: 1
+  approve: 303
   disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 1
-  special: 0
-  total_people: 1
+  abstained: 1
+  absent: 2
+  total_voter: 306
+  special: 177
+  total_people: 483
 - title: ร่าง พ.ร.บ.พืชกระท่อม (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติพืชกระท่อม
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-07-07'
@@ -2954,20 +3311,24 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4328
   id: '104'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210707164847A11.pdf
   passed: true
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  approve: 256
+  disprove: 18
+  abstained: 2
+  absent: 1
+  total_voter: 277
+  special: 206
+  total_people: 483
 - title: ร่าง พ.ร.บ. งบประมาณ 2565 (วาระ 3)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติงบประมาณรายจ่ายประจำปีงบประมาณ พ.ศ. 2565
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-08-21'
@@ -2976,20 +3337,24 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4333
   id: '105'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210823101340A47.pdf
-  passed: null
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  passed: true
+  approve: 257
+  disprove: 189
+  abstained: 4
+  absent: 1
+  total_voter: 451
+  special: 31
+  total_people: 482
 - title: ร่าง พ.ร.บ. วิธีพิจารณาคดียาเสพติด (วาระ 3)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติวิธีพิจารณาคดียาเสพติด
   meeting: ประชุมร่วมกันของรัฐสภา
   vote_date: '2021-08-24'
@@ -2998,20 +3363,24 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4334
   id: '106'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210824165846A57.pdf
-  passed: null
-  approve: 0
+  passed: true
+  approve: 473
   disprove: 0
   abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  absent: 3
+  total_voter: 476
+  special: 256
+  total_people: 732
 - title: ร่าง พ.ร.บ. ประมวลกฎหมายยาเสพติด (วาระ 3)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติให้ใช้ประมวลกฎหมายยาเสพติด
   meeting: ประชุมร่วมกันของรัฐสภา
   vote_date: '2021-08-24'
@@ -3020,20 +3389,24 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4334
   id: '107'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
-        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210824165846A57.pdf
-  passed: null
-  approve: 0
+        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210824165846A38.pdf
+  passed: true
+  approve: 467
   disprove: 0
-  abstained: 0
+  abstained: 2
   absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  total_voter: 469
+  special: 263
+  total_people: 732
 - title: อภิปรายไม่ไว้วางใจ พลเอก ประยุทธ์ จันทรโอชา (ก.ย. 64)
-  is_active: false
+  is_active: true
   legal_title: >-
     ขอเปิดอภิปรายทั่วไปเพื่อลงมติไม่ไว้วางใจรัฐมนตรีเป็นรายบุคคลพลเอก ประยุทธ์
     จันทร์โอชา นายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงกลาโหม (ก.ย. 64)
@@ -3049,6 +3422,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4338
   id: '108'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -3062,7 +3439,7 @@
   special: 0
   total_people: 475
 - title: อภิปรายไม่ไว้วางใจ อนุทิน ชาญวีรกูล (ก.ย. 64)
-  is_active: false
+  is_active: true
   legal_title: >-
     ขอเปิดอภิปรายทั่วไปเพื่อลงมติไม่ไว้วางใจรัฐมนตรีเป็นรายบุคคลนายอนุทิน
     ชาญวีรกูล รองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงสาธารณสุข
@@ -3077,18 +3454,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4338
   id: '109'
+  note: ''
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210904112822A5.pdf
   passed: false
-  approve: 195
-  disprove: 260
+  approve: 196
+  disprove: 269
   abstained: 11
-  absent: 6
-  total_voter: 472
-  special: 0
-  total_people: 472
+  absent: 0
+  total_voter: 476
+  special: 6
+  total_people: 482
 - title: อภิปรายไม่ไว้วางใจ สุชาติ ชมกลิ่น (ก.ย. 64)
   is_active: false
   legal_title: >-
@@ -3105,6 +3486,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4338
   id: '110'
+  note: ผลผิด รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -3118,7 +3503,7 @@
   special: 0
   total_people: 471
 - title: อภิปรายไม่ไว้วางใจ ศักดิ์สยาม ชิดชอบ (ก.ย. 64)
-  is_active: false
+  is_active: true
   legal_title: >-
     ขอเปิดอภิปรายทั่วไปเพื่อลงมติไม่ไว้วางใจรัฐมนตรีเป็นรายบุคคลนายศักดิ์สยาม
     ชิดชอบ รัฐมนตรีว่าการกระทรวงคมนาคม
@@ -3134,6 +3519,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4338
   id: '111'
+  note: ''
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -3144,10 +3533,10 @@
   abstained: 10
   absent: 1
   total_voter: 475
-  special: 0
-  total_people: 475
+  special: 7
+  total_people: 482
 - title: อภิปรายไม่ไว้วางใจ เฉลิมชัย ศรีอ่อน (ก.ย. 64)
-  is_active: false
+  is_active: true
   legal_title: >-
     ขอเปิดอภิปรายทั่วไปเพื่อลงมติไม่ไว้วางใจรัฐมนตรีเป็นรายบุคคลนายเฉลิมชัย
     ศรีอ่อน รัฐมนตรีว่าการกระทรวงเกษตรและสหกรณ์
@@ -3162,6 +3551,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4338
   id: '112'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -3172,8 +3565,8 @@
   abstained: 8
   absent: 1
   total_voter: 478
-  special: 0
-  total_people: 478
+  special: 4
+  total_people: 482
 - title: อภิปรายไม่ไว้วางใจ ชัยวุฒิ ธนาคมมานุสรณ์ (ก.ย. 64)
   is_active: false
   legal_title: >-
@@ -3189,10 +3582,14 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4338
   id: '113'
+  note: ผลผิด รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
-        http://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210904111929A16.pdf
+        https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210904111929A17.pdf
   passed: false
   approve: 200
   disprove: 258
@@ -3211,11 +3608,15 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4339
   id: '114'
+  note: OCR Error! กรอกมือ
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211214145041A9.pdf
-  passed: null
+  passed: true
   approve: 0
   disprove: 0
   abstained: 0
@@ -3224,7 +3625,7 @@
   special: 0
   total_people: 0
 - title: ร่าง พ.ร.บ.การประกอบธุรกิจข้อมูลเครดิต (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติการประกอบธุรกิจข้อมูลเครดิต
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-09-08'
@@ -3233,18 +3634,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4339
   id: '115'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211214145042A14.pdf
-  passed: null
-  approve: 0
+  passed: true
+  approve: 271
   disprove: 0
   abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  absent: 5
+  total_voter: 276
+  special: 204
+  total_people: 480
 - title: ร่าง พ.ร.บ.พืชกระท่อม (วาระ 3)
   is_active: true
   legal_title: ร่างพระราชบัญญัติพืชกระท่อม
@@ -3261,6 +3666,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4339
   id: '116'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -3288,6 +3697,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4342
   id: '117'
+  note: ผลผิด รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -3310,6 +3723,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4343
   id: '118'
+  note: OCR Error! กรอกมือ
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -3332,11 +3749,15 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4344
   id: '119'
+  note: ผลผิด รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20210917114544A20.pdf
-  passed: null
+  passed: true
   approve: 0
   disprove: 0
   abstained: 0
@@ -3357,6 +3778,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4345
   id: '120'
+  note: OCR Error! กรอกมือ
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -3370,7 +3795,7 @@
   special: 0
   total_people: 281
 - title: ร่าง พ.ร.บ. การศึกษาแห่งชาติ (วาระ 1)
-  is_active: true
+  is_active: false
   legal_title: ร่างพระราชบัญญัติการศึกษาแห่งชาติ
   meeting: ประชุมร่วมกันของรัฐสภา
   vote_date: '2021-11-09'
@@ -3384,6 +3809,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4348
   id: '121'
+  note: ผลผิด รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -3411,6 +3840,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4348
   id: '122'
+  note: ผลผิด รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -3438,6 +3871,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4349
   id: '123'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -3451,7 +3888,7 @@
   special: 0
   total_people: 290
 - title: ร่าง พ.ร.บ.จัดตั้งศาลทรัพย์สินทางปัญญาและการค้าระหว่างประเทศ (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: >-
     ร่างพระราชบัญญัติจัดตั้งศาลทรัพย์สินทางปัญญาและการค้าระหว่างประเทศและวิธีพิจารณาคดีทรัพย์สินทางปัญญาและการค้าระหว่างประเทศ
   meeting: ประชุมสภาผู้แทนราษฎร
@@ -3461,20 +3898,24 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4349
   id: '124'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211110162647A27.pdf
-  passed: null
-  approve: 0
+  passed: true
+  approve: 292
   disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  abstained: 1
+  absent: 5
+  total_voter: 298
+  special: 177
+  total_people: 475
 - title: ร่าง พ.ร.บ.จัดตั้งศาลแรงงานและวิธีพิจารณาคดีแรงงาน (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติจัดตั้งศาลแรงงานและวิธีพิจารณาคดีแรงงาน
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-11-10'
@@ -3483,22 +3924,26 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4349
   id: '125'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211110162647A24.pdf
-  passed: null
-  approve: 0
+  passed: true
+  approve: 290
   disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  abstained: 1
+  absent: 2
+  total_voter: 293
+  special: 182
+  total_people: 475
 - title: >-
     ร่าง พ.ร.บ.ยกเลิกกฎหมายบางฉบับที่หมดความจำเป็นหรือซ้ำซ้อนกับกฎหมายอื่น (วาระ
     1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติยกเลิกกฎหมายบางฉบับที่หมดความจำเป็นหรือซ้ำซ้อนกับกฎหมายอื่น
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-11-10'
@@ -3507,20 +3952,24 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4349
   id: '126'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211110174428A30.pdf
-  passed: null
-  approve: 0
+  passed: true
+  approve: 306
   disprove: 0
-  abstained: 0
+  abstained: 2
   absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  total_voter: 308
+  special: 167
+  total_people: 475
 - title: ร่าง พ.ร.บ.ระเบียบข้าราชการฝ่ายตุลาการศาลยุติธรรม (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติระเบียบข้าราชการฝ่ายตุลาการศาลยุติธรรม
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-11-10'
@@ -3529,18 +3978,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4349
   id: '127'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211110154758A18.pdf
-  passed: null
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  passed: true
+  approve: 295
+  disprove: 1
+  abstained: 1
+  absent: 4
+  total_voter: 301
+  special: 174
+  total_people: 475
 - title: ร่าง พ.ร.บ.ศาลเยาวชนและครอบครัวและวิธีพิจารณาคดีเยาวชนและครอบครัว (วาระ 1)
   is_active: false
   legal_title: ร่างพระราชบัญญัติศาลเยาวชนและครอบครัวและวิธีพิจารณาคดีเยาวชนและครอบครัว
@@ -3551,6 +4004,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4349
   id: '128'
+  note: ผลผิด รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -3580,6 +4037,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4353
   id: '129'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -3611,6 +4072,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4352
   id: '130'
+  note: ผลผิด รีเช็คอีกรอบ
+  ocr: false
+  re_check: false
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -3624,7 +4089,7 @@
   special: 0
   total_people: 620
 - title: ร่าง พ.ร.บ.เครื่องสำอาง (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติเครื่องสำอาง
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-11-24'
@@ -3633,20 +4098,24 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4356
   id: '131'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211125135527A7.pdf
-  passed: null
-  approve: 0
+  passed: true
+  approve: 319
   disprove: 0
-  abstained: 0
+  abstained: 1
   absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  total_voter: 320
+  special: 155
+  total_people: 475
 - title: ร่าง พ.ร.บ.บริษัทมหาชนจำกัด (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติบริษัทมหาชนจำกัด
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-11-24'
@@ -3655,20 +4124,24 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4356
   id: '132'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211125135527A13.pdf
-  passed: null
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  passed: true
+  approve: 291
+  disprove: 1
+  abstained: 1
+  absent: 2
+  total_voter: 295
+  special: 180
+  total_people: 475
 - title: ร่าง พ.ร.บ. อาหาร (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติอาหาร
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-11-24'
@@ -3677,20 +4150,24 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4356
   id: '133'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211125135527A10.pdf
-  passed: null
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  passed: true
+  approve: 312
+  disprove: 1
+  abstained: 1
+  absent: 1
+  total_voter: 315
+  special: 160
+  total_people: 475
 - title: ร่าง พ.ร.บ.การเดินเรือในน่านน้ำไทย (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติการเดินเรือในน่านน้ำไทย
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-12-08'
@@ -3699,20 +4176,24 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4361
   id: '134'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211208144649A2.pdf
-  passed: null
-  approve: 0
+  passed: true
+  approve: 312
   disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  abstained: 2
+  absent: 1
+  total_voter: 315
+  special: 160
+  total_people: 475
 - title: ร่าง พ.ร.บ. วิธีการงบประมาณ (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติวิธีการงบประมาณ
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-12-08'
@@ -3721,20 +4202,24 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4361
   id: '135'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211208161741A2.pdf
   passed: null
-  approve: 0
-  disprove: 0
-  abstained: 0
+  approve: 62
+  disprove: 235
+  abstained: 23
   absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  total_voter: 320
+  special: 155
+  total_people: 475
 - title: ร่าง พ.ร.บ. สหกรณ์ (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติสหกรณ์
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-12-08'
@@ -3743,18 +4228,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4361
   id: '136'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211208144758A2.pdf
   passed: null
-  approve: 0
-  disprove: 0
-  abstained: 0
+  approve: 86
+  disprove: 235
+  abstained: 1
   absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  total_voter: 322
+  special: 153
+  total_people: 475
 - title: ร่าง พ.ร.บ. ปลดอาวุธ คสช. (ฉบับประชาชน)
   is_active: true
   legal_title: >-
@@ -3791,6 +4280,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4363
   id: '137'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -3820,6 +4313,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4363
   id: '138'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -3833,7 +4330,7 @@
   special: 0
   total_people: 392
 - title: ร่าง พ.ร.บ. ปฏิบัติราชการทางอิเล็กทรอนิกส์ (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติการปฏิบัติราชการทางอิเล็กทรอนิกส์
   meeting: ประชุมร่วมกันของรัฐสภา
   vote_date: '2021-12-21'
@@ -3852,18 +4349,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4367
   id: '139'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211221171357A11.pdf
   passed: true
-  approve: 0
+  approve: 537
   disprove: 0
-  abstained: 0
+  abstained: 1
   absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  total_voter: 538
+  special: 186
+  total_people: 724
 - title: ร่าง พ.ร.บ.กองทุนบำเหน็จบำนาญข้าราชการ (วาระ 1)
   is_active: false
   legal_title: ร่างพระราชบัญญัติกองทุนบำเหน็จบำนาญข้าราชการ
@@ -3874,11 +4375,15 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4369
   id: '140'
+  note: ผลผิด เห็นด้วย ขาด 1 รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211222151600A33.pdf
-  passed: null
+  passed: true
   approve: 0
   disprove: 0
   abstained: 0
@@ -3901,11 +4406,15 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4369
   id: '141'
+  note: ผลผิด รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211222180529A39.pdf
-  passed: null
+  passed: true
   approve: 0
   disprove: 0
   abstained: 0
@@ -3923,11 +4432,15 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4369
   id: '142'
+  note: ผลผิด เห็นด้วย ขาด 2 รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211222142453A28.pdf
-  passed: null
+  passed: true
   approve: 0
   disprove: 0
   abstained: 0
@@ -3936,7 +4449,7 @@
   special: 0
   total_people: 0
 - title: ร่าง พ.ร.บ.เครื่องราชอิสริยาภรณ์จุลจอมเกล้า (วาระ 3)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติเครื่องราชอิสริยาภรณ์จุลจอมเกล้า
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-12-22'
@@ -3945,18 +4458,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4369
   id: '143'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211222142453A30.pdf
-  passed: null
-  approve: 0
+  passed: true
+  approve: 328
   disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  abstained: 1
+  absent: 2
+  total_voter: 331
+  special: 145
+  total_people: 476
 - title: ร่าง พ.ร.บ.จัดตั้งศาลทรัพย์สินทางปัญญาและการค้าระหว่างประเทศ (วาระ 3)
   is_active: false
   legal_title: >-
@@ -3968,11 +4485,15 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4369
   id: '144'
+  note: ผลผิด รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211222142453A23.pdf
-  passed: null
+  passed: true
   approve: 0
   disprove: 0
   abstained: 0
@@ -3981,7 +4502,7 @@
   special: 0
   total_people: 0
 - title: ร่าง พ.ร.บ.จัดตั้งศาลแรงงานและวิธีพิจารณาคดีแรงงาน (วาระ 3)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติจัดตั้งศาลแรงงานและวิธีพิจารณาคดีแรงงาน
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-12-22'
@@ -3990,18 +4511,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4369
   id: '145'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211222123059A16.pdf
-  passed: null
-  approve: 0
+  passed: true
+  approve: 342
   disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  abstained: 1
+  absent: 1
+  total_voter: 344
+  special: 132
+  total_people: 476
 - title: (ถอน) ร่าง พ.ร.บ. ยาเสพติดให้โทษ
   is_active: false
   legal_title: ร่างพระราชบัญญัติยาเสพติดให้โทษ
@@ -4012,11 +4537,15 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4369
   id: '146'
+  note: OCR Error! กรอกมือ
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211222180529A42.pdf
-  passed: null
+  passed: true
   approve: 0
   disprove: 0
   abstained: 0
@@ -4025,7 +4554,7 @@
   special: 0
   total_people: 0
 - title: ร่าง พ.ร.บ.ระเบียบข้าราชการฝ่ายตุลาการศาลยุติธรรม (วาระ 3)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติระเบียบข้าราชการฝ่ายตุลาการศาลยุติธรรม
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-12-22'
@@ -4034,20 +4563,24 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4369
   id: '147'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211222121612A2.pdf
-  passed: null
-  approve: 0
+  passed: true
+  approve: 306
   disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  abstained: 2
+  absent: 2
+  total_voter: 310
+  special: 166
+  total_people: 476
 - title: ร่าง พ.ร.บ.ศาลเยาวชนและครอบครัวและวิธีพิจารณาคดีเยาวชนและครอบครัว (วาระ 3)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติศาลเยาวชนและครอบครัวและวิธีพิจารณาคดีเยาวชนและครอบครัว
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-12-22'
@@ -4056,18 +4589,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4369
   id: '148'
+  note: null
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211222121612A9.pdf
-  passed: null
-  approve: 0
+  passed: true
+  approve: 323
   disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  abstained: 1
+  absent: 2
+  total_voter: 326
+  special: 150
+  total_people: 476
 - title: ร่าง พ.ร.บ. ควบคุมยุทธภัณฑ์ (วาระ 3)
   is_active: false
   legal_title: ร่างพระราชบัญญัติควบคุมยุทธภัณฑ์
@@ -4078,22 +4615,26 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4371
   id: '149'
+  note: ผลผิด เห็นด้วย ขาด 1 รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220119122646A9.pdf
-  passed: null
-  approve: 0
+  passed: true
+  approve: 306
   disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  abstained: 1
+  absent: 4
+  total_voter: 311
+  special: 161
+  total_people: 472
 - title: >-
     ร่าง พ.ร.บ.ยกเลิกกฎหมายบางฉบับที่หมดความจำเป็นหรือซ้ำซ้อนกับกฎหมายอื่น (วาระ
     3)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติยกเลิกกฎหมายบางฉบับที่หมดความจำเป็นหรือซ้ำซ้อนกับกฎหมายอื่น
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2022-01-19'
@@ -4102,18 +4643,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4371
   id: '150'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220119115555A4.pdf
-  passed: null
-  approve: 0
+  passed: true
+  approve: 311
   disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  abstained: 1
+  absent: 1
+  total_voter: 313
+  special: 160
+  total_people: 473
 - title: อนุมัติ พ.ร.ก. แก้ไขเพิ่มเติมพระราชบัญญัติควบคุมการใช้สารต้องห้ามทางการกีฬา
   is_active: false
   legal_title: >-
@@ -4126,20 +4671,24 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4371
   id: '151'
+  note: ผลผิด ไม่เห็นด้วย ขาด 1
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220119181719A0.pdf
-  passed: null
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  passed: true
+  approve: 230
+  disprove: 117
+  abstained: 3
+  absent: 2
+  total_voter: 352
+  special: 120
+  total_people: 472
 - title: อนุมัติ พ.ร.ก. พิกัดอัตราศุลกากร
-  is_active: false
+  is_active: true
   legal_title: พระราชกำหนดพิกัดอัตราศุลกากร
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2022-01-19'
@@ -4148,18 +4697,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4371
   id: '152'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220119145547A14.pdf
-  passed: null
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  passed: true
+  approve: 231
+  disprove: 112
+  abstained: 1
+  absent: 2
+  total_voter: 346
+  special: 127
+  total_people: 473
 - title: ร่าง พ.ร.บ.การประกอบธุรกิจข้อมูลเครดิต (วาระ 3)
   is_active: false
   legal_title: ร่างพระราชบัญญัติการประกอบธุรกิจข้อมูลเครดิต
@@ -4170,20 +4723,24 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4374
   id: '153'
+  note: ผลผิด เห็นด้วยขาด 2 รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220126142534A9.pdf
-  passed: null
-  approve: 0
+  passed: true
+  approve: 309
   disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  abstained: 1
+  absent: 3
+  total_voter: 313
+  special: 160
+  total_people: 473
 - title: ร่าง พ.ร.บ.บริษัทมหาชนจำกัด (วาระ 3)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติบริษัทมหาชนจำกัด
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2022-01-26'
@@ -4192,18 +4749,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4374
   id: '154'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220126150506A20.pdf
-  passed: null
-  approve: 0
+  passed: true
+  approve: 296
   disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  abstained: 3
+  absent: 2
+  total_voter: 301
+  special: 173
+  total_people: 474
 - title: ร่าง พ.ร.บ. กยศ. (วาระ 1)
   is_active: true
   legal_title: ร่างพระราชบัญญัติกองทุนเงินให้กู้ยืมเพื่อการศึกษา
@@ -4217,6 +4778,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4374
   id: '155'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -4242,6 +4807,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4376
   id: '156'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -4267,6 +4836,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4376
   id: '157'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -4296,6 +4869,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4376
   id: '158'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -4325,6 +4902,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4378
   id: '159'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -4338,7 +4919,7 @@
   special: 0
   total_people: 318
 - title: ร่าง พ.ร.บ. เวลาดำเนินงานในกระบวนการยุติธรรม (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติกำหนดระยะเวลาดำเนินงานในกระบวนการยุติธรรม
   meeting: ประชุมร่วมกันของรัฐสภา
   vote_date: '2022-02-08'
@@ -4347,18 +4928,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4381
   id: '160'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220208165529A2.pdf
-  passed: null
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  passed: true
+  approve: 607
+  disprove: 1
+  abstained: 1
+  absent: 3
+  total_voter: 612
+  special: 110
+  total_people: 722
 - title: ร่าง พ.ร.บ. การปรับเป็นพินัย (วาระ 1)
   is_active: false
   legal_title: ร่างพระราชบัญญัติว่าด้วยการปรับเป็นพินัย พ.ศ. …. (วาระที่ 1)
@@ -4369,18 +4954,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4381
   id: '161'
+  note: ผลผิด เห็นด้วยเกิน
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220208171721A5.pdf
   passed: true
-  approve: 0
+  approve: 544
   disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  abstained: 3
+  absent: 3
+  total_voter: 550
+  special: 175
+  total_people: 725
 - title: ร่าง พ.ร.บ. สมรสเท่าเทียม (ส่งไป ครม.)
   is_active: true
   legal_title: ร่างพระราชบัญญัติแก้ไขเพิ่มเติมประมวลกฎหมายแพ่งและพาณิชย์
@@ -4396,6 +4985,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4379
   id: '162'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -4424,6 +5017,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4379
   id: '163'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -4451,6 +5048,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4379
   id: '164'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -4481,6 +5082,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4379
   id: '165'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -4494,7 +5099,7 @@
   special: 0
   total_people: 395
 - title: ร่าง พ.ร.บ. แก้ไขเพิ่มเติมประมวลกฎหมายวิธีพิจารณาความอาญา (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติแก้ไขเพิ่มเติมประมวลกฎหมายวิธีพิจารณาความอาญา
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2022-02-09'
@@ -4508,18 +5113,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4379
   id: '166'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220209121641A2.pdf
-  passed: true
-  approve: 0
-  disprove: 0
-  abstained: 0
+  passed: false
+  approve: 145
+  disprove: 230
+  abstained: 6
   absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  total_voter: 381
+  special: 93
+  total_people: 474
 - title: ร่าง พ.ร.บ. อนุญาโตตุลาการ (วาระ 1)
   is_active: false
   legal_title: ร่างพระราชบัญญัติอนุญาโตตุลาการ
@@ -4535,18 +5144,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4379
   id: '167'
+  note: ผลผิด ไม่เห็นด้วยขาด รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220209135647A5.pdf
-  passed: true
-  approve: 0
-  disprove: 0
-  abstained: 0
+  passed: false
+  approve: 6
+  disprove: 374
+  abstained: 11
   absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  total_voter: 391
+  special: 82
+  total_people: 473
 - title: ร่าง พ.ร.บ. อุ้มหาย (วาระ 3)
   is_active: true
   legal_title: ร่างพระราชบัญญัติป้องกันและปราบปรามการทรมานและการกระทำให้บุคคลสูญหาย
@@ -4566,6 +5179,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4384
   id: '168'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -4579,7 +5196,7 @@
   special: 112
   total_people: 474
 - title: ร่าง พ.ร.บ. ป้องกันการกระทำความผิดซ้ำเกี่ยวกับเพศหรือความรุนแรง (วาระ 3)
-  is_active: false
+  is_active: true
   legal_title: >-
     ร่างพระราชบัญญัติมาตรการป้องกันการกระทำความผิดซ้ำในความผิดเกี่ยวกับเพศหรือที่ใช้ความรุนแรง
   meeting: ประชุมสภาผู้แทนราษฎร
@@ -4589,22 +5206,26 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4384
   id: '169'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220224091420A119.pdf
-  passed: null
-  approve: 0
+  passed: true
+  approve: 320
   disprove: 0
   abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  absent: 2
+  total_voter: 322
+  special: 152
+  total_people: 474
 - title: >-
     ร่าง พ.ร.บ.ประกอบรัฐธรรมนูญว่าด้วยการเลือกตั้งสมาชิกสภาผู้แทนราษฎร ที่ ครม.
     เป็นผู้เสนอ (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติประกอบรัฐธรรมนูญว่าด้วยการเลือกตั้งสมาชิกสภาผู้แทนราษฎร
   meeting: ประชุมร่วมกันของรัฐสภา
   vote_date: '2022-02-24'
@@ -4613,18 +5234,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4383
   id: '170'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220224191155A4.pdf
-  passed: null
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  passed: true
+  approve: 609
+  disprove: 16
+  abstained: 10
+  absent: 1
+  total_voter: 636
+  special: 86
+  total_people: 722
 - title: >-
     ร่าง พ.ร.บ.ประกอบรัฐธรรมนูญว่าด้วยการเลือกตั้งสมาชิกสภาผู้แทนราษฎร ที่
     นายชลน่าน ศรีแก้ว กับคณะ เป็นผู้เสนอ เป็นผู้เสนอ (วาระ 1)
@@ -4637,11 +5262,15 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4383
   id: '171'
+  note: อ่านผลผิด รีเช็คอีกรอบ
+  ocr: true
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220224191155A6.pdf
-  passed: null
+  passed: true
   approve: 0
   disprove: 0
   abstained: 0
@@ -4652,7 +5281,7 @@
 - title: >-
     ร่าง พ.ร.บ.ประกอบรัฐธรรมนูญว่าด้วยการเลือกตั้งสมาชิกสภาผู้แทนราษฎร ที่
     นายวิเชียร ชวลิต กับคณะ เป็นผู้เสนอ เป็นผู้เสนอ (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติประกอบรัฐธรรมนูญว่าด้วยการเลือกตั้งสมาชิกสภาผู้แทนราษฎร
   meeting: ประชุมร่วมกันของรัฐสภา
   vote_date: '2022-02-24'
@@ -4661,22 +5290,26 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4383
   id: '172'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220224191155A8.pdf
-  passed: null
-  approve: 0
-  disprove: 0
-  abstained: 0
+  passed: true
+  approve: 598
+  disprove: 26
+  abstained: 12
   absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  total_voter: 636
+  special: 86
+  total_people: 722
 - title: >-
     ร่าง พ.ร.บ.ประกอบรัฐธรรมนูญว่าด้วยการเลือกตั้งสมาชิกสภาผู้แทนราษฎร ที่
     นายพิธา ลิ้มเจริญรัตน์ กับคณะ เป็นผู้เสนอ เป็นผู้เสนอ (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติประกอบรัฐธรรมนูญว่าด้วยการเลือกตั้งสมาชิกสภาผู้แทนราษฎร
   meeting: ประชุมร่วมกันของรัฐสภา
   vote_date: '2022-02-24'
@@ -4685,20 +5318,24 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4383
   id: '173'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220224191155A10.pdf
-  passed: null
-  approve: 0
-  disprove: 0
-  abstained: 0
+  passed: true
+  approve: 418
+  disprove: 202
+  abstained: 15
   absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  total_voter: 635
+  special: 87
+  total_people: 722
 - title: ร่าง พ.ร.บ.ประกอบรัฐธรรมนูญว่าด้วยพรรคการเมือง ที่ ครม. เป็นผู้เสนอ (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติประกอบรัฐธรรมนูญว่าด้วยพรรคการเมือง
   meeting: ประชุมร่วมกันของรัฐสภา
   vote_date: '2022-02-25'
@@ -4707,22 +5344,26 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4385
   id: '174'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220228144636A5.pdf
-  passed: null
-  approve: 0
-  disprove: 0
-  abstained: 0
+  passed: true
+  approve: 598
+  disprove: 11
+  abstained: 14
   absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  total_voter: 623
+  special: 99
+  total_people: 722
 - title: >-
     ร่าง พ.ร.บ.ประกอบรัฐธรรมนูญว่าด้วยพรรคการเมือง ที่ นายชลน่าน ศรีแก้ว กับคณะ
     เป็นผู้เสนอ เป็นผู้เสนอ (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติประกอบรัฐธรรมนูญว่าด้วยพรรคการเมือง
   meeting: ประชุมร่วมกันของรัฐสภา
   vote_date: '2022-02-25'
@@ -4731,22 +5372,26 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4385
   id: '175'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220228144636A11.pdf
   passed: null
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  approve: 221
+  disprove: 371
+  abstained: 30
+  absent: 1
+  total_voter: 623
+  special: 99
+  total_people: 722
 - title: >-
     ร่าง พ.ร.บ.ประกอบรัฐธรรมนูญว่าด้วยพรรคการเมือง ที่ นายวิเชียร ชวลิต กับคณะ
     เป็นผู้เสนอ เป็นผู้เสนอ (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติประกอบรัฐธรรมนูญว่าด้วยพรรคการเมือง
   meeting: ประชุมร่วมกันของรัฐสภา
   vote_date: '2022-02-25'
@@ -4755,22 +5400,26 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4385
   id: '176'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220228144636A14.pdf
-  passed: null
-  approve: 0
-  disprove: 0
-  abstained: 0
+  passed: true
+  approve: 578
+  disprove: 19
+  abstained: 26
   absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  total_voter: 623
+  special: 99
+  total_people: 722
 - title: >-
     ร่าง พ.ร.บ.ประกอบรัฐธรรมนูญว่าด้วยพรรคการเมือง ที่ นายพิธา ลิ้มเจริญรัตน์
     กับคณะ เป็นผู้เสนอ เป็นผู้เสนอ (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติประกอบรัฐธรรมนูญว่าด้วยพรรคการเมือง
   meeting: ประชุมร่วมกันของรัฐสภา
   vote_date: '2022-02-25'
@@ -4779,22 +5428,26 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4385
   id: '177'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220228144636A17.pdf
   passed: null
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  approve: 204
+  disprove: 381
+  abstained: 34
+  absent: 1
+  total_voter: 620
+  special: 102
+  total_people: 722
 - title: >-
     ร่าง พ.ร.บ.ประกอบรัฐธรรมนูญว่าด้วยพรรคการเมือง ที่ พันตำรวจเอก ทวี สอดส่อง
     กับคณะ เป็นผู้เสนอ เป็นผู้เสนอ (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติประกอบรัฐธรรมนูญว่าด้วยพรรคการเมือง
   meeting: ประชุมร่วมกันของรัฐสภา
   vote_date: '2022-02-25'
@@ -4803,22 +5456,26 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4385
   id: '178'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220228144636A8.pdf
   passed: null
-  approve: 0
-  disprove: 0
-  abstained: 0
+  approve: 207
+  disprove: 375
+  abstained: 37
   absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  total_voter: 619
+  special: 103
+  total_people: 722
 - title: >-
     ร่าง พ.ร.บ.ประกอบรัฐธรรมนูญว่าด้วยพรรคการเมือง ที่ อนันต์ ผลอำนวย กับคณะ
     เป็นผู้เสนอ เป็นผู้เสนอ (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติประกอบรัฐธรรมนูญว่าด้วยพรรคการเมือง
   meeting: ประชุมร่วมกันของรัฐสภา
   vote_date: '2022-02-25'
@@ -4827,23 +5484,27 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4385
   id: '179'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220228144636A20.pdf
   passed: null
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  approve: 408
+  disprove: 184
+  abstained: 28
+  absent: 1
+  total_voter: 621
+  special: 101
+  total_people: 722
 - title: >-
     ร่าง พ.ร.บ.ประกอบรัฐธรรมนูญว่าด้วยพรรคการเมือง - ให้ใช้ร่าง
     พ.ร.บ.ประกอบรัฐธรรมนูญของนายวิเชียร ชวลิต กับคณะ เป็นหลักในการพิจารณา
     (ผลการลงมติ)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติประกอบรัฐธรรมนูญว่าด้วยพรรคการเมือง
   meeting: ประชุมร่วมกันของรัฐสภา
   vote_date: '2022-02-25'
@@ -4852,18 +5513,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4385
   id: '180'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220228144636A23.pdf
   passed: null
-  approve: 0
-  disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  approve: 309
+  disprove: 141
+  abstained: 9
+  absent: 1
+  total_voter: 460
+  special: 262
+  total_people: 722
 - title: ร่าง พ.ร.บ.แก้ไขเพิ่มเติมประมวลกฎหมายแพ่งและพาณิชย์
   is_active: false
   legal_title: ร่างพระราชบัญญัติแก้ไขเพิ่มเติมประมวลกฎหมายแพ่งและพาณิชย์
@@ -4874,6 +5539,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4386
   id: '181'
+  note: OCR Error! กรอกมือ
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -4900,6 +5569,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4386
   id: '182'
+  note: OCR Error! กรอกมือ
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -4928,6 +5601,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4389
   id: '183'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -4957,6 +5634,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4392
   id: '184'
+  note: ''
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -4965,13 +5646,13 @@
       link: >-
         https://pis.parliament.go.th/PARFileDownloadProxy/download?s=dye3Z9dSjgYE3dsWP-iQ8RZSeQmwGcKblFnk8BvZujAS5DyA3d-v4cQ-bcSfbwH1X3QwE42Ov45pjm6PzVrii3f1ag-Z8vzDOC2GQBpeF_Z70HTiNtIEBzoxuwFN8hYPsvp8FcyEzXwSO8dA8-RfjG8r5_I68PScnYE=&ref=1540055&n=1
   passed: true
-  approve: 355
-  disprove: 276
-  abstained: 30
+  approve: 178
+  disprove: 137
+  abstained: 15
   absent: 0
-  total_voter: 661
-  special: 146
-  total_people: 807
+  total_voter: 330
+  special: 147
+  total_people: 477
 - title: ร่าง พ.ร.บ. กัญชาเสรี (วาระ 1)
   is_active: true
   legal_title: ร่างพระราชบัญญัติกัญชา กัญชง
@@ -4987,6 +5668,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4392
   id: '185'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5021,6 +5706,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4393
   id: '186'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5050,6 +5739,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4393
   id: '187'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5079,6 +5772,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4393
   id: '188'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5108,6 +5805,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4393
   id: '189'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5133,6 +5834,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4393
   id: '190'
+  note: OCR Error! กรอกมือ
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5146,7 +5851,7 @@
   special: 0
   total_people: 0
 - title: ร่าง พ.ร.บ.วิชาชีพการสัตวบาล (วาระ 3)
-  is_active: false
+  is_active: true
   legal_title: พระราชบัญญัติวิชาชีพการสัตวบาล
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2022-06-22'
@@ -5155,18 +5860,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4396
   id: '191'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211103180822A75.pdf
-  passed: null
-  approve: 0
+  passed: true
+  approve: 293
   disprove: 0
-  abstained: 0
-  absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  abstained: 1
+  absent: 1
+  total_voter: 295
+  special: 181
+  total_people: 476
 - title: ร่าง พ.ร.บ.การเดินเรือในน่านน้ำไทย (วาระ 3)
   is_active: false
   legal_title: ร่างพระราชบัญญัติการเดินเรือในน่านน้ำไทย
@@ -5177,6 +5886,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4396
   id: '192'
+  note: OCR Error! กรอกมือ
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5204,6 +5917,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4396
   id: '193'
+  note: OCR Error! กรอกมือ
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5226,11 +5943,15 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4396
   id: '194'
+  note: OCR Error! กรอกมือ
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220622143451A42.pdf
-  passed: null
+  passed: false
   approve: 0
   disprove: 0
   abstained: 0
@@ -5248,6 +5969,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4396
   id: '195'
+  note: OCR Error! กรอกมือ
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5270,6 +5995,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4396
   id: '196'
+  note: OCR Error! กรอกมือ
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5292,6 +6021,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4399
   id: '197'
+  note: OCR Error! กรอกมือ
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5314,6 +6047,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4399
   id: '198'
+  note: OCR Error! กรอกมือ
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5336,6 +6073,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4399
   id: '199'
+  note: OCR Error! กรอกมือ
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5358,6 +6099,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4399
   id: '200'
+  note: OCR Error! กรอกมือ
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5371,7 +6116,7 @@
   special: 0
   total_people: 0
 - title: ร่าง พ.ร.บ.ตำรวจแห่งชาติ (วาระ 3)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติตำรวจแห่งชาติ
   meeting: ประชุมร่วมกันของรัฐสภา
   vote_date: '2022-07-05'
@@ -5380,22 +6125,26 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4402
   id: '201'
+  note: ''
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220705145613A10.pdf
   passed: true
-  approve: 333
-  disprove: 38
+  approve: 810
+  disprove: 78
   abstained: 0
-  absent: 1
-  total_voter: 372
-  special: 0
-  total_people: 372
+  absent: 2
+  total_voter: 890
+  special: 110
+  total_people: 1000
 - title: >-
     แก้ไข ร่าง พ.ร.บ.ประกอบรัฐธรรมนูญว่าด้วยการเลือกตั้ง ส.ส.
     เรื่องการคำนวณบัญชีรายชื่อ
-  is_active: false
+  is_active: true
   legal_title: >-
     แก้ไขร่างพระราชบัญญัติประกอบรัฐธรรมนูญว่าด้วยการเลือกตั้งสมาชิกสภาผู้แทนราษฎร
   meeting: ประชุมร่วมกันของรัฐสภา
@@ -5412,20 +6161,24 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4403
   id: '202'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20220707131107A57.pdf
   passed: true
-  approve: 208
-  disprove: 153
-  abstained: 22
-  absent: 4
-  total_voter: 387
-  special: 0
-  total_people: 387
+  approve: 548
+  disprove: 312
+  abstained: 44
+  absent: 8
+  total_voter: 912
+  special: 88
+  total_people: 1000
 - title: ร่าง พ.ร.บ.ขนส่งทางราง (วาระ 1)
-  is_active: true
+  is_active: false
   legal_title: ร่างพระราชบัญญัติการขนส่งทางราง
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2022-07-07'
@@ -5434,6 +6187,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4404
   id: '203'
+  note: OCR Error อ่านผลไม่ได้
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5450,7 +6207,7 @@
     ร่าง
     พ.ร.บ.แก้ไขเพิ่มเติมพ.ร.ก.รักษาเสถียรภาพของระบบการเงินและความมั่นคงทางเศรษฐกิจของประเทศ
     (วาระ 1)
-  is_active: true
+  is_active: false
   legal_title: >-
     ร่างพระราชบัญญัติแก้ไขเพิ่มเติมพระราชกำหนดการรักษาเสถียรภาพของระบบการเงินและความมั่นคงทางเศรษฐกิจของประเทศ
     พ.ศ. 2563
@@ -5461,6 +6218,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4404
   id: '204'
+  note: OCR Error อ่านผลไม่ได้
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5488,6 +6249,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4404
   id: '205'
+  note: OCR Error อ่านผลไม่ได้
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5520,6 +6285,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4404
   id: '206'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5542,6 +6311,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4404
   id: '207'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5588,6 +6361,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4407
   id: '208'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5619,6 +6396,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4407
   id: '209'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5654,6 +6435,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4407
   id: '210'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5683,6 +6468,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4407
   id: '211'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5712,6 +6501,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4407
   id: '212'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5744,6 +6537,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4407
   id: '213'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5778,6 +6575,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4407
   id: '214'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5809,6 +6610,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4407
   id: '215'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5842,6 +6647,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4407
   id: '216'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5872,6 +6681,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4407
   id: '217'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5901,6 +6714,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4407
   id: '218'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5934,6 +6751,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4408
   id: '219'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5966,6 +6787,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4409
   id: '220'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -5995,6 +6820,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4410
   id: '221'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6017,6 +6846,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4412
   id: '222'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6039,6 +6872,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4412
   id: '223'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6061,6 +6898,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4412
   id: '224'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6083,6 +6924,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4413
   id: '225'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6105,6 +6950,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4418
   id: '226'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6130,6 +6979,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4419
   id: '227'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6152,6 +7005,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4419
   id: '228'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6174,6 +7031,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4419
   id: '229'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6196,6 +7057,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4419
   id: '230'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6218,6 +7083,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4419
   id: '231'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6244,6 +7113,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4149
   id: '232'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6273,6 +7146,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4149
   id: '233'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6302,6 +7179,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4158
   id: '234'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6326,6 +7207,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4174
   id: '235'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6350,6 +7235,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4196
   id: '236'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6374,6 +7263,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4196
   id: '237'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6398,6 +7291,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4196
   id: '238'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6422,6 +7319,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4196
   id: '239'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6446,6 +7347,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4196
   id: '240'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6470,6 +7375,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4196
   id: '241'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6494,6 +7403,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4250
   id: '242'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6516,6 +7429,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4272
   id: '243'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6538,6 +7455,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4280
   id: '244'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6564,6 +7485,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4328
   id: '245'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6586,6 +7511,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4342
   id: '246'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6599,7 +7528,7 @@
   special: 0
   total_people: 0
 - title: ร่าง พ.ร.บ. วิชาชีพการสัตวบาล (วาระ 3)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติวิชาชีพการสัตวบาล
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-11-03'
@@ -6611,6 +7540,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4345
   id: '247'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6624,7 +7557,7 @@
   special: 0
   total_people: 0
 - title: ร่าง พ.ร.บ. ประมวลกฎหมายอาญา (วาระ 3)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติแก้ไขเพิ่มเติมประมวลกฎหมายอาญา
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-11-10'
@@ -6633,11 +7566,15 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4349
   id: '248'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211110135921A13.pdf
-  passed: null
+  passed: true
   approve: 0
   disprove: 0
   abstained: 0
@@ -6646,7 +7583,7 @@
   special: 0
   total_people: 0
 - title: ตั้ง กมธ. วิสามัญ Enterrainment Complex
-  is_active: false
+  is_active: true
   legal_title: >-
     ตั้งคณะกรรมาธิการวิสามัญพิจารณาศึกษาการเปิดสถานบันเทิงแบบครบวงจร
     (Entertainment Complex)
@@ -6658,11 +7595,15 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4359
   id: '249'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211202155300A2.pdf
-  passed: null
+  passed: true
   approve: 0
   disprove: 0
   abstained: 0
@@ -6671,7 +7612,7 @@
   special: 0
   total_people: 0
 - title: ร่าง พ.ร.บ. สถาปนิก (วาระ 1)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติสถาปนิก
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-12-08'
@@ -6680,11 +7621,15 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4361
   id: '250'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211208130645A2.pdf
-  passed: null
+  passed: true
   approve: 0
   disprove: 0
   abstained: 0
@@ -6693,7 +7638,7 @@
   special: 0
   total_people: 0
 - title: ร่าง พ.ร.บ. แก้ไขประมวลกฎหมายวิธีพิจารณาความอาญา (ส่งไป ครม.)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติแก้ไขเพิ่มเติมประมวลกฎหมายวิธีพิจารณาความอาญา
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2021-12-15'
@@ -6708,11 +7653,15 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4363
   id: '251'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20211215170117A8.pdf
-  passed: false
+  passed: true
   approve: 0
   disprove: 0
   abstained: 0
@@ -6721,7 +7670,7 @@
   special: 0
   total_people: 0
 - title: ร่าง พ.ร.บ. ธรรมนูญศาลทหาร (ส่งไป ครม.)
-  is_active: false
+  is_active: true
   legal_title: ร่างพระราชบัญญัติธรรมนูญศาลทหาร
   meeting: ประชุมสภาผู้แทนราษฎร
   vote_date: '2022-02-02'
@@ -6733,6 +7682,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4376
   id: '252'
+  note: null
+  ocr: true
+  re_check: true
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6758,6 +7711,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4424
   id: '253'
+  note: OCR Error! กรอกมือ
+  ocr: false
+  re_check: false
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6782,6 +7739,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4424
   id: '254'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6806,6 +7767,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4428
   id: '255'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6830,6 +7795,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4428
   id: '256'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6857,6 +7826,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4431
   id: '257'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6881,6 +7854,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4431
   id: '258'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6907,6 +7884,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4434
   id: '259'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6934,6 +7915,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4434
   id: '260'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6958,6 +7943,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4440
   id: '261'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -6998,18 +7987,22 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4442
   id: '262'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
         https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/download/vote_detail/20221207122225A2.pdf
   passed: null
-  approve: 0
-  disprove: 0
-  abstained: 0
+  approve: 254
+  disprove: 245
+  abstained: 129
   absent: 0
-  total_voter: 0
-  special: 0
-  total_people: 0
+  total_voter: 628
+  special: 94
+  total_people: 722
 - title: ร่าง พ.ร.บ. กำหนดระยะเวลาดำเนินงานในกระบวนการยุติธรรม (วาระ 1)
   is_active: false
   legal_title: ร่างพระราชบัญญัติกำหนดระยะเวลาดำเนินงานในกระบวนการยุติธรรม
@@ -7020,6 +8013,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4381
   id: '263'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -7042,6 +8039,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4381
   id: '264'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -7064,6 +8065,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4467
   id: '265'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -7086,6 +8091,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4467
   id: '266'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -7107,6 +8116,10 @@
   meeting_id: null
   reference: 'https://drive.google.com/drive/folders/157rfJWwPNNtF8K013oZuXiJ2IcoZf6w8'
   id: '267'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: ตั้งศาลรัฐธรรมนูญ
   document:
     - title: รวม 14-2562
       link: 'https://drive.google.com/drive/folders/157rfJWwPNNtF8K013oZuXiJ2IcoZf6w8'
@@ -7131,6 +8144,10 @@
   meeting_id: null
   reference: 'https://drive.google.com/drive/folders/1Ij-_ndthzGKIq61a2ActWB1zoLUO9u0i'
   id: '268'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: ตั้งศาลรัฐธรรมนูญ
   document:
     - title: รวม 7-2562
       link: 'https://drive.google.com/drive/folders/1Ij-_ndthzGKIq61a2ActWB1zoLUO9u0i'
@@ -7155,6 +8172,10 @@
   meeting_id: null
   reference: 'https://drive.google.com/drive/folders/16uDYgDt4DVbb6NojRqBIYHxhgap1sekL'
   id: '269'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: ตั้งศาลรัฐธรรมนูญ
   document:
     - title: รวม 10 (2)
       link: 'https://drive.google.com/drive/folders/16uDYgDt4DVbb6NojRqBIYHxhgap1sekL'
@@ -7175,6 +8196,10 @@
   meeting_id: null
   reference: 'https://drive.google.com/drive/folders/1eOSttXeczQZy1EtTdCBx5KIPMnJUlcx7'
   id: '270'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: ตั้งศาลรัฐธรรมนูญ
   document:
     - title: รวม 18
       link: 'https://drive.google.com/drive/folders/1eOSttXeczQZy1EtTdCBx5KIPMnJUlcx7'
@@ -7199,6 +8224,10 @@
   meeting_id: null
   reference: 'https://drive.google.com/drive/folders/1eOSttXeczQZy1EtTdCBx5KIPMnJUlcx7'
   id: '271'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: ตั้งศาลรัฐธรรมนูญ
   document:
     - title: รวม 18
       link: 'https://drive.google.com/drive/folders/1eOSttXeczQZy1EtTdCBx5KIPMnJUlcx7'
@@ -7223,6 +8252,10 @@
   meeting_id: null
   reference: 'https://drive.google.com/drive/folders/1Wea2slywo2JV0ziQbikA2cJbHVzyUfBG'
   id: '272'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: ตั้งศาลรัฐธรรมนูญ
   document:
     - title: รวม 1-2562 วิสามัญ
       link: 'https://drive.google.com/drive/folders/1Wea2slywo2JV0ziQbikA2cJbHVzyUfBG'
@@ -7243,6 +8276,10 @@
   meeting_id: null
   reference: 'https://drive.google.com/drive/folders/1Elogbd8-RdYlA7pqt_riWjL01ANBpsaP'
   id: '273'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: ยุทธศาสตร์ชาติ
   document:
     - title: รวม 7
       link: 'https://drive.google.com/drive/folders/1Elogbd8-RdYlA7pqt_riWjL01ANBpsaP'
@@ -7263,6 +8300,10 @@
   meeting_id: null
   reference: 'https://drive.google.com/drive/folders/1vPkTA86u5LxFdrWNbgPpE2Bw3418oVsW'
   id: '274'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: ยุทธศาสตร์ชาติ
   document:
     - title: รวม 11
       link: 'https://drive.google.com/drive/folders/1vPkTA86u5LxFdrWNbgPpE2Bw3418oVsW'
@@ -7287,6 +8328,10 @@
   meeting_id: null
   reference: 'https://drive.google.com/drive/folders/1arsMh2PB8jiRRY2ZafFP9dSCztOEO9D5'
   id: '275'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: ตั้งศาลรัฐธรรมนูญ
   document:
     - title: รวม 13
       link: 'https://drive.google.com/drive/folders/1arsMh2PB8jiRRY2ZafFP9dSCztOEO9D5'
@@ -7307,6 +8352,10 @@
   meeting_id: null
   reference: 'https://drive.google.com/drive/folders/1arsMh2PB8jiRRY2ZafFP9dSCztOEO9D5'
   id: '276'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: ตั้งศาลรัฐธรรมนูญ
   document:
     - title: รวม 13
       link: 'https://drive.google.com/drive/folders/1arsMh2PB8jiRRY2ZafFP9dSCztOEO9D5'
@@ -7327,6 +8376,10 @@
   meeting_id: null
   reference: 'https://drive.google.com/drive/folders/1wChu7VmAWVtaXiFmQglP8dlviyo_G4AJ'
   id: '277'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: ยุทธศาสตร์ชาติ
   document:
     - title: รวม 3
       link: 'https://drive.google.com/drive/folders/1wChu7VmAWVtaXiFmQglP8dlviyo_G4AJ'
@@ -7347,6 +8400,10 @@
   meeting_id: null
   reference: 'https://drive.google.com/drive/folders/1ybowlZtc7q7B7NjB5dLenBQXYMgv6I_-'
   id: '278'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: ยุทธศาสตร์ชาติ
   document:
     - title: รวม 10
       link: 'https://drive.google.com/drive/folders/1ybowlZtc7q7B7NjB5dLenBQXYMgv6I_-'
@@ -7367,6 +8424,10 @@
   meeting_id: null
   reference: 'https://drive.google.com/drive/folders/1e8_ESDe0STS1e2oacvFKNwzhdIneoLln'
   id: '287'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: รวมออกเสียง 13
       link: 'https://drive.google.com/drive/folders/1e8_ESDe0STS1e2oacvFKNwzhdIneoLln'
@@ -7388,6 +8449,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4471
   id: '288'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: null
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -7413,6 +8478,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4424
   id: '290'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -7439,6 +8508,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4424
   id: '291'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -7464,6 +8537,10 @@
   reference: >-
     https://msbis.parliament.go.th/ewtadmin/ewt/parliament_report/main_warehouse.php?m_id=4424
   id: '292'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: ร่างแก้รัฐธรรมนูญ
   document:
     - title: ใบประมวลผลการลงมติ
       link: >-
@@ -7489,6 +8566,10 @@
   meeting_id: null
   reference: 'https://drive.google.com/drive/folders/1F1Etr-U3LFPr95x7TvNgB3z4m9HN9yCZ'
   id: '293'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: ประชามติแก้รัฐธรรมนูญ
   document:
     - title: รวมใบประมวลผล6
       link: 'https://drive.google.com/drive/folders/1F1Etr-U3LFPr95x7TvNgB3z4m9HN9yCZ'
@@ -7509,6 +8590,10 @@
   meeting_id: null
   reference: 'https://drive.google.com/drive/folders/17lIYLaCcZmLZGB0yoxH5eTvWkGVWaAx9'
   id: '294'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: ตั้งศาลรัฐธรรมนูญ
   document:
     - title: รวมใบประมวลผล13
       link: 'https://drive.google.com/drive/folders/17lIYLaCcZmLZGB0yoxH5eTvWkGVWaAx9'
@@ -7533,6 +8618,10 @@
   meeting_id: null
   reference: 'https://drive.google.com/drive/folders/1q7qEdpIGzrjMx_p_OUSKSmP9HSy8hUi2'
   id: '295'
+  note: null
+  ocr: false
+  re_check: false
+  senate_vote_type: ประชามติแก้รัฐธรรมนูญ
   document:
     - title: รวมใบประมวลผล26
       link: 'https://drive.google.com/drive/folders/1q7qEdpIGzrjMx_p_OUSKSmP9HSy8hUi2'

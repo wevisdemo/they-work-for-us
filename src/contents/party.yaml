@@ -48,7 +48,11 @@
   twitter: ''
   is_active: true
   id: '2'
-  images: null
+  images:
+    - title: senate.jpg
+      url: >-
+        https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/48JaSVe38lyzq_lsBN.jpg
+      mimetype: image/jpeg
   en:
     name: Senate
 - name: คณะรัฐมนตรี
@@ -974,7 +978,7 @@
   en:
     name: United Thai Nation Party
 - name: ไทยสร้างไทย
-  color: ''
+  color: '#7856EC'
   party_type: พรรค
   party_ordinal: null
   party_group: ''
@@ -997,7 +1001,7 @@
   en:
     name: null
 - name: ไทยภักดี
-  color: ''
+  color: '#FFF177'
   party_type: พรรค
   party_ordinal: null
   party_group: ''
@@ -1020,7 +1024,7 @@
   en:
     name: null
 - name: ความหวังใหม่
-  color: ''
+  color: '#CCD8DD'
   party_type: พรรค
   party_ordinal: null
   party_group: ''
@@ -1047,7 +1051,7 @@
   en:
     name: null
 - name: ประชากรไทย
-  color: ''
+  color: '#065AFC'
   party_type: พรรค
   party_ordinal: null
   party_group: ''
@@ -1074,7 +1078,7 @@
   en:
     name: null
 - name: เครือข่ายชาวนาแห่งประเทศไทย
-  color: ''
+  color: '#CCD8DD'
   party_type: พรรค
   party_ordinal: null
   party_group: ''
@@ -1101,7 +1105,7 @@
   en:
     name: null
 - name: เพื่อแผ่นดิน
-  color: ''
+  color: '#CCD8DD'
   party_type: พรรค
   party_ordinal: null
   party_group: ''
@@ -1128,7 +1132,7 @@
   en:
     name: null
 - name: อนาคตไทย
-  color: ''
+  color: '#CCD8DD'
   party_type: พรรค
   party_ordinal: null
   party_group: ''
@@ -1155,7 +1159,7 @@
   en:
     name: null
 - name: สังคมประชาธิปไตยไทย
-  color: ''
+  color: '#CCD8DD'
   party_type: พรรค
   party_ordinal: null
   party_group: ''
@@ -1182,7 +1186,7 @@
   en:
     name: null
 - name: ประชาสามัคคี
-  color: ''
+  color: '#CCD8DD'
   party_type: พรรค
   party_ordinal: null
   party_group: ''
@@ -1205,7 +1209,7 @@
   en:
     name: null
 - name: พลังบูรพา
-  color: ''
+  color: '#CCD8DD'
   party_type: พรรค
   party_ordinal: null
   party_group: ''
@@ -1228,7 +1232,7 @@
   en:
     name: null
 - name: พลังสหกรณ์
-  color: ''
+  color: '#CCD8DD'
   party_type: พรรค
   party_ordinal: null
   party_group: ''
@@ -1255,7 +1259,7 @@
   en:
     name: null
 - name: ถิ่นกาขาวชาววิไล
-  color: ''
+  color: '#CCD8DD'
   party_type: พรรค
   party_ordinal: null
   party_group: ''
@@ -1282,7 +1286,7 @@
   en:
     name: null
 - name: รักษ์ธรรม
-  color: ''
+  color: '#CCD8DD'
   party_type: พรรค
   party_ordinal: null
   party_group: ''
@@ -1309,7 +1313,7 @@
   en:
     name: null
 - name: พลังประชาธิปไตย
-  color: ''
+  color: '#CCD8DD'
   party_type: พรรค
   party_ordinal: null
   party_group: ''
@@ -1336,7 +1340,7 @@
   en:
     name: null
 - name: ภราดรภาพ
-  color: ''
+  color: '#CCD8DD'
   party_type: พรรค
   party_ordinal: null
   party_group: ''
@@ -1363,7 +1367,7 @@
   en:
     name: null
 - name: พลังไทยรักชาติ
-  color: ''
+  color: '#CCD8DD'
   party_type: พรรค
   party_ordinal: null
   party_group: ''
@@ -1390,7 +1394,7 @@
   en:
     name: null
 - name: ช่วยชาติ
-  color: ''
+  color: '#CCD8DD'
   party_type: พรรค
   party_ordinal: null
   party_group: ''
