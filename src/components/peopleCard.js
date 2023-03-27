@@ -63,19 +63,43 @@ const cssName = {
   marginBottom: "0.5rem",
 }
 
-const MPInfo = props => (
+const MPInfo = ({
+  title,
+  name,
+  lastname,
+  mp_type,
+  mp_list,
+  mp_province,
+  mp_zone,
+  party,
+  people_party_history,
+}) => (
   <div className="card-info">
     <div
       className="card-name"
       css={cssName}
-    >{`${props.title} ${props.name} ${props.lastname}`}</div>
+    >{`${title} ${name} ${lastname}`}</div>
     <div className="card-description">
-      {props.mp_type === "บัญชีรายชื่อ"
-        ? `ส.ส. ${props.mp_type}` +
-          (props.mp_list ? ` ลำดับที่ ${props.mp_list}` : ``)
-        : `ส.ส. ${props.mp_type} จังหวัด${props.mp_province} เขต ${props.mp_zone}`}{" "}
-      พรรค{`${props.party}`}
+      {mp_type === "บัญชีรายชื่อ"
+        ? `ส.ส. ${mp_type}` + (mp_list ? ` ลำดับที่ ${mp_list}` : ``)
+        : `ส.ส. ${mp_type} จังหวัด${mp_province} เขต ${mp_zone}`}{" "}
+      พรรค{`${party}`}
     </div>
+    {people_party_history?.filter(({ party }) => party.id !== null).length >
+      1 && (
+      <div>
+        <span
+          style={{
+            backgroundColor: "#FEE5F2",
+            borderRadius: 100,
+            padding: "2px 6px",
+            fontSize: 14,
+          }}
+        >
+          เคยย้ายพรรค
+        </span>
+      </div>
+    )}
   </div>
 )
 

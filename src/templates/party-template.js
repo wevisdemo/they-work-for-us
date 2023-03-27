@@ -59,6 +59,11 @@ export const query = graphql`
           images {
             url
           }
+          people_party_history {
+            party {
+              id
+            }
+          }
         }
       }
     }
