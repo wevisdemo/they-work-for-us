@@ -145,7 +145,6 @@ const cssPartyTypeCard = {
   background: "var(--cl-black)",
 
   width: `calc((var(--container-width) - 4rem) / 2)`,
-  margin: "1rem",
   "&:hover": {
     background: "var(--cl-gray-0)",
     textDecoration: "none",
@@ -304,6 +303,7 @@ const IndexPage = ({ data }) => {
               alignItems: "flex-start",
               flexWrap: "wrap",
               marginTop: "6rem",
+              gap: "1rem",
             }}
           >
             <Link to={"/cabinet"} css={cssPartyTypeCard}>

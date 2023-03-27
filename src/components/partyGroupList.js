@@ -6,7 +6,6 @@ import PartyLogo from "./partyLogo"
 const cssMPColumn = {
   display: "block",
   padding: "2rem",
-  width: `calc((var(--container-width) - 4rem) / 2)`,
   margin: "0 1rem",
   a: {
     color: "var(--cl-black)",

@@ -37,7 +37,7 @@ const Hero = () => {
         alignItems: "flex-start",
         alignContent: "center",
         marginTop: "2rem",
-        marginBottom: "5rem",
+        marginBottom: "2rem",
       }}
     >
       <HeroFeature
