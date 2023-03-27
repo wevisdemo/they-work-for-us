@@ -15,6 +15,7 @@ import { OfficialWebsite, InOfficeDate } from "../components/profile"
 import PeopleCardMini from "../components/peopleCardMini"
 import PartyGroupList from "../components/partyGroupList"
 import VoteLogCard from "../components/voteLogCard"
+import CardGrid from "../components/cardGrid"
 
 import "../styles/profile-book.css"
 
@@ -293,28 +294,16 @@ const RepresentativesPage = props => {
         <section css={{ ...cssSection, background: "var(--cl-white)" }}>
           <div className="container">
             <h2 css={{ ...cssH1 }}>การลงมติล่าสุดของสภาผู้แทนราษฎร</h2>
-            <div
-              css={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "flex-start",
-                flexWrap: "wrap",
-                marginTop: "6rem",
-              }}
-            >
+            <CardGrid>
               {votelogs.map(({ id, fields, ...voteLog }) => (
                 <VoteLogCard
                   isCompact
                   key={id}
-                  css={{
-                    width: `calc((var(--container-width) - 4rem) / 2)`,
-                    margin: "0 1rem 2rem 1rem",
-                  }}
                   slug={fields.slug}
                   {...voteLog}
                 />
               ))}
-            </div>
+            </CardGrid>
           </div>
         </section>
       ) : null}

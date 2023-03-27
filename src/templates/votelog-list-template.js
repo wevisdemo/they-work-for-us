@@ -1,12 +1,12 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
-
+import { Router } from "@reach/router"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import VoteLogCard from "../components/voteLogCard"
 import VoteSearch from "../components/votesearch/VoteSearch"
-import { Router } from "@reach/router"
+import CardGrid from "../components/cardGrid"
 
 export const query = graphql`
   query($skip: Int!, $limit: Int!) {
@@ -63,15 +63,7 @@ const paginationStyle = {
 const VoteLogWrapper = votelogs => {
   const { data } = votelogs
   return (
-    <div
-      css={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "flex-start",
-        flexWrap: "wrap",
-        marginTop: "6rem",
-      }}
-    >
+    <CardGrid>
       {data.map(({ node: { id, fields, ...voteLog } }) => (
         <VoteLogCard
           key={id}
@@ -83,7 +75,7 @@ const VoteLogWrapper = votelogs => {
           {...voteLog}
         />
       ))}
-    </div>
+    </CardGrid>
   )
 }
 

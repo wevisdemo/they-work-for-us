@@ -11,6 +11,7 @@ import PeopleCardMini from "../components/peopleCardMini"
 import PeopleCard from "../components/peopleCard"
 import VoteLogCard from "../components/voteLogCard"
 import ArrowDownOutlined from "@ant-design/icons/ArrowDownOutlined"
+import CardGrid from "../components/cardGrid"
 
 import "../styles/profile-book.css"
 
@@ -465,28 +466,16 @@ const PartyPage = props => {
             <h2 css={{ ...cssH1, paddingTop: "6rem" }}>
               การลงมติล่าสุดของพรรค
             </h2>
-            <div
-              css={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "flex-start",
-                flexWrap: "wrap",
-                marginTop: "6rem",
-              }}
-            >
+            <CardGrid>
               {votelogs.map(({ yamlId, fields, ...voteLog }) => (
                 <VoteLogCard
                   isCompact
                   key={yamlId}
-                  css={{
-                    width: `calc((var(--container-width) - 4rem) / 2)`,
-                    margin: "0 1rem 2rem 1rem",
-                  }}
                   slug={fields.slug}
                   {...voteLog}
                 />
               ))}
-            </div>
+            </CardGrid>
           </div>
         </section>
       ) : null}
@@ -541,17 +530,11 @@ const PartyPage = props => {
             ))}
           </div>
           {showingMembers.length > 0 ? (
-            <div
-              css={{
-                display: "flex",
-                flexWrap: "wrap",
-                justifyContent: "space-evenly",
-              }}
-            >
-              {showingMembers.map((member, index) => (
-                <PeopleCard key={member.id} {...member} type="mp"></PeopleCard>
+            <CardGrid>
+              {showingMembers.map(member => (
+                <PeopleCard key={member.id} {...member} type="mp" />
               ))}
-            </div>
+            </CardGrid>
           ) : (
             <div
               css={{

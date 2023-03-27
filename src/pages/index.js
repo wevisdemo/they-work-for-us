@@ -10,6 +10,7 @@ import VoteLogCard from "../components/voteLogCard"
 import WaffleFilter from "../components/waffleFilter"
 import PartyGroupList from "../components/partyGroupList"
 import { Autocomplete, ZoneDialog } from "../components/search"
+import CardGrid from "../components/cardGrid"
 
 export const query = graphql`
   {
@@ -254,29 +255,13 @@ const IndexPage = ({ data }) => {
       >
         <div className="container">
           <h2 css={{ ...cssH1 }}>สรุปผลการลงมติล่าสุด</h2>
-          <div
-            css={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "flex-start",
-              flexWrap: "wrap",
-              marginTop: "6rem",
-            }}
-          >
+          <CardGrid>
             {data.allVotelogYaml.edges.map(
               ({ node: { id, fields, ...votelog } }) => (
-                <VoteLogCard
-                  key={id}
-                  css={{
-                    width: `calc((var(--container-width) - 4rem) / 2)`,
-                    margin: "0 1rem 2rem 1rem",
-                  }}
-                  slug={fields.slug}
-                  {...votelog}
-                />
+                <VoteLogCard key={id} slug={fields.slug} {...votelog} />
               )
             )}
-          </div>
+          </CardGrid>
           <div
             css={{
               textAlign: "center",

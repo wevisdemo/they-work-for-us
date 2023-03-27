@@ -35,9 +35,6 @@ const VoteLogCard = votelog => {
       css={{
         display: "flex",
         flexDirection: "column",
-        width: 300,
-        minWidth: 300,
-        height: !isCompact ? 450 : 370,
         minHeight: !isCompact ? 450 : 370,
         padding: "2rem",
         border: "2px solid var(--cl-black)",

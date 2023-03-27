@@ -76,7 +76,6 @@ const WaffleCell = ({ node, cellStyleProps }) => {
               {...node}
               css={{
                 padding: "1rem 1rem",
-                margin: 0,
                 alignItems: "center",
                 border: "2px solid var(--cl-black)",
                 ".card-info": {
@@ -142,7 +141,7 @@ const Waffle = ({
   const peopleGrouppedByParty = data.map(type => {
     const groupByParty = groupBy(type, ({ node }) => {
       if (node.is_senator) {
-        return 'วุฒิสภา'
+        return "วุฒิสภา"
       }
       return node.party
     })

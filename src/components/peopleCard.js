@@ -156,13 +156,7 @@ const PeopleCard = ({ type, ...props }) => {
         border: "1px solid var(--cl-gray-2)",
         borderRadius: "1rem",
         background: "var(--cl-white)",
-        marginBottom: "1rem",
         fontSize: "1.8rem",
-        [media(767)]: {
-          "&:nth-of-type(2n+1)": {
-            marginRight: "1rem",
-          },
-        },
         color: "inherit",
         "&:hover": {
           textDecoration: "none",

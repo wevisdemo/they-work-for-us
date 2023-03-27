@@ -16,6 +16,7 @@ import PeopleCardMini from "../components/peopleCardMini"
 import PeopleCard from "../components/peopleCard"
 import VoteLogCard from "../components/voteLogCard"
 import { media } from "../styles"
+import CardGrid from "../components/cardGrid"
 
 import "../styles/profile-book.css"
 
@@ -344,28 +345,16 @@ const SenatePage = props => {
         <section css={{ ...cssSection, background: "var(--cl-white)" }}>
           <div className="container">
             <h2 css={{ ...cssH1 }}>การลงมติล่าสุดของวุฒิสภา</h2>
-            <div
-              css={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "flex-start",
-                flexWrap: "wrap",
-                marginTop: "6rem",
-              }}
-            >
+            <CardGrid>
               {votelogs.map(({ id, fields, ...voteLog }) => (
                 <VoteLogCard
                   isCompact
                   key={id}
-                  css={{
-                    width: `calc((var(--container-width) - 4rem) / 2)`,
-                    margin: "0 1rem 2rem 1rem",
-                  }}
                   slug={fields.slug}
                   {...voteLog}
                 />
               ))}
-            </div>
+            </CardGrid>
           </div>
         </section>
       ) : null}
@@ -416,21 +405,11 @@ const SenatePage = props => {
             ))}
           </div>
           {showingMembers.length > 0 ? (
-            <div
-              css={{
-                display: "flex",
-                flexWrap: "wrap",
-                justifyContent: "space-evenly",
-              }}
-            >
+            <CardGrid>
               {showingMembers.map((member, index) => (
-                <PeopleCard
-                  key={member.id}
-                  {...member}
-                  type="senator"
-                ></PeopleCard>
+                <PeopleCard key={member.id} {...member} type="senator" />
               ))}
-            </div>
+            </CardGrid>
           ) : (
             <div
               css={{
