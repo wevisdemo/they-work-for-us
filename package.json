@@ -21,7 +21,7 @@
     "@emotion/styled": "^11.3.0",
     "@floating-ui/react-dom": "^1.0.1",
     "@google-cloud/local-auth": "^1.0.0",
-    "@wevisdemo/ui": "^5.2.0",
+    "@wevisdemo/ui": "^6.1.0",
     "autosuggest-highlight": "^3.1.1",
     "axios": "^0.21.1",
     "bottleneck": "^2.19.5",
@@ -73,7 +73,6 @@
     "babel-preset-gatsby": "^2.24.0",
     "csvtojson": "^2.0.10",
     "dayjs": "^1.10.4",
-    "doctoc": "^1.4.0",
     "eslint": "^8.24.0",
     "eslint-config-react-app": "^7.0.1",
     "esm": "^3.2.25",
@@ -111,9 +110,7 @@
       "git add"
     ],
     "**/README.md": [
-      "doctoc",
       "prettier --write",
-      "eslint --fix",
       "git add"
     ]
   }

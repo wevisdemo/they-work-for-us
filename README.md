@@ -1,3 +1,21 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+**Table of Contents** _generated with [DocToc](https://github.com/thlorenz/doctoc)_
+
+- [They Work For Us](#they-work-for-us)
+  - [👓 Table of Contents](#-table-of-contents)
+  - [🌎 Environments](#-environments)
+  - [🍳 Development](#-development)
+  - [📑 Sync Data](#-sync-data)
+  - [🙋 Getting Started for Contributers](#-getting-started-for-contributers)
+  - [📖 Reference](#-reference)
+    - [Data Dictionary](#data-dictionary)
+    - [Glossary](#glossary)
+  - [🤝 License and Terms of Use](#-license-and-terms-of-use)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # They Work For Us
 
 An open-source politician directory project for listing and tracking activities of members of the Cabinet and National Assembly of Thailand. It's run on [Gatsby](https://www.gatsbyjs.org).
@@ -74,3 +92,7 @@ Thank you for your contribution and enjoy coding!
 | สภาผู้แทนราษฏร              | The House of Representatives           |
 | สมาชิกวุฒิสภา (ส.ว.)        | Senator                                |
 | สมาชิกสภาผู้แทนราษฎร (ส.ส.) | Member of the House of Representatives |
+
+## 🤝 License and Terms of Use
+
+อ่านรายละเอียดได้ที่ [ข้อตกลงในการใช้งาน (Terms of Use)](https://wevis.info/terms-of-use/)
