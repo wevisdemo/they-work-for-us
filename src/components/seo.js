@@ -34,19 +34,28 @@ function SEO({ description, lang, meta, title, imageUrl }) {
   return (
     <>
       <html lang={lang} />
-      <title>{(title === "Home" ? `` : `${title} | `) + `${site.siteMetadata.title} รู้จักและติดตาม 'ผู้แทน' ในสภาของเรา`}</title>
-      <meta name="description" content={metaDescription}/>
-      <meta name="og:title" content={sharableTitle}/>
-      <meta name="og:description" content={metaDescription}/>
-      <meta name="og:type" content="website" />
-      <meta name="og:image" content={metaImageUrl}/>
-      <meta name="og:image:width" content={1200}/>
-      <meta name="og:image:height" content={630}/>
-      <meta name="twitter:card" content="summary_large_image"/>
-      <meta name="twitter:image" content={metaImageUrl.includes("http") ? metaImageUrl : `${site.siteMetadata.baseUrl}${metaImageUrl}`}/>
-      <meta name="twitter:creator" content={site.siteMetadata.author}/>
-      <meta name="twitter:title" content={sharableTitle}/>
-      <meta name="twitter:description" content={metaDescription}/>
+      <title>
+        {(title === "Home" ? `` : `${title} | `) + `${site.siteMetadata.title} รู้จักและติดตาม 'ผู้แทน' ในสภาของเรา`}
+      </title>
+      <meta name="description" content={metaDescription} />
+      <meta property="og:title" content={sharableTitle} />
+      <meta property="og:description" content={metaDescription} />
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content={metaImageUrl} />
+      <meta property="og:image:width" content={1200} />
+      <meta property="og:image:height" content={630} />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta
+        name="twitter:image"
+        content={
+          metaImageUrl.includes("http")
+            ? metaImageUrl
+            : `${site.siteMetadata.baseUrl}${metaImageUrl}`
+        }
+      />
+      <meta name="twitter:creator" content={site.siteMetadata.author} />
+      <meta name="twitter:title" content={sharableTitle} />
+      <meta name="twitter:description" content={metaDescription} />
     </>
   )
 }
