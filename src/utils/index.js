@@ -31,7 +31,7 @@ export function formatNumber(num, decimalPlaces) {
   } else {
     rawNum = num
   }
-  return rawNum.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")
+  return new Intl.NumberFormat("th-TH").format(rawNum)
 }
 
 /**
