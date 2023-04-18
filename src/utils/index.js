@@ -10,28 +10,14 @@ export function formatDate(dt) {
 }
 
 /**
- * Round number to decimal place.
- * @param {Number} n number
- * @param {Number} decimalPlaces rounded result decimal places
- * @returns rounded number
- */
-export function roundTo(n, decimalPlaces) {
-  return +(Math.round(n + "e+" + decimalPlaces) + "e-" + decimalPlaces)
-}
-
-/**
  * Format number with thousands
  * @param {Number} num
  * @param {Number} decimalPlaces
  */
 export function formatNumber(num, decimalPlaces) {
-  let rawNum
-  if (decimalPlaces) {
-    rawNum = roundTo(num, decimalPlaces)
-  } else {
-    rawNum = num
-  }
-  return new Intl.NumberFormat("th-TH").format(rawNum)
+  return new Intl.NumberFormat("th-TH", {
+    maximumFractionDigits: decimalPlaces,
+  }).format(num)
 }
 
 /**
