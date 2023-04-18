@@ -419,6 +419,7 @@ const PartyPage = props => {
           css={{
             display: "flex",
             justifyContent: "space-between",
+            boxShadow: "0px 0px 9px rgba(0, 0, 0, 0.7)",
           }}
         >
           <a href="#voteLogs" css={{ ...cssStickyMenu }}>
