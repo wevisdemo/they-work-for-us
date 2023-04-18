@@ -12,9 +12,12 @@ export function formatDate(dt) {
 /**
  * Format number with thousands
  * @param {Number} num
+ * @param {Number} decimalPlaces
  */
-export function formatNumber(num) {
-  return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")
+export function formatNumber(num, decimalPlaces) {
+  return new Intl.NumberFormat("th-TH", {
+    maximumFractionDigits: decimalPlaces,
+  }).format(num)
 }
 
 /**

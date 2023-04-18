@@ -246,7 +246,7 @@ const PersonFinance = person => (
       <strong>ทรัพย์สิน</strong>{" "}
       {person.asset === null
         ? "ไม่มีข้อมูล"
-        : `${formatNumber(person.asset)} บาท`}
+        : `${formatNumber(person.asset, 2)} บาท`}
     </span>{" "}
     <span>
       <strong>หนี้สิน</strong>{" "}
@@ -256,7 +256,7 @@ const PersonFinance = person => (
         */
       person.debt === null || person.debt === undefined
         ? "ไม่มีข้อมูล"
-        : `${formatNumber(person.debt)} บาท`}
+        : `${formatNumber(person.debt, 2)} บาท`}
     </span>{" "}
     {person.mp_type !== "" &&
       LinkPoliticsAndBusiness(person.name, person.lastname, person.party)}
