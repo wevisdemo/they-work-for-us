@@ -38,7 +38,7 @@ const Autocomplete = ({ setIsZoneDialog, setSelected, selected, setZones }) => {
               width: "300px",
               height: "5rem",
               border: "3px solid #000000",
-              borderRadius: " 4px 0 0 4px",
+              borderRadius: "4px",
               textAlign: "start",
               cursor: "pointer",
             }),
