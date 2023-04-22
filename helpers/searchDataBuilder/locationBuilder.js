@@ -1,53 +1,115 @@
+const postcodes = require("../../src/contents/postcode_62.json")
+const zones = require("../../src/contents/zones_62.json")
 const fs = require("fs")
-const zones = require("../../src/contents/zones.json")
 
 const removeDuplicate = arr => Array.from(new Set(arr))
-
 const buildLocationOptions = path => {
   try {
-    const provincesAndAreas = zones.reduce((acc, zone) => {
-      if (acc[zone.province]) {
+    const searchPostcode = (province, district) => {
+      return postcodes.filter(
+        pc => pc.province === province && pc.district === district
+      )
+    }
+
+    const searchSubdistricts = (
+      province,
+      district,
+      includedSubdistricts,
+      excludeSubdistricts
+    ) => {
+      const subdistricts = searchPostcode(province, district)
+      if (includedSubdistricts.length > 0 && excludeSubdistricts.length > 0) {
+        console.error("zone data is conflict.")
+      }
+
+      if (includedSubdistricts.length > 0) {
+        return subdistricts.filter(s =>
+          includedSubdistricts.includes(s.subDistrict)
+        )
+      }
+
+      if (excludeSubdistricts.length > 0) {
+        return subdistricts.filter(
+          s => !excludeSubdistricts.includes(s.subDistrict)
+        )
+      }
+
+      return subdistricts
+    }
+
+    const rawLocationOptions = zones.reduce((acc, zone) => {
+      const options = zone.areas.reduce((acc, area) => {
+        const subdistricts = searchSubdistricts(
+          zone.province,
+          area.area,
+          area.interior,
+          area.exterior
+        ).reduce((acc, sd) => {
+          let districtPrefix = "อ."
+          let subDistrictPrefix = "ต."
+          if (sd.province === "กรุงเทพมหานคร") {
+            districtPrefix = "เขต"
+            subDistrictPrefix = "แขวง"
+          }
+          const key = `${subDistrictPrefix}${sd.subDistrict} ${districtPrefix}${sd.district} จ.${sd.province}`
+
+          // check duplicate
+          if (acc[key]) {
+            if (acc[key].electionZones[sd.province]) {
+              return {
+                ...acc,
+                [key]: {
+                  electionZones: {
+                    [sd.province]: removeDuplicate([
+                      ...acc[key].electionZones[sd.province],
+                      String(zone.zone),
+                    ]),
+                  },
+                },
+              }
+            }
+          }
+
+          return {
+            ...acc,
+            [key]: {
+              electionZones: {
+                [sd.province]: [String(zone.zone)],
+              },
+            },
+          }
+        }, {})
+
         return {
           ...acc,
-          [zone.province]: removeDuplicate([
-            ...acc[zone.province],
-            ...zone.areas.map(area => area.area),
-          ]),
+          ...subdistricts,
         }
-      }
+      }, {})
 
       return {
         ...acc,
-        [zone.province]: [
-          zone.prefixes.area, // first of the province array is the prefix of the area
-          ...zone.areas.map(area => area.area), // the rest are the areas
-        ],
+        ...options,
       }
     }, {})
 
-    // produce the options (label, value) for the location search ReactSelect
-    const locationOptions = Object.keys(provincesAndAreas).reduce(
-      (acc, key) => {
-        const areas = provincesAndAreas[key]
-
-        let prefix = areas.shift()
-        if (prefix === "อำเภอ") {
-          prefix = "อ."
+    const locationOptions = Object.keys(rawLocationOptions).reduce((acc, key) => {
+      return [
+        ...acc,
+        {
+          label: key,
+          value: key,
+          electionZones: Object.keys(rawLocationOptions[key].electionZones).reduce((eAcc, eKey) => {
+            return [
+              ...eAcc,
+              {
+                province: eKey,
+                zones: rawLocationOptions[key].electionZones[eKey]
+              }
+            ]
+          },[])
         }
-        if (areas.length === 1) {
-          prefix = ""
-        }
-
-        return [
-          ...acc,
-          ...areas.map(area => ({
-            label: `${prefix}${area} จ.${key}`,
-            value: `${key} ${area}`,
-          })),
-        ]
-      },
-      []
-    )
+      ]
+    },[])
 
     fs.writeFileSync(path, JSON.stringify(locationOptions), "utf8")
   } catch (e) {
