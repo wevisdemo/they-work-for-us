@@ -1,13 +1,13 @@
 import React from "react"
 import axios from "axios"
-import Select from "react-select"
 import { customOption } from "./customOption"
-
+import AsyncSelect from "react-select/async"
 const getLocationOptions = () => axios.get("/content/locations.json")
 const getZones = () => axios.get("/content/zones.json")
 
-const Autocomplete = ({ setIsZoneDialog, setSelected, selected, setZones }) => {
+const Autocomplete = ({ setIsZoneDialog, setSelected, setZones }) => {
   const [locationOptions, setLocationOptions] = React.useState([])
+  const [defaultOptions, setDefaultOptions] = React.useState([])
   const [inputChange, setInputChange] = React.useState()
 
   React.useEffect(() => {
@@ -17,6 +17,12 @@ const Autocomplete = ({ setIsZoneDialog, setSelected, selected, setZones }) => {
       if (!ignore) {
         setLocationOptions(results[0].data)
         setZones(results[1].data)
+
+        if (results[0].data.length > 10) {
+          setDefaultOptions(results[0].data.slice(0, 10))
+        } else {
+          setDefaultOptions(results[0].data)
+        }
       }
     })
     return () => {
@@ -28,10 +34,23 @@ const Autocomplete = ({ setIsZoneDialog, setSelected, selected, setZones }) => {
     setIsZoneDialog(true)
     setSelected(value)
   }
+
+  const filterOptions = inputValue => {
+    return locationOptions
+      .filter(o => o.label.indexOf(inputValue) > -1)
+      .slice(0, 10)
+  }
+
+  const loadOptions = (inputValue, callback) => {
+    setTimeout(() => {
+      callback(filterOptions(inputValue))
+    }, 300)
+  }
+
   return (
     <div>
       <div style={{ display: "flex", position: "relative" }}>
-        <Select
+        <AsyncSelect
           styles={{
             control: baseStyles => ({
               ...baseStyles,
@@ -47,16 +66,20 @@ const Autocomplete = ({ setIsZoneDialog, setSelected, selected, setZones }) => {
               textAlign: "start",
             }),
           }}
-          options={locationOptions}
+          cacheOptions
+          loadOptions={loadOptions}
           placeholder="พิมพ์ชื่อเขต/อำเภอ"
           noOptionsMessage={() => "ไม่มีชื่อเขต/อำเภอนี้"}
-          onChange={({ value }) => handleOnSearch(value)}
+          onChange={e => {
+            handleOnSearch(e)
+          }}
           onInputChange={value => setInputChange(value)}
           components={{
             DropdownIndicator: () => null,
             IndicatorSeparator: () => null,
             Option: e => customOption(e, inputChange),
           }}
+          defaultOptions={defaultOptions}
         />
         <div
           style={{
