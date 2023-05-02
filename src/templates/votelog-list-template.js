@@ -63,17 +63,13 @@ const paginationStyle = {
 const VoteLogWrapper = votelogs => {
   const { data } = votelogs
   return (
-    <CardGrid>
+    <CardGrid
+      css={{
+        gap: "3.5rem",
+      }}
+    >
       {data.map(({ node: { id, fields, ...voteLog } }) => (
-        <VoteLogCard
-          key={id}
-          css={{
-            width: `calc((var(--container-width) - 4rem) / 2)`,
-            margin: "0 1rem 2rem 1rem",
-          }}
-          slug={fields.slug}
-          {...voteLog}
-        />
+        <VoteLogCard key={id} slug={fields.slug} {...voteLog} />
       ))}
     </CardGrid>
   )
@@ -160,6 +156,7 @@ const VoteLogPage = ({
               display: "flex",
               justifyContent: "center",
               color: "var(--cl-black)",
+              flexWrap: "wrap",
             }}
           >
             {currentPage !== 1 ? (
