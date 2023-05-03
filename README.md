@@ -1,34 +1,22 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-**Table of Contents** _generated with [DocToc](https://github.com/thlorenz/doctoc)_
-
-- [They Work For Us](#they-work-for-us)
-  - [👓 Table of Contents](#-table-of-contents)
-  - [🌎 Environments](#-environments)
-  - [🍳 Development](#-development)
-  - [📑 Sync Data](#-sync-data)
-  - [🙋 Getting Started for Contributers](#-getting-started-for-contributers)
-  - [📖 Reference](#-reference)
-    - [Data Dictionary](#data-dictionary)
-    - [Glossary](#glossary)
-  - [🤝 License and Terms of Use](#-license-and-terms-of-use)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 # They Work For Us
 
 An open-source politician directory project for listing and tracking activities of members of the Cabinet and National Assembly of Thailand. It's run on [Gatsby](https://www.gatsbyjs.org).
 
 ## 👓 Table of Contents
 
-- [Environments](#environments)
-- [Development](#development)
-- [Sync Data](#sync-data)
-- [Getting Started for Contributers](#getting-started-for-contributers)
-- [Reference](#reference)
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [🌎 Environments](#-environments)
+- [🍳 Development](#-development)
+- [📑 Sync Data](#-sync-data)
+- [🙋 Getting Started for Contributers](#-getting-started-for-contributers)
+- [📖 Reference](#-reference)
   - [Data Dictionary](#data-dictionary)
   - [Glossary](#glossary)
+- [🤝 License and Terms of Use](#-license-and-terms-of-use)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## 🌎 Environments
 
@@ -49,11 +37,11 @@ Your site is running on `http://localhost:8000` and GraphQL playground on `http:
 
 ## 📑 Sync Data
 
-Data sources are maintained on [Google Sheets](https://docs.google.com/spreadsheets/d/1kcom8zgR-FMCGu78bCwilxq5-GrE4NVr5cE4L7geUuo) by contributors. We have script to fetch and transform it into YAML files, which will be consumed by Gatsby.
+Data sources are maintained on [NocoDB](https://sheets.wevis.info/dashboard/#/base/5e439277-692a-43d3-9b17-7d6c683835f6) by contributors. We have script to fetch and transform it into YAML files, which will be consumed by Gatsby.
 
 ```mermaid
 graph TD
-    A[Google Sheets] -->|yarn sync| B[src/contents/*.yaml]
+    A[NocoDB] -->|yarn sync| B[src/contents/*.yaml]
     B -->|gatsby-source-filesystem| C[Gatsby's GraphQL]
     C -->|graphql query| D[React frontend]
     C --> E[GraphQL playground]
