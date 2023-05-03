@@ -193,9 +193,9 @@ const IndexPage = ({ data }) => {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            marginBottom: "3rem",
             textAlign: "center",
             [media(821)]: {
+              marginBottom: "3rem",
               alignItems: "start",
             },
           }}
@@ -214,7 +214,9 @@ const IndexPage = ({ data }) => {
           <h2>ค้นหา ตรวจสอบ โปร่งใส</h2>
           <strong
             css={{
-              marginBottom: "8rem",
+              [media(821)]: {
+                marginBottom: "8rem",
+              },
             }}
           >
             อัพเดตข้อมูล:{" "}
@@ -222,7 +224,10 @@ const IndexPage = ({ data }) => {
           </strong>
           <h3
             css={{
-              marginTop: "4rem",
+              marginTop: "30px",
+              [media(821)]: {
+                marginTop: "4rem",
+              },
             }}
           >
             ค้นหา ส.ส. เขตบ้านเรา
@@ -232,6 +237,17 @@ const IndexPage = ({ data }) => {
             setSelected={setSelected}
             selected={selected}
             setZones={setZones}
+          />
+          <hr
+            css={{
+              margin: "40px 0",
+              borderTop: "2px #000 solid",
+              width: "calc(100% - 5rem)",
+              maxWidth: "600px",
+              [media(821)]: {
+                display: "none",
+              },
+            }}
           />
         </div>
         <Hero />
