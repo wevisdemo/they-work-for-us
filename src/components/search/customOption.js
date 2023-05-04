@@ -5,17 +5,19 @@ import { components } from "react-select"
 export const customOption = (props, inputChange) => {
   const { children } = props
 
-  return (
-    <components.Option {...props}>
-      <Highlighter
-        searchWords={[inputChange]}
-        textToHighlight={children}
-        autoEscape={true}
-        highlightStyle={{
-          fontWeight: "bold",
-          background: "transparent",
-        }}
-      />
-    </components.Option>
-  )
+  if ((inputChange || "").length > 0) {
+    return (
+      <components.Option {...props}>
+        <Highlighter
+          searchWords={[inputChange]}
+          textToHighlight={children}
+          autoEscape={true}
+          highlightStyle={{
+            fontWeight: "bold",
+            background: "transparent",
+          }}
+        />
+      </components.Option>
+    )
+  }
 }

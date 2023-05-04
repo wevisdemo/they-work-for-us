@@ -47,6 +47,26 @@ const Autocomplete = ({ setIsZoneDialog, setSelected, setZones }) => {
     }, 300)
   }
 
+  const getCustomMenuStyle = (baseStyles) => {
+    let customCss = {
+      ...baseStyles,
+      textAlign: "start",
+      ">*": {
+        paddingTop: "4px",
+        paddingBottom: "4px"
+      }
+    }
+
+    if ((inputChange || "") == "") {
+      customCss = {
+        ...customCss,
+        boxShadow: "none"
+      }
+    }
+
+    return customCss
+  }
+
   return (
     <div>
       <div style={{ display: "flex", position: "relative" }}>
@@ -61,9 +81,10 @@ const Autocomplete = ({ setIsZoneDialog, setSelected, setZones }) => {
               textAlign: "start",
               cursor: "pointer",
             }),
-            menu: baseStyles => ({
+            menu: baseStyles => getCustomMenuStyle(baseStyles),
+            menuList: baseStyles => ({
               ...baseStyles,
-              textAlign: "start",
+              padding: "0"
             }),
           }}
           cacheOptions
