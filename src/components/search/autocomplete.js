@@ -1,10 +1,9 @@
 import React from "react"
 import axios from "axios"
-import { customOption } from "./customOption"
 import AsyncSelect from "react-select/async"
+import { customOption } from "./customOption"
 const getLocationOptions = () => axios.get("/content/locations.json")
 const getZones = () => axios.get("/content/zones.json")
-
 const Autocomplete = ({ setIsZoneDialog, setSelected, setZones, setRef }) => {
   const [locationOptions, setLocationOptions] = React.useState([])
   const [defaultOptions, setDefaultOptions] = React.useState([])
@@ -35,11 +34,9 @@ const Autocomplete = ({ setIsZoneDialog, setSelected, setZones, setRef }) => {
     setSelected(value)
   }
 
-  const filterOptions = inputValue => {
-    return locationOptions
-      .filter(o => o.label.indexOf(inputValue) > -1)
-      .slice(0, 10)
-  }
+  const filterOptions = inputValue => locationOptions
+    .filter(o => o.label.includes(inputValue))
+    .slice(0, 10)
 
   const loadOptions = (inputValue, callback) => {
     setTimeout(() => {
@@ -92,7 +89,7 @@ const Autocomplete = ({ setIsZoneDialog, setSelected, setZones, setRef }) => {
           loadOptions={loadOptions}
           placeholder="แขวง/ตำบล"
           noOptionsMessage={() => "ไม่มีแขวง/ตำบลนี้"}
-          onChange={e => handleOnSelect(e)}
+          onChange={handleOnSelect}
           onInputChange={value => setInputChange(value)}
           components={{
             DropdownIndicator: () => null,

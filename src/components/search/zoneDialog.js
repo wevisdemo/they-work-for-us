@@ -66,24 +66,18 @@ const ZoneDialog = ({ selected, zones, setIsZoneDialog, allPeople }) => {
   const filteredPeoples = React.useMemo(() => {
     if (!selected || !zones) return []
 
-    return selected.electionZones.reduce((acc, z) => {
-      return [
-        ...acc,
-        ...allPeople
-        .filter(({ node }) => node.mp_type === "แบ่งเขต")
-        .filter(({ node }) => node.mp_province === selected.electionZones[0].province)
-        .filter(({ node }) =>selected.electionZones[0].zones.includes(node.mp_zone))
-      ]
-    }, [])
+    return selected.electionZones.reduce((acc, z) => [
+      ...acc,
+      ...allPeople.filter(({ node }) => node.mp_type === "แบ่งเขต"
+        && node.mp_province === selected.electionZones[0].province
+        && selected.electionZones[0].zones.includes(node.mp_zone))
+    ], [])
   }, [allPeople, selected, zones])
 
-  const filterdArea = zone => {
-    return filteredZones.filter(z => z.zone === parseInt(zone))
-  }
+  const filterdArea = zone => filteredZones.filter(z => z.zone === parseInt(zone))
 
-  const title = () => {
-    return `ส.ส. ใน ${selected.label}`
-  }
+
+  const title = () => `ส.ส. ใน ${selected.label}`
 
   const handleOnClose = () => {
     setIsZoneDialog(false)

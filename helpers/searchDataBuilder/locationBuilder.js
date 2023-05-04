@@ -5,11 +5,9 @@ const fs = require("fs")
 const removeDuplicate = arr => Array.from(new Set(arr))
 const buildLocationOptions = path => {
   try {
-    const searchPostcode = (province, district) => {
-      return postcodes.filter(
-        pc => pc.province === province && pc.district === district
-      )
-    }
+    const searchPostcode = (province, district) => postcodes.filter(
+      pc => pc.province === province && pc.district === district
+    )
 
     const searchSubdistricts = (
       province,
@@ -45,28 +43,23 @@ const buildLocationOptions = path => {
           area.interior,
           area.exterior
         ).reduce((acc, sd) => {
-          let districtPrefix = "อ."
-          let subDistrictPrefix = "ต."
+          let key = `ต.${sd.subDistrict} อ.${sd.district} จ.${sd.province}`
           if (sd.province === "กรุงเทพมหานคร") {
-            districtPrefix = "เขต"
-            subDistrictPrefix = "แขวง"
+            key = `แขวง${sd.subDistrict} เขต${sd.district} จ.${sd.province}`
           }
-          const key = `${subDistrictPrefix}${sd.subDistrict} ${districtPrefix}${sd.district} จ.${sd.province}`
 
           // check duplicate
-          if (acc[key]) {
-            if (acc[key].electionZones[sd.province]) {
-              return {
-                ...acc,
-                [key]: {
-                  electionZones: {
-                    [sd.province]: removeDuplicate([
-                      ...acc[key].electionZones[sd.province],
-                      String(zone.zone),
-                    ]),
-                  },
+          if (acc[key]?.electionZones[sd.province]) {
+            return {
+              ...acc,
+              [key]: {
+                electionZones: {
+                  [sd.province]: removeDuplicate([
+                    ...acc[key].electionZones[sd.province],
+                    String(zone.zone),
+                  ]),
                 },
-              }
+              },
             }
           }
 
@@ -92,24 +85,20 @@ const buildLocationOptions = path => {
       }
     }, {})
 
-    const locationOptions = Object.keys(rawLocationOptions).reduce((acc, key) => {
-      return [
-        ...acc,
-        {
-          label: key,
-          value: key,
-          electionZones: Object.keys(rawLocationOptions[key].electionZones).reduce((eAcc, eKey) => {
-            return [
-              ...eAcc,
-              {
-                province: eKey,
-                zones: rawLocationOptions[key].electionZones[eKey]
-              }
-            ]
-          },[])
-        }
-      ]
-    },[])
+    const locationOptions = Object.keys(rawLocationOptions).reduce((acc, key) => [
+      ...acc,
+      {
+        label: key,
+        value: key,
+        electionZones: Object.keys(rawLocationOptions[key].electionZones).reduce((eAcc, eKey) => [
+          ...eAcc,
+          {
+            province: eKey,
+            zones: rawLocationOptions[key].electionZones[eKey]
+          }
+        ], [])
+      }
+    ], [])
 
     fs.writeFileSync(path, JSON.stringify(locationOptions), "utf8")
   } catch (e) {
