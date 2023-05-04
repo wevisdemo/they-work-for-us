@@ -166,6 +166,13 @@ const IndexPage = ({ data }) => {
   const [isZoneDialog, setIsZoneDialog] = React.useState(false)
   const [selected, setSelected] = React.useState()
   const [zones, setZones] = React.useState([])
+  const [autocompleteRef, setAutocompleteRef] = React.useState(null)
+
+  const onZoneDialogClose = (e) => {
+    setIsZoneDialog(e)
+    autocompleteRef.clearValue();
+  }
+
   return (
     <Layout
       pageStyles={{
@@ -177,7 +184,7 @@ const IndexPage = ({ data }) => {
         <ZoneDialog
           selected={selected}
           zones={zones}
-          setIsZoneDialog={setIsZoneDialog}
+          setIsZoneDialog={(e) => onZoneDialogClose(e)}
           allPeople={data.allPeopleYaml.edges}
         />
       )}
@@ -232,6 +239,7 @@ const IndexPage = ({ data }) => {
             setSelected={setSelected}
             selected={selected}
             setZones={setZones}
+            setRef={setAutocompleteRef}
           />
         </div>
         <Hero />

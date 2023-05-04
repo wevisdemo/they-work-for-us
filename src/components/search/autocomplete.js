@@ -5,7 +5,7 @@ import AsyncSelect from "react-select/async"
 const getLocationOptions = () => axios.get("/content/locations.json")
 const getZones = () => axios.get("/content/zones.json")
 
-const Autocomplete = ({ setIsZoneDialog, setSelected, setZones }) => {
+const Autocomplete = ({ setIsZoneDialog, setSelected, setZones, setRef }) => {
   const [locationOptions, setLocationOptions] = React.useState([])
   const [defaultOptions, setDefaultOptions] = React.useState([])
   const [inputChange, setInputChange] = React.useState()
@@ -30,7 +30,7 @@ const Autocomplete = ({ setIsZoneDialog, setSelected, setZones }) => {
     }
   }, [])
 
-  const handleOnSearch = value => {
+  const handleOnSelect = value => {
     setIsZoneDialog(true)
     setSelected(value)
   }
@@ -71,6 +71,7 @@ const Autocomplete = ({ setIsZoneDialog, setSelected, setZones }) => {
     <div>
       <div style={{ display: "flex", position: "relative" }}>
         <AsyncSelect
+          ref={ref => setRef(ref)}
           styles={{
             control: baseStyles => ({
               ...baseStyles,
@@ -91,9 +92,7 @@ const Autocomplete = ({ setIsZoneDialog, setSelected, setZones }) => {
           loadOptions={loadOptions}
           placeholder="แขวง/ตำบล"
           noOptionsMessage={() => "ไม่มีแขวง/ตำบลนี้"}
-          onChange={e => {
-            handleOnSearch(e)
-          }}
+          onChange={e => handleOnSelect(e)}
           onInputChange={value => setInputChange(value)}
           components={{
             DropdownIndicator: () => null,
