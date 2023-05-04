@@ -184,7 +184,7 @@ const IndexPage = ({ data }) => {
         <ZoneDialog
           selected={selected}
           zones={zones}
-          setIsZoneDialog={(e) => onZoneDialogClose(e)}
+          setIsZoneDialog={onZoneDialogClose}
           allPeople={data.allPeopleYaml.edges}
         />
       )}
