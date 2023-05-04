@@ -57,30 +57,27 @@ const ZoneDialog = ({ selected, zones, setIsZoneDialog, allPeople }) => {
     },
   }
 
-  const [province, area] = selected.split(" ")
   const filteredZones = React.useMemo(() => {
     if (!selected || !zones) return []
     return zones
-      .filter(({ province: p }) => p === province)
-      .filter(({ areas }) => areas.includes(area))
+      .filter(({ province: p }) => p === selected.electionZones[0].province)
   }, [selected, zones])
 
   const filteredPeoples = React.useMemo(() => {
     if (!selected || !zones) return []
-    const zonesArray = filteredZones.map(z => String(z.zone))
-    return allPeople
-      .filter(({ node }) => node.mp_province === province)
-      .filter(({ node }) => zonesArray.includes(node.mp_zone))
-  }, [allPeople, selected])
 
-  const filterdArea = zone => {
-    return filteredZones.filter(z => z.zone === parseInt(zone))
-  }
+    return selected.electionZones.reduce((acc, z) => [
+      ...acc,
+      ...allPeople.filter(({ node }) => node.mp_type === "แบ่งเขต"
+        && node.mp_province === selected.electionZones[0].province
+        && selected.electionZones[0].zones.includes(node.mp_zone))
+    ], [])
+  }, [allPeople, selected, zones])
 
-  const title = () => {
-    const word = selected.split(" ")
-    return `ส.ส. ใน ‘อ. ${word[1]} จ. ${word[0]}’`
-  }
+  const filterdArea = zone => filteredZones.filter(z => z.zone === parseInt(zone))
+
+
+  const title = () => `ส.ส. ใน ${selected.label}`
 
   const handleOnClose = () => {
     setIsZoneDialog(false)

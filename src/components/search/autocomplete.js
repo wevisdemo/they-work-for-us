@@ -1,13 +1,12 @@
 import React from "react"
 import axios from "axios"
-import Select from "react-select"
+import AsyncSelect from "react-select/async"
 import { customOption } from "./customOption"
-
 const getLocationOptions = () => axios.get("/content/locations.json")
 const getZones = () => axios.get("/content/zones.json")
-
-const Autocomplete = ({ setIsZoneDialog, setSelected, selected, setZones }) => {
+const Autocomplete = ({ setIsZoneDialog, setSelected, setZones, setRef }) => {
   const [locationOptions, setLocationOptions] = React.useState([])
+  const [defaultOptions, setDefaultOptions] = React.useState([])
   const [inputChange, setInputChange] = React.useState()
 
   React.useEffect(() => {
@@ -17,6 +16,12 @@ const Autocomplete = ({ setIsZoneDialog, setSelected, selected, setZones }) => {
       if (!ignore) {
         setLocationOptions(results[0].data)
         setZones(results[1].data)
+
+        if (results[0].data.length > 10) {
+          setDefaultOptions(results[0].data.slice(0, 10))
+        } else {
+          setDefaultOptions(results[0].data)
+        }
       }
     })
     return () => {
@@ -24,14 +29,46 @@ const Autocomplete = ({ setIsZoneDialog, setSelected, selected, setZones }) => {
     }
   }, [])
 
-  const handleOnSearch = value => {
+  const handleOnSelect = value => {
     setIsZoneDialog(true)
     setSelected(value)
   }
+
+  const filterOptions = inputValue => locationOptions
+    .filter(o => o.label.includes(inputValue))
+    .slice(0, 10)
+
+  const loadOptions = (inputValue, callback) => {
+    setTimeout(() => {
+      callback(filterOptions(inputValue))
+    }, 300)
+  }
+
+  const getCustomMenuStyle = (baseStyles) => {
+    let customCss = {
+      ...baseStyles,
+      textAlign: "start",
+      ">*": {
+        paddingTop: "4px",
+        paddingBottom: "4px"
+      }
+    }
+
+    if ((inputChange || "") == "") {
+      customCss = {
+        ...customCss,
+        boxShadow: "none"
+      }
+    }
+
+    return customCss
+  }
+
   return (
     <div>
       <div style={{ display: "flex", position: "relative" }}>
-        <Select
+        <AsyncSelect
+          ref={ref => setRef(ref)}
           styles={{
             control: baseStyles => ({
               ...baseStyles,
@@ -42,21 +79,24 @@ const Autocomplete = ({ setIsZoneDialog, setSelected, selected, setZones }) => {
               textAlign: "start",
               cursor: "pointer",
             }),
-            menu: baseStyles => ({
+            menu: baseStyles => getCustomMenuStyle(baseStyles),
+            menuList: baseStyles => ({
               ...baseStyles,
-              textAlign: "start",
+              padding: "0"
             }),
           }}
-          options={locationOptions}
-          placeholder="พิมพ์ชื่อเขต/อำเภอ"
-          noOptionsMessage={() => "ไม่มีชื่อเขต/อำเภอนี้"}
-          onChange={({ value }) => handleOnSearch(value)}
+          cacheOptions
+          loadOptions={loadOptions}
+          placeholder="แขวง/ตำบล"
+          noOptionsMessage={() => "ไม่มีแขวง/ตำบลนี้"}
+          onChange={handleOnSelect}
           onInputChange={value => setInputChange(value)}
           components={{
             DropdownIndicator: () => null,
             IndicatorSeparator: () => null,
             Option: e => customOption(e, inputChange),
           }}
+          defaultOptions={defaultOptions}
         />
         <div
           style={{
