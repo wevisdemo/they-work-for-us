@@ -68,8 +68,8 @@ const Autocomplete = ({ setIsZoneDialog, setSelected, setZones }) => {
           }}
           cacheOptions
           loadOptions={loadOptions}
-          placeholder="พิมพ์ชื่อเขต/อำเภอ"
-          noOptionsMessage={() => "ไม่มีชื่อเขต/อำเภอนี้"}
+          placeholder="แขวง/ตำบล"
+          noOptionsMessage={() => "ไม่มีแขวง/ตำบลนี้"}
           onChange={e => {
             handleOnSearch(e)
           }}
