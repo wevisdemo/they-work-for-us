@@ -40,8 +40,6 @@ export const query = graphql`
       senator_method
       party
       asset
-      quotes
-      quotes_url
       facebook
       twitter
       people_party_history {
@@ -351,86 +349,13 @@ const PeoplePage = props => {
         </div>
       </section>
 
-      {person.quotes ? (
-        <section
-          css={{
-            ...cssSectionBlack,
-            paddingTop: "6.4rem",
-            paddingBottom: "5.2rem",
-          }}
-        >
-          <div className="container">
-            <div css={{ display: "flex", marginBottom: "3.6rem" }}>
-              <div
-                css={{
-                  fontSize: "12rem",
-                  fontFamily: "var(--ff-text)",
-                  marginTop: "-3rem",
-                  marginRight: "1.6rem",
-                }}
-              >
-                &ldquo;
-              </div>
-              <blockquote>{person.quotes}</blockquote>
-            </div>
-            <div
-              css={{
-                display: "flex",
-                justifyContent: "flex-end",
-                fontFamily: "var(--ff-title)",
-                fontSize: "3.6rem",
-              }}
-            >
-              <div css={{ marginRight: "4rem" }}>⎯⎯</div>
-              <div>
-                <div css={{ marginBottom: "0.5rem", lineHeight: 1 }}>
-                  {personFullName}
-                </div>
-                <div>
-                  <ExternalLink
-                    href={person.quotes_url}
-                    css={{
-                      textDecoration: "underline",
-                      fontSize: "2.4rem",
-                      color: "white",
-                    }}
-                  >
-                    อ้างอิง
-                  </ExternalLink>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      ) : null}
-
-      {person.is_mp && peopleVoteYaml ? (
+      {person.is_mp && peopleVoteYaml && (
         <PeopleVote
           peopleVoteYaml={peopleVoteYaml}
           allVotelogYaml={allVotelogYaml}
           partyHistory={partyHistory}
         />
-      ) : null}
-
-      {/*
-      <section
-        css={{
-          ...cssSectionWhite,
-        }}
-      >
-        <div className="container">
-          <h2
-            css={{
-              fontSize: "4.8rem",
-              textAlign: "center",
-            }}
-          >
-            การปรากฏตัวบนข่าวล่าสุด
-          </h2>
-          <div></div>
-        </div>
-      </section>
-      */}
+      )}
     </Layout>
   )
 }
