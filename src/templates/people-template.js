@@ -349,7 +349,7 @@ const PeoplePage = props => {
         </div>
       </section>
 
-      {person.is_mp && peopleVoteYaml && (
+      {peopleVoteYaml && (
         <PeopleVote
           peopleVoteYaml={peopleVoteYaml}
           allVotelogYaml={allVotelogYaml}
