@@ -38,16 +38,16 @@ export default function VoteSearch() {
   const [searchText, setSearchText] = useState("")
 
   useEffect(() => {
-    const trimmedSearchText = searchText.trim()
-    if (!trimmedSearchText) return
+    const trimmedLoweredSearchText = searchText.trim().toLowerCase()
+    if (!trimmedLoweredSearchText) return
     const matchConsecutiveSpaces = /\s+/g
     const searchRegExp = new RegExp(
-      trimmedSearchText.replace(matchConsecutiveSpaces, "|"),
+      trimmedLoweredSearchText.replace(matchConsecutiveSpaces, "|"),
       "g"
     )
 
     const filtered = transformedQuery.filter(({ title, legal_title }) =>
-      searchRegExp.test(title + legal_title)
+      searchRegExp.test(`${title}${legal_title}`.toLowerCase())
     )
 
     setFilteredQuery(filtered)
