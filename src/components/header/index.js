@@ -2,6 +2,7 @@ import _ from "lodash"
 import React, { useState } from "react"
 import PropTypes from "prop-types"
 import WvNavbar from "@wevisdemo/ui/react/navbar"
+import { DeprecationNotice } from "../deprecationNotice"
 
 import Menu from "../menu/index"
 import { media } from "../../styles"
@@ -48,7 +49,7 @@ const Header = ({ siteTitle }) => {
   return (
     <header style={{ overflow: "hidden" }}>
       <EnvBadge />
-
+      <DeprecationNotice />
       <WvNavbar title="THEY WORK FOR US" logoAddonSrc="/icon.png" alwayShowSlot>
         <button
           type="button"
