@@ -12,7 +12,7 @@ export const DeprecationNotice = () => (
       zIndex: "999",
     }}
   >
-    เว็บไซต์นี้อัพเดตข้อมูลล่าสุดเมื่อ มกราคม 2567 สามารถดูเวอร์ชันอัพเดตได้ที่{" "}
+    เว็บไซต์นี้อัพเดตข้อมูลล่าสุดเมื่อ มีนาคม 2566 สามารถดูเวอร์ชันอัพเดตได้ที่{" "}
     <a
       className="underline"
       href="https://parliamentwatch.wevis.info/"

@@ -226,8 +226,7 @@ const IndexPage = ({ data }) => {
               },
             }}
           >
-            อัพเดตข้อมูล:{" "}
-            {new Date().toLocaleDateString("TH-th", { dateStyle: "long" })}
+            อัพเดตข้อมูล: มีนาคม 2566
           </strong>
           <h3
             css={{
